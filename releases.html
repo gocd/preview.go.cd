@@ -158,7 +158,7 @@ If you have feedback or issues with the new agents page please log them at <a hr
 
 <ul>
   <li><code><a href="https://github.com/gocd/gocd/commit/fddc9fe2187a87720c0bb2a222af95d7029312c2">fddc9fe</a></code> - Improve performance of downloading of agent jars on a server upgrade. (<a href="https://github.com/gocd/gocd/issues/2813">#2813</a>)</li>
-  <li><code><a href="https://github.com/gocd/gocd/commit/5387e2171ff4bd9aff68d3649f1e3ad5b13b44d5">5387e21</a></code> - Handling cleanup of agent and launcher jars from previous version of agent during an upgrade (<a href="https://github.com/gocd/gocd/issues/2789">#2789</a>)</li>
+  <li><code><a href="https://github.com/gocd/gocd/commit/5387e2171ff4bd9aff68d3649f1e3ad5b13b44d5">5387e21</a></code> - Handling cleanup of agent and launcher jars from previous version of agent during an upgrade. (<a href="https://github.com/gocd/gocd/issues/2789">#2789</a>)</li>
   <li>
     <p><code><a href="https://github.com/gocd/gocd/commit/b97b6359ea4cbbab6a6a396c5d6a62a8fe3cc5b4">b97b635</a></code> - Generate additional windows installers to be able to package 32 bit and 64 bit JRE.</p>
 
@@ -177,7 +177,7 @@ If you have feedback or issues with the new agents page please log them at <a hr
 
 <ul>
   <li><code><a href="https://github.com/gocd/gocd/commit/b34da2d28d6d0ba4e5d36a0a2d314e67b25d41a7">b34da2d</a></code> - Bug fixes to ensure that <code>git gc</code> on the config repository works as expected.</li>
-  <li><code><a href="https://github.com/gocd/gocd/commit/a34c6dcc4dd3c5869b72e976af70779536511b07">a34c6dc</a></code> - Allow dots in the repository and package id (<a href="https://github.com/gocd/gocd/issues/2844">#2844</a>)</li>
+  <li><code><a href="https://github.com/gocd/gocd/commit/a34c6dcc4dd3c5869b72e976af70779536511b07">a34c6dc</a></code> - Allow dots in the repository and package id. (<a href="https://github.com/gocd/gocd/issues/2844">#2844</a>)</li>
   <li>Miscellaneous fixes to the new quick edit and agents pages.</li>
 </ul>
 
@@ -397,28 +397,28 @@ If you have feedback or issues with the new agents page please log them at <a hr
 
 <h4>Improvements</h4>
 
-<p><code><a href="https://github.com/gocd/gocd/commit/53d0d42">53d0d42</a></code> - Show details about linux distribution flavors and versions (<a href="https://github.com/gocd/gocd/issues/2608">#2608</a>)</p>
-<p><code><a href="https://github.com/gocd/gocd/commit/cc69476">cc69476</a></code> - Filter for pipeline history view (<a href="https://github.com/gocd/gocd/issues/2391">#2391</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/53d0d42">53d0d42</a></code> - Show details about linux distribution flavors and versions. (<a href="https://github.com/gocd/gocd/issues/2608">#2608</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/cc69476">cc69476</a></code> - Filter for pipeline history view. (<a href="https://github.com/gocd/gocd/issues/2391">#2391</a>)</p>
 
 <h4>API enhancements</h4>
 
-<p><code><a href="https://github.com/gocd/gocd/commit/687d454">687d454</a></code> - Added new <a href="https://api.gocd.io/current/#template-config">API</a> to manage pipeline templates (<a href="https://github.com/gocd/gocd/issues/2233">#2233</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/687d454">687d454</a></code> - Added new <a href="https://api.gocd.io/current/#template-config">API</a> to manage pipeline templates. (<a href="https://github.com/gocd/gocd/issues/2233">#2233</a>)</p>
 <p><code><a href="https://github.com/gocd/gocd/commit/f8ab50a">f8ab50a</a></code> - Added PATCH support for environments update <a href="https://api.gocd.io/current/#environment-config">API</a>, this will allow you to specify pipelines and agents that should be added and/or removed in a single API call. </p>
 <p><code><a href="https://github.com/gocd/gocd/commit/09c864e">09c864e</a></code> - Added Agents <a href="https://api.gocd.io/current/#agents">API</a> V4. This adds a 'build_details' property with relevant links to the job that is currently building on the agent.</p>
 
 <h4>Bug fixes</h4>
 
-<p><code><a href="https://github.com/gocd/gocd/commit/2d8ec07">2d8ec07</a></code> - Spaces are not trimmed from environment variables (<a href="https://github.com/gocd/gocd/issues/1411">#1411</a>)</p>
-<p><code><a href="https://github.com/gocd/gocd/commit/845ee9b">845ee9b</a></code> - Tweak the agent registration protocol a bit (<a href="https://github.com/gocd/gocd/issues/2558">#2558</a>)</p>
-<p><code><a href="https://github.com/gocd/gocd/commit/ee9cdae">ee9cdae</a></code> - Escape the jar URL to allow symbols such as # (needed when running GoCD on Mesos)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/2d8ec07">2d8ec07</a></code> - Spaces are not trimmed from environment variables. (<a href="https://github.com/gocd/gocd/issues/1411">#1411</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/845ee9b">845ee9b</a></code> - Tweak the agent registration protocol a bit. (<a href="https://github.com/gocd/gocd/issues/2558">#2558</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/ee9cdae">ee9cdae</a></code> - Escape the jar URL to allow symbols such as # (needed when running GoCD on Mesos).</p>
 
 <h4>Security fixes</h4>
 
-<p><code><a href="https://github.com/gocd/gocd/commit/1f2a189">1f2a189</a></code> - Do not display the value of secure environment variable in templates view (<a href="https://github.com/gocd/gocd/issues/2652">#2652</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/1f2a189">1f2a189</a></code> - Do not display the value of secure environment variable in templates view. (<a href="https://github.com/gocd/gocd/issues/2652">#2652</a>)</p>
 
 <h4>Performance improvements</h4>
 
-<p><code><a href="https://github.com/gocd/gocd/commit/53ab276">53ab276</a></code> - Removed an extra post merge validation (<a href="https://github.com/gocd/gocd/issues/2594">#2594</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/53ab276">53ab276</a></code> - Removed an extra post merge validation. (<a href="https://github.com/gocd/gocd/issues/2594">#2594</a>)</p>
 
 <h4>Breaking changes</h4>
 
@@ -541,18 +541,18 @@ and Materials</p></li>
 <p>Submit your feedback by creating github issue at <a href="https://github.com/gocd/gocd/issues">https://github.com/gocd/gocd/issues</a></p>
 
 <h4>API Enhancements</h4>
-<p><code><a href="https://github.com/gocd/gocd/commit/d662685">d662685</a></code> - Provided Git and git-gc stats in the support api (<a href="https://github.com/gocd/gocd/issues/2578">#2578</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/d662685">d662685</a></code> - Provided Git and git-gc stats in the support api. (<a href="https://github.com/gocd/gocd/issues/2578">#2578</a>)</p>
 
 <h4>Library upgrades</h4>
-<p><code><a href="https://github.com/gocd/gocd/commit/973cbf2">973cbf2</a></code> - Upgraded jetty minor version to 9.2.18.v20160721</p>
-<p><code><a href="https://github.com/gocd/gocd/commit/74b8b47">74b8b47</a></code> - Upgraded logging jars</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/973cbf2">973cbf2</a></code> - Upgraded jetty minor version to 9.2.18.v20160721.</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/74b8b47">74b8b47</a></code> - Upgraded logging jars.</p>
 
 <h4>Bug fixes</h4>
 <p><code><a href="https://github.com/gocd/gocd/commit/dc78601">dc78601</a></code> - Added validation of the encryptedPassword attribute of password aware materials - SVN, P4, TFS.</p>
 
 <h4>Security Fixes</h4>
-<p><code><a href="https://github.com/gocd/gocd/commit/faa6a2a">faa6a2a</a></code> - Removed displaying url's from the not found page (<a href="https://github.com/gocd/gocd/issues/2584">#2584</a>)</p>
-<p><code><a href="https://github.com/gocd/gocd/commit/ca7ff9c">ca7ff9c</a></code> - Changed the package material check-connection request from GET to POST (<a href="https://github.com/gocd/gocd/issues/2550">#2550</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/faa6a2a">faa6a2a</a></code> - Removed displaying url's from the not found page. (<a href="https://github.com/gocd/gocd/issues/2584">#2584</a>)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/ca7ff9c">ca7ff9c</a></code> - Changed the package material check-connection request from GET to POST. (<a href="https://github.com/gocd/gocd/issues/2550">#2550</a>)</p>
 
 <h4>Deprecations</h4>
 <p>Features that become superceeded or irrelevant become <em>deprecated</em>, and are scheduled to be removed in some timeframe.</p>
@@ -711,7 +711,7 @@ Aravind SV, Ganesh Patil, Jyoti Singh, Ken Mugrage, Ketan Padegaonkar, Mahesh Pa
 <p>In case you are seeing issues with the agent not starting up after the upgrade, please see <a href="https://github.com/gocd/gocd/issues/2525#issuecomment-237553253">this comment</a>.</p>
 
 <h4>Important bug fixes</h4>
-<p><code><a href="https://github.com/gocd/gocd/commit/3e88caf">3e88caf</a></code> - Windows Installer fixes</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/3e88caf">3e88caf</a></code> - Windows Installer fixes.</p>
 
 <h4>Improvements</h4>
 <p><code><a href="https://github.com/gocd/gocd/commit/b283b42">b283b42</a></code> - Display the correct ip-address of agents running on virtualized instances or containers. (<a href="https://github.com/gocd/gocd/issues/1657">#1657</a>)</p>
@@ -727,11 +727,11 @@ Aravind SV, Ganesh Patil, Jyoti Singh, Ken Mugrage, Ketan Padegaonkar, Mahesh Pa
 <p><code><a href="https://github.com/gocd/gocd/commit/103340c">103340c</a></code> - Upgraded all agent-server communication to use HTTPS by default. <a href="https://docs.gocd.io/16.7.0/installation/ssl_tls/end_to_end_transport_security.html">Read more</a> about how to improve security of your GoCD setup.</p>
 <p><code><a href="https://github.com/gocd/gocd/commit/3d2afad">3d2afad</a></code> - Pluggable tasks secure configurations are encrypted before saving to xml configuration. (<a href="https://github.com/gocd/gocd/issues/903">#903</a>)</p>
 <p><code><a href="https://github.com/gocd/gocd/commit/657feb3">657feb3</a></code> - Added missing security headers on a few pages to activate web browser protection.</p>
-<p><code><a href="https://github.com/gocd/gocd/commit/6909484">6909484</a></code> - Escaped the error message in the repositories page. (XSS)</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/6909484">6909484</a></code> - Escaped the error message in the repositories page. (XSS).</p>
 
 <h4>Breaking changes</h4>
-<p><code><a href="https://github.com/gocd/gocd/commit/f58e900">f58e900</a></code> - Removed Agents API v1, users should use version 2 of the Agents  <a href="https://api.gocd.io/current/#agents">API</a></p>
-<p><code><a href="https://github.com/gocd/gocd/commit/5602048">5602048</a></code> - Removed old backup API, users should user version 1 of the Backup <a href="https://api.gocd.io/current/#backups">API</a></p>
+<p><code><a href="https://github.com/gocd/gocd/commit/f58e900">f58e900</a></code> - Removed Agents API v1, users should use version 2 of the. Agents  <a href="https://api.gocd.io/current/#agents">API</a></p>
+<p><code><a href="https://github.com/gocd/gocd/commit/5602048">5602048</a></code> - Removed old backup API, users should user version 1 of the. Backup <a href="https://api.gocd.io/current/#backups">API</a></p>
 
 <h4>Deprecations</h4>
 <p>Features that become superceeded or irrelevant become <em>deprecated</em>, and are scheduled to be removed in some timeframe.</p>
@@ -797,7 +797,7 @@ Aravind SV, Ganesh Patil, Jyoti Singh, Ken Mugrage, Ketan Padegaonkar, Mahesh Pa
 </ul>
 
 <h4>For GoCD developers</h4>
-<p><code><a href="https://github.com/gocd/gocd/commit/d395806">d395806</a></code> - Migrated build scripts to Gradle</p>
+<p><code><a href="https://github.com/gocd/gocd/commit/d395806">d395806</a></code> - Migrated build scripts to Gradle.</p>
 
 <h4>Contributors</h4>
 <p>Aravind SV, adeshmukh-sf, Dominic Tootell, Ganesh Patil, Jyoti Singh, Ketan Padegaonkar, Mahesh Panchaksharaiah, norcnorc, Rajiesh Narayanan, Sumanth M,
@@ -969,7 +969,7 @@ GoCD will continue to support Java 7 till release 17.1 scheduled for January 201
 
 <h4>Performance</h4>
 
-<p><a href="https://github.com/gocd/gocd/pull/2106">#2106</a> - Handle eviction/expiry of composite-keys from GoCache</p>
+<p><a href="https://github.com/gocd/gocd/pull/2106">#2106</a> - Handle eviction/expiry of composite-keys from GoCache.</p>
 
 <h4>Note</h4>
 
