@@ -81,9 +81,7 @@
 
 <p>This post intends to serve as reference for anyone comparing GoCD to Snap CI (or any other hosted CI/CD tool) and fairly compare them to provide you with useful insights into why GoCD might be a good choice for you. Because we understand the needs of Snap CI users, we will also highlight areas where GoCD may not completely meet your needs and where you may need to consider your own tooling priorities. Finally, should you think that GoCD is a good choice for you, we will provide you with information about how to migrate from Snap CI to GoCD.</p>
 
-<p><a name="comparison-gocd-snapci"></a></p>
-
-<h2 id="comparison-of-gocd-and-snap-ci">Comparison of GoCD and Snap CI</h2>
+<h2 id="comparison-gocd-snapci">Comparison of GoCD and Snap CI</h2>
 
 <p>Here is the obligatory comparison table. Read on ahead for our opinions.</p>
 
@@ -101,7 +99,7 @@
     </tr>
     <tr>
       <td>Hosted software as a service</td>
-      <td>Run on your own servers, on-premise or on the cloud</td>
+      <td>Run on your own servers, on-premise or on the cloud.</td>
     </tr>
     <tr>
       <td>Github integration</td>
@@ -109,79 +107,74 @@
     </tr>
     <tr>
       <td>Built with pipelines at the core</td>
-      <td>Built with pipelines at the core</td>
+      <td>Built with pipelines at the core.</td>
     </tr>
     <tr>
       <td>Some support for fan in and fan out pipelines capabilities</td>
-      <td>First class support for fan-in/fan-out (to chain multiple pipelines) and value stream map. <br />GoCD works great when it comes to modeling and visualizing workflows spanning across multiple repositories and pipelines. <br />GoCD pipelines can be configured to support: <br />1. multiple source repositories<br />2. multiple pipelines<br />3. multiple ways of getting builds<br />4. multiple outputs</td>
+      <td>First class support for fan-in/fan-out (to chain multiple pipelines) and value stream map.<br /><br />GoCD works great when it comes to modeling and visualizing workflows spanning across multiple repositories and pipelines.<br /><br />GoCD pipelines can be configured to support:<br />1. multiple source repositories<br />2. multiple pipelines<br />3. multiple ways of getting builds<br />4. multiple outputs</td>
     </tr>
     <tr>
       <td>Configuration via UI</td>
-      <td>Configuration via source code, API and UI</td>
+      <td>Configuration via source code, API and UI.</td>
     </tr>
     <tr>
       <td>Ruby/JRuby, Python, Node.js/io.js, PHP, Java, Groovy/Gradle, Scala/SBT, Clojure/Leiningen, C/C++, Android</td>
-      <td>GoCD will execute tests and perform deployments written using any language or frameworks</td>
+      <td>GoCD will execute tests and perform deployments written using any language or frameworks.</td>
     </tr>
     <tr>
       <td>CentOS, Ubuntu</td>
-      <td>Windows, Mac OSX and Linux (Debian/Ubuntu CentOS/RedHat)</td>
+      <td>Windows, Mac OSX and Linux (Debian/Ubuntu CentOS/RedHat).</td>
     </tr>
     <tr>
       <td>Out of the box support for docker</td>
-      <td>Users required to setup and configure docker on GoCD agents</td>
+      <td>Users required to setup and configure docker on GoCD agents.</td>
     </tr>
     <tr>
       <td>Test parallelization up to 5 workers</td>
-      <td>Test parallelization and flexibility to scale from one machine to many machines using multiple GoCD agents</td>
+      <td>Test parallelization and flexibility to scale from one machine to many machines using multiple GoCD agents.</td>
     </tr>
     <tr>
       <td>Automatic branch tracking and pull request integration</td>
-      <td><a href="https://gocd.io/plugins">Plugin</a> support</td>
+      <td><a href="https://gocd.io/plugins">Plugin</a> support.</td>
     </tr>
     <tr>
       <td>First class professional support for all users</td>
-      <td>Community based support for all users <br />* <a href="https://gitter.im/gocd/gocd">Google Group</a><br />* <a href="https://groups.google.com/forum/#!forum/go-cd">Gitter Chat</a> <br /><a href="https://www.thoughtworks.com/go/">Professional support</a> for paid GoCD users</td>
+      <td>Community based support for all users<br />1. <a href="https://gitter.im/gocd/gocd">Google Group</a><br />2. <a href="https://groups.google.com/forum/#!forum/go-cd">Gitter Chat</a><br /><br /><a href="https://www.thoughtworks.com/go/">Professional support</a> for paid GoCD users</td>
     </tr>
     <tr>
       <td>APIs to trigger pipelines and get pipeline history</td>
-      <td>Rich API to configure GoCD, trigger pipelines and get read historical data from GoCD</td>
+      <td>Rich API to configure GoCD, trigger pipelines and get read historical data from GoCD.</td>
     </tr>
   </tbody>
 </table>
 
-<p><a name="is-gocd-for-me"></a></p>
+<h2 id="is-gocd-for-me">What does this really mean for me? Is GoCD the tool for me?</h2>
 
-<h2 id="what-does-this-really-mean-for-me-is-gocd-the-tool-for-me">What does this really mean for me? Is GoCD the tool for me?</h2>
-
-<p>Basically, if what you liked about Snap CI was the continuous delivery pipelines then GoCD has all that and much more. If you used the Snap CI workaround for fan in and fan out pipelines then GoCD can easily meet your pipeline dependency needs. It you loved seeing which stage was broken and halting the line when there was a problem then GoCD can continue to do all that for you. And, if you were waiting for Snap CI’s config as code feature to go live or were hoping we’d make Snap CI free to use then GoCD can meet these needs already.</p>
+<p>Basically, if what you liked about Snap CI was the continuous delivery pipelines then GoCD has all that and much more. If you used the Snap CI workaround for fan in and fan out pipelines then GoCD can easily meet your pipeline dependency needs. It you loved seeing which stage was broken and halting the line when there was a problem then GoCD can continue to do all that for you. And, if you were waiting for Snap CI's config as code feature to go live or were hoping we'd make Snap CI free to use then GoCD can meet these needs already.</p>
 
 <p>However, if what you really liked and still need in a CI/CD tool is that it is hosted, and that does not require you to manage your own machines then GoCD is likely not the best choice for you. If seamless support for GitFlow, branch tracking and PRs or out of the box support Heroku is a priority for you then GoCD is likely not what you should choose.</p>
 
 <p>If you would like our opinions on which hosted CI/CD tool may best suit your needs please get in touch with us at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#099;&#105;&#046;&#099;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#099;&#105;&#046;&#099;&#111;&#109;</a>. We are familiar with many of the tools available and happy to provide our unbiased opinion on what might work for you.</p>
 
-<p><a name="whats-next-migration"></a></p>
+<h2 id="whats-next-migration">What's next?</h2>
 
-<h2 id="whats-next">What’s next?</h2>
-
-<p>If you’d like to learn more about GoCD or try it out we recommend the GoCD <a href="https://www.gocd.io/getting-started/">getting started guide</a> and the <a href="https://www.gocd.io/getting-started/">GoCD community</a>.  And if you do decide to migrate from Snap CI to GoCD then do email us at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#045;&#099;&#105;&#046;&#099;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#045;&#099;&#105;&#046;&#099;&#111;&#109;</a> and we can provide your Snap CI configuration in a GoCD compatible format and help you get started.</p>
+<p>If you'd like to learn more about GoCD or try it out we recommend the GoCD <a href="https://www.gocd.io/getting-started/">getting started guide</a> and the <a href="https://www.gocd.io/getting-started/">GoCD community</a>.  And if you do decide to migrate from Snap CI to GoCD then do email us at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#045;&#099;&#105;&#046;&#099;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#045;&#099;&#105;&#046;&#099;&#111;&#109;</a> and we can provide your Snap CI configuration in a GoCD compatible format and help you get started.</p>
 
 <p>We hope you find this a useful, thorough and fair comparison. We are more than happy to answer any specific questions you may have. We are all the same friendly, informed Thoughtworks team you're used to from Snap CI so <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#115;&#110;&#097;&#112;&#045;&#099;&#105;&#046;&#099;&#111;&#109;">drop us a note and say hi</a>!</p>
 
 <style>
-table{
+table {
     border-collapse: collapse;
     border-spacing: 0;
-    border:1px solid #000000;
-
+    border: 1px solid #000000;
 }
 
-th{
-    border:1px solid #000000;
+th {
+    border: 1px solid #000000;
 }
 
-td{
-    border:1px solid #000000;
+td {
+    border: 1px solid #000000;
     padding-right: 5px;
     padding-left: 5px;
 }
