@@ -31,6 +31,9 @@
     <loc>https://preview.gocd.io/download/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/cloud/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/subscribe/</loc>
   </url>
   <url>
