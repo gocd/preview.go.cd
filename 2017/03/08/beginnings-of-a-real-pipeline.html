@@ -121,7 +121,8 @@
 
 <p>A setup such as the one described above might look like this:</p>
 
-<p><img src="../../../assets/images/blog/beginnings-real-pipeline/pipeline-04-f39a15e1.jpg" alt="Pipeline" title="Pipeline" /></p>
+<p><img src="../../../assets/images/blog/beginnings-real-pipeline/pipeline-04-f39a15e1.jpg" alt="Pipeline" title="Pipeline" data-imagezoom="true" />
+<span class="info_txt">Rollover image to zoom in</span></p>
 
 <p>Hopefully, that change didn't feel like the "How to draw an owl" <a href="http://sethgodin.typepad.com/seths_blog/2014/01/how-to-draw-an-owl.html">image</a>!</p>
 
@@ -131,7 +132,8 @@
 
 <p>We did mention earlier that our application was cross-platform. So, let's assume that the functional tests need to be run on three different operating systems - Mac OS X, Windows and Linux. We could start to approach this by adding jobs in Stage 4 and use GoCD's <a href="https://docs.gocd.io/current/introduction/concepts_in_go.html#resources"><em>resource</em></a> concept to make sure that the jobs are picked up by <a href="https://docs.gocd.io/current/introduction/concepts_in_go.html#agent"><em>agents</em></a> with the right operating system. This will involve running agents on the different operating systems and tagging them with resources "mac", "windows" and "linux". Once that's done, we could setup our pipeline to look like this:</p>
 
-<p><img src="../../../assets/images/blog/beginnings-real-pipeline/pipeline-05-ab3745c8.jpg" alt="Pipeline" title="Pipeline" /></p>
+<p><img src="../../../assets/images/blog/beginnings-real-pipeline/pipeline-05-ab3745c8.jpg" alt="Pipeline" title="Pipeline" data-imagezoom="true" />
+<span class="info_txt">Rollover image to zoom in</span></p>
 
 <p>However, this approach isn't the most optimal.</p>
 
