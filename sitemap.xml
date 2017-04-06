@@ -64,6 +64,9 @@
     <loc>https://preview.gocd.io/subscribe/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/continuous-delivery/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/releases/</loc>
   </url>
   <url>
