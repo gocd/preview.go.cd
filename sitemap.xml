@@ -118,6 +118,9 @@
     <loc>https://preview.gocd.io/2014/08/19/cloning-templates/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/2017/04/06/reusing-pipelines/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/2015/04/29/Go_15_1_announced/</loc>
   </url>
   <url>
@@ -329,6 +332,12 @@
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/2017/04/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/2017/04/06/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/03/</loc>
