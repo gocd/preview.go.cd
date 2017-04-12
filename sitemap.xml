@@ -232,6 +232,9 @@
     <loc>https://preview.gocd.io/2017/04/11/gocd-over-jenkins/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/2017/04/12/build-propagation/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/releases/</loc>
   </url>
   <url>
@@ -338,6 +341,9 @@
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/04/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/2017/04/12/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/04/11/</loc>

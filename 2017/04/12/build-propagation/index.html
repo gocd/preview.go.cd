@@ -4,15 +4,15 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-    <meta content="In this post, we'll look at some of the ways to reduce the duplication found between pipelines using templates." name="description" />
-    <meta content="GoCD, reusing pipelines, remove duplicates, continuous delivery, goforcd, open source, software, contribute to open source, agile continuous delivery, code contribution, Go" name="keywords" />
+    <meta content="In this post, we'll look at some of the ways to move your build through the deployment pipeline." name="description" />
+    <meta content="GoCD, build, build propagation, continuous delivery, goforcd, open source, software, contribute to open source, agile continuous delivery, code contribution, Go" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="Reusing Pipelines | GoCD Blog" />
-    <meta name="twitter:description" content="In this post, we'll look at some of the ways to reduce the duplication found between pipelines using templates." />
-    <meta name="twitter:image" content="https://preview.gocd.io/assets/images/blog/reusing-pipelines/reusing-pipelines-hero-6de82f68.jpg" />
+    <meta name="twitter:title" content="Build Propagation | GoCD Blog" />
+    <meta name="twitter:description" content="In this post, we'll look at some of the ways to move your build through the deployment pipeline." />
+    <meta name="twitter:image" content="https://preview.gocd.io/assets/images/blog/build-propagation/build-propagation-hero-9545de69.jpg" />
 
-    <title>Reusing Pipelines | GoCD Blog</title>
+    <title>Build Propagation | GoCD Blog</title>
     <link href="../../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../../assets/stylesheets/site-1c2f1993.css" rel="stylesheet" />
     <script src="../../../../assets/javascripts/all-240a21c3.js"></script>
@@ -20,7 +20,7 @@
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../../feed.xml" />
   </head>
 
-  <body class="x2017 x2017_04 x2017_04_06 x2017_04_06_reusing-pipelines x2017_04_06_reusing-pipelines_index">
+  <body class="x2017 x2017_04 x2017_04_12 x2017_04_12_build-propagation x2017_04_12_build-propagation_index">
     <header class="top">
   <div class="container">
     <a href="../../../../" class="logo" analytics-label="logo"><img src="../../../../assets/images/go_logo-5b5ca9e1.svg" title="GoCD Logo" alt="GoCD Logo" /></a>
@@ -60,55 +60,71 @@
 
     <div class="container blog-post">
 
-  
+  <div class="draft-banner">This is a draft. It will not show up on the live site.</div>
 
   <header class="blog-post-header">
-    <h2>Modeling Deployment Pipelines: Part 3 - Reusing Pipelines</h2>
+    <h2>Modeling Deployment Pipelines: Part 4 - Build Propagation</h2>
     <h4>Aravind S.V, Product Manager at GoCD</h4>
   </header>
 
   <div class="row">
     <div class="col-md-9">
       <main id="main" role="main">
-      <p>This is the third post in the series - Modeling Deployment Pipelines. In our <a href="../../../03/29/beginnings-of-a-real-pipeline.html">previous post</a>, we looked at the initial stages of modeling a deployment pipeline and ways to reduce duplication in jobs by using multiple pipelines. This approach of using multiple pipelines enabled better control, but introduced duplication between the pipelines.</p>
+      <p>This is the fourth post in the series - Modeling Deployment Pipelines. In our <a href="../../06/reusing-pipelines.html">previous post</a>, we saw the advantages of reusing pipelines (using Templates). In this post, we’ll dive into ways to move your build through the deployment pipeline. Typically, once a build has gone through the various tests, it is deployed onto a set of environments such as UAT, pre-production and production (for example). This concept is called <strong>“Build Propagation”</strong>.</p>
 
-<p>Having duplicate pipelines increases the time and effort to create and update your pipelines. Ideally, we want to create a reusable pipeline “stencil” that could be used to easily create other similar pipelines by updating certain variables. This makes creation of a new pipeline, that is similar to one already created, much easier &amp; faster. It also means that updating pipelines can be a single update rather than multiple updates. When creating builds that test the same things on different platform or browsers (as in our examples below) this kind of reusability can be very powerful and efficient.</p>
+<h2 id="fan-in-fan-out">Fan-in/ Fan-out</h2>
 
-<h2 id="reusing-pipelines">Reusing Pipelines</h2>
+<p>To implement the idea of build propagation in your pipeline, we can use a concept called <em>fan-out / fan-in</em>. In the image below, there is a “fan-out” from the end of the “Build” pipeline. It fans out into three functional test pipelines. The opposite of a fan-out is “fan-in”, where multiple (upstream) pipelines lead into a single (downstream) pipeline.</p>
 
-<p>Enter pipeline templates! A <em>template</em> is a concept in GoCD which helps reduce duplication between similar pipelines. It allows stages and jobs to be defined at the template level and through configurable parameters, allows each pipeline which is based off of that template, to set the parameters which make sense for it. Let’s see how a pipeline template can help in this case:</p>
+<p>In the case of GoCD,  it will trace the graph upstream and will ensure that the downstream pipeline will start only when all upstream pipelines are consistent and have run with the same revision of the upstream material.</p>
+
+<p>Here’s how that looks:</p>
 
 <div class="imagezoom">
-<img src="../../../../assets/images/blog/reusing-pipelines/introducing-template-2a3da5c1.jpeg" alt="Introducing Pipeline Template" title="Pipeline Template" />
+<img src="../../../../assets/images/blog/build-propagation/fan-in-fan-out-774eac6e.jpeg" alt="Fan-out Fan-in" title="Fan-out Fan-in" />
 <span class="info_txt">Click image to zoom in</span>
 </div>
 
-<p>There are still 4 pipelines in this image, but because we’ve used a template, all stage and job information has been moved into it. The only parameter used in this template is “OS” and it is shown in the template as “#{OS}”. Any number of parameters can be used in a template. Also, a template in GoCD is “live”, in the sense that any change to the template will automatically apply to all pipelines which are based off of it.</p>
+<p>In this scenario, the “UAT” pipeline will wait for all three of its upstream functional test pipelines to <em>finish successfully</em> before it starts. This doesn’t happen just because there are three pipelines fanning into the “UAT” pipeline, but because those three pipelines trace back to the same code repository. This is important to understand. If all three pipelines traced back to different code repositories, for instance, then every successful pipeline run would lead to the “UAT” pipeline starting. Fan-in ensures consistency by making sure that all upstream pipelines which trace back to the same repository have all finished successfully for the same changeset.</p>
 
-<p>Here’s a look at what we’ve been able to achieve so far:</p>
+<p>In practice, this means that if one or more of the functional test pipelines fails, then the UAT pipeline doesn’t get triggered. This makes sense since that changeset is not “good enough” to go to UAT.</p>
+
+<blockquote>
+  <p>That’s the real beauty of a CD pipeline - it prevents bad changes from reaching important environments (such as production).</p>
+</blockquote>
+
+<p>The green arrow in the image represents “Build Propagation” in the pipeline. The installer artifact from the “Build installer” stage is fetched and used. This is the same installer artifact used by the functional test pipelines as well. So, the same artifact, built once, is being pushed further along in the pipeline.</p>
+
+<h2 id="what-about-scripts-for-deployment-and-running-functional-tests">What about scripts for deployment and running functional tests?</h2>
+
+<p>What we don’t see in the image above, are the dependencies between</p>
 
 <ul>
-  <li>We have a three stage “Build” pipeline, which builds, then runs unit and integration tests in parallel and then builds an installer.</li>
-  <li>As soon as the installer stage in this pipeline succeeds, all three downstream functional test pipelines get triggered.</li>
-  <li>Based on the template and their own parameters substituted into it, they run a “smoke” stage each and then run functional tests split into two parts.</li>
-  <li>Owing to the specified resources, GoCD makes sure that only those agents tagged with the resources specified pick up the jobs, thereby running the tests on different operating systems.</li>
+  <li>the functional test pipelines and the code repository</li>
+  <li>and between the UAT pipeline and the code repository.</li>
 </ul>
 
-<p>All of this is just orchestrated through GoCD (or your chosen CD solution), but the actual scripts which do all of this are safely checked into your source control repository, thereby ensuring that you can easily run this locally if you need (see <a href="../../../03/01/importance-and-principles-of-cd-pipelines.html#principle-run-locally">Principle 5</a>).</p>
-
-<p>Not bad at all!</p>
-
-<p>Before we look at moving a build to your deployment environment, here is a simplified version of our CD pipeline, which will help with continuing to extend it.</p>
+<p>For the sake of completeness, we added these dependencies in and this is what the pipeline would look like.</p>
 
 <div class="imagezoom">
-<img src="../../../../assets/images/blog/reusing-pipelines/simplified-version-62879135.jpeg" alt="Simplified Version of Pipeline" title="Simplified Version of Pipeline" />
+<img src="../../../../assets/images/blog/build-propagation/pipeline-dependencies-64bb4fc3.jpeg" alt="Pipeline Dependencies" title="Pipeline Dependencies" />
 <span class="info_txt">Click image to zoom in</span>
 </div>
 
-<p>Typically, once a build has gone through the various tests (functional, unit, integration etc.), it is deployed onto a set of environments<sup>(^1)</sup> such as UAT, pre-production and production (for example). This is called “Build Propagation”.  We’ll cover in more detail how to implement Build Propagation in your deployment pipeline in our next post.</p>
+<p>As you can see, it complicates the image quite a bit and so, has been omitted from other images. Owing to GoCD’s fan-in ability, adding that dependency doesn’t change how and when the pipelines are triggered. If a commit is made to the code repository, it does not mean that the functional test pipelines are triggered. Since each functional test pipeline has two dependencies now, both of them have to be compatible before it triggers.</p>
 
-<p><sub>^1 - These “deployment environments” are different from the concept of an “Environment” in GoCD. More on that in a later post.
-</sub></p>
+<p>For example, if a commit was made with ID 2 in the repository, the “Build” pipeline would build first with that commit. Only when it is successful, then both the materials of the “functional_tests_mac” pipeline result in being compatible. If not, an old run of the “Build” pipeline would have run with a new commit of the repository (incompatible).</p>
+
+<p>Unlike the example in the image above, maybe your repositories are structured so that functional tests and deployment scripts are in their own repositories. If so, they can be modeled as shown below:</p>
+
+<div class="imagezoom">
+<img src="../../../../assets/images/blog/build-propagation/pipeline-repos-5e961b5b.jpeg" alt="Pipeline Repos" title="Pipeline Repos" />
+<span class="info_txt">Click image to zoom in</span>
+</div>
+
+<p>The advantage of this approach is that a commit to the functional test repository does not trigger the “Build” pipeline (which makes sense). The latest successful instance of the “Build” pipeline will be verified using the new functional test code. In this case, fan-in does not apply, since the two dependencies of the functional test pipelines do not trace back to the same repository or repositories. Similarly, a change to the deployment scripts will not trigger the build and functional tests.</p>
+
+<p>Depending on your business case, you might find it necessary to have a manual approval process, especially to deploy into sensitive environments such as production, and often pre-production (mostly because it is being used by several people and needs co-ordination). We’ll dive into how to create a manual approval process to propagate your build in our next post. Stay tuned.</p>
 
 <div class="row">
   <div class="downloadbanner">
@@ -132,7 +148,7 @@
             <li>
               <span class="post-date">Apr 12</span>
               <span class="post-author">Aravind S.V, Product Manager at GoCD</span>
-              <a href="../../12/build-propagation/">Modeling Deployment Pipelines: Part 4 - Build Propagation</a>
+              <a href="./">Modeling Deployment Pipelines: Part 4 - Build Propagation</a>
             </li>
             <li>
               <span class="post-date">Apr 11</span>
@@ -142,7 +158,7 @@
             <li>
               <span class="post-date">Apr  6</span>
               <span class="post-author">Aravind S.V, Product Manager at GoCD</span>
-              <a href="./">Modeling Deployment Pipelines: Part 3 - Reusing Pipelines</a>
+              <a href="../../06/reusing-pipelines/">Modeling Deployment Pipelines: Part 3 - Reusing Pipelines</a>
             </li>
             <li>
               <span class="post-date">Mar 29</span>
@@ -200,7 +216,7 @@
       <script>
         var disqus_config = function () {
           /* Careful: Changing the value of page.url and page.identifier might mean you lose comments. */
-          this.page.url = "https://www.go.cd/2017/04/06/reusing-pipelines.html";
+          this.page.url = "https://www.go.cd/2017/04/12/build-propagation.html";
           this.page.identifier = this.page.url;
           this.shortname = 'gocdblog';
         };
