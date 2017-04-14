@@ -10,7 +10,7 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Modeling Deployment Pipelines: Part 4 - Build Propagation</title>
+    <title>Modeling Deployment Pipelines: Part 4 - Build Propagation using Fan-in/Fan-out</title>
     <link rel="alternate" href="https://preview.gocd.io/2017/04/12/build-propagation.html"/>
     <id>https://preview.gocd.io/2017/04/12/build-propagation.html</id>
     <published>2017-04-12T00:00:00Z</published>

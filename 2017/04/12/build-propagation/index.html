@@ -60,10 +60,10 @@
 
     <div class="container blog-post">
 
-  <div class="draft-banner">This is a draft. It will not show up on the live site.</div>
+  
 
   <header class="blog-post-header">
-    <h2>Modeling Deployment Pipelines: Part 4 - Build Propagation</h2>
+    <h2>Modeling Deployment Pipelines: Part 4 - Build Propagation using Fan-in/Fan-out</h2>
     <h4>Aravind S.V, Product Manager at GoCD</h4>
   </header>
 
@@ -75,8 +75,6 @@
 <h2 id="fan-in-fan-out">Fan-in/ Fan-out</h2>
 
 <p>To implement the idea of build propagation in your pipeline, we can use a concept called <em>fan-out / fan-in</em>. In the image below, there is a “fan-out” from the end of the “Build” pipeline. It fans out into three functional test pipelines. The opposite of a fan-out is “fan-in”, where multiple (upstream) pipelines lead into a single (downstream) pipeline.</p>
-
-<p>In the case of GoCD,  it will trace the graph upstream and will ensure that the downstream pipeline will start only when all upstream pipelines are consistent and have run with the same revision of the upstream material.</p>
 
 <p>Here’s how that looks:</p>
 
@@ -90,12 +88,12 @@
 <p>In practice, this means that if one or more of the functional test pipelines fails, then the UAT pipeline doesn’t get triggered. This makes sense since that changeset is not “good enough” to go to UAT.</p>
 
 <blockquote>
-  <p>That’s the real beauty of a CD pipeline - it prevents bad changes from reaching important environments (such as production).</p>
+  <p><strong>That’s the real beauty of a CD pipeline - it prevents bad changes from reaching important environments (such as production).</strong></p>
 </blockquote>
 
 <p>The green arrow in the image represents “Build Propagation” in the pipeline. The installer artifact from the “Build installer” stage is fetched and used. This is the same installer artifact used by the functional test pipelines as well. So, the same artifact, built once, is being pushed further along in the pipeline.</p>
 
-<h2 id="what-about-scripts-for-deployment-and-running-functional-tests">What about scripts for deployment and running functional tests?</h2>
+<h2 id="highlighting-dependencies">Highlighting Dependencies</h2>
 
 <p>What we don’t see in the image above, are the dependencies between</p>
 
@@ -111,7 +109,7 @@
 <span class="info_txt">Click image to zoom in</span>
 </div>
 
-<p>As you can see, it complicates the image quite a bit and so, has been omitted from other images. Owing to GoCD’s fan-in ability, adding that dependency doesn’t change how and when the pipelines are triggered. If a commit is made to the code repository, it does not mean that the functional test pipelines are triggered. Since each functional test pipeline has two dependencies now, both of them have to be compatible before it triggers.</p>
+<p>As you can see, it complicates the image quite a bit and so, has been omitted from other images. Owing to GoCD’s fan-in ability, adding that dependency doesn’t change how and when the pipelines are triggered. If a commit is made to the code repository, it does not mean that the functional test pipelines are triggered. Since each functional test pipeline has two dependencies now, both of them have to be compatible (i.e. be the same version) before it triggers.</p>
 
 <p>For example, if a commit was made in the repository, the “Build” pipeline would build first with that commit. If the "Build" pipeline is successful, then both the materials of the functional test pipelines are compatible and the functional test pipelines will run.</p>
 
@@ -148,7 +146,7 @@
             <li>
               <span class="post-date">Apr 12</span>
               <span class="post-author">Aravind S.V, Product Manager at GoCD</span>
-              <a href="./">Modeling Deployment Pipelines: Part 4 - Build Propagation</a>
+              <a href="./">Modeling Deployment Pipelines: Part 4 - Build Propagation using Fan-in/Fan-out</a>
             </li>
             <li>
               <span class="post-date">Apr 11</span>
