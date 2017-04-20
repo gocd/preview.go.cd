@@ -4,7 +4,10 @@
     <loc>https://preview.gocd.io/blog/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.io/campaignpages/demo/</loc>
+    <loc>https://preview.gocd.io/campaign/chef/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/campaign/demo/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/cloud/</loc>
