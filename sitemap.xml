@@ -10,6 +10,9 @@
     <loc>https://preview.gocd.io/campaign/demo/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/campaign/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/cloud/</loc>
   </url>
   <url>
