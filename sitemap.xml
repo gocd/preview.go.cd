@@ -343,6 +343,15 @@
     <loc>https://preview.gocd.io/SEdaily/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/govsjenkins/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/gocdvsjenkins/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/jenkins/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/tags/it-s-not-cd-if-you-can-t-deploy-right-now/</loc>
   </url>
   <url>
