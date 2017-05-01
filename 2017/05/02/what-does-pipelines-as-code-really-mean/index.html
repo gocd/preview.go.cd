@@ -97,7 +97,7 @@
 
 <p>Infrastructure as code is enabled by countless libraries, scripts, and definition files. Configuration is typically via a declarative syntax such as YAML or JSON, a DSL, or a full-fledged programming language such as Ruby. Pick the right tool for the job.</p>
 
-<p>Build as code and pipeline as code would have much the same definition. They are an approach to defining your builds and pipelines through source control that can then be treated just like any software system.</p>
+<p>Build as code and pipeline as code would have much the same definition. They are an approach to defining your builds and pipelines in diffable, readable files checked into source control that can then be treated just like any software system.</p>
 
 <h2 id="build-as-code">Build as code</h2>
 
@@ -125,7 +125,7 @@
 
 <h2 id="pipelines-as-code">Pipelines as code</h2>
 
-<p>Today, we see deployment pipelines and “CI/CD Servers” are mainstream. And Pipelines as code requiring a full programming language is the de facto assumption. In fact, Jenkins has clearly set out to own the term “Pipelines as Code,” including popularizing that the configuration of pipelines should only be done via a programming language.</p>
+<p>Today, we see deployment pipelines and “CI/CD Servers” are mainstream. And pipelines as code requiring a full programming language is the de facto assumption. In fact, Jenkins has clearly set out to own the term “Pipelines as Code,” including popularizing that the configuration of pipelines should only be done via a programming language.</p>
 
 <p>We can understand why equating pipelines as code with configuration via a programming language has happened. Deployment pipelines have more complex workflows. A typical microservice architecture will require many deployment pipelines that are for the most part identical. These are problems that are in fact well-solved by most programming languages. And “Pipelines as Code” makes for some great marketing.</p>
 
@@ -133,7 +133,7 @@
 
 <h2 id="is-configuring-via-a-general-purpose-language-wrong">Is configuring via a general purpose language wrong?</h2>
 
-<p>No! Absolutely not. We just don’t want it to be the starting point. It brings more complexity. More complexity brings more errors. And in the same way that complex Chef repositories need test-kitchen based unit tests to make sure that they are doing the right thing, a complex and programmed build configuration needs tests itself. Quis custodiet ipsos custodes?</p>
+<p>No! Absolutely not. We just don’t want it to be the starting point. It brings more complexity. More complexity brings more errors. And in the same way that complex Chef repositories need test-kitchen based unit tests to make sure that they are doing the right thing, a complex and programmed build configuration needs tests itself. <em>Quis custodiet ipsos custodes?</em></p>
 
 <p>GoCD tries very hard to support deployment pipelines in such a way that you only need to declare definitions to define your pipelines. But there are scenarios where GoCD’s limits are hit and then something like <a href="https://github.com/SpringerSBM/gomatic">Gomatic</a>, allowing configuration of pipelines via Python scripts, is useful. As with everything in software, you need to understand the trade-offs and choose the right tools.</p>
 
@@ -147,7 +147,7 @@
 
 <p>It’s great that we all are demanding builds and pipelines as code. Pipelines as code need not always be via a programming language. Don’t awkwardly force your build and pipeline config into your main source repository when it’s not the right thing to do.</p>
 
-<p>We hope this post post helped clear up the confusion surrounding Pipelines as code . Do let us know by commenting below or tweet us at <a href="https://twitter.com/@david_j_rice">@david_j_rice</a> and <a href="https://twitter.com/@badrij">@badrij</a>.</p>
+<p>We hope this post helped clear up some of the confusion surrounding pipelines as code. Do let us know by commenting below or tweet to us at <a href="https://twitter.com/@david_j_rice">@david_j_rice</a> and <a href="https://twitter.com/@badrij">@badrij</a>.</p>
 
 <div class="row">
   <div class="downloadbanner">
