@@ -250,6 +250,9 @@
     <loc>https://preview.gocd.io/roadmap/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/subscribe/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/videos/</loc>
   </url>
   <url>
@@ -275,9 +278,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.io/why-gocd/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.io/subscribe/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2014/02/25/go-is-now-open-source/</loc>
