@@ -19,9 +19,6 @@
     <loc>https://preview.gocd.io/contributor-license-agreement/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.io/download/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.io/events/</loc>
   </url>
   <url>
@@ -44,6 +41,9 @@
   </url>
   <url>
     <loc>https://preview.gocd.io/partners/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/plugins/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2014/02/24/build-promotion-go/</loc>
@@ -247,9 +247,6 @@
     <loc>https://preview.gocd.io/roadmap/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.io/subscribe/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.io/videos/</loc>
   </url>
   <url>
@@ -277,7 +274,10 @@
     <loc>https://preview.gocd.io/why-gocd/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.io/plugins/</loc>
+    <loc>https://preview.gocd.io/download/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/subscribe/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2014/02/25/go-is-now-open-source/</loc>
