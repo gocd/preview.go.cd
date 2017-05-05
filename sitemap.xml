@@ -19,6 +19,9 @@
     <loc>https://preview.gocd.io/contributor-license-agreement/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/download/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/events/</loc>
   </url>
   <url>
@@ -272,9 +275,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.io/why-gocd/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.io/download/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/subscribe/</loc>
