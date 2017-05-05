@@ -223,6 +223,12 @@
     <loc>https://preview.gocd.io/2017/03/01/importance-and-principles-of-cd-pipelines/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/2017/03/29/beginnings-of-a-real-pipeline/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/2017/04/06/reusing-pipelines/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/2017/04/17/build-propagation-using-fan-in-fan-out/</loc>
   </url>
   <url>
@@ -233,12 +239,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/05/09/continuous-integration-devops-research/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.io/2017/03/29/beginnings-of-a-real-pipeline/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.io/2017/04/06/reusing-pipelines/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/releases/</loc>
