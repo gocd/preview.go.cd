@@ -8,12 +8,12 @@
     <meta content="GoCD, continuous delivery, deployment control, manual approvals, manual gate, control build propagation, manual stages, manual pipeline" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="Control deployments using Manual Approvals | GoCD Blog" />
+    <meta name="twitter:title" content="Control deployments using Manual Gates | GoCD Blog" />
     <meta name="twitter:description" content="How to use a manual approval process to propagate your build which gives you more control over deployments." />
     <meta name="twitter:image" content="https://preview.gocd.io/assets/images/blog/manual-gates/manual-approval-hero-4d6c9eec.jpg" />
     <link rel="canonical" href="https://preview.gocd.io/2017/05/23/control-deployments-manual-approvals.html" />
 
-    <title>Control deployments using Manual Approvals | GoCD Blog</title>
+    <title>Control deployments using Manual Gates | GoCD Blog</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../assets/stylesheets/site-105e0c2d.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-544c7d52.js"></script>
@@ -61,10 +61,10 @@
 
     <div class="container blog-post">
 
-  <div class="draft-banner">This is a draft. It will not show up on the live site.</div>
+  
 
   <header class="blog-post-header">
-    <h2>Part 5 - Control deployments using Manual Approvals: Modeling Deployment Pipelines</h2>
+    <h2>Part 5 - Control deployments using Manual Gates: Modeling Deployment Pipelines</h2>
     <h4>Aravind S.V, Product Manager at GoCD</h4>
     <p class='tags'>
 <a href="../../../tags/modeling-deployment-pipelines.html" class="tag">        Modeling Deployment Pipelines
@@ -78,20 +78,20 @@
 
 <h2 id="the-importance-of-manual-approvals">The Importance of Manual Approvals</h2>
 
-<p>To deploy into environments such as production, and often pre-production, it’s often important to have a manual approval process. This way, you can also make sure that your deployment happens only when you're ready for it (be it in terms of the time of the day, or in terms of other dependencies you need to wait for). We refer to this approval process as a “gate” since it works as one to control the build propagation by either stopping or allowing the build to go through. (Note: Manual gates are supported by GoCD, out of the box, by marking a stage as manual.) Here’s an image which shows the environments that the build is propagated through by using pipelines with manual gates.</p>
+<p>To deploy into environments such as production, and pre-production, it’s often important to have a manual approval process. This way, you can also make sure that your deployment happens only when you're ready for it (be it in terms of the time of the day, or in terms of other dependencies you need to wait for). We refer to this approval process as a “gate” since it works as one to control the build propagation by either stopping or allowing the build to go through. (Note: Manual gates are supported by GoCD, out of the box, by marking a stage as manual). Here’s an image which shows the environments that the build is propagated through by using pipelines with manual gates.</p>
 
 <div class="imagezoom">
 <img src="../../../assets/images/blog/manual-gates/pipeline-environments-53b88a03.jpeg" alt="Pipeline with Environments" title="Pipeline with Environments" />
 <span class="info_txt">Click image to zoom in</span>
 </div>
 
-<p><em>To see how we came up with this deployment pipeline diagram, <a href="../../03/29/beginnings-of-a-real-pipeline.html">click here</a>.</em></p>
+<p><em>To see how we came up with this deployment pipeline diagram, <a href="../../03/29/beginnings-of-a-real-pipeline.html">see this earlier post</a>.</em></p>
 
-<h2 id="types-of-manual-approvals">Types of Manual Approvals</h2>
+<h2 id="types-of-manual-gates">Types of Manual Gates</h2>
 
 <p>There are three manual gates (or manual stages) shown as little red boxes in this image. The one between the two stages of the “UAT” pipeline is often used as a pass/fail gate. This is to help control which builds go to “Test” stage. In this case, if the testing is manual and someone needs to approve a “build”, this kind of a gate is useful. The “Test” stage can also just be a dummy stage. If the deployed build is deemed to be a failure, no one approves it and the “Test” stage for that pipeline never gets run. So, that build never shows up as a candidate for the “Pre_Prod” environment.</p>
 
-<p>The second and the third gates shown are before the first stage of both the “Pre_Prod” and “Production” pipelines. When the first stage of a pipeline is marked manual, the whole pipeline is also called a “manual pipeline”. In this case, you don't want the pipeline to  automatically trigger when one of its dependencies finishes successfully. Instead, you want to have the ability to select the upstream dependencies of the pipeline and then trigger it. It’s also quite useful for manual stages to have their own “approvers”. Therefore you can allow only a subset of people to see and approve it.(Note: If you’d like to know how manual stages can be set up in GoCD, read this. You can use the “trigger with options” feature to decide what to run when the first stage is manual.) We highly recommend this to be used where you need to limit access.</p>
+<p>The second and the third gates shown are before the first stage of both the “Pre_Prod” and “Production” pipelines. When the first stage of a pipeline is marked manual, the whole pipeline is also called a “manual pipeline”. In this case, you don't want the pipeline to  automatically trigger when one of its dependencies finishes successfully. Instead, you want to have the ability to select the upstream dependencies of the pipeline and then trigger it. It’s also quite useful for manual stages to have their own “approvers”. Therefore you can allow only a subset of people to see and approve it. (Note: If you’d like to know how manual stages can be set up in GoCD, <a href="https://docs.gocd.io/current/configuration/dev_authorization.html#adding-authorization-to-approvals">read this</a>. You can use the “trigger with options” feature to decide what to run when the first stage is manual). We highly recommend this be used where you need to limit access.</p>
 
 <p>Build propagation continues to be shown in green and works equally well with manual gates. Even if you take multiple days before you approve a stage, the correct artifact will be fetched from the correct upstream pipeline. <em>Important: Please make sure that the old artifacts are not purged before they’re fetched.</em> When using GoCD, you can choose to never purge artifacts for a stage, so that it is always available for downstream pipelines to use.</p>
 
@@ -116,7 +116,7 @@
 
 <p>So far throughout the series, we have a defined process of taking a set of changes through a set of tests, automated and manual, and based on the result, through a set of environments coming closer and closer to production, with increasing confidence.</p>
 
-<p>In our next post, we’ll look at “Where does all of this run?” and and talk in more detail about workers, or in GoCD terms, GoCD <a href="https://docs.gocd.io/current/introduction/concepts_in_go.html#agent">Agents</a>. If you haven’t already, I recommend you to have your <a href="../../../help/">GoCD server setup</a> to better follow our upcoming posts.</p>
+<p>In our next post, we’ll look at “Where does all of this run?” and and talk in more detail about workers, or in GoCD terms, GoCD <a href="https://docs.gocd.io/current/introduction/concepts_in_go.html#agent">Agents</a>. If you haven’t already, we recommend you to have your <a href="../../../help/">GoCD server setup</a> to better follow our upcoming posts.</p>
 
 <div class="row">
   <div class="downloadbanner">
@@ -156,7 +156,7 @@
             <li>
               <span class="post-date">May 23</span>
               <span class="post-author">Aravind S.V, Product Manager at GoCD</span>
-              <a href="control-deployments-manual-approvals/">Part 5 - Control deployments using Manual Approvals: Modeling Deployment Pipelines</a>
+              <a href="control-deployments-manual-approvals/">Part 5 - Control deployments using Manual Gates: Modeling Deployment Pipelines</a>
             </li>
             <li>
               <span class="post-date">May 16</span>

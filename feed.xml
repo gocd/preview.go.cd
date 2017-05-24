@@ -10,7 +10,7 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Part 5 - Control deployments using Manual Approvals: Modeling Deployment Pipelines</title>
+    <title>Part 5 - Control deployments using Manual Gates: Modeling Deployment Pipelines</title>
     <link rel="alternate" href="https://preview.gocd.io/2017/05/23/control-deployments-manual-approvals.html"/>
     <id>https://preview.gocd.io/2017/05/23/control-deployments-manual-approvals.html</id>
     <published>2017-05-23T00:00:00Z</published>
