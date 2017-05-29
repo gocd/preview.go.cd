@@ -247,6 +247,9 @@
     <loc>https://preview.gocd.io/2017/05/23/control-deployments-manual-approvals/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/2017/06/01/forever-home/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/releases/</loc>
   </url>
   <url>
@@ -367,10 +370,19 @@
     <loc>https://preview.gocd.io/tags/are-you-ready-for-continuous-delivery/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.io/tags/announcements/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.io/tags/modeling-deployment-pipelines/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/2017/06/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.io/2017/06/01/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.io/2017/05/</loc>
