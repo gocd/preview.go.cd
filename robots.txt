@@ -1,16 +1,2 @@
 User-agent: *
-Allow: /
-
-Disallow: /next-release
-Disallow: /next-release/index.html
-Disallow: /next-release.html
-
-Disallow: /continuous-delivery
-Disallow: /continuous-delivery/index.html
-Disallow: /continuous-delivery.html
-
-Disallow: /sales-sign-up
-Disallow: /sales-sign-up/index.html
-Disallow: /sales-sign-up.html
-
-Sitemap: https://preview.gocd.org/sitemap.xml
+Disallow: /
