@@ -13,4 +13,4 @@ Disallow: /sales-sign-up
 Disallow: /sales-sign-up/index.html
 Disallow: /sales-sign-up.html
 
-Sitemap: https://preview.gocd.io/sitemap.xml
+Sitemap: https://preview.gocd.org/sitemap.xml
