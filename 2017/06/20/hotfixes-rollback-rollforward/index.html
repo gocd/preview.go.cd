@@ -84,6 +84,7 @@
     <img src="../../../../assets/images/blog/hotfix-rollback/deployment-pipeline-hotfix-3d31bdb3.jpeg" alt="Pipeline with Hotfix" title="Pipeline with Hotfix" />
   <span class="info_txt">Click image to zoom in</span>
   </div>
+<p><em>The red gate in the image above signifies a manual gate.</em></p>
 
 <h2 id="what-is-the-best-way-to-model-a-hotfix">What is the best way to model a “Hotfix”?</h2>
 
@@ -101,21 +102,15 @@
 
 <p>Having said that, here are some approaches to creating a rollback or roll-forward:</p>
 
-<ul>
-  <li>Re-running an old pipeline run</li>
-</ul>
+<h3 id="re-running-an-old-pipeline-run">1. Re-running an old pipeline run</h3>
 
 <p>Depending on the kind of application being deployed, a “rollback” might just be the deployment of an older build. In cases such as a static website or an application without state, this is appropriate.</p>
 
-<ul>
-  <li>Having a “roll-forward” pipeline exactly like the “hotfix” pipeline shown above</li>
-</ul>
+<h3 id="having-a-roll-forward-pipeline-exactly-like-the-hotfix-pipeline-shown-above">2. Having a “roll-forward” pipeline exactly like the “hotfix” pipeline shown above</h3>
 
 <p>If you’re really sure that this will only be used judiciously, a “hotfix” pipeline can double as a “roll-forward” pipeline in a pinch. It’s a risky approach, though. A better approach, if your end-to-end pipeline runs quickly enough, is to make a commit and let it run through the whole pipeline and then deploy a fully tested build. You should probably then go back and do a root cause analysis of how a bad build went into production.</p>
 
-<ul>
-  <li>Use a “rollback” stage with a manual gate</li>
-</ul>
+<h3 id="use-a-rollback-stage-with-a-manual-gate">3. Use a “rollback” stage with a manual gate</h3>
 
 <p>You can have a “rollback” stage at the end of your “production” pipeline, as shown here:</p>
 
@@ -125,7 +120,7 @@
 
 <hr />
 
-<p>In summary, a rollback or roll-forward can be orchestrated by the CD solution as a part of the workflow, but the actual process of the rollback or roll-forward is highly specific to the application you’re building. This is why rollback strategies (and even the way to set-up your deployment pipelines) need to be thought out depending on what makes sense for the application and the business, rather than expecting a CD tool to magically provide a solution.</p>
+<p><strong>In summary, a rollback or roll-forward can be orchestrated by the CD solution as a part of the workflow, but the actual process of the rollback or roll-forward is highly specific to the application you’re building. This is why rollback strategies (and even the way to set-up your deployment pipelines) need to be thought out depending on what makes sense for the application and the business, rather than expecting a CD tool to magically provide a solution.</strong></p>
 
 <p>There are many more concepts to explore in modeling deployment pipelines like implementing feature toggles, performance tests, microservices, security tests etc. Let us know what you’d like to hear about in our next post in the comments section below.</p>
 
