@@ -18,7 +18,7 @@
     <author>
       <name>Robin Weston</name>
     </author>
-    <content type="html">Serverless Architectures and Continuous Delivery</content>
+    <content type="html">Serverless architectures can be great enablers of Continuous Delivery by combining a focus on value with small, quick-to-deploy, independent units of functionality. This post explains what a serverless architecture is, their benefits with a deeper look at Functions as a Service (FaaS).</content>
   </entry>
   <entry>
     <title>Infographic: 5 Key Patterns for your Deployment Pipeline</title>
