@@ -5,10 +5,21 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed.xml" rel="self"/>
-  <updated>2017-06-26T00:00:00Z</updated>
+  <updated>2017-06-29T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>An introduction to continuous delivery - CD 101</title>
+    <link rel="alternate" href="https://preview.gocd.org/2017/06/29/introduction-continuous-delivery-101.html"/>
+    <id>https://preview.gocd.org/2017/06/29/introduction-continuous-delivery-101.html</id>
+    <published>2017-06-29T00:00:00Z</published>
+    <updated>2017-06-29T00:00:00Z</updated>
+    <author>
+      <name>Ken Mugrage</name>
+    </author>
+    <content type="html">CD 101 is a video series to help you get started on your CD journey. Part One of this series covers the history of continuous delivery, difference between continuous delivery and continuous deployment and a brief introduction of a deployment pipeline.</content>
+  </entry>
   <entry>
     <title>Serverless Architectures and Continuous Delivery</title>
     <link rel="alternate" href="https://preview.gocd.org/2017/06/26/serverless-architecture-continuous-delivery.html"/>
@@ -107,16 +118,5 @@
       <name>Badri Janakiraman and David Rice</name>
     </author>
     <content type="html">There has been increasing interest in defining builds and pipelines as code. We see a rise in the assumption that defining pipelines as code requires the use of a full programming language. This post will  break down how we got to build and pipelines as code and challenge some of the assumptions.</content>
-  </entry>
-  <entry>
-    <title>Why GoCD over Jenkins</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/04/25/gocd-over-jenkins.html"/>
-    <id>https://preview.gocd.org/2017/04/25/gocd-over-jenkins.html</id>
-    <published>2017-04-25T00:00:00Z</published>
-    <updated>2017-04-25T00:00:00Z</updated>
-    <author>
-      <name>David Rice, Managing Director - ThoughtWorks Products</name>
-    </author>
-    <content type="html">We often get asked by potential GoCD users why pick GoCD over Jenkins. In this post, we share why by comparing philosophy, getting started, continuous delivery, and plugins across the tools.</content>
   </entry>
 </feed>
