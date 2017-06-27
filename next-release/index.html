@@ -83,7 +83,12 @@
       <h3 class="tab-accordion_heading d_active" rel="tab-next"> (next)</h3>
       <div id="tab-next" class="tab_content" style="display: block;">
         <div class="content">
-          <h4>Improvements</h4>
+          <h4>Security Fixes</h4>
+
+<p>This release has critical security fixes to prevent CSRF, XSS and Session hijacking exploits. We highly recommend users to upgrade to keep your GoCD server and agent secure.
+Thanks <a href="https://hackerone.com/4cad">4cad</a> for reporting these issues.</p>
+
+<h4>Improvements</h4>
 
 <ul>
   <li>
@@ -111,6 +116,9 @@
   <img src="../assets/images/releases/17.6.0/rerun-failed-jobs-182f21d2.png" alt="Rerun failed jobs" />
 </figure>
   </li>
+  <li>
+    <p>The in-built password file authentication plugin now supports <code>bcrypt</code>, which is a stronger password hashing function. GoCD server adminstrators should migrate <code>SHA1</code> passwords to use <code>bcrypt</code> instead.</p>
+  </li>
 </ul>
 
 <h4>API Enhancements</h4>
@@ -124,6 +132,9 @@
 <ul>
   <li>
     <p><code><a href="https://github.com/gocd/gocd/commit/88f1678f95a69d1e57ed2e8d6a6190da0de798af">88f1678</a></code> - Disable trigger with options button for view user in the environments page. (<a href="https://github.com/gocd/gocd/issues/3602">#3602</a>)</p>
+  </li>
+  <li>
+    <p><code><a href="https://github.com/gocd/gocd/commit/dba8212c29e188e85be76c2a731e02a28c0ab330">dba8212</a></code> - Javascript error when saving user preferences. (<a href="https://github.com/gocd/gocd/issues/3576">#3576</a>)</p>
   </li>
   <li>
     <p><code><a href="https://github.com/gocd/gocd/commit/30615dcc7c5d40a4a4b7f4599d39fcfd8c99cb75">30615dc</a></code> - Reduce the amount of plugins that an agent downloads and initializes. (<a href="https://github.com/gocd/gocd/issues/3584">#3584</a>)</p>
@@ -164,7 +175,7 @@
 
 <h4>Contributors</h4>
 
-<p>Ankit Srivastava, Aravind SV, Bhupendrakumar Piprava, Drew Sonne, Jyoti Singh, Kerry Wilson, Ketan Padegaonkar, Lubaina R, Mahesh Panchaksharaiah, Rajiesh N, Stephen Murby, Varsha Varadarajan</p>
+<p>Ankit Srivastava, Aravind SV, Bhupendrakumar Piprava, Drew Sonne, Jyoti Singh, Kerry Wilson, Ketan Padegaonkar, Lubaina R, Mahesh Panchaksharaiah, Naveen Bhaskar, Rajiesh N, Sean Escriva, Stephen Murby, Varsha Varadarajan</p>
 
 <h4>Security researchers</h4>
 
