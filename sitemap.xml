@@ -262,7 +262,10 @@
     <loc>https://preview.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/2017/06/29/introduction-continuous-delivery-101/</loc>
+    <loc>https://preview.gocd.org/2017/07/04/product-manager-guide-continuous-delivery/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2017/07/06/introduction-continuous-delivery-101/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/releases/</loc>
@@ -406,10 +409,16 @@
     <loc>https://preview.gocd.org/2017/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/2017/06/</loc>
+    <loc>https://preview.gocd.org/2017/07/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/2017/06/29/</loc>
+    <loc>https://preview.gocd.org/2017/07/06/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2017/07/04/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2017/06/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/2017/06/26/</loc>
