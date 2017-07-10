@@ -5,20 +5,31 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed.xml" rel="self"/>
-  <updated>2017-07-06T00:00:00Z</updated>
+  <updated>2017-07-13T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
   <entry>
     <title>An introduction to continuous delivery - CD 101</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/07/06/introduction-continuous-delivery-101.html"/>
-    <id>https://preview.gocd.org/2017/07/06/introduction-continuous-delivery-101.html</id>
-    <published>2017-07-06T00:00:00Z</published>
-    <updated>2017-07-06T00:00:00Z</updated>
+    <link rel="alternate" href="https://preview.gocd.org/2017/07/13/introduction-continuous-delivery-101.html"/>
+    <id>https://preview.gocd.org/2017/07/13/introduction-continuous-delivery-101.html</id>
+    <published>2017-07-13T00:00:00Z</published>
+    <updated>2017-07-13T00:00:00Z</updated>
     <author>
       <name>Ken Mugrage</name>
     </author>
     <content type="html">CD 101 is a video series to help you get started on your CD journey. Part One of this series covers the history of continuous delivery, difference between continuous delivery and continuous deployment and a brief introduction of a deployment pipeline.</content>
+  </entry>
+  <entry>
+    <title>Continuous Delivery: GoCD vs Spinnaker</title>
+    <link rel="alternate" href="https://preview.gocd.org/2017/07/11/gocd-vs-spinnaker.html"/>
+    <id>https://preview.gocd.org/2017/07/11/gocd-vs-spinnaker.html</id>
+    <published>2017-07-11T00:00:00Z</published>
+    <updated>2017-07-11T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker (Head of Technology), ThoughtWorks Products</name>
+    </author>
+    <content type="html">This post is an overview of GoCD and Spinnaker, why they are different from each other and which problems you should use them to solve.</content>
   </entry>
   <entry>
     <title>The Product Managers’ Guide to Continuous Delivery and DevOps</title>
@@ -27,7 +38,7 @@
     <published>2017-07-05T00:00:00Z</published>
     <updated>2017-07-05T00:00:00Z</updated>
     <author>
-      <name>Suzie Prince</name>
+      <name>Suzie Prince (Head of Product), ThoughtWorks Products</name>
     </author>
     <content type="html">If you're in tech, a product manager or an MBA and are curious about what continuous delivery is and what a DevOps culture looks like, this beginner's guide is for you.</content>
   </entry>
@@ -107,16 +118,5 @@
       <name>Suzie Prince (Head of Product), ThoughtWorks Products</name>
     </author>
     <content type="html">CI theatre describes the illusion of practising continuous integration while not really practising it. Based on our continuous integration research, we share what CI Theatre looks like, why we recommend you Hold on that, and ways to combat CI theatre.</content>
-  </entry>
-  <entry>
-    <title>No One Agrees How to Define CI or CD</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/05/09/continuous-integration-devops-research.html"/>
-    <id>https://preview.gocd.org/2017/05/09/continuous-integration-devops-research.html</id>
-    <published>2017-05-09T00:00:00Z</published>
-    <updated>2017-05-09T00:00:00Z</updated>
-    <author>
-      <name>Emily Luke (Head of Experience) and Suzie Prince (Head of Product), ThoughtWorks Products</name>
-    </author>
-    <content type="html">This blog post elaborates the results of our most recent contextual research study, how we conducted the study and our main findings. Our goal was to identify what users know about continuous integration (CI) and continuous delivery (CD) practices.</content>
   </entry>
 </feed>
