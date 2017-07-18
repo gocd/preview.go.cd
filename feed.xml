@@ -10,7 +10,7 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Deployment pipeline and types of automated testing - Part 2</title>
+    <title>Part 2 - Deployment pipeline and types of automated testing: CD 101</title>
     <link rel="alternate" href="https://preview.gocd.org/2017/07/20/deployment-pipeline-automated-testing.html"/>
     <id>https://preview.gocd.org/2017/07/20/deployment-pipeline-automated-testing.html</id>
     <published>2017-07-20T00:00:00Z</published>
@@ -21,7 +21,7 @@
     <content type="html">CD 101 is a video series to help you get started on your CD journey. Part One of this series covers the history of continuous delivery, difference between continuous delivery and continuous deployment and a brief introduction of a deployment pipeline.</content>
   </entry>
   <entry>
-    <title>Continuous Deployment Strategies - Part 1</title>
+    <title>Part 1 - Continuous Deployment Strategies</title>
     <link rel="alternate" href="https://preview.gocd.org/2017/07/18/continuous-deployment-strategies.html"/>
     <id>https://preview.gocd.org/2017/07/18/continuous-deployment-strategies.html</id>
     <published>2017-07-18T00:00:00Z</published>
@@ -32,7 +32,7 @@
     <content type="html">Modern webapps and application servers have evolved, but many developers continue to use similar strategies to perform deployments. This post looks some of the continuous deployment strategies.</content>
   </entry>
   <entry>
-    <title>An introduction to continuous delivery - Part 1</title>
+    <title>Part 1 - An introduction to continuous delivery: CD 101</title>
     <link rel="alternate" href="https://preview.gocd.org/2017/07/13/introduction-continuous-delivery-101.html"/>
     <id>https://preview.gocd.org/2017/07/13/introduction-continuous-delivery-101.html</id>
     <published>2017-07-13T00:00:00Z</published>
