@@ -80,7 +80,7 @@
   <div class="row">
     <div class="col-md-9">
       <main id="main" role="main">
-      <p>Not very long ago, during the days of Perl/CGI and PHP (and even today); deployments involved ftp-ing your files to the webserver directory and running a bunch of migrations by shelling into the webserver.</p>
+      <p>Not very long ago, during the days of Perl/CGI and PHP (and even today); deployments involved 'ftp-ing' your files to the webserver directory and running a bunch of migrations by shelling into the webserver.</p>
 
 <p>Modern webapps and application servers have evolved quite a bit since then, but many developers continue to use similar strategies to perform deployments. FTP has been replaced by git pull followed by bundle install or npm install and then restarting the appserver that you use.</p>
 
@@ -94,9 +94,9 @@
 
 <p>Over time, one loses track of the magic configuration files, packages and services that are installed on the production machines.</p>
 
-<h2 id="phoenix-servershttpmartinfowlercomblikiphoenixserverhtml"><a href="http://martinfowler.com/bliki/PhoenixServer.html">Phoenix servers</a></h2>
+<h2 id="phoenix-servers">Phoenix servers</h2>
 
-<p>Some of these issues can be addressed by using a bit of configuration management tools like <a href="https://www.chef.io/">chef</a>, <a href="https://puppetlabs.com/">puppet</a>, or <a href="http://www.ansible.com/home">ansible</a> among a few others.</p>
+<p>Some of these issues <a href="http://martinfowler.com/bliki/PhoenixServer.html">can be addressed</a> by using a bit of configuration management tools like <a href="https://www.chef.io/">chef</a>, <a href="https://puppetlabs.com/">puppet</a>, or <a href="http://www.ansible.com/home">ansible</a> among a few others.</p>
 
 <p>These tools help avoid configuration drift, the sort of one-off changes that go unnoticed and undocumented.</p>
 
