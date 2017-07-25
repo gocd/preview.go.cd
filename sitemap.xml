@@ -280,6 +280,9 @@
     <loc>https://preview.gocd.org/2017/07/20/deployment-pipeline-automated-testing/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/2017/07/25/blue-green-deployments/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/releases/</loc>
   </url>
   <url>
@@ -428,6 +431,9 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/2017/07/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2017/07/25/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/2017/07/20/</loc>
