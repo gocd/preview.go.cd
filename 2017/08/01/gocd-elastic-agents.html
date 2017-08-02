@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
     <meta content="This post is about GoCD team’s journey in building elastic agents and its benefits." name="description" />
-    <meta content="gocd, elastic agents, gocd elastic agent, continuous delivery, dogfooding, elastic agent, ECS, AWS ECS, EC2, Docker, Dockerswarm, mesosphere" name="keywords" />
+    <meta content="gocd, elastic agents, gocd elastic agent, continuous delivery, dogfooding, elastic agent, ECS, AWS ECS, EC2, Docker, Dockerswarm, mesosphere, azure" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
     <meta name="twitter:title" content="GoCD Elastic Agents | GoCD Blog" />
@@ -124,7 +124,7 @@
 
 <p>Before elastic agents, if we wanted to test something new that needed different hardware or software, we needed to provision build machines, and have the relevant software installed on these agents. Then if we chose to not keep the change, we also had to decommission the machines. It was time consuming  to do all of that, and took the focus away from development.</p>
 
-<p>Using elastic agents, we can apply the idea behind <a href="https://martinfowler.com/bliki/ImmutableServer.html">ImmutableServer</a> to our build machines. We now build an operating system image with all the required software (with the versions we need). We simply bring up a new agent with everything ready and at the end of this the plugin brings down the agent. Being able to run builds on different environments quickly and at will was also a win for the GoCD core team. This allowed us to operate quickly, and experiment without the worry of managing hardware.</p>
+<p>Using elastic agents, we can apply the idea behind <a href="https://martinfowler.com/bliki/ImmutableServer.html">ImmutableServer</a> to our build machines. We now <a href="https://hub.docker.com/r/gocdcontrib/gocd-dev-build/builds/">build an operating system image</a> with all the required software (with the versions we need). We simply bring up a new agent with everything ready and at the end of this the plugin brings down the agent. Being able to run builds on different environments quickly and at will was also a win for the GoCD core team. This allowed us to operate quickly, and experiment without the worry of managing hardware.</p>
 
 <h3 id="less-pain-and-overhead">2. Less pain and overhead</h3>
 
