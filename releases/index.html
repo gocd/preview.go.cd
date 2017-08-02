@@ -124,12 +124,12 @@
         <div class="content">
           <h4>Pipeline as Code</h4>
 
-<p>With this release, GoCD supports <a href="https://docs.gocd.org/current/advanced_usage/pipelines_as_code.html">Pipleine as code</a>, out of the box. We've bundled the <a href="https://github.com/tomzo/gocd-json-config-plugin">JSON config repo plugin</a> and the <a href="https://github.com/tomzo/gocd-yaml-config-plugin">YAML config repo plugin</a> with the GoCD server.
+<p>With this release, GoCD supports <a href="https://docs.gocd.org/current/advanced_usage/pipelines_as_code.html">Pipeline as code</a>, out of the box. We've bundled the <a href="https://github.com/tomzo/gocd-json-config-plugin">JSON config repo plugin</a> and the <a href="https://github.com/tomzo/gocd-yaml-config-plugin">YAML config repo plugin</a> with the GoCD server.
 A shout out to our core contributor <a href="https://github.com/tomzo">Tomasz Sętkowski</a> for maintaining these plugins.</p>
 
 <h4>Amazon ECS Elastic Agent Plugin</h4>
 
-<p>ThoughtWorks now offers a new commercial elastic agents plugin which allows for flexible use of EC2 instances (with support for ECS Docker containers). For more information about the plugin, <a href="https://www.thoughtworks.com/go/">click here</a>.</p>
+<p>ThoughtWorks now offers a new commercial elastic agents plugin which allows for flexible use of EC2 instances (with support for ECS Docker containers). For more information about the plugin, <a href="https://extensions-docs.gocd.org/ecs/current/">click here</a>.</p>
 
 <h4>Improvements</h4>
 
@@ -145,7 +145,7 @@ A shout out to our core contributor <a href="https://github.com/tomzo">Tomasz S�
 <ul>
   <li>Some improvements have been made to reduce the size of the docker GoCD <a href="https://hub.docker.com/r/gocd/gocd-server/">server image</a>. Please check the changelog <a href="https://github.com/gocd/docker-gocd-server/blob/master/CHANGELOG.md">here</a>.</li>
   <li>Some improvements have been made to create slimmer docker GoCD agent images. Please check the changelog <a href="https://github.com/gocd/docker-gocd-agent/blob/master/CHANGELOG.md">here</a>.
-We provide support for the docker images for GoCD agents across the following operating systems - Centos <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-6/">6</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-7/">7</a> , Debian <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-7/">7</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-8/">8</a>, Ubuntu <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-12.04/">12.04</a>, <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-14.04/">14.04</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-16.04/">16.04</a></li>
+We provide support for the docker images for GoCD agents across the following operating systems - Alpine <a href="https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/">3.5</a>, CentOS <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-6/">6</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-7/">7</a> , Debian <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-7/">7</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-8/">8</a>, Ubuntu <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-12.04/">12.04</a>, <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-14.04/">14.04</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-16.04/">16.04</a></li>
 </ul>
 
 <h4>Deprecations</h4>
@@ -156,7 +156,7 @@ We provide support for the docker images for GoCD agents across the following op
 
 <ul>
   <li>
-    <p>Support for in-built password file and LDAP/AD authentication have been deprecated as of this release. Support for these authentication mechanisms would be removed in 17.9 release (scheduled to be released in September 2018).</p>
+    <p>As of 17.5, support for in-built password file and LDAP/AD authentication have been deprecated. Support for these authentication mechanisms would be removed in 17.9 release (scheduled to be released in September 2017).</p>
   </li>
   <li>The <a href="https://plugin-api.gocd.org/current/authorization/">Authorization Plugin</a> endpoints were introduced as an extension to the existing Authentication Plugin endpoints, with this we are deprecating the Authentication Plugin endpoint. Support for this plugin would be removed in 18.1 (scheduled to be release in January 2018). Plugin developers are encouraged to migrate their plugins to use the new Authorization Plugins.
     <h5>Authentication plugins</h5>
@@ -170,12 +170,12 @@ We provide support for the docker images for GoCD agents across the following op
   </ul>
   </li>
   <li>As of 17.8, the phusion based docker <a href="https://hub.docker.com/r/gocd/gocd-server-deprecated/">server</a> and <a href="https://hub.docker.com/r/gocd/gocd-agent-deprecated/">agent</a> images are deprecated in favour of the new docker <a href="https://hub.docker.com/r/gocd/gocd-server/">server</a> and agent images. Support for the phusion images will be removed in 17.11.0.
- We provide support for the docker images for GoCD agents across the following operating systems - Centos <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-6/">6</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-7/">7</a> , Debian <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-7/">7</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-8/">8</a>, Ubuntu <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-12.04/">12.04</a>, <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-14.04/">14.04</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-16.04/">16.04</a></li>
+ We provide support for the docker images for GoCD agents across the following operating systems - Alpine <a href="https://hub.docker.com/r/gocd/gocd-agent-alpine-3.5/">3.5</a>, CentOS <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-6/">6</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-centos-7/">7</a> , Debian <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-7/">7</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-debian-8/">8</a>, Ubuntu <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-12.04/">12.04</a>, <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-14.04/">14.04</a> &amp; <a href="https://hub.docker.com/r/gocd/gocd-agent-ubuntu-16.04/">16.04</a></li>
 </ul>
 
 <h4>Contributors</h4>
 
-<p>Ankit Srivastava, Ankur K, Aravind SV, Bhupendrakumar Piprava, Emily Luke, Huimin Li, Isabelle Carter, Jyoti Singh, Ketan Padegaonkar, Kyle Olivo, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Marques Lee, Naveen Bhaskar, Rajiesh N, Senthil R, Suzie Prince, Varsha Varadarajan, Victor Nascimento</p>
+<p>Ankit Srivastava, Ankur K, Aravind SV, Bhupendrakumar Piprava, Emily Luke, Huimin Li, Isabelle Carter, Jyoti Singh, Ketan Padegaonkar, Kyle Olivo, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Marques Lee, Naveen Bhaskar, Rajiesh N, Senthil R, Suzie Prince, Tomasz Sętkowski, Varsha Varadarajan, Victor Nascimento</p>
 
 <!--
 <h4>Security researchers</h4>
@@ -288,7 +288,7 @@ Thanks <a href="https://hackerone.com/4cad">4cad</a> for reporting these issues.
 
 <ul>
   <li>
-    <p>Support for in-built password file and LDAP/AD authentication have been deprecated as of 17.5.0. Support for these authentication mechanisms would be removed in 17.9 release (scheduled to be released in September 2018).</p>
+    <p>As of 17.5, support for in-built password file and LDAP/AD authentication have been deprecated. Support for these authentication mechanisms would be removed in 17.9 release (scheduled to be released in September 2017).</p>
   </li>
   <li>
     <p>The <a href="https://plugin-api.gocd.org/current/authorization/">Authorization Plugin</a> endpoints were introduced as an extension to the existing Authentication Plugin endpoints, with this Authentication Plugin endpoint were deprecated as of 17.5.0. Support for this plugin would be removed in 18.1 (scheduled to be release in January 2018). Plugin developers are encouraged to migrate their plugins to use the new Authorization Plugins.</p>
@@ -421,7 +421,7 @@ Thanks <a href="https://hackerone.com/4cad">4cad</a> for reporting these issues.
 
 <ul>
   <li>
-    <p>Support for in-built password file and LDAP/AD authentication have been deprecated as of this release. Support for these authentication mechanisms would be removed in 17.9 release (scheduled to be released in September 2018).</p>
+    <p>Support for in-built password file and LDAP/AD authentication have been deprecated as of this release. Support for these authentication mechanisms would be removed in 17.9 release (scheduled to be released in September 2017).</p>
   </li>
   <li>
     <p>As of release 17.3, version 1 of the <a href="https://api.gocd.org/current/#environment-config">Environment Config API</a> was deprecated. This version of the API will be removed in 17.6 release (scheduled to be released in June 2017). Version 2 of the API is available, and users are encouraged to use it.</p>
