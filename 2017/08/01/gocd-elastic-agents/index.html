@@ -4,12 +4,12 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <meta content="This post is about GoCD team’s journey in building elastic agents and its benefits." name="description" />
+    <meta content="gocd, elastic agents, gocd elastic agent, continuous delivery, dogfooding, elastic agent, ECS, AWS ECS, EC2, Docker, Dockerswarm, mesosphere" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
     <meta name="twitter:title" content="GoCD Elastic Agents | GoCD Blog" />
-    <meta name="twitter:description" content="" />
+    <meta name="twitter:description" content="This post is about GoCD team’s journey in building elastic agents and its benefits." />
     <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/elastic-agents/elastic-agent-hero-995aca63.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2017/08/01/gocd-elastic-agents" />
 
@@ -68,7 +68,7 @@
     <div class="container blog-post">
 
 
-  <div class="draft-banner">This is a draft. It will not show up on the live site.</div>
+  
 
 
 
@@ -118,7 +118,7 @@
 
 <p>We observed three benefits from elastic agents since we started to use them.</p>
 
-<h3 id="save-time-reduce-effort">Save time, reduce effort</h3>
+<h3 id="save-time-reduce-effort">1. Save time, reduce effort</h3>
 
 <p>It has saved us hours of wasted developer productivity per week.</p>
 
@@ -126,13 +126,13 @@
 
 <p>Using elastic agents, we can apply the idea behind <a href="https://martinfowler.com/bliki/ImmutableServer.html">ImmutableServer</a> to our build machines. We now build an operating system image with all the required software (with the versions we need). We simply bring up a new agent with everything ready and at the end of this the plugin brings down the agent. Being able to run builds on different environments quickly and at will was also a win for the GoCD core team. This allowed us to operate quickly, and experiment without the worry of managing hardware.</p>
 
-<h3 id="less-pain-and-overhead">Less pain and overhead</h3>
+<h3 id="less-pain-and-overhead">2. Less pain and overhead</h3>
 
 <p>Every team member feels that our build and deployment process is much easier and less painful.</p>
 
 <p>We can now quickly bring up Docker containers (with all the required software) and kick off the builds within a certain environment without affecting other environments. We completely avoid all the pain we experienced before. Moving to a combination of on-premises hardware and Amazon ECS, the team also moves a lot faster because we are not dependent on hardware being procured, and provisioned with the right set of tools/software version on it, before we start using it.</p>
 
-<h3 id="improve-utilization-of-resources">Improve utilization of resources</h3>
+<h3 id="improve-utilization-of-resources">3. Improve utilization of resources</h3>
 
 <p>We never had this capability to optimize our resources as we have now.</p>
 
@@ -143,6 +143,18 @@
 <p>Several open-source elastic agent plugins are <a href="https://www.gocd.org/plugins/#elastic-agents-plugins">currently available</a>. We already have an ECS plugin which a lot of our users are trying out. A guiding principle for GoCD is to keep it as agnostic as possible. This allows the user to choose what technology they want to use and provision agents there. Therefore, we put a lot of time and effort into <a href="https://plugin-api.gocd.org/current/elastic-agents/">our API</a>, so you can just plug in any cloud provider you have or build your own plugin.</p>
 
 <p>Depending on user demand and the popularity of cloud provider among our users we will potentially build support for EC2, Azure and other cloud providers.</p>
+
+<div class="row">
+  <div class="downloadbanner">
+  <div class="container">
+    <div class="banner-with-cta">
+      <p>Get to know all about GoCD Elastic Agents plugins and how you can get started.</p>
+      <a href="../../../../elastic-agents.html">Know More</a>
+    </div>
+  </div>
+</div>
+
+</div>
 
       </main>
     </div>
