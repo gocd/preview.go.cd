@@ -10,9 +10,9 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Implementation Techniques for Canary Releases</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/08/15/canary-release.html"/>
-    <id>https://preview.gocd.org/2017/08/15/canary-release.html</id>
+    <title>Part 2 - Continuous Deployment Strategies: Implementation Techniques for Canary Releases</title>
+    <link rel="alternate" href="https://preview.gocd.org/2017/08/15/canary-releases.html"/>
+    <id>https://preview.gocd.org/2017/08/15/canary-releases.html</id>
     <published>2017-08-15T00:00:00Z</published>
     <updated>2017-08-15T00:00:00Z</updated>
     <author>
