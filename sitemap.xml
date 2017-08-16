@@ -307,9 +307,6 @@
     <loc>https://preview.gocd.org/videos/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/videos/go-linking-dependencies/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.org/videos/go-command-repo/</loc>
   </url>
   <url>
@@ -320,6 +317,9 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/videos/go-fundamental-concepts/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/videos/go-linking-dependencies/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/videos/go-pipeline-visibility/</loc>
