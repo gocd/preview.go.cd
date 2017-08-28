@@ -43,6 +43,9 @@
     <loc>https://preview.gocd.org/help/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/jenkins/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/misc/generate-patched-jar-for-deserialization-vulnerability/</loc>
   </url>
   <url>
@@ -404,9 +407,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/gocdvsjenkins/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.org/jenkins/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/arrested/</loc>
