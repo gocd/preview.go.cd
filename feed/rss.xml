@@ -10,17 +10,6 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>GoCD and the Impact of the ThoughtWorks Acquisition</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/08/29/apax-acquires-thoughtworks.html"/>
-    <id>https://preview.gocd.org/2017/08/29/apax-acquires-thoughtworks.html</id>
-    <published>2017-08-29T00:00:00Z</published>
-    <updated>2017-08-29T00:00:00Z</updated>
-    <author>
-      <name>GoCD Team</name>
-    </author>
-    <content type="html">Apax funds acquired ThoughtWorks. This post explains any impact on the GoCD team, product and the open source community.</content>
-  </entry>
-  <entry>
     <title>Part 1 - You can’t buy DevOps, but you may need to sell it: DevOps Statistics and Stories</title>
     <link rel="alternate" href="https://preview.gocd.org/2017/08/29/driving-change-devops-adoption.html"/>
     <id>https://preview.gocd.org/2017/08/29/driving-change-devops-adoption.html</id>
@@ -30,6 +19,17 @@
       <name>Ken Mugrage</name>
     </author>
     <content type="html">Part 1 of the series 'You can't buy DevOps, but you may need to sell it' covers facts and statistics to help you drive adoption of a devops culture in your teams and organizations.</content>
+  </entry>
+  <entry>
+    <title>GoCD and the Impact of the ThoughtWorks Acquisition</title>
+    <link rel="alternate" href="https://preview.gocd.org/2017/08/29/apax-acquires-thoughtworks.html"/>
+    <id>https://preview.gocd.org/2017/08/29/apax-acquires-thoughtworks.html</id>
+    <published>2017-08-29T00:00:00Z</published>
+    <updated>2017-08-29T00:00:00Z</updated>
+    <author>
+      <name>GoCD Team</name>
+    </author>
+    <content type="html">Apax funds acquired ThoughtWorks. This post explains any impact on the GoCD team, product and the open source community.</content>
   </entry>
   <entry>
     <title>Part 3 - CD101: Principles and Best Practices for Continuous Delivery</title>
