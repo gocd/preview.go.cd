@@ -1,1 +1,1 @@
-Current version: fd49d81d5fa631e856f7769388100cb735f19a55
+Current version: 8ea0c48c44b97934aac62968d8186f1084d37a66
