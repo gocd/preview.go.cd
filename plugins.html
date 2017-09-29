@@ -15,8 +15,8 @@
 
     <title>Supported Plugins | GoCD</title>
     <link href="assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="assets/stylesheets/site-21f6fce6.css" rel="stylesheet" />
-    <script src="assets/javascripts/all-d2e10da0.js"></script>
+    <link href="assets/stylesheets/site-e8343228.css" rel="stylesheet" />
+    <script src="assets/javascripts/all-08d961fc.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="feed.xml" />
     <script>
@@ -105,38 +105,38 @@
     </p>
 
     <div class="v-tabs all-plugins">
-      <ul class="tabs">
-          <li rel="tab-1" id="package-repository-plugins">
+      <ul class="tabs tab-container-marker">
+          <li class="tab-marker" rel="tab-1" id="package-repository-plugins">
             Package repository plugins <span class="plugin-info">>= GoCD v13.3</span>
           </li>
-          <li rel="tab-2" id="task-plugins">
+          <li class="tab-marker" rel="tab-2" id="task-plugins">
             Task plugins <span class="plugin-info">>= GoCD v14.1</span>
           </li>
-          <li rel="tab-3" id="notification-plugins">
+          <li class="tab-marker" rel="tab-3" id="notification-plugins">
             Notification plugins 
           </li>
-          <li rel="tab-4" id="scm-plugins">
+          <li class="tab-marker" rel="tab-4" id="scm-plugins">
             SCM plugins 
           </li>
-          <li rel="tab-5" id="authentication-plugins">
+          <li class="tab-marker" rel="tab-5" id="authentication-plugins">
             Authentication plugins 
           </li>
-          <li rel="tab-6" id="elastic-agents-plugins">
+          <li class="tab-marker" rel="tab-6" id="elastic-agents-plugins">
             Elastic agents plugins <span class="plugin-info">>= GoCD v16.8</span>
           </li>
-          <li rel="tab-7" id="configuration-repository">
+          <li class="tab-marker" rel="tab-7" id="configuration-repository">
             Configuration Repository <span class="plugin-info">>= GoCD v16.7</span>
           </li>
-          <li rel="tab-8" id="authorization-plugins">
+          <li class="tab-marker" rel="tab-8" id="authorization-plugins">
             Authorization plugins <span class="plugin-info">>= GoCD v17.5</span>
           </li>
-          <li rel="tab-9" id="commercial-offerings">
+          <li class="tab-marker" rel="tab-9" id="commercial-offerings">
             Commercial Offerings 
           </li>
       </ul>
 
-      <div class="tab_container">
-          <h3 class="tab-accordion_heading" rel="tab-1">
+      <div class="tab_container tab-container-marker">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-1">
             Package repository plugins <span class="plugin-info">>= GoCD v13.3</span>
           </h3>
 
@@ -393,7 +393,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-2">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-2">
             Task plugins <span class="plugin-info">>= GoCD v14.1</span>
           </h3>
 
@@ -893,7 +893,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-3">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-3">
             Notification plugins 
           </h3>
 
@@ -1153,7 +1153,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-4">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-4">
             SCM plugins 
           </h3>
 
@@ -1333,7 +1333,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-5">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-5">
             Authentication plugins 
           </h3>
 
@@ -1454,7 +1454,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-6">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-6">
             Elastic agents plugins <span class="plugin-info">>= GoCD v16.8</span>
           </h3>
 
@@ -1554,7 +1554,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-7">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-7">
             Configuration Repository <span class="plugin-info">>= GoCD v16.7</span>
           </h3>
 
@@ -1614,7 +1614,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-8">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-8">
             Authorization plugins <span class="plugin-info">>= GoCD v17.5</span>
           </h3>
 
@@ -1768,7 +1768,7 @@
               </ul>
             </div>
           </div>
-          <h3 class="tab-accordion_heading" rel="tab-9">
+          <h3 class="tab-marker tab-accordion_heading" rel="tab-9">
             Commercial Offerings 
           </h3>
 
@@ -1887,12 +1887,7 @@
 
 <script>
  jQuery(document).ready(function($) {
-   startTabContainer($);
-
-   if(window.location.hash) {
-       var id = window.location.hash.substring(1).replace(/\./g,'-');
-       $('#'+id).click();
-   }
+   startTabContainer();
  });
 </script>
 
