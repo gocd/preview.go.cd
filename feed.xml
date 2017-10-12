@@ -5,10 +5,21 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed.xml" rel="self"/>
-  <updated>2017-10-10T00:00:00Z</updated>
+  <updated>2017-10-17T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>Continuous Delivery for Mobile Development - Our learnings at Delta Air Lines</title>
+    <link rel="alternate" href="https://preview.gocd.org/2017/10/17/delta-airlines-mobile-app-continuous-delivery-gocd.html"/>
+    <id>https://preview.gocd.org/2017/10/17/delta-airlines-mobile-app-continuous-delivery-gocd.html</id>
+    <published>2017-10-17T00:00:00Z</published>
+    <updated>2017-10-17T00:00:00Z</updated>
+    <author>
+      <name>Sanchit Bahal</name>
+    </author>
+    <content type="html">This post chronicles the ThoughtWorks-Delta mobile app development team’s journey to continuous delivery, the challenges along the way and how they overcame them. </content>
+  </entry>
   <entry>
     <title>Architecting for Continuous Delivery - Themes in CD Enablement</title>
     <link rel="alternate" href="https://preview.gocd.org/2017/10/10/architecting-continuous-delivery.html"/>
@@ -107,16 +118,5 @@
       <name>Ken Mugrage</name>
     </author>
     <content type="html">CD 101 is a video series to help you get started on your CD journey. Part Three of this series covers the principles and practices in continuous delivery and ways to decrease risk in deployments.</content>
-  </entry>
-  <entry>
-    <title>Part 3 - Continuous Deployment Strategies: Implementation Techniques for Canary Releases</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/08/15/canary-releases.html"/>
-    <id>https://preview.gocd.org/2017/08/15/canary-releases.html</id>
-    <published>2017-08-15T00:00:00Z</published>
-    <updated>2017-08-15T00:00:00Z</updated>
-    <author>
-      <name>Ketan Padegaonkar</name>
-    </author>
-    <content type="html">This article describes some of the implementation techniques for performing Canary Releases.</content>
   </entry>
 </feed>
