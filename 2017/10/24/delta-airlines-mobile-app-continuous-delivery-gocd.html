@@ -5,15 +5,15 @@
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
     <meta content="This post chronicles the ThoughtWorks-Delta mobile app development team’s journey to continuous delivery, the challenges along the way and how they overcame them." name="description" />
-    <meta content="trunk based development, feature toggles, feature flags, continuous integration, deployment pipeline" name="keywords" />
+    <meta content="trunk based development, feature toggles, feature flags, continuous integration, deployment pipeline, delta, mobile development, mobile deployment, continuous deployment for mobile" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="Architecting for Continuous Delivery | GoCD Blog" />
+    <meta name="twitter:title" content="Continuous Delivery for Mobile Development | GoCD Blog" />
     <meta name="twitter:description" content="This post chronicles the ThoughtWorks-Delta mobile app development team’s journey to continuous delivery, the challenges along the way and how they overcame them." />
-    <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/architecting-continuous-delivery/architecting-continuous-delivery-hero-25ac88c4.jpg" />
-    <link rel="canonical" href="https://preview.gocd.org/2017/10/17/delta-airlines-mobile-app-continuous-delivery-gocd.html" />
+    <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/delta-gocd/delta-gocd-hero-7e8b965c.jpg" />
+    <link rel="canonical" href="https://preview.gocd.org/2017/10/24/delta-airlines-mobile-app-continuous-delivery-gocd.html" />
 
-    <title>Architecting for Continuous Delivery | GoCD Blog</title>
+    <title>Continuous Delivery for Mobile Development | GoCD Blog</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../assets/stylesheets/site-fbc1c739.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-210c97c4.js"></script>
@@ -27,7 +27,7 @@
 
   </head>
 
-  <body class="x2017 x2017_10 x2017_10_17 x2017_10_17_delta-airlines-mobile-app-continuous-delivery-gocd">
+  <body class="x2017 x2017_10 x2017_10_24 x2017_10_24_delta-airlines-mobile-app-continuous-delivery-gocd">
     <header class="top">
   <div class="container">
     <a href="../../../" class="logo" analytics-label="logo"><img src="../../../assets/images/go_logo-5b5ca9e1.svg" title="GoCD Logo" alt="GoCD Logo" /></a>
@@ -77,7 +77,7 @@
 
     <div class="post-banner">
       <figure>
-  <img src="../../../assets/images/blog/architecting-continuous-delivery/architecting-continuous-delivery-hero-25ac88c4.jpg" alt="Architecting for Continuous Delivery"/>
+  <img src="../../../assets/images/blog/delta-gocd/delta-gocd-hero-7e8b965c.jpg" alt="GoCD and Delta"/>
 </figure>
 
     </div>
@@ -165,9 +165,14 @@
           <h2 class="section-title">Recent Articles</h2>
           <ol>
             <li>
-              <span class="post-date">Oct 17</span>
+              <span class="post-date">Oct 24</span>
               <span class="post-author">Sanchit Bahal</span>
               <a href="delta-airlines-mobile-app-continuous-delivery-gocd/">Continuous Delivery for Mobile Development - Our learnings at Delta Air Lines</a>
+            </li>
+            <li>
+              <span class="post-date">Oct 17</span>
+              <span class="post-author">Louda Peña</span>
+              <a href="../17/difference-between-continuous-delivery-continuous-deployment-infographic/">Infographic - What's the difference between Continuous Delivery and Continuous Deployment?</a>
             </li>
             <li>
               <span class="post-date">Oct 10</span>
@@ -184,17 +189,12 @@
               <span class="post-author">Aravind SV</span>
               <a href="../../09/26/are-you-ready-for-continuous-delivery-infographic/">Infographic - Are you ready for Continuous Delivery</a>
             </li>
-            <li>
-              <span class="post-date">Sep 19</span>
-              <span class="post-author">Ken Mugrage</span>
-              <a href="../../09/19/actions-spread-devops-adoption/">Part 3 - You can’t buy DevOps, but you may need to sell it: Actions to spread DevOps Adoption</a>
-            </li>
           </ol>
         </section>
         <section>
           <h2 class="section-title">By Year</h2>
           <ol>
-            <li><a href="../../">2017 (34)</a></li>
+            <li><a href="../../">2017 (35)</a></li>
             <li><a href="../../../2016/">2016 (8)</a></li>
             <li><a href="../../../2015/">2015 (21)</a></li>
             <li><a href="../../../2014/">2014 (26)</a></li>
@@ -211,7 +211,7 @@
       <script>
         var disqus_config = function () {
           /* Careful: Changing the value of page.url and page.identifier might mean you lose comments. */
-          this.page.url = "https://www.go.cd/2017/10/17/delta-airlines-mobile-app-continuous-delivery-gocd.html";
+          this.page.url = "https://www.go.cd/2017/10/24/delta-airlines-mobile-app-continuous-delivery-gocd.html";
           this.page.identifier = this.page.url;
           this.shortname = 'gocdblog';
         };
