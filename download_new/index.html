@@ -16,7 +16,7 @@
     <title>Download for Free - Server and Agent | GoCD</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../assets/stylesheets/site-977c6738.css" rel="stylesheet" />
-    <script src="../assets/javascripts/all-6467e4e5.js"></script>
+    <script src="../assets/javascripts/all-3b773953.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
     <script>
@@ -473,6 +473,7 @@
       currentOSPackageType = $(this).attr('rel').replace('tab-', '');
 
       showHelpLinksFor(currentOSPackageType);
+      displayAmiDropdown(currentOSPackageType, currentInstallerType);
     });
 
     /* Switch between stable and experimental. */
@@ -483,6 +484,7 @@
         .done(function () {
           switchActiveTab(currentOSPackageType);
           switchDownloadType(currentInstallerType);
+          displayAmiDropdown(currentOSPackageType, currentInstallerType);
         });
     });
 
@@ -490,8 +492,9 @@
       .done(function () {
         startTabContainer();
         switchActiveTab(currentOSPackageType);
+        displayAmiDropdown(currentOSPackageType, currentInstallerType);
       });
-
+    showHelpLinksFor(currentOSPackageType);
     newSetupShowVerifyChecksumMessage();
   });
   // ]]>
