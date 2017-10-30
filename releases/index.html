@@ -128,16 +128,20 @@
           <h4>UX Changes</h4>
 <ul>
   <li>
-    <p><code><a href="https://github.com/gocd/gocd/commit/67f1605fca894ea9855d16a283a913335200f3b2">67f1605</a></code> - Find Value Stream Map (VSM) more easily. (<a href="https://github.com/gocd/gocd/issues/3705">#3705</a>) (<a href="https://github.com/gocd/gocd/issues/3858">#3858</a>)</p>
+    <p><code><a href="https://github.com/gocd/gocd/commit/67f1605fca894ea9855d16a283a913335200f3b2">67f1605</a></code> - Find Value Stream Map (VSM) more easily and show pipeline run duration in VSM. (<a href="https://github.com/gocd/gocd/issues/3705">#3705</a>) (<a href="https://github.com/gocd/gocd/issues/3858">#3858</a>)</p>
 
     <p>Pipeline instances have an explict link to VSM across the application for better discoverablity.</p>
 
     <figure class="shrink-figure-50">
     <img src="../assets/images/releases/17.11.0/vsm-explicit-link-dashboard-e4e4571c.png" alt="Explicit vsm link in dashboard" />
 </figure>
+
+    <p>Pipeline run duration shown in VSM:</p>
+    <figure class="shrink-figure-50">
+    <img src="../assets/images/releases/17.11.0/pipeline-run-duration-in-vsm-4d3bffed.png" alt="Pipeline run duration in VSM" />
+</figure>
   </li>
 </ul>
-
 <h4>Improvements</h4>
 
 <ul>
@@ -186,7 +190,7 @@
 
 <h4>Docker Images</h4>
 <ul>
-  <li>We have made a few changes to the <a href="https://github.com/gocd/docker-gocd-server/blob/master/CHANGELOG.md#docker-gocd-server-17110">GoCD Server</a> and the <a href="https://github.com/gocd/docker-gocd-agent/blob/master/CHANGELOG.md#docker-gocd-agent-17110">GoCD Agent</a> Docker images.</li>
+  <li>We have made a few changes to the GoCD Server (<a href="https://github.com/gocd/docker-gocd-server/blob/master/CHANGELOG.md#docker-gocd-server-17110">Changelog</a>) and the GoCD Agent (<a href="https://github.com/gocd/docker-gocd-agent/blob/master/CHANGELOG.md#docker-gocd-agent-17110">Changelog</a>) Docker images.</li>
 </ul>
 
 <h4>Deprecations</h4>
@@ -225,7 +229,7 @@
 
 <h4>Contributors</h4>
 
-<p>Ankit Srivastava, Ankur K, Aravind SV, Bhupendrakumar Piprava, Drew J. Sonne, Emily Luke, Ganesh S Patil, Isabelle Carter, Jyoti Singh, Ketan Padegaonkar, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Mikhail Advani, Naveen Bhaskar, Rajiesh N, Senthil R, Suzie Prince, Tomasz Setkowski, Varsha Varadarajan</p>
+<p>Ankit Srivastava, Ankur K, Aravind SV, Bhupendrakumar Piprava, Drew J. Sonne, Emily Luke, Ganesh S Patil, Isabelle Carter, Jyoti Singh, Ketan Padegaonkar, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Mikhail Advani, Naveen Bhaskar, Rajiesh N, Senthil R, stayclassychicago, Suzie Prince, Tomasz Setkowski, Varsha Varadarajan</p>
 
 <!--
 <h4>Security researchers</h4>
