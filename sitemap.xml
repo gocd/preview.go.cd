@@ -28,6 +28,9 @@
     <loc>https://preview.gocd.org/elastic-agents/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/enterprise/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/events/</loc>
   </url>
   <url>
