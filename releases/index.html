@@ -181,6 +181,12 @@
   <li>
     <p>Version 2 of the plugin info <a href="https://api.gocd.org/current/#plugin-info">API</a> which was deprecated in 17.9.0 release is removed in this release. Version 3 of the API is available.</p>
   </li>
+  <li>
+    <p>The pipeline  <a href="https://api.gocd.org/current/#pause-a-pipeline">pause</a> API now results in Conflict (HTTP 409) with an error if the pipeline is already paused.</p>
+  </li>
+  <li>
+    <p>The pipeline <a href="https://api.gocd.org/current/#unpause-a-pipeline">unpause</a> API now results in Conflict (HTTP 409) with an error if the pipeline is already unpaused.</p>
+  </li>
 </ul>
 
 <h4>Deprecations</h4>
