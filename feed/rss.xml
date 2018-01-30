@@ -5,16 +5,16 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed/rss.xml" rel="self"/>
-  <updated>2018-01-31T00:00:00Z</updated>
+  <updated>2018-01-30T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
   <entry>
     <title>4 Important Metrics for Continuous Delivery</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/01/31/continuous-delivery-metrics.html"/>
-    <id>https://preview.gocd.org/2018/01/31/continuous-delivery-metrics.html</id>
-    <published>2018-01-31T00:00:00Z</published>
-    <updated>2018-01-31T00:00:00Z</updated>
+    <link rel="alternate" href="https://preview.gocd.org/2018/01/30/continuous-delivery-metrics.html"/>
+    <id>https://preview.gocd.org/2018/01/30/continuous-delivery-metrics.html</id>
+    <published>2018-01-30T00:00:00Z</published>
+    <updated>2018-01-30T00:00:00Z</updated>
     <author>
       <name>Alison Polton-Simon</name>
     </author>
