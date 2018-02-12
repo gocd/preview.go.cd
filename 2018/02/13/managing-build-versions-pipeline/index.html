@@ -4,12 +4,12 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-    <meta content="This post shows you how to manage your build versions in your GoCD Pipeline." name="description" />
-    <meta content="pipeline, build versions, gocd tutorial, gocd hacks" name="keywords" />
+    <meta content="Steps on how to manage your build versions in your GoCD Pipeline." name="description" />
+    <meta content="build pipeline, build versions, gocd tutorial, gocd hacks, build stage, xml config, continuous delivery" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
     <meta name="twitter:title" content="Managing Build Versions in your GoCD Pipeline | GoCD Blog" />
-    <meta name="twitter:description" content="This post shows you how to manage your build versions in your GoCD Pipeline." />
+    <meta name="twitter:description" content="Steps on how to manage your build versions in your GoCD Pipeline." />
     <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-metrics/metrics-continuous-delivery-header-85a81e8b.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2018/02/13/managing-build-versions-pipeline" />
 
@@ -125,7 +125,7 @@
 
 <p>The <code>timeout="5"</code> in the job tag specifies a timeout in minutes that applies when the build script hasn't produced any output for five minutes. It acts as a safeguard against infinitely looping builds.</p>
 
-<p>The <code>artifacts</code> tag specifies files and wildcards that Go collecst and stores on the server. The use of a wildcard is both to account for the fact that the version number and thus the file name of the generated Debian package is variable, and to able to capture both the generated <code>.deb</code> and <code>.changes</code> file. The fixed destination path makes it easier to retrieve those artifacts later on without knowing the exact version number.</p>
+<p>The <code>artifacts</code> tag specifies files and wildcards that GoCD collecst and stores on the server. The use of a wildcard is both to account for the fact that the version number and thus the file name of the generated Debian package is variable, and to able to capture both the generated <code>.deb</code> and <code>.changes</code> file. The fixed destination path makes it easier to retrieve those artifacts later on without knowing the exact version number.</p>
 
 <p>If you use the <a href="https://www.thoughtworks.com/insights/blog/how-do-i-do-cd-go-part-4-go-environments">environments feature</a>, you also need to add the pipeline and at least one fitting agent to an environment. To keep things simple, we'll skip that here.</p>
 
