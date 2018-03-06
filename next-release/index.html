@@ -89,20 +89,20 @@
       <h3 class="tab-marker tab-accordion_heading d_active" rel="tab-next"> (next)</h3>
       <div id="tab-next" class="tab_content" style="display: block;">
         <div class="content">
-          <h4>New dashboard page (Beta)</h4>
+          <h4>New Dashboard Page (Beta)</h4>
 
 <figure class="shrink-figure-75">
   <img src="../assets/images/releases/18.2.0/new-dashboard-4720d938.png" alt="new dashboard page" />
-  <caption>New dashboard page</caption>
+  <caption>New Dashboard Page</caption>
 </figure>
 
-<p>This release of GoCD ships with a preview version of the new dashboard page that improves performance for large GoCD instances with thousands of pipelines. It does so by:</p>
+<p>This release of GoCD ships with a 'preview' version of the new dashboard page. This improves performance for large GoCD instances with thousands of pipelines. It does so by:</p>
 
 <ul>
-  <li>keeping track of the state of the dashboard in memory (instead of being pulled from the DB)</li>
+  <li>keeping track of the state of the dashboard in memory (instead of being pulled from the DB).</li>
   <li>rendering the response as a JSON (instead of HTML). This improves the rendering time by several hundred times on the server.</li>
-  <li>a javascript based frontend that is several thousand times faster on large instances, reducing the CPU usage of your browser. Your laptop battery will be thanking you :)</li>
-  <li>reduces the polling rate when the dashboard is shown in a browser tab that is hidden</li>
+  <li>a javascript based frontend that is several thousand times faster on large instances, reducing the CPU usage of your browser. Your laptop battery will thank you. :)</li>
+  <li>reduces the polling rate when the dashboard is shown in a browser tab that is hidden.</li>
 </ul>
 
 <blockquote>
@@ -221,9 +221,6 @@
   <li>
     <p>The elastic agent api version 1 and (a development verion 2) has been deprecated. These versions will be removed in 18.5 (scheduled to be released in May 2018). Plugin developers should use version 3 of the elastic agent plugin api to allow adding support for agent status report and plugin status report. The docker, docker swarm, and ecs plugins have been migrated to the new versions, and users should upgrade their plugins to the latest version to see these new features.</p>
   </li>
-  <li>
-    <p>The notification api version 1 has been deprecated. Plugin developers should use version 2 of the notification plugin api to allow adding support for agent status report and plugin status report.</p>
-  </li>
   <li>Plugins upload form has been removed from the new plugins page. It is still available in the old plugins page, which will be removed in release 18.3.0 (scheduled to be released in March 2018).</li>
 </ul>
 
@@ -247,7 +244,7 @@
 
 <h4>Contributors</h4>
 
-<p>Akshay Dewan, Akshay Mayekar, Ankit Srivastava, Ankur K, Aravind SV, Bhupendrakumar Piprava, Ganesh S Patil, Isabelle Carter, Jyoti Singh, Ketan Padegaonkar, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Naveen Bhaskar, Rajiesh N, Senthil R, Varsha Varadarajan</p>
+<p>Akshay Dewan, Akshay Mayekar, Ankit Srivastava, Ankur K, Aravind SV, Bhupendrakumar Piprava, Charles Bryant, Christian Lövsund, Don Stewart, Ganesh S Patil, Isabelle Carter, Jyoti Singh, Ketan Padegaonkar, Kiera Radman, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Marques Lee, Naveen Bhaskar, Paul Thomas, Rajiesh N, Senthil R, Varsha Varadarajan</p>
 
 <!--
 <h4>Security researchers</h4>
