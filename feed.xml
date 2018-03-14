@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>Continuous delivery workflows on modern infrastructure - Run GoCD on Kubernetes</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/03/12/gocd-kubernetes-plugin.html"/>
-    <id>https://preview.gocd.org/2018/03/12/gocd-kubernetes-plugin.html</id>
+    <link rel="alternate" href="https://preview.gocd.org/2018/03/12/continuous-delivery-gocd-kubernetes.html"/>
+    <id>https://preview.gocd.org/2018/03/12/continuous-delivery-gocd-kubernetes.html</id>
     <published>2018-03-12T00:00:00Z</published>
     <updated>2018-03-12T00:00:00Z</updated>
     <author>
