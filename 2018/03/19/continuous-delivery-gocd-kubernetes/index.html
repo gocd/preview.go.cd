@@ -11,14 +11,14 @@
     <meta name="twitter:title" content="Run GoCD on Kubernetes | GoCD Blog" />
     <meta name="twitter:description" content="GoCD is excited to announce the release of our Kubernetes Helm Chart that will allow our users to run GoCD natively on Kubernetes." />
     <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/gocd-kubernetes-helm-chart/gocd-kubernetes-helm-chart-hero-71d9973f.jpg" />
-    <link rel="canonical" href="https://preview.gocd.org/2018/03/12/continuous-delivery-gocd-kubernetes.html" />
+    <link rel="canonical" href="https://preview.gocd.org/2018/03/19/continuous-delivery-gocd-kubernetes" />
 
     <title>Run GoCD on Kubernetes | GoCD Blog</title>
-    <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../../../assets/stylesheets/site-75b078a8.css" rel="stylesheet" />
-    <script src="../../../assets/javascripts/all-6c0908b5.js"></script>
+    <link href="../../../../assets/images/favicon.ico" rel="shortcut icon" />
+    <link href="../../../../assets/stylesheets/site-bb78b863.css" rel="stylesheet" />
+    <script src="../../../../assets/javascripts/all-6c0908b5.js"></script>
     
-    <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../../feed.xml" />
     <script>
       $(document).ready(function(){
     $('.chocolat-parent').Chocolat();
@@ -27,33 +27,33 @@
 
   </head>
 
-  <body class="x2018 x2018_03 x2018_03_12 x2018_03_12_continuous-delivery-gocd-kubernetes">
+  <body class="x2018 x2018_03 x2018_03_19 x2018_03_19_continuous-delivery-gocd-kubernetes x2018_03_19_continuous-delivery-gocd-kubernetes_index">
     <header class="top">
   <div class="container">
-    <a href="../../../" class="logo" analytics-label="logo"><img src="../../../assets/images/go_logo-5b5ca9e1.svg" title="GoCD Logo" alt="GoCD Logo" /></a>
+    <a href="../../../../" class="logo" analytics-label="logo"><img src="../../../../assets/images/go_logo-5b5ca9e1.svg" title="GoCD Logo" alt="GoCD Logo" /></a>
     <nav class="mainnav">
       <ul class="level0">
         <li class="dropdown">
-          <a href="../../../why-gocd/" class="link_whygocd" analytics-label="link_whygocd">Why GoCD?</a>
+          <a href="../../../../why-gocd/" class="link_whygocd" analytics-label="link_whygocd">Why GoCD?</a>
         </li>
         <li class="dropdown">
-          <a href="../../../contribute/" class="toplink_contribute" analytics-label="link_community">Community</a>
+          <a href="../../../../contribute/" class="toplink_contribute" analytics-label="link_community">Community</a>
           <ul  class="level1">
-            <li><a href="../../../contribute/" class="link_contribute" analytics-label="link_community&gt;link_contribute">Contribute</a></li>
-            <li><a href="../../../events/" class="link_events" analytics-label="link_community&gt;link_events">Events</a></li>
-            <li><a href="../../../plugins/" class="link_plugins" analytics-label="link_community&gt;link_plugins">Plugins</a></li>
+            <li><a href="../../../../contribute/" class="link_contribute" analytics-label="link_community&gt;link_contribute">Contribute</a></li>
+            <li><a href="../../../../events/" class="link_events" analytics-label="link_community&gt;link_events">Events</a></li>
+            <li><a href="../../../../plugins/" class="link_plugins" analytics-label="link_community&gt;link_plugins">Plugins</a></li>
           </ul>
         </li>
-        <li><a href="../../../blog/" class="link_blog" analytics-label="Blog">Blog</a></li>
+        <li><a href="../../../../blog/" class="link_blog" analytics-label="Blog">Blog</a></li>
         <li class="dropdown">
-          <a href="../../../help/" class="toplink_help" analytics-label="link_help">Help</a>
+          <a href="../../../../help/" class="toplink_help" analytics-label="link_help">Help</a>
           <ul  class="level1">
-            <li><a href="../../../help/" class="getting-started" analytics-label="link_help&gt;link_getting_started">Getting started</a></li>
+            <li><a href="../../../../help/" class="getting-started" analytics-label="link_help&gt;link_getting_started">Getting started</a></li>
             <li><a href="https://docs.gocd.org/current/" target="_blank" analytics-label="link_help&gt;link_documentation">Documentation</a></li>
-            <li><a href="../../../resources.html" class="link_resources" analytics-label="link_help&gt;link_resources">Resources</a></li>
+            <li><a href="../../../../resources.html" class="link_resources" analytics-label="link_help&gt;link_resources">Resources</a></li>
           </ul>
         </li>
-        <li><a href="../../../download/" class="link_download" analytics-label="link_help&gt;link_download">Download</a></li>
+        <li><a href="../../../../download/" class="link_download" analytics-label="link_help&gt;link_download">Download</a></li>
         <li><a href="https://www.thoughtworks.com/go" class="link_support" target="_blank" analytics-label="link_support">Get Support</a></li>
       </ul>
     </nav>
@@ -77,7 +77,7 @@
 
     <div class="post-banner">
         <figure>
-    <img src="../../../assets/images/blog/gocd-kubernetes-helm-chart/gocd-kubernetes-helm-chart-hero-71d9973f.jpg" alt="GoCD Kubernetes Helm Chart"/>
+    <img src="../../../../assets/images/blog/gocd-kubernetes-helm-chart/gocd-kubernetes-helm-chart-hero-71d9973f.jpg" alt="GoCD Kubernetes Helm Chart"/>
   </figure>
 
     </div>
@@ -92,7 +92,7 @@
 
       <main id="main" role="main" class="blog-post-main-container">
       
-<p>We are excited to announce the <a href="#">release of our Kubernetes helm chart</a> that will allow our users to run GoCD natively on Kubernetes.</p>
+<p>We are excited to announce the <a href="https://hub.kubeapps.com/charts/stable/gocd">release of our Kubernetes helm chart</a> that will allow our users to run GoCD natively on Kubernetes.</p>
 
 <p>GoCD is a best-of-breed continuous delivery tool that allows you to model complex continuous delivery workflows. Kubernetes has emerged as one of the most interesting application delivery platforms. Our upcoming releases will have features that allow GoCD users to model Docker based build workflows with deployments to Kubernetes - we’ll cover more about this later in the post.</p>
 
@@ -110,7 +110,7 @@
 
 <h2 id="step-1-current-release--run-gocd-natively-on-kubernetes">Step 1 (Current Release) : Run GoCD natively on Kubernetes</h2>
 
-<p><img src="../../../assets/images/blog/gocd-kubernetes-helm-chart/kubernetes-cluster-agents-1b4c4e55.png" alt="Provisioning GoCD Elastic Agents on a Kubernetes Cluster" /></p>
+<p><img src="../../../../assets/images/blog/gocd-kubernetes-helm-chart/kubernetes-cluster-agents-c15ee8f8.svg" alt="Provisioning GoCD Elastic Agents on a Kubernetes Cluster" /></p>
 
 <p>Our first goal was to get GoCD to run natively on Kubernetes. In our latest release, we have provided our users with the ability to:</p>
 
@@ -122,7 +122,7 @@
 
 <h2 id="step-2-upcoming-releases-model-a-docker-based-build-workflow">Step 2 (Upcoming Releases): Model a Docker-based build workflow</h2>
 
-<p><img src="../../../assets/images/blog/gocd-kubernetes-helm-chart/GoCD-deploying-kubernetes-0635fbee.svg" alt="GoCD deploying to a Kubernetes Cluster" /></p>
+<p><img src="../../../../assets/images/blog/gocd-kubernetes-helm-chart/GoCD-deploying-kubernetes-0635fbee.svg" alt="GoCD deploying to a Kubernetes Cluster" /></p>
 
 <p>Beyond enabling GoCD to run natively on Kubernetes, we are also working on giving our users the ability to <strong>fully leverage the container-based build workflow</strong>. Containerization provides a clean separation of concerns for managing applications. Docker and Kubernetes together, enable a standard and simplified CD workflow.</p>
 
@@ -147,8 +147,7 @@ Kubernetes provides a rich API to monitor the progress of a deployment and provi
 
 <p>We've built GoCD to encompass the best CD practices. We’ve always tried to stay true to that with every release we make and the Kubernetes plugin is no exception.</p>
 
-<p>Check out our <a href="#">documentation on how to start using GoCD on Kubernetes</a> with our officially supported <a href="#">helm chart</a> now.</p>
-
+<p>Check out our <a href="https://docs.gocd.org/">documentation on how to start using GoCD on Kubernetes</a> with our officially supported <a href="https://hub.kubeapps.com/charts/stable/gocd">helm chart</a> now.</p>
 
       </main>
     </div>
@@ -180,40 +179,40 @@ Kubernetes provides a rich API to monitor the progress of a deployment and provi
           <h2 class="section-title">Recent Articles</h2>
           <ol>
             <li>
-              <span class="post-date">Mar 12</span>
+              <span class="post-date">Mar 19</span>
               <span class="post-author">Sheroy Marker</span>
-              <a href="continuous-delivery-gocd-kubernetes/">Continuous delivery workflows on modern infrastructure - Run GoCD on Kubernetes</a>
+              <a href="./">Continuous delivery workflows on modern infrastructure - Run GoCD on Kubernetes</a>
             </li>
             <li>
               <span class="post-date">Feb 27</span>
               <span class="post-author">Jean Baudin</span>
-              <a href="../../02/27/running-end-to-end-tests-kubernetes/">Running your end to end tests on Kubernetes</a>
+              <a href="../../../02/27/running-end-to-end-tests-kubernetes/">Running your end to end tests on Kubernetes</a>
             </li>
             <li>
               <span class="post-date">Feb 13</span>
               <span class="post-author">Moritz Lenz</span>
-              <a href="../../02/13/managing-build-versions-pipeline/">Managing Build Versions in your GoCD Pipeline</a>
+              <a href="../../../02/13/managing-build-versions-pipeline/">Managing Build Versions in your GoCD Pipeline</a>
             </li>
             <li>
               <span class="post-date">Jan 31</span>
               <span class="post-author">Alison Polton-Simon</span>
-              <a href="../../01/31/continuous-delivery-metrics/">4 Important Metrics for Continuous Delivery</a>
+              <a href="../../../01/31/continuous-delivery-metrics/">4 Important Metrics for Continuous Delivery</a>
             </li>
             <li>
               <span class="post-date">Jan 17</span>
               <span class="post-author">Erin Snyder</span>
-              <a href="../../01/17/continuous-delivery-beginners-guide/">An absolute beginners guide to Continuous Delivery</a>
+              <a href="../../../01/17/continuous-delivery-beginners-guide/">An absolute beginners guide to Continuous Delivery</a>
             </li>
           </ol>
         </section>
         <section>
           <h2 class="section-title">By Year</h2>
           <ol>
-            <li><a href="../../">2018 (5)</a></li>
-            <li><a href="../../../2017/">2017 (39)</a></li>
-            <li><a href="../../../2016/">2016 (8)</a></li>
-            <li><a href="../../../2015/">2015 (21)</a></li>
-            <li><a href="../../../2014/">2014 (26)</a></li>
+            <li><a href="../../../">2018 (5)</a></li>
+            <li><a href="../../../../2017/">2017 (39)</a></li>
+            <li><a href="../../../../2016/">2016 (8)</a></li>
+            <li><a href="../../../../2015/">2015 (21)</a></li>
+            <li><a href="../../../../2014/">2014 (26)</a></li>
           </ol>
         </section>
 
@@ -227,7 +226,7 @@ Kubernetes provides a rich API to monitor the progress of a deployment and provi
       <script>
         var disqus_config = function () {
           /* Careful: Changing the value of page.url and page.identifier might mean you lose comments. */
-          this.page.url = "https://www.go.cd/2018/03/12/continuous-delivery-gocd-kubernetes.html";
+          this.page.url = "https://www.go.cd/2018/03/19/continuous-delivery-gocd-kubernetes.html";
           this.page.identifier = this.page.url;
           this.shortname = 'gocdblog';
         };
@@ -279,7 +278,7 @@ Kubernetes provides a rich API to monitor the progress of a deployment and provi
         </li>
         
         <li>
-        <a href="../../../subscribe/"><i class= 'icon fa fa-envelope fa-4x subscribe' aria-hidden='true'></i>subscribe</a>
+        <a href="../../../../subscribe/"><i class= 'icon fa fa-envelope fa-4x subscribe' aria-hidden='true'></i>subscribe</a>
         </li>
       </ul>
     </div>
