@@ -367,6 +367,9 @@
     <loc>https://preview.gocd.org/2018/03/21/continuous-delivery-gocd-kubernetes/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/2018/04/24/five-considerations-continuous-delivery-microservices/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/releases/</loc>
   </url>
   <url>
@@ -527,6 +530,12 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2018/04/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2018/04/24/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/03/</loc>
