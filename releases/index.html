@@ -156,13 +156,14 @@ Plugins can now implement <a href="https://github.com/gocd-contrib/gocd-multi-ex
   <li>"extension_info" was an attribute. It's now a list called "extensions".</li>
 </ul>
 
-<p>Notification Extension V3: Introduced <a href="https://plugin-api.gocd.org/18.3.0/notifications">Version 3</a> of Notification Extension. This version adds a new message to <a href="https://plugin-api.gocd.org/18.3.0/notifications/#agent-status-changed">notify agent state</a> changes.</p>
+<p><strong>Notification Extension V3:</strong>
+Introduced <a href="https://plugin-api.gocd.org/18.3.0/notifications">Version 3</a> of Notification Extension. This version adds a new message to <a href="https://plugin-api.gocd.org/18.3.0/notifications/#agent-status-changed">notify agent state</a> changes.</p>
 
 <p><strong>Analytics Extension Point:</strong>
 There is a new analytics extension point which allows analytics to be embedded into GoCD. We are continuing to work on it and you'll hear more about it soon.</p>
 
 <h4>Docker Images</h4>
-<p>A new Docker image GoCD Agent is available for <a href="https://github.com/gocd/docker-gocd-agent-debian-9">Debian 9</a>. The image for Debian 7 is deprecated, and will be removed with 18.4.0, scheduled to be released around May 2018. The Debian 7 OS will reach EOL in May 2018.</p>
+<p>A new Docker image GoCD Agent is available for <a href="https://github.com/gocd/docker-gocd-agent-debian-9">Debian 9</a>.</p>
 
 <h4>Improvements</h4>
 <ul>
@@ -190,7 +191,7 @@ There is a new analytics extension point which allows analytics to be embedded i
 
 <h4>Deprecations</h4>
 <ul>
-  <li>As of release 18.2.0 the following (unversioned) APIs have been deprecated and will be removed in 18.5.0 (scheduled to be released in May 2018):
+  <li>As of release 18.2.0 the following (unversioned) APIs have been deprecated and will be removed in a release scheduled for June 2018:
     <ul>
       <li>The pipeline <a href="https://api.gocd.org/current/#pause-a-pipeline">pause api</a></li>
       <li>The pipeline <a href="https://api.gocd.org/current/#unpause-a-pipeline">unpause api</a></li>
@@ -201,15 +202,15 @@ There is a new analytics extension point which allows analytics to be embedded i
     <p>These APIs have been replaced with a versioned API and users are encouraged to use these instead.</p>
   </li>
   <li>
-    <p>The pipeline config API version 3 and version 4 have been deprecated and will be removed in 18.5.0 (scheduled to be released in May 2018). Version 5 of the pipeline config API has been introduced to add the new pipeline unlock behavior attribute (<a href="https://github.com/gocd/gocd/issues/3943">#3943</a>).</p>
+    <p>The pipeline config API version 3 and version 4 have been deprecated as part of 18.2.0 and will be removed in a release scheduled for June 2018. Version 5 of the pipeline config API has been introduced to add the new pipeline unlock behavior attribute (<a href="https://github.com/gocd/gocd/issues/3943">#3943</a>).</p>
   </li>
   <li>
-    <p>The elastic agent api version 1 and (a development verion 2) has been deprecated. These versions will be removed in 18.5.0 (scheduled to be released in May 2018). Plugin developers should use version 3 of the elastic agent plugin api to allow adding support for agent status report and plugin status report. The docker, docker swarm, and ecs plugins have been migrated to the new versions, and users should upgrade their plugins to the latest version to see these new features.</p>
+    <p>The elastic agent plugin extension version 1 and (a development verion 2) has been deprecated. These versions will be removed in a release scheduled for June 2018. Plugin developers should use version 3 of the elastic agent plugin api to allow adding support for agent status report and plugin status report. The docker, docker swarm, and ecs plugins have been migrated to the new versions, and users should upgrade their plugins to the latest version to see these new features.</p>
   </li>
   <li>
-    <p>The <a href="https://api.gocd.org/current/#plugin-info">Plugin Info API</a> v3 has been deprecated as part of 18.3.0. This version of the API will be removed in 18.6.0 release (scheduled to be released around June 2018). Version 4 of the API is available, and users are encouraged to use it.</p>
+    <p>The <a href="https://api.gocd.org/current/#plugin-info">Plugin Info API</a> v3 has been deprecated as part of 18.3.0. This version of the API will be removed in a release scheduled for July 2018. Version 4 of the API is available, and users are encouraged to use it.</p>
   </li>
-  <li>The <a href="https://github.com/gocd/docker-gocd-agent-debian-7">Agent Docker Image for Debian 7</a> is deprecated and will be removed with the release of 18.4.0 (scheduled to be released around May 2018). Users should upgrade to a <a href="https://github.com/gocd/docker-gocd-agent-debian-9">newer version</a> of the Debian image.</li>
+  <li>The <a href="https://github.com/gocd/docker-gocd-agent-debian-7">Agent Docker Image for Debian 7</a> is deprecated  as part of 18.3.0 and will be removed in a release scheduled for May 2018. Users should upgrade to a <a href="https://github.com/gocd/docker-gocd-agent-debian-9">newer version</a> of the Debian image.</li>
 </ul>
 
 <h4>Breaking changes</h4>
