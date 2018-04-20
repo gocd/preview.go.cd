@@ -31,7 +31,28 @@
     <loc>https://preview.gocd.org/elastic-agents/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/enterprise-campaign/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/enterprise/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise/addons/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise/contact/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise/pricing/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise/support/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise/thoughtworks-go-extensions-eula/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise/thoughtworks-support-services-general-terms/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/events/</loc>
