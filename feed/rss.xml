@@ -18,7 +18,7 @@
     <author>
       <name>Sheroy Marker</name>
     </author>
-    <content type="html">In this blog series, I will share the considerations we keep in mind in architecture design and application development.</content>
+    <content type="html">In the first of this blog series, we will share the considerations to keep in mind in architecture design and application development.</content>
   </entry>
   <entry>
     <title>Continuous delivery workflows on modern infrastructure - Run GoCD on Kubernetes</title>
