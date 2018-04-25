@@ -5,20 +5,20 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed/rss.xml" rel="self"/>
-  <updated>2018-04-24T00:00:00Z</updated>
+  <updated>2018-04-25T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
   <entry>
     <title>5 Considerations for Continuous Delivery of Microservices</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/04/24/five-considerations-continuous-delivery-microservices.html"/>
-    <id>https://preview.gocd.org/2018/04/24/five-considerations-continuous-delivery-microservices.html</id>
-    <published>2018-04-24T00:00:00Z</published>
-    <updated>2018-04-24T00:00:00Z</updated>
+    <link rel="alternate" href="https://preview.gocd.org/2018/04/25/five-considerations-continuous-delivery-microservices.html"/>
+    <id>https://preview.gocd.org/2018/04/25/five-considerations-continuous-delivery-microservices.html</id>
+    <published>2018-04-25T00:00:00Z</published>
+    <updated>2018-04-25T00:00:00Z</updated>
     <author>
       <name>Sheroy Marker</name>
     </author>
-    <content type="html">GoCD is excited to announce the release of our Kubernetes Helm Chart that will allow our users to run GoCD natively on Kubernetes. </content>
+    <content type="html">In this blog series, I will share the considerations we keep in mind in architecture design and application development.</content>
   </entry>
   <entry>
     <title>Continuous delivery workflows on modern infrastructure - Run GoCD on Kubernetes</title>
