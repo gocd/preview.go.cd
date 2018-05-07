@@ -10,9 +10,9 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Testing Strategy for Microservices</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/05/08/five-considerations-continuous-delivery-microservices.html"/>
-    <id>https://preview.gocd.org/2018/05/08/five-considerations-continuous-delivery-microservices.html</id>
+    <title>Test Strategy for Microservices</title>
+    <link rel="alternate" href="https://preview.gocd.org/2018/05/08/continuous-delivery-microservices-test-strategy.html"/>
+    <id>https://preview.gocd.org/2018/05/08/continuous-delivery-microservices-test-strategy.html</id>
     <published>2018-05-08T00:00:00Z</published>
     <updated>2018-05-08T00:00:00Z</updated>
     <author>
