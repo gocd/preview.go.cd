@@ -18,7 +18,7 @@
     <author>
       <name>Sheroy Marker</name>
     </author>
-    <content type="html">In the first of this blog series, we will share the considerations to keep in mind in architecture design and application development.</content>
+    <content type="html">In the second post of this blog series, we will dig deeper into testing strategies for a microservices architecture..</content>
   </entry>
   <entry>
     <title>5 Considerations for Continuous Delivery of Microservices</title>
