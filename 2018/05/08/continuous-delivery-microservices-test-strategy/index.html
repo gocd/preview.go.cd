@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@goforcd" />
     <meta name="twitter:title" content="Testing Strategy for Microservices | GoCD Blog" />
     <meta name="twitter:description" content="GoCD is excited to announce the release of our Kubernetes Helm Chart that will allow our users to run GoCD natively on Kubernetes." />
-    <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-considerations/5-consideration-microservices-gocd-12ad175f.jpg" />
+    <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-considerations/test-strategy-microservices-a668284d.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2018/05/08/continuous-delivery-microservices-test-strategy" />
 
     <title>Testing Strategy for Microservices | GoCD Blog</title>
@@ -67,7 +67,7 @@
 
     <div class="post-banner">
         <figure>
-    <img src="../../../../assets/images/blog/cd-considerations/5-consideration-microservices-gocd-12ad175f.jpg" alt="Continuous Delivery of Microservices"/>
+    <img src="../../../../assets/images/blog/cd-considerations/test-strategy-microservices-a668284d.jpg" alt="Test Strategy for Microservices"/>
   </figure>
 
     </div>
@@ -116,7 +116,7 @@ The test suites we discussed earlier are applicable to testing individual servic
 
 <p>This traditional style of testing has its limitations. There are categories of errors that you can’t really simulate in test environments. Examples of these sorts of issues include issues caused by eventual consistency in a highly distributed system, and hardware and network failures causing parts of the system to fail. You have to supplement traditional testing techniques with techniques that allow you to profile and monitor systems in production effectively, and the ability to take remedial action in production when things do go wrong. In this post, I will focus on testing in production, and cover remediation strategy in a later part of this series.</p>
 
-<p>There is a category of testing in production called fault-injection, which is introducing errors in a controlled manner in production to see if your system can hold up to those errors.</p>
+<p>There is a category of testing in production called <a href="https://en.wikipedia.org/wiki/Fault_injection">fault-injection</a>, which is introducing errors in a controlled manner in production to see if your system can hold up to those errors.</p>
 
 <p>A variation of in-production testing are some specific deployment strategies that are popular in these environments:</p>
 
@@ -135,7 +135,7 @@ Another interesting variation of this kind of testing is multivariate testing, w
 
 <h2 id="summary">Summary</h2>
 
-<p>This is part 2 of our Continuous Delivery for Microservices blog series. We have talked in depth about testing strategies for microservices, which include how to apply traditional testing pyramids to pre-production testing for microservices and also new techniques for production monitoring and testing. In my next post, we will talk about the second consideration: CI practices for microservices systems.</p>
+<p>This is part 2 of our <a href="https://www.gocd.org/tags/cd-for-microservices.html">Continuous Delivery for Microservices</a> blog series. We have talked in depth about testing strategies for microservices, which include how to apply traditional testing pyramids to pre-production testing for microservices and also new techniques for production monitoring and testing. In my next post, we will talk about the second consideration: CI practices for microservices systems.</p>
 
       </main>
     </div>
