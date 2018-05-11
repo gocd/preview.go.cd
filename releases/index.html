@@ -15,7 +15,7 @@
 
     <title>Releases - Version notes | GoCD</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../assets/stylesheets/site-e1f685d2.css" rel="stylesheet" />
+    <link href="../assets/stylesheets/site-e52ebb38.css" rel="stylesheet" />
     <script src="../assets/javascripts/all-219cc2a3.js"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
@@ -124,7 +124,7 @@
           <h4>Bug fixes</h4>
 
 <ul>
-  <li><a href="https://github.com/gocd/gocd/issues/4724">#4724</a> - Fixed an issue with Dashboard cache being in an inconsistent state after config-save operations via different methods. This caused dashboard to show up duplicate pipeline instance in some cases.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/4724">#4724</a> - Fixed issue with duplicate pipeline instances showing on dashboard due to config-save operations via different methods.</li>
   <li><a href="https://github.com/gocd/gocd/issues/4727">#4727</a> - Fix spaces in template message in quick edit view.</li>
 </ul>
 
@@ -146,8 +146,8 @@
       <h3 class="tab-marker tab-accordion_heading" rel="tab-18-4-0">18.4.0</h3>
       <div id="tab-18-4-0" class="tab_content" style="display: block;">
         <div class="content">
-          <p class="alert warning">
-  We are looking at an issue around the dashboard and (possibly) pipelines created using the JSON and YAML plugins. Please hold off on upgrading to 18.4 for now. We might release 18.5 in a day or so, if necessary. [Updated: 2018 May 09, 13:00 UTC]
+          <p class="information">
+  Previously, there was a warning about not upgrading to 18.4. In 18.5, an issue around pipelines created using the pipeline config API showing twice on the dashboard was fixed. We haven't been able to replicate issue <a href="https://github.com/gocd/gocd/issues/4723">#4723</a> around pipelines created using JSON and YAML plugins, we suspect it might be an issue with the individual's setup. [Updated: 2018 May 11, 11:45 UTC]
 </p>
 
 <h4>Performance fix</h4>
