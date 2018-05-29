@@ -113,7 +113,9 @@
 
 <p>Feature toggles are usually stored in a specification or configuration file close to the codebase and used by automation in the CD pipeline to turn toggles on in specific environments. They are just conditions in your code base.You should separate setting these toggles from the actual release process so that you can control it in run time.</p>
 
-<pre><code>feature_a:
+<p><strong><em>Sample toggle specification:</em></strong>
+~~~~
+feature_a:
     state: in_dev
     description: This turns on feature a
   feature_b:
@@ -121,7 +123,7 @@
   feature_c:
     state: ready_for_release
     description: This turns on feature c
-</code></pre>
+~~~~</p>
 
 <p><strong>Some things you should consider when implementing feature toggles:</strong></p>
 
