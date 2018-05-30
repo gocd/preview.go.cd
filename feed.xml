@@ -18,7 +18,7 @@
     <author>
       <name>Sheroy Marker</name>
     </author>
-    <content type="html">In the first of this blog series, we will share the considerations to keep in mind in architecture design and application development.</content>
+    <content type="html">Getting deeper into CD practices, we'll cover continuous integration, feature toggles, and the importance of trunk based development</content>
   </entry>
   <entry>
     <title>Test Strategy for Microservices</title>
