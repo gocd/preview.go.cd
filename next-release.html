@@ -88,7 +88,7 @@
 
 <h4>Library upgrades</h4>
 
-<p>In order to move towards supporting JRE version 9 and upwards, this release upgrades several libraries used by GoCD, including spring, hibernate, mybatis.</p>
+<p>In order to move towards supporting JRE version 9 and upwards, this release upgrades several libraries used by GoCD, including spring, hibernate, mybatis. See <a href="https://github.com/gocd/gocd/issues/4785">#4785</a>, <a href="https://github.com/gocd/gocd/issues/4749">#4749</a> and <a href="https://github.com/gocd/gocd/issues/4768">#4768</a>.</p>
 
 <h4>Breaking changes</h4>
 
@@ -96,7 +96,7 @@
   <li>APIs now respond with an HTTP status code 403(Forbidden) instead of the 401(Unauthorized) when authenticated users are not authorized to view or perform operations on a resource.</li>
   <li>URLs containing any un-normalized paths (<code>/../</code>, <code>./</code> and <code>/.</code>), semicolon (<code>;</code> and <code>%3B</code>), encoded forward-slash (<code>%2F</code>), backslash (<code>\</code>, <code>%5C</code>), encoded percent (<code>%25</code>) will be rejected.</li>
   <li>The pipeline config API version 3 and version 4 have been removed. Please use version 5 of the <a href="https://api.gocd.org/18.5.0/#pipeline-config">pipeline config API</a>.</li>
-  <li>The elastic agent plugin extension version 1 and (a development verion 2) has been removed. Plugin developers should use version 3 of the elastic agent plugin api to allow adding support for agent status report and plugin status report. The docker, docker swarm, and ecs plugins have been migrated to the new versions, and users should upgrade their plugins to the latest version to see these new features.</li>
+  <li>The elastic agent plugin extension version 1 and (a development version 2) has been removed. Plugin developers should use version 3 of the elastic agent plugin api to allow adding support for agent status report and plugin status report. The docker, docker swarm, and ecs plugins have been migrated to the new versions, and users should upgrade their plugins to the latest version to see these new features. Users using ECS plugin &gt;= 4.0.0, docker swarm plugin &gt;= 3.0.0, docker plugin &gt;= 0.9.0 and kubernetes elastic agent &gt;= 1.0.0 need not upgrade.</li>
 </ul>
 
 <h4>Bug fixes</h4>
@@ -108,6 +108,9 @@
   <li><a href="https://github.com/gocd/gocd/issues/4751">#4751</a> - Fix incorrect cache key generation.</li>
   <li><a href="https://github.com/gocd/gocd/issues/4746">#4746</a> - Fix issue with user preferences page on Microsoft Edge browser.</li>
   <li><a href="https://github.com/gocd/gocd/issues/4338">#4338</a> - QuickEdit does not allow delete of only stage in pipeline.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/4775">#4775</a> - Dashboard UI rendering duplicate pipeline information.</li>
+  <li><code><a href="https://github.com/gocd/gocd/commit/5eb11210c6dadb8ea5c53926ad385731dd1e0e95">5eb1121</a></code> - Fix the roles configuration link in the admin dropdown menu.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/4723">#4723</a> - Dashboard does not show all pipelines after upgrade.</li>
 </ul>
 
 <h4>Deprecations</h4>
