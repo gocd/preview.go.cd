@@ -13,9 +13,6 @@
     <loc>https://preview.gocd.org/chef/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/cloud/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.org/continuous-delivery/</loc>
   </url>
   <url>
