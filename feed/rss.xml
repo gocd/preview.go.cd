@@ -10,7 +10,7 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Continuous Delivery of Microservices - Environment Strategy</title>
+    <title>Environment Strategy for Continuous Delivery of Microservices</title>
     <link rel="alternate" href="https://preview.gocd.org/2018/06/12/cd-microservices-environment-strategy.html"/>
     <id>https://preview.gocd.org/2018/06/12/cd-microservices-environment-strategy.html</id>
     <published>2018-06-12T00:00:00Z</published>
@@ -18,7 +18,7 @@
     <author>
       <name>Sheroy Marker</name>
     </author>
-    <content type="html">Getting deeper into CD practices, we'll cover continuous integration, feature toggles, and the importance of trunk based development</content>
+    <content type="html">In this post, we'll look at environment strategy including artifact promotion and leveraging modern infrastructure for dynamic environments.</content>
   </entry>
   <entry>
     <title>Continuous Delivery of Microservices - Trunk Based Development and Feature Toggles</title>
