@@ -5,10 +5,21 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed.xml" rel="self"/>
-  <updated>2018-06-12T00:00:00Z</updated>
+  <updated>2018-07-11T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>Configuration Strategy for Continuous Delivery of Microservices</title>
+    <link rel="alternate" href="https://preview.gocd.org/2018/07/11/cd-microservices-configuration-strategy.html"/>
+    <id>https://preview.gocd.org/2018/07/11/cd-microservices-configuration-strategy.html</id>
+    <published>2018-07-11T00:00:00Z</published>
+    <updated>2018-07-11T00:00:00Z</updated>
+    <author>
+      <name>Sheroy Marker</name>
+    </author>
+    <content type="html">This post talks about the best ways to manage your configurations for continuous delivery of a microservices setup.</content>
+  </entry>
   <entry>
     <title>Environment Strategy for Continuous Delivery of Microservices</title>
     <link rel="alternate" href="https://preview.gocd.org/2018/06/12/cd-microservices-environment-strategy.html"/>
@@ -107,16 +118,5 @@
       <name>Erin Snyder</name>
     </author>
     <content type="html">This post is for anyone who identifies themselves as non-technical, and wants to understand what is continuous delivery and why it’s important.</content>
-  </entry>
-  <entry>
-    <title>Confessions of Continuous Delivery Experts: From microservices back to monolith</title>
-    <link rel="alternate" href="https://preview.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith.html"/>
-    <id>https://preview.gocd.org/2017/12/06/confessions-continuous-delivery-experts-snapci-microservices-monolith.html</id>
-    <published>2017-12-06T00:00:00Z</published>
-    <updated>2017-12-06T00:00:00Z</updated>
-    <author>
-      <name>Suzie Prince</name>
-    </author>
-    <content type="html">This story is about the experiences of the Snap CI team in moving a monolith codebase to microservices and the continuous delivery learnings along the way.</content>
   </entry>
 </feed>
