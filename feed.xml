@@ -5,10 +5,21 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed.xml" rel="self"/>
-  <updated>2018-07-11T00:00:00Z</updated>
+  <updated>2018-07-17T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>How to Work with Materials in GoCD</title>
+    <link rel="alternate" href="https://preview.gocd.org/2018/07/17/gocd-materials-blacklisting-whitelisting.html"/>
+    <id>https://preview.gocd.org/2018/07/17/gocd-materials-blacklisting-whitelisting.html</id>
+    <published>2018-07-17T00:00:00Z</published>
+    <updated>2018-07-17T00:00:00Z</updated>
+    <author>
+      <name>Ankit Srivastava</name>
+    </author>
+    <content type="html">In this post, we'll look at environment strategy including artifact promotion and leveraging modern infrastructure for dynamic environments.</content>
+  </entry>
   <entry>
     <title>Configuration Strategy for Continuous Delivery of Microservices</title>
     <link rel="alternate" href="https://preview.gocd.org/2018/07/11/cd-microservices-configuration-strategy.html"/>
@@ -107,16 +118,5 @@
       <name>Alison Polton-Simon</name>
     </author>
     <content type="html">Here are some important meaningful metrics to measure the effectiveness of your continuous deployment process.</content>
-  </entry>
-  <entry>
-    <title>An absolute beginners guide to Continuous Delivery</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/01/17/continuous-delivery-beginners-guide.html"/>
-    <id>https://preview.gocd.org/2018/01/17/continuous-delivery-beginners-guide.html</id>
-    <published>2018-01-17T00:00:00Z</published>
-    <updated>2018-01-17T00:00:00Z</updated>
-    <author>
-      <name>Erin Snyder</name>
-    </author>
-    <content type="html">This post is for anyone who identifies themselves as non-technical, and wants to understand what is continuous delivery and why it’s important.</content>
   </entry>
 </feed>
