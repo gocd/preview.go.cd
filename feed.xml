@@ -18,7 +18,7 @@
     <author>
       <name>Ankit Srivastava</name>
     </author>
-    <content type="html">In this post, we'll look at environment strategy including artifact promotion and leveraging modern infrastructure for dynamic environments.</content>
+    <content type="html">Learn more about how to use materials in GoCD, including understanding more about blacklisting and whitelisting</content>
   </entry>
   <entry>
     <title>Configuration Strategy for Continuous Delivery of Microservices</title>
