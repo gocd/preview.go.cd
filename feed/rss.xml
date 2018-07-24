@@ -5,10 +5,21 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed/rss.xml" rel="self"/>
-  <updated>2018-07-17T00:00:00Z</updated>
+  <updated>2018-07-24T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>Improving GoCD through usage analytics</title>
+    <link rel="alternate" href="https://preview.gocd.org/2018/07/24/gocd-usage-analytics.html"/>
+    <id>https://preview.gocd.org/2018/07/24/gocd-usage-analytics.html</id>
+    <published>2018-07-24T00:00:00Z</published>
+    <updated>2018-07-24T00:00:00Z</updated>
+    <author>
+      <name>GoCD Team</name>
+    </author>
+    <content type="html">GoCD started collecting and analyzing usage data in 18.7. This post explains the data collected and how to turn it off.</content>
+  </entry>
   <entry>
     <title>How to Work with Materials in GoCD</title>
     <link rel="alternate" href="https://preview.gocd.org/2018/07/17/gocd-materials-blacklisting-whitelisting.html"/>
@@ -107,16 +118,5 @@
       <name>Moritz Lenz</name>
     </author>
     <content type="html">Here are some steps on how to manage your build versions in your GoCD Pipeline.</content>
-  </entry>
-  <entry>
-    <title>4 Important Metrics for Continuous Delivery</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/01/31/continuous-delivery-metrics.html"/>
-    <id>https://preview.gocd.org/2018/01/31/continuous-delivery-metrics.html</id>
-    <published>2018-01-31T00:00:00Z</published>
-    <updated>2018-01-31T00:00:00Z</updated>
-    <author>
-      <name>Alison Polton-Simon</name>
-    </author>
-    <content type="html">Here are some important meaningful metrics to measure the effectiveness of your continuous deployment process.</content>
   </entry>
 </feed>
