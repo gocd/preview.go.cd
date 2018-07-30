@@ -1,1 +1,9 @@
-Current version: 2c685fd4bb14ab344f5a367d098ebc8df828d184
+Last updated: 2018-07-30 11:40:44 -0700
+
+Latest commit:
+    commit 51f820397420f70056763c579f452038ddc0e3d4
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Mon Jul 30 13:38:59 2018 -0400
+    
+        Update version metadata
+    
