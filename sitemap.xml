@@ -337,6 +337,9 @@
     <loc>https://preview.gocd.org/2014/08/19/cloning-templates/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/2018/07/31/cd-microservices-configuration-strategy/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/2017/04/25/gocd-over-jenkins/</loc>
   </url>
   <url>
@@ -572,6 +575,9 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/07/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2018/07/31/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/07/24/</loc>
