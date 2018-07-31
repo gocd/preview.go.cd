@@ -1,9 +1,9 @@
-Last updated: 2018-07-31 11:04:16 -0700
+Last updated: 2018-07-31 11:09:32 -0700
 
 Latest commit:
-    commit 62a2962f1f877e7cff7fe803fc758aec644d9cea
+    commit 7a4b588752b7053511331ddbc002a39e6e40536e
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Jul 30 12:24:46 2018 -0700
+    Date:   Tue Jul 31 10:38:57 2018 -0700
     
-        image replacement
+        adwords txt file
     
