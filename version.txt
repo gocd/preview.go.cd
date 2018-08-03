@@ -1,9 +1,12 @@
-Last updated: 2018-08-02 06:00:17 -0700
+Last updated: 2018-08-02 21:44:19 -0700
 
 Latest commit:
-    commit 9558424b12acf4f768790c3f72d65e47e137565b
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu Aug 2 05:53:19 2018 -0700
+    commit c2cc7be0b7a2b9d286fee2a93ce19a2052811028
+    Merge: 9558424 ac5bc11
+    Author: Mahesh Panchaksharaiah <mahesh_panchaks@hotmail.com>
+    Date:   Fri Aug 3 10:08:27 2018 +0530
     
-        minor text updates
+        Merge pull request #816 from akshaydewan/fix-artifact-plugin-download
+        
+        Add missing releases URL for Docker Registry Artifact Plugin
     
