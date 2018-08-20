@@ -1,9 +1,9 @@
-Last updated: 2018-08-20 10:59:34 -0700
+Last updated: 2018-08-20 12:28:23 -0700
 
 Latest commit:
-    commit 2238850592281e1ec984a729c82b52a2c6dd4178
+    commit 780db7cfc1416a290ee513d094c78ae109a21ebb
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Aug 20 10:53:32 2018 -0700
+    Date:   Mon Aug 20 12:22:03 2018 -0700
     
-        added k8s link
+        added ken's devops webinar
     
