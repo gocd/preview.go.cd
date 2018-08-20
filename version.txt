@@ -1,9 +1,9 @@
-Last updated: 2018-08-20 12:28:23 -0700
+Last updated: 2018-08-20 12:32:14 -0700
 
 Latest commit:
-    commit 780db7cfc1416a290ee513d094c78ae109a21ebb
+    commit d3ad8d09c37c5f6b63ab4d3dca6adef7b41a00a2
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Aug 20 12:22:03 2018 -0700
+    Date:   Mon Aug 20 12:26:01 2018 -0700
     
-        added ken's devops webinar
+        adding new webinar to hp event banner
     
