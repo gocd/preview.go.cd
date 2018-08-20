@@ -1,9 +1,9 @@
-Last updated: 2018-08-20 10:37:15 -0700
+Last updated: 2018-08-20 10:45:44 -0700
 
 Latest commit:
-    commit 0ffe3db21536e1b7619c10010205668b44a5c6fa
+    commit d0de307d1e75f0a3fb480ba7bbfa7c209176ad6e
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Aug 20 10:30:36 2018 -0700
+    Date:   Mon Aug 20 10:40:18 2018 -0700
     
-        replacing gocd blog header
+        replacing gocd post
     
