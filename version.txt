@@ -1,9 +1,9 @@
-Last updated: 2018-08-20 12:32:14 -0700
+Last updated: 2018-08-21 10:26:58 -0700
 
 Latest commit:
-    commit d3ad8d09c37c5f6b63ab4d3dca6adef7b41a00a2
+    commit 80006840f797b6727ee3cb2f2b5243b3b98284cd
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Aug 20 12:26:01 2018 -0700
+    Date:   Tue Aug 21 10:20:36 2018 -0700
     
-        adding new webinar to hp event banner
+        event text change
     
