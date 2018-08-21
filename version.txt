@@ -1,9 +1,9 @@
-Last updated: 2018-08-21 10:26:58 -0700
+Last updated: 2018-08-21 10:31:44 -0700
 
 Latest commit:
-    commit 80006840f797b6727ee3cb2f2b5243b3b98284cd
+    commit 3c6ad4b66c9dd911f69f5dacac9a4febe4ab9f26
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Aug 21 10:20:36 2018 -0700
+    Date:   Tue Aug 21 10:28:06 2018 -0700
     
-        event text change
+        updated seo
     
