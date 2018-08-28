@@ -1,11 +1,9 @@
-Last updated: 2018-08-28 14:07:57 -0700
+Last updated: 2018-08-28 14:33:58 -0700
 
 Latest commit:
-    commit 0333d6d41e79375926ce1b6869fb0470bb01ffc3
+    commit ae3f91bd9cc167460ebaef5b3071d6eb0dc3ae60
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Aug 28 14:04:24 2018 -0700
+    Date:   Tue Aug 28 14:29:59 2018 -0700
     
-        Update index.html.erb
-        
-        More changes to the copy
+        SEO update
     
