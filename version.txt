@@ -1,12 +1,11 @@
-Last updated: 2018-08-28 10:18:26 -0700
+Last updated: 2018-08-28 13:15:37 -0700
 
 Latest commit:
-    commit 6d66c789ced274e9b3d9513bc538016764cdcfcb
-    Merge: 0331ce3 d4005aa
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Tue Aug 28 10:12:53 2018 -0700
+    commit ab6ae887742937e76686b3211a40b764a4d041be
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Tue Aug 28 13:11:59 2018 -0700
     
-        Merge pull request #819 from Chandu199/homepage-new
+        Homepage design adjustments
         
-        Homepage new
+        Adjust size of headers, text, and spacing while testing in-situ in responsive environment.
     
