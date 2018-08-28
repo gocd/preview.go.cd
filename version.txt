@@ -1,11 +1,11 @@
-Last updated: 2018-08-28 14:02:29 -0700
+Last updated: 2018-08-28 14:07:57 -0700
 
 Latest commit:
-    commit 34043e94a7ea0c05c951335beac7f87b2e5c8ffa
+    commit 0333d6d41e79375926ce1b6869fb0470bb01ffc3
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Aug 28 13:57:22 2018 -0700
+    Date:   Tue Aug 28 14:04:24 2018 -0700
     
         Update index.html.erb
         
-        Update typo on the page
+        More changes to the copy
     
