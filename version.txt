@@ -1,9 +1,12 @@
-Last updated: 2018-08-21 11:32:47 -0700
+Last updated: 2018-08-28 10:18:26 -0700
 
 Latest commit:
-    commit 0331ce31b7b21a3dac9c3820433d8fa975d6464b
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Aug 21 11:22:18 2018 -0700
+    commit 6d66c789ced274e9b3d9513bc538016764cdcfcb
+    Merge: 0331ce3 d4005aa
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Tue Aug 28 10:12:53 2018 -0700
     
-        removed draft tag
+        Merge pull request #819 from Chandu199/homepage-new
+        
+        Homepage new
     
