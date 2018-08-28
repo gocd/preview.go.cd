@@ -1,9 +1,9 @@
-Last updated: 2018-08-28 14:33:58 -0700
+Last updated: 2018-08-28 15:00:52 -0700
 
 Latest commit:
-    commit ae3f91bd9cc167460ebaef5b3071d6eb0dc3ae60
+    commit 459721731f9b6a7cccd2dd562db7d434a12af680
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Aug 28 14:29:59 2018 -0700
+    Date:   Tue Aug 28 14:56:15 2018 -0700
     
-        SEO update
+        added link to kubernetes page
     
