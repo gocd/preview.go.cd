@@ -1,9 +1,9 @@
-Last updated: 2018-09-04 02:23:08 -0700
+Last updated: 2018-09-04 09:12:23 -0700
 
 Latest commit:
-    commit 498f12b6a43c032efcdb5b3c4c44fc7539126d36
-    Author: Bhupendrakumar Piprava <bdpiparva@gmail.com>
-    Date:   Tue Sep 4 14:48:08 2018 +0530
+    commit c7c767db3b8f9c3e8120cdffabd13c1303c8f18e
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Tue Sep 4 12:07:07 2018 -0400
     
-        Updating release notes.
+        Add helm chart contributors to 18.8 release notes
     
