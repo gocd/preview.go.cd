@@ -1,12 +1,9 @@
-Last updated: 2018-09-04 01:59:21 -0700
+Last updated: 2018-09-04 02:23:08 -0700
 
 Latest commit:
-    commit 78f24b4f2e355f9645cb939d5e21ceb7a4a0f335
-    Merge: d92bf9a f078ea2
-    Author: Bhupendra <bdpiparva@gmail.com>
-    Date:   Tue Sep 4 14:24:40 2018 +0530
+    commit 498f12b6a43c032efcdb5b3c4c44fc7539126d36
+    Author: Bhupendrakumar Piprava <bdpiparva@gmail.com>
+    Date:   Tue Sep 4 14:48:08 2018 +0530
     
-        Merge pull request #820 from ketan/release-notes-next-release
-        
-        Release notes for the next release
+        Updating release notes.
     
