@@ -1,9 +1,9 @@
-Last updated: 2018-09-05 13:28:36 -0700
+Last updated: 2018-09-05 14:13:00 -0700
 
 Latest commit:
-    commit 5cfbe1cfd707ace96f72e7e8fedc0ce1847a9367
+    commit a4db39239289d9bb6acdaba5854a73e1e7de9c58
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Wed Sep 5 13:21:21 2018 -0700
+    Date:   Wed Sep 5 14:05:00 2018 -0700
     
-        updated gocd usage analytics blog
+        fixing code block
     
