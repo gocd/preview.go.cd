@@ -1,9 +1,9 @@
-Last updated: 2018-09-05 13:25:02 -0700
+Last updated: 2018-09-05 13:28:36 -0700
 
 Latest commit:
-    commit 6ff80275f144bbe4442557ea32730819457c2b31
+    commit 5cfbe1cfd707ace96f72e7e8fedc0ce1847a9367
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Wed Sep 5 13:20:06 2018 -0700
+    Date:   Wed Sep 5 13:21:21 2018 -0700
     
-        added new image to analytics blog
+        updated gocd usage analytics blog
     
