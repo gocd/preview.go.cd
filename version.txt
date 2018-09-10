@@ -1,12 +1,12 @@
-Last updated: 2018-09-10 15:35:26 -0700
+Last updated: 2018-09-10 16:25:18 -0700
 
 Latest commit:
-    commit ef48e088652aff61bd6700498fd17869d15005e5
-    Author: Chandu199 <n.chandrakanth0@gmail.com>
-    Date:   Mon Sep 10 18:29:16 2018 -0400
+    commit 263f31c375e1da9f2af78b80267f0bb9e4fa2885
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Mon Sep 10 19:20:55 2018 -0400
     
-        Analytics landing page
+        Fix smooth scroll in analytics page
         
-        * Add form for trial.
-        * Squashed commits from: https://github.com/gocd/www.go.cd/pull/825
+        * Smooth scroll in the "Getting started" pages was affecting the smooth scroll in analytics. The
+          selector was too broad. Narrowing it to getting-started page only.
     
