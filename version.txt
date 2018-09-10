@@ -1,12 +1,9 @@
-Last updated: 2018-09-10 16:25:18 -0700
+Last updated: 2018-09-10 16:36:45 -0700
 
 Latest commit:
-    commit 263f31c375e1da9f2af78b80267f0bb9e4fa2885
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Mon Sep 10 19:20:55 2018 -0400
+    commit d34ad507e2b27df4af7331a3768fb14e0b545b69
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Mon Sep 10 16:32:22 2018 -0700
     
-        Fix smooth scroll in analytics page
-        
-        * Smooth scroll in the "Getting started" pages was affecting the smooth scroll in analytics. The
-          selector was too broad. Narrowing it to getting-started page only.
+        fixing bullets
     
