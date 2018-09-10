@@ -1,9 +1,9 @@
-Last updated: 2018-09-10 15:05:02 -0700
+Last updated: 2018-09-10 15:20:20 -0700
 
 Latest commit:
-    commit e72ff9cf9c2c9c7dbeed2dfa366fc42dde405cb5
+    commit a121888230a921b487988345d5ecac44890bdb8c
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Sep 10 14:59:13 2018 -0700
+    Date:   Mon Sep 10 15:16:38 2018 -0700
     
-        remediation strategy header
+        remediation diagram
     
