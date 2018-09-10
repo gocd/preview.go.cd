@@ -1,9 +1,12 @@
-Last updated: 2018-09-10 15:24:55 -0700
+Last updated: 2018-09-10 15:35:26 -0700
 
 Latest commit:
-    commit 5b395208a57a8b40631a5f8ddf4fee07d965e400
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Sep 10 15:20:40 2018 -0700
+    commit ef48e088652aff61bd6700498fd17869d15005e5
+    Author: Chandu199 <n.chandrakanth0@gmail.com>
+    Date:   Mon Sep 10 18:29:16 2018 -0400
     
-        added remediation blog post
+        Analytics landing page
+        
+        * Add form for trial.
+        * Squashed commits from: https://github.com/gocd/www.go.cd/pull/825
     
