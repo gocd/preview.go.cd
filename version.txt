@@ -1,9 +1,9 @@
-Last updated: 2018-09-06 16:11:55 -0400
+Last updated: 2018-09-10 15:05:02 -0700
 
 Latest commit:
-    commit c592488e0b80ac2160a6560d817787d0982ff251
+    commit e72ff9cf9c2c9c7dbeed2dfa366fc42dde405cb5
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu Sep 6 12:26:47 2018 -0700
+    Date:   Mon Sep 10 14:59:13 2018 -0700
     
-        deleted coming soon
+        remediation strategy header
     
