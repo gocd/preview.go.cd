@@ -1,12 +1,12 @@
-Last updated: 2018-09-11 01:36:33 -0700
+Last updated: 2018-09-11 02:24:22 -0700
 
 Latest commit:
-    commit e685fd45dcf469ed018e9e8f76b819674fc00977
-    Merge: de9de92 2f334b7
-    Author: Mahesh Panchaksharaiah <mahesh_panchaks@hotmail.com>
-    Date:   Tue Sep 11 14:01:56 2018 +0530
+    commit 0eada2d94371675a51c7cb84ee270083f1a89da1
+    Merge: e685fd4 1a8ddfc
+    Author: Rajiesh <rajiesh.narayanan@gmail.com>
+    Date:   Tue Sep 11 14:49:54 2018 +0530
     
-        Merge pull request #827 from maheshp/fixing_build
+        Merge pull request #828 from rajiesh/master
         
-        Release notes 18.9.0
+        Move ubuntu 12.04 support info into deprecation section
     
