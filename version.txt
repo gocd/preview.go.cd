@@ -1,12 +1,12 @@
-Last updated: 2018-09-10 17:16:20 -0700
+Last updated: 2018-09-11 01:36:33 -0700
 
 Latest commit:
-    commit b1d4ba3a38d5e5d020f1297ed584e546d0e7c918
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Mon Sep 10 20:10:54 2018 -0400
+    commit e685fd45dcf469ed018e9e8f76b819674fc00977
+    Merge: de9de92 2f334b7
+    Author: Mahesh Panchaksharaiah <mahesh_panchaks@hotmail.com>
+    Date:   Tue Sep 11 14:01:56 2018 +0530
     
-        Fix scroll once more
+        Merge pull request #827 from maheshp/fixing_build
         
-        * window.location.hash scrolls the page, once the animation is done - hiding the section header.
-        * history.replaceState will do that without scrolling
+        Release notes 18.9.0
     
