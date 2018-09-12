@@ -1,9 +1,12 @@
-Last updated: 2018-09-12 11:01:07 -0700
+Last updated: 2018-09-12 16:05:20 -0700
 
 Latest commit:
-    commit 811e99ac657b365afc90c13098ba1962a691b473
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Wed Sep 12 10:56:50 2018 -0700
+    commit cbdd6b90d48b8ca6980190f42e02a13c4afa4883
+    Merge: 811e99a 00a9841
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Wed Sep 12 16:00:28 2018 -0700
     
-        Update profiles on Enterprise Contact page
+        Merge pull request #830 from gocd/help-page-updates
+        
+        Changes to Help page
     
