@@ -1,9 +1,9 @@
-Last updated: 2018-09-12 17:40:13 -0700
+Last updated: 2018-09-13 11:26:36 -0700
 
 Latest commit:
-    commit 4be1346c149af4596f7a46eb8bae8a9f7215402d
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Wed Sep 12 20:35:19 2018 -0400
+    commit fc56bc003fa2fa520a3b47e0f9fa15bf00fccd5b
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Thu Sep 13 11:21:21 2018 -0700
     
-        Fix some typos in analytics landing page
+        Change Docs link on Help page to go directly to Current Documentation Index
     
