@@ -1,12 +1,9 @@
-Last updated: 2018-09-12 16:05:20 -0700
+Last updated: 2018-09-12 17:40:13 -0700
 
 Latest commit:
-    commit cbdd6b90d48b8ca6980190f42e02a13c4afa4883
-    Merge: 811e99a 00a9841
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Wed Sep 12 16:00:28 2018 -0700
+    commit 4be1346c149af4596f7a46eb8bae8a9f7215402d
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Wed Sep 12 20:35:19 2018 -0400
     
-        Merge pull request #830 from gocd/help-page-updates
-        
-        Changes to Help page
+        Fix some typos in analytics landing page
     
