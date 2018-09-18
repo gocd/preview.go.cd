@@ -1,9 +1,9 @@
-Last updated: 2018-09-13 11:26:36 -0700
+Last updated: 2018-09-17 18:51:52 -0700
 
 Latest commit:
-    commit fc56bc003fa2fa520a3b47e0f9fa15bf00fccd5b
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Thu Sep 13 11:21:21 2018 -0700
+    commit 8f07d4b4cc9878619bf6f2b4b7b62ffb97b5f8e0
+    Author: Ben Wolstencroft <12066104+BenWolstencroft@users.noreply.github.com>
+    Date:   Tue Sep 18 00:37:17 2018 +0100
     
-        Change Docs link on Help page to go directly to Current Documentation Index
+        Add Nexus Repository Manager poller
     
