@@ -1,9 +1,9 @@
-Last updated: 2018-10-08 10:29:46 -0700
+Last updated: 2018-10-08 10:34:15 -0700
 
 Latest commit:
-    commit 1b4bca83d74f10118abbe045b974c541ecc3ba7e
+    commit 15238eb228ec132598b201b004c54760aa20e8a7
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Oct 8 10:26:40 2018 -0700
+    Date:   Mon Oct 8 10:30:02 2018 -0700
     
-        10/23 analytics webinar to events banner
+        10/26 analytics webinar
     
