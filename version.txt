@@ -1,12 +1,9 @@
-Last updated: 2018-10-10 12:39:22 -0700
+Last updated: 2018-10-10 14:28:14 -0700
 
 Latest commit:
-    commit c8bcfe9fe1a2e26a8ab5293de21a39fe9db9e4d2
-    Merge: 15238eb a36a87f
-    Author: Aravind SV <auto.github@arvindsv.com>
-    Date:   Wed Oct 10 15:32:52 2018 -0400
+    commit 094b1c065e2d3bd6426461b205b94ec20d37dab3
+    Author: Ketan Padegaonkar <KetanPadegaonkar@gmail.com>
+    Date:   Wed Oct 10 14:24:20 2018 -0700
     
-        Merge pull request #832 from maheshp/remove_auth_plugin_listing
-        
-        Delist authentication plugins, deprecated since 17.5.0 and support re…
+        Upgrade nokogiri
     
