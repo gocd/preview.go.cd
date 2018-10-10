@@ -1,9 +1,12 @@
-Last updated: 2018-10-08 10:34:15 -0700
+Last updated: 2018-10-10 12:39:22 -0700
 
 Latest commit:
-    commit 15238eb228ec132598b201b004c54760aa20e8a7
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Oct 8 10:30:02 2018 -0700
+    commit c8bcfe9fe1a2e26a8ab5293de21a39fe9db9e4d2
+    Merge: 15238eb a36a87f
+    Author: Aravind SV <auto.github@arvindsv.com>
+    Date:   Wed Oct 10 15:32:52 2018 -0400
     
-        10/26 analytics webinar
+        Merge pull request #832 from maheshp/remove_auth_plugin_listing
+        
+        Delist authentication plugins, deprecated since 17.5.0 and support re…
     
