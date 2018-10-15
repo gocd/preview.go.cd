@@ -1,11 +1,11 @@
-Last updated: 2018-10-11 16:07:16 -0700
+Last updated: 2018-10-15 03:56:59 -0700
 
 Latest commit:
-    commit 49287ac30c576731648cf351cfc29bf0a0df8858
-    Author: Ketan Padegaonkar <KetanPadegaonkar@gmail.com>
-    Date:   Thu Oct 11 16:02:51 2018 -0700
+    commit d03b62144d3e1758608a22dc4854fad23b894b16
+    Author: Mahesh Panchaksharaiah <mahesh_panchaks@hotmail.com>
+    Date:   Mon Oct 15 15:54:54 2018 +0530
     
-        Revert "Use the k8s profile"
+        Release notes for 18.10.0 (#838)
         
-        This reverts commit 0f21414f875e95579c9c5a9303e4259c674e9035.
+        * Release notes for 18.10.0
     
