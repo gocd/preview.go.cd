@@ -1,9 +1,9 @@
-Last updated: 2018-10-16 14:39:21 -0700
+Last updated: 2018-10-16 15:10:38 -0700
 
 Latest commit:
-    commit 3d1ac2ae58c178be37a2f470e36c57994af34b54
+    commit 287265bebbfcedb8a9417ca4d0c295d4ee6442ae
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 16 14:31:34 2018 -0700
+    Date:   Tue Oct 16 15:04:31 2018 -0700
     
-        added images
+        final updates and remove draft tag
     
