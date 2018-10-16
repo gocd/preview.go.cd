@@ -1,9 +1,9 @@
-Last updated: 2018-10-16 15:19:36 -0700
+Last updated: 2018-10-16 16:33:14 -0700
 
 Latest commit:
-    commit 2891328e7720bc87f3e1a159ed4bd43f880025fe
+    commit f37cb24547209703ad45defa40b60ddcedc6a777
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 16 15:15:05 2018 -0700
+    Date:   Tue Oct 16 16:29:48 2018 -0700
     
-        added updated analytics image to blog
+        fixed typos
     
