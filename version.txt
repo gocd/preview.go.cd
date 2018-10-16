@@ -1,9 +1,9 @@
-Last updated: 2018-10-16 13:45:19 -0700
+Last updated: 2018-10-16 14:29:59 -0700
 
 Latest commit:
-    commit ddd0b283f7a01e0977eed48814e221bf5d79f1a9
+    commit 0d253f0dd0b9b2d304225402570ce5c35f556fee
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 16 13:41:32 2018 -0700
+    Date:   Tue Oct 16 14:27:00 2018 -0700
     
-        gocd dashboard gif
+        header image for whats new blog
     
