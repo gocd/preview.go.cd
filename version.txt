@@ -1,9 +1,11 @@
-Last updated: 2018-10-15 19:27:18 -0700
+Last updated: 2018-10-16 12:29:59 -0700
 
 Latest commit:
-    commit a5d06509276173002796182cc412040e3dabd02f
-    Author: Ketan Padegaonkar <KetanPadegaonkar@gmail.com>
-    Date:   Thu Oct 11 15:36:05 2018 -0700
+    commit e1f74aa5aa6bd258f758a4de08588316c33f8889
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Tue Oct 16 12:27:01 2018 -0700
     
-        Fix absolute url
+        adding what's new with gocd draft
+        
+        still need to update metas and any addtl edits
     
