@@ -1,9 +1,9 @@
-Last updated: 2018-10-16 14:29:59 -0700
+Last updated: 2018-10-16 14:34:29 -0700
 
 Latest commit:
-    commit 0d253f0dd0b9b2d304225402570ce5c35f556fee
+    commit 3d1ac2ae58c178be37a2f470e36c57994af34b54
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 16 14:27:00 2018 -0700
+    Date:   Tue Oct 16 14:31:34 2018 -0700
     
-        header image for whats new blog
+        added images
     
