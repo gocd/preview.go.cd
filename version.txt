@@ -1,11 +1,9 @@
-Last updated: 2018-10-16 12:29:59 -0700
+Last updated: 2018-10-16 13:45:19 -0700
 
 Latest commit:
-    commit e1f74aa5aa6bd258f758a4de08588316c33f8889
+    commit ddd0b283f7a01e0977eed48814e221bf5d79f1a9
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 16 12:27:01 2018 -0700
+    Date:   Tue Oct 16 13:41:32 2018 -0700
     
-        adding what's new with gocd draft
-        
-        still need to update metas and any addtl edits
+        gocd dashboard gif
     
