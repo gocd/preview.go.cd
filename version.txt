@@ -1,14 +1,9 @@
-Last updated: 2018-10-16 23:41:40 -0700
+Last updated: 2018-10-17 12:56:35 -0700
 
 Latest commit:
-    commit 242e5c001f5f9b98b06195c1b3e67e86869f5992
-    Author: Ganesh S Patil <ganeshp8996@gmail.com>
-    Date:   Wed Oct 17 12:01:39 2018 +0530
+    commit cd3b23569014a623d91feebd43a77485534a0cfe
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Wed Oct 17 12:50:22 2018 -0700
     
-        [Release Notes 18.10.0] Add plugin extension deprecation note (#839)
-        
-        * Deprecate:
-        	- Elastic agent extension v3
-        	- Notification extension v3
-        	- Analytics extension v1
+        fixed ducks name
     
