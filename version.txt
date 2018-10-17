@@ -1,11 +1,14 @@
-Last updated: 2018-10-16 17:01:36 -0700
+Last updated: 2018-10-16 23:41:40 -0700
 
 Latest commit:
-    commit 5ef4e5863c475f7bdf7decf473baae0729b80306
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 16 16:58:00 2018 -0700
+    commit 242e5c001f5f9b98b06195c1b3e67e86869f5992
+    Author: Ganesh S Patil <ganeshp8996@gmail.com>
+    Date:   Wed Oct 17 12:01:39 2018 +0530
     
-        fixing broken bullets
+        [Release Notes 18.10.0] Add plugin extension deprecation note (#839)
         
-        bullets broke after I included one sentence above. not sure why.
+        * Deprecate:
+        	- Elastic agent extension v3
+        	- Notification extension v3
+        	- Analytics extension v1
     
