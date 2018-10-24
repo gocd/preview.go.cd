@@ -1,9 +1,12 @@
-Last updated: 2018-10-23 15:22:53 -0700
+Last updated: 2018-10-24 15:33:29 -0700
 
 Latest commit:
-    commit 5461caf727e36a69184f9e2f8c5ec6676862995f
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Tue Oct 23 15:19:00 2018 -0700
+    commit 77ecf2c0ab2c4ef7ff24195570dcfe800625acc3
+    Author: Marques Lee <marques.lee@thoughtworks.com>
+    Date:   Wed Oct 24 15:27:11 2018 -0700
     
-        Update source/assets/images/campaign/ebook-cd-analytics/w-analytics-mockup.png
+        Use HTML 5 doctype so we don't need to close <meta>
+        
+        However, just close them anyway because the build is failing on
+        unclosed meta tags.
     
