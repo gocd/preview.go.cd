@@ -1,9 +1,9 @@
-Last updated: 2018-10-24 15:36:40 -0700
+Last updated: 2018-10-25 12:50:18 -0700
 
 Latest commit:
-    commit 01cadedf3cc6cc48c331faefd06f7f8c6ba1b708
+    commit 20603ebf64fba94e98c389ff11b72df587be5dea
     Author: Marques Lee <marques.lee@thoughtworks.com>
-    Date:   Wed Oct 24 15:29:28 2018 -0700
+    Date:   Thu Oct 25 12:38:55 2018 -0700
     
-        Add .ruby-gemset
+        Ensure href values have opening and matching quotes.
     
