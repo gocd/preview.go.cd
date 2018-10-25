@@ -1,9 +1,9 @@
-Last updated: 2018-10-25 14:40:30 -0700
+Last updated: 2018-10-25 14:54:01 -0700
 
 Latest commit:
-    commit c44fbc4b85ab3f1024630da885312f5bbc0908db
+    commit e9f4616937c041c7d6901939297c8d71e6421aca
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu Oct 25 14:36:09 2018 -0700
+    Date:   Thu Oct 25 14:51:05 2018 -0700
     
-        updated image and paragraph text
+        updates repo url and edited some text
     
