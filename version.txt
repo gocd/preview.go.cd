@@ -1,9 +1,9 @@
-Last updated: 2018-10-25 12:50:18 -0700
+Last updated: 2018-10-25 14:12:31 -0700
 
 Latest commit:
-    commit 20603ebf64fba94e98c389ff11b72df587be5dea
-    Author: Marques Lee <marques.lee@thoughtworks.com>
-    Date:   Thu Oct 25 12:38:55 2018 -0700
+    commit 76f644d9b72be3caf1c6018a0f70dba687c4486c
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Thu Oct 25 14:05:04 2018 -0700
     
-        Ensure href values have opening and matching quotes.
+        updated github URL
     
