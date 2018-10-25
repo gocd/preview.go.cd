@@ -1,9 +1,9 @@
-Last updated: 2018-10-25 14:31:32 -0700
+Last updated: 2018-10-25 14:40:30 -0700
 
 Latest commit:
-    commit d49deb9e44f4e516e5b241bb2cdebc01fc621395
+    commit c44fbc4b85ab3f1024630da885312f5bbc0908db
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu Oct 25 14:27:30 2018 -0700
+    Date:   Thu Oct 25 14:36:09 2018 -0700
     
-        added new header image for test drive
+        updated image and paragraph text
     
