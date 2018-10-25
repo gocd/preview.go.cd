@@ -403,6 +403,9 @@
     <loc>https://preview.gocd.org/2014/02/25/go-moving-to-open-source/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/2018/10/30/measure-continuous-delivery-process/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/2015/07/07/GitHub-Integration/</loc>
   </url>
   <url>
@@ -586,6 +589,9 @@
     <loc>https://preview.gocd.org/tags/continuous-deployment-strategies/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/tags/cd-analytics/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/tags/cd-hacks/</loc>
   </url>
   <url>
@@ -593,6 +599,9 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/10/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2018/10/30/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/10/16/</loc>
