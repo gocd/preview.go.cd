@@ -1,9 +1,9 @@
-Last updated: 2018-10-25 16:00:07 -0700
+Last updated: 2018-10-25 16:03:23 -0700
 
 Latest commit:
-    commit ef579ed62596d6912b174e5f70adc57ac7176cd5
+    commit bc083a2b2392faea273b961c8e6ab84ed1614e57
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu Oct 25 15:56:08 2018 -0700
+    Date:   Thu Oct 25 15:57:30 2018 -0700
     
-        changed some disclaimer text and another url
+        changed H2s to H1s
     
