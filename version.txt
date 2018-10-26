@@ -1,9 +1,9 @@
-Last updated: 2018-10-26 15:07:27 -0700
+Last updated: 2018-10-26 15:32:15 -0700
 
 Latest commit:
-    commit e0351406bebe3e0184a9b9c286bac11efd967d0f
+    commit d5342f76cf6d96437f311b24652b9331554d1df7
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Fri Oct 26 15:00:10 2018 -0700
+    Date:   Fri Oct 26 15:28:11 2018 -0700
     
-        adding b,l,m image to blog
+        cd pipelines image
     
