@@ -1,9 +1,9 @@
-Last updated: 2018-10-25 16:06:33 -0700
+Last updated: 2018-10-26 14:58:26 -0700
 
 Latest commit:
-    commit 975b1100f6088d072eb93c48243286aaceee7ac7
+    commit c3f241d9f51363eea6a5e286b4696fa05924681a
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu Oct 25 16:01:27 2018 -0700
+    Date:   Fri Oct 26 14:55:12 2018 -0700
     
-        cd benchmarks image
+        build learn measure
     
