@@ -1,9 +1,9 @@
-Last updated: 2018-10-26 15:32:15 -0700
+Last updated: 2018-10-26 15:35:40 -0700
 
 Latest commit:
-    commit d5342f76cf6d96437f311b24652b9331554d1df7
+    commit c21709fb6a14d40c1e31fe8f255876e749a38863
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Fri Oct 26 15:28:11 2018 -0700
+    Date:   Fri Oct 26 15:29:12 2018 -0700
     
-        cd pipelines image
+        add more images
     
