@@ -1,9 +1,9 @@
-Last updated: 2018-10-26 14:58:26 -0700
+Last updated: 2018-10-26 15:07:27 -0700
 
 Latest commit:
-    commit c3f241d9f51363eea6a5e286b4696fa05924681a
+    commit e0351406bebe3e0184a9b9c286bac11efd967d0f
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Fri Oct 26 14:55:12 2018 -0700
+    Date:   Fri Oct 26 15:00:10 2018 -0700
     
-        build learn measure
+        adding b,l,m image to blog
     
