@@ -1,9 +1,9 @@
-Last updated: 2018-10-30 10:42:44 -0700
+Last updated: 2018-10-30 10:52:20 -0700
 
 Latest commit:
-    commit d910189811da9c338ad890d5716e349585b3d88e
+    commit 0db79e536f2c1724c30d67d7c703466b7dd1bcdd
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Oct 30 10:36:33 2018 -0700
+    Date:   Tue Oct 30 10:48:59 2018 -0700
     
-        Updated headings from H1 to H2
+        Fixed image tag
     
