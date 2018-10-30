@@ -1,9 +1,11 @@
-Last updated: 2018-10-30 10:13:14 -0700
+Last updated: 2018-10-30 10:31:20 -0700
 
 Latest commit:
-    commit b5c03d7eb438fa7d8f128bb52d0fcbf28e660710
+    commit 0df81256637899b5722aad159d3c5388134d4d4b
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Oct 30 10:09:13 2018 -0700
+    Date:   Tue Oct 30 10:27:11 2018 -0700
     
-        Updated continuous-delivery-benchmarking.png
+        Updated blog image display size
+        
+        Updated image display size of continuous-delivery-benchmarking.png
     
