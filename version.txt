@@ -1,9 +1,9 @@
-Last updated: 2018-10-30 08:42:16 -0700
+Last updated: 2018-10-30 08:54:03 -0700
 
 Latest commit:
-    commit 8ecf2a83d98a8d9e1c0d59a653c179c9d4ea77dd
+    commit d741b69c81ee9258479c33152a7bf9c6dc5abac2
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 30 08:36:39 2018 -0700
+    Date:   Tue Oct 30 15:49:14 2018 +0000
     
-        add new blog header
+        changed header image, metas, and H2 tags
     
