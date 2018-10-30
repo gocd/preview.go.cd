@@ -1,9 +1,9 @@
-Last updated: 2018-10-26 15:35:40 -0700
+Last updated: 2018-10-30 08:19:12 -0700
 
 Latest commit:
-    commit c21709fb6a14d40c1e31fe8f255876e749a38863
+    commit c3f9a0fa4f7296f40fbaa26fafa5ec350fe3ce9a
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Fri Oct 26 15:29:12 2018 -0700
+    Date:   Tue Oct 30 15:15:49 2018 +0000
     
-        add more images
+        fixed spelling error
     
