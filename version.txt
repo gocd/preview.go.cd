@@ -1,9 +1,9 @@
-Last updated: 2018-10-30 10:02:45 -0700
+Last updated: 2018-10-30 10:13:14 -0700
 
 Latest commit:
-    commit 07e16b9b4ac61a27c1d85654619bae746eb8789c
+    commit b5c03d7eb438fa7d8f128bb52d0fcbf28e660710
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Oct 30 09:59:28 2018 -0700
+    Date:   Tue Oct 30 10:09:13 2018 -0700
     
-        Updated gocd-pipelines.png with a better image
+        Updated continuous-delivery-benchmarking.png
     
