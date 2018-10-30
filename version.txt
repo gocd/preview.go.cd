@@ -1,9 +1,9 @@
-Last updated: 2018-10-30 08:54:03 -0700
+Last updated: 2018-10-30 09:58:15 -0700
 
 Latest commit:
-    commit d741b69c81ee9258479c33152a7bf9c6dc5abac2
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 30 15:49:14 2018 +0000
+    commit aba40f2ba34f4a999c1a412deec5c3530357deff
+    Author: Huimin Li <hmli@thoughtworks.com>
+    Date:   Tue Oct 30 09:54:53 2018 -0700
     
-        changed header image, metas, and H2 tags
+        Addressed Suzie and Duck's feedback - text changes
     
