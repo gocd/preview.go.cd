@@ -1,9 +1,9 @@
-Last updated: 2018-10-30 09:58:15 -0700
+Last updated: 2018-10-30 10:02:45 -0700
 
 Latest commit:
-    commit aba40f2ba34f4a999c1a412deec5c3530357deff
+    commit 07e16b9b4ac61a27c1d85654619bae746eb8789c
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Oct 30 09:54:53 2018 -0700
+    Date:   Tue Oct 30 09:59:28 2018 -0700
     
-        Addressed Suzie and Duck's feedback - text changes
+        Updated gocd-pipelines.png with a better image
     
