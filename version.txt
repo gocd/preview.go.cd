@@ -1,9 +1,9 @@
-Last updated: 2018-10-30 08:19:12 -0700
+Last updated: 2018-10-30 08:27:25 -0700
 
 Latest commit:
-    commit c3f9a0fa4f7296f40fbaa26fafa5ec350fe3ce9a
+    commit 310d5aacf099a8afb87c27bc47491f4450f92b5d
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Oct 30 15:15:49 2018 +0000
+    Date:   Tue Oct 30 08:21:42 2018 -0700
     
-        fixed spelling error
+        replace build learn measure image
     
