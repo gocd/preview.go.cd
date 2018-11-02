@@ -1,9 +1,12 @@
-Last updated: 2018-10-31 13:53:21 -0700
+Last updated: 2018-11-02 01:49:33 -0700
 
 Latest commit:
-    commit 5dc4dd7d079c8b04ae89bd8ed0ff47c87d687ac0
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Wed Oct 31 13:46:54 2018 -0700
+    commit 0b25f1c735e0fdf6e7d458bf51617b0a6fb42db6
+    Merge: 5dc4dd7 cadfe6b
+    Author: NaveenBhaskar <naveenbhaskar@users.noreply.github.com>
+    Date:   Fri Nov 2 14:12:51 2018 +0530
     
-        Updates to Test Drive GoCD page styles
+        Merge pull request #835 from Chandu199/support-trail
+        
+        Support trail
     
