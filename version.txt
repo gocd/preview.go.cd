@@ -1,9 +1,9 @@
-Last updated: 2018-11-19 15:08:45 -0800
+Last updated: 2018-11-19 15:13:14 -0800
 
 Latest commit:
-    commit 5d1f81404b4e4879869eba23645d71294bf64e8f
+    commit f20bdfb6a87bdab43aa5801eac8e6ce2ad89bfc0
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Mon Nov 19 15:05:03 2018 -0800
+    Date:   Mon Nov 19 15:09:11 2018 -0800
     
-        updated screenshot for vsm analytics
+        Added link to vsm analytics doc
     
