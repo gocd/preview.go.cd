@@ -1,9 +1,9 @@
-Last updated: 2018-11-20 11:54:02 -0800
+Last updated: 2018-11-20 11:57:17 -0800
 
 Latest commit:
-    commit f6cde7c0ee7fb17400ec9d1bebc930139c57b684
+    commit ac68191b72650b167e595f37f8c7f2284504d233
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Nov 20 11:40:17 2018 -0800
+    Date:   Tue Nov 20 11:51:12 2018 -0800
     
-        updated image for analytics blog part 1
+        Updated terms for the four metrics
     
