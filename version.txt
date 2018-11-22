@@ -1,9 +1,9 @@
-Last updated: 2018-11-20 11:57:17 -0800
+Last updated: 2018-11-21 22:41:15 -0800
 
 Latest commit:
-    commit ac68191b72650b167e595f37f8c7f2284504d233
-    Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Nov 20 11:51:12 2018 -0800
+    commit f9a49e2fd15f55593dff1ae45d20a0b2dc55ffbd
+    Author: chandrakanth <Chandu199@users.noreply.github.com>
+    Date:   Thu Nov 22 12:07:15 2018 +0530
     
-        Updated terms for the four metrics
+        Interactive gocd (#841)
     
