@@ -1,12 +1,12 @@
-Last updated: 2018-11-21 22:49:25 -0800
+Last updated: 2018-11-25 10:33:17 -0800
 
 Latest commit:
-    commit 55b6fda6363051c47a8c3749730deffb598e2e10
-    Merge: f9a49e2 b72d8c7
+    commit ea3dc92ffea1e31eb44e95a3ff3e5a368e85f0f4
+    Merge: 55b6fda 54796f1
     Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Thu Nov 22 12:14:38 2018 +0530
+    Date:   Sun Nov 25 23:58:29 2018 +0530
     
-        Merge pull request #844 from gocd/revert-841-interactive-gocd
+        Merge pull request #845 from gocd/revert-844-revert-841-interactive-gocd
         
-        Revert "Interactive gocd"
+        Revert "Revert "Interactive gocd""
     
