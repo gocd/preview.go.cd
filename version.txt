@@ -1,9 +1,9 @@
-Last updated: 2018-11-25 23:16:55 -0800
+Last updated: 2018-11-25 23:57:15 -0800
 
 Latest commit:
-    commit c7a10e829e64a1a889557fa8dfbd3d920f9bb04f
+    commit ee66edea4e91821e6bcc2c36ccbefabeb0e0827b
     Author: Lubaina R <nyuday@users.noreply.github.com>
-    Date:   Mon Nov 26 12:43:26 2018 +0530
+    Date:   Mon Nov 26 13:07:20 2018 +0530
     
-        Minor typos and edits
+        corrected bullet points
     
