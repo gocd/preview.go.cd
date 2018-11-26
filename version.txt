@@ -1,17 +1,9 @@
-Last updated: 2018-11-25 22:28:08 -0800
+Last updated: 2018-11-25 23:16:55 -0800
 
 Latest commit:
-    commit 51082afedafdcc03acdfaf47771ef07c8ab97790
-    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Mon Nov 26 11:36:45 2018 +0530
+    commit c7a10e829e64a1a889557fa8dfbd3d920f9bb04f
+    Author: Lubaina R <nyuday@users.noreply.github.com>
+    Date:   Mon Nov 26 12:43:26 2018 +0530
     
-        Add release notes for 18.11 (#843)
-        
-        * Add release notes for 18.11
-        
-        * Add breaking change for Stage Feed API
-        
-        * Some small typos and fixes
-        
-        * Added few more deprecations and updated links
+        Minor typos and edits
     
