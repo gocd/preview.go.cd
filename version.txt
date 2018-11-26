@@ -1,9 +1,9 @@
-Last updated: 2018-11-25 23:57:15 -0800
+Last updated: 2018-11-26 04:54:01 -0800
 
 Latest commit:
-    commit ee66edea4e91821e6bcc2c36ccbefabeb0e0827b
-    Author: Lubaina R <nyuday@users.noreply.github.com>
-    Date:   Mon Nov 26 13:07:20 2018 +0530
+    commit 619cf245375429e8074c7f6f38f6057900f9b4f6
+    Author: Bhupendra <bdpiparva@gmail.com>
+    Date:   Mon Nov 26 18:19:42 2018 +0530
     
-        corrected bullet points
+        Added a note about fedora docker images. (#846)
     
