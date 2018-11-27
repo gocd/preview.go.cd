@@ -1,9 +1,9 @@
-Last updated: 2018-11-26 04:54:01 -0800
+Last updated: 2018-11-26 16:02:58 -0800
 
 Latest commit:
-    commit 619cf245375429e8074c7f6f38f6057900f9b4f6
-    Author: Bhupendra <bdpiparva@gmail.com>
-    Date:   Mon Nov 26 18:19:42 2018 +0530
+    commit 6ed9c020615be4bf7a1e8d48d542e53953a33a61
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Mon Nov 26 15:57:59 2018 -0800
     
-        Added a note about fedora docker images. (#846)
+        Update image on interactive gocd page
     
