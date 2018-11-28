@@ -1,9 +1,9 @@
-Last updated: 2018-11-27 13:08:11 -0800
+Last updated: 2018-11-28 11:55:22 -0800
 
 Latest commit:
-    commit e641a2bfb7c0da959907f37df6938b65740e75a6
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Tue Nov 27 13:04:17 2018 -0800
+    commit 038f37994ec510850f7be8bcf6e45f7e364d6878
+    Author: Huimin Li <hmli@thoughtworks.com>
+    Date:   Wed Nov 28 11:51:18 2018 -0800
     
-        Update page title
+        Updated the title for analytics blog part 1
     
