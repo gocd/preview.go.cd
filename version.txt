@@ -1,9 +1,9 @@
-Last updated: 2018-11-29 12:33:14 -0800
+Last updated: 2018-11-29 14:24:10 -0800
 
 Latest commit:
-    commit 9f05d4440db2af46d988c4ae0bd28e294bab6a20
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Thu Nov 29 12:27:36 2018 -0800
+    commit cd75263eba3ab5641997837482857f6e29b5b467
+    Author: Huimin Li <hmli@thoughtworks.com>
+    Date:   Thu Nov 29 14:20:05 2018 -0800
     
-        Added gif to Test Drive GoCD page, removed old Test Drive page (trial-gocd)
+        escape colon in the blog title
     
