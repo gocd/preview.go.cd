@@ -1,9 +1,9 @@
-Last updated: 2018-11-28 11:55:22 -0800
+Last updated: 2018-11-29 12:33:14 -0800
 
 Latest commit:
-    commit 038f37994ec510850f7be8bcf6e45f7e364d6878
-    Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Wed Nov 28 11:51:18 2018 -0800
+    commit 9f05d4440db2af46d988c4ae0bd28e294bab6a20
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Thu Nov 29 12:27:36 2018 -0800
     
-        Updated the title for analytics blog part 1
+        Added gif to Test Drive GoCD page, removed old Test Drive page (trial-gocd)
     
