@@ -430,6 +430,9 @@
     <loc>https://preview.gocd.org/2017/10/03/introduction-continuous-delivery-deployment-tools/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/2018/11/30/deployment-frequency/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/2015/06/18/plugin-settings/</loc>
   </url>
   <url>
@@ -593,6 +596,12 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2018/11/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/2018/11/30/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/2018/10/</loc>
