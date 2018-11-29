@@ -1,9 +1,9 @@
-Last updated: 2018-11-29 14:40:32 -0800
+Last updated: 2018-11-29 15:34:52 -0800
 
 Latest commit:
-    commit 018e795699dfed4c71d8bf8e0750682ae3675be1
+    commit 53ec612a348564c3fc40cef82b6d829b8d3edd2b
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Thu Nov 29 14:37:18 2018 -0800
+    Date:   Thu Nov 29 15:31:28 2018 -0800
     
-        Added new blog CD metrics part 2
+        Fixed some styling issue for CD metrics part 2
     

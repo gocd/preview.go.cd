@@ -84,7 +84,7 @@
 
       <main id="main" role="main" class="blog-post-main-container">
       
-<p>This is the second post in the series - Actionable Continuous Delivery Metrics. In the previous post, we gave an overview of why metrics matter to your CD process and what metrics we recommend you measure. In this post, we’ll get deeper into the first metric: deployment frequency.</p>
+<p>This is the second post in the series - <a href="https://preview.gocd.org/tags/cd-analytics.html">Actionable Continuous Delivery Metrics</a>. In the previous post, we gave an overview of why metrics matter to your CD process and what metrics we recommend you measure. In this post, we’ll get deeper into the first metric: deployment frequency.</p>
 
 <h2 id="what-deployment-frequency-is">What Deployment Frequency Is</h2>
 
@@ -104,19 +104,23 @@
 
 <h2 id="an-example-how-to-use-deployment-frequency">An example: How to Use Deployment Frequency</h2>
 
-<p>If you are measuring your pipeline and have low deployment frequency, what can you do? We’ll take a hypothetical example, and use GoCD, our continuous delivery server, to take you through how you can identify and act on deployment frequency issues. In our example, the team received the complaint from the business that they don’t get value very often. Let’s find out why.</p>
-
-<p><img src="../../../assets/images/blog/cd-metrics/cd-metrics-example-pipelines-11f24e33.png" alt="example pipelines" /></p>
+<p>If you are measuring your pipeline and have low deployment frequency, what can you do? We’ll take a hypothetical example, and use GoCD, our continuous delivery server, to take you through how you can identify and act on deployment frequency issues. In our example, the team received the complaint from the business that they don’t get value very often. Let’s find out why. 
+&lt;/br&gt;
+<img src="../../../assets/images/blog/cd-metrics/cd-metrics-example-pipelines-11f24e33.png" alt="example pipelines" />
+&lt;/br&gt;</p>
 
 <p>The picture above shows you the continuous delivery pipelines, represented in GoCD’s Value Stream Map (VMS). Here, GoCD runs through the value stream including some unit tests, then integration tests and smoke tests in parallel, and then eventually the regression tests. Finally, there are User Acceptance Tests (UAT) and a production deployment.</p>
 
-<p>To understand what is happening here, we start with finding out whether your deployment frequency is concerning. In our example, it’s easy to look this metric up in GoCD using <a href="https://www.gocd.org/analytics.html">GoCD enterprise analytics plugin</a>: go to GoCD’s VSM view, select the part of the CD pipeline you care about, and see the deployment frequency (known as throughput in GoCD). We can see that the throughput is only 9%, which means out of the opportunities to deploy only 9% are reaching production. This number is too low.</p>
-
-<p><img src="../../../assets/images/blog/cd-metrics/throughput-gocd-34310d39.png" alt="deployment frequency in GoCD" /></p>
+<p>To understand what is happening here, we start with finding out whether your deployment frequency is concerning. In our example, it’s easy to look this metric up in GoCD using <a href="https://www.gocd.org/analytics.html">GoCD enterprise analytics plugin</a>: go to GoCD’s VSM view, select the part of the CD pipeline you care about, and see the deployment frequency (known as throughput in GoCD). We can see that the throughput is only 9%, which means out of the opportunities to deploy only 9% are reaching production. This number is too low.
+&lt;/br&gt;
+<img src="../../../assets/images/blog/cd-metrics/throughput-gocd-34310d39.png" alt="deployment frequency in GoCD" />
+&lt;/br&gt;</p>
 
 <p>These can also be tracked manually in a spreadsheet or other tool. If you note down the status each time <i>BuildAndUnitTests</i> ran, as well as the <i>production</i> pipeline ran, , you’ll see more failures on the way to the <i>production</i> part of the CD pipelines. In the table below, you can see when you track and plot the run times, in the same time period of five days, <i>BuildAndUnitTests</i> ran much more times than <i>Production</i>. Again, you see the deployment frequency is very low.</p>
 
-<p><img src="../../../assets/images/blog/cd-metrics/throughput-manual-feaec385.png" alt="deployment frequency in excel" /></p>
+<p>&lt;/br&gt;
+<img src="../../../assets/images/blog/cd-metrics/throughput-manual-feaec385.png" alt="deployment frequency in excel" />
+&lt;/br&gt;</p>
 
 <p>The main signal here is clearly that the deployment frequency is low.  But why and how should we act on that?  There may be many reasons for this. We recommend checking the following potential causes:</p>
 
@@ -131,7 +135,7 @@
 
 <h2 id="summary">Summary</h2>
 
-<p>In this post, we discussed what deployment frequency is, why it is important, and how to act on low deployment frequency. As we discussed in &lt;a href="https://www.gocd.org/2018/10/30/measure-continuous-delivery-process/&gt;our previous post&lt;/a&gt;, there are three other important metrics we recommend measuring: lead time, change to fail percentage and MTTR. These metrics work closely with deployment frequency, and can will help you further understand the root cause of low deployment frequency. We we will cover the interrelationship of these metrics  in future posts.</p>
+<p>In this post, we discussed what deployment frequency is, why it is important, and how to act on low deployment frequency. As we discussed in <a href="https://www.gocd.org/2018/10/30/measure-continuous-delivery-process/">our previous post</a>, there are three other important metrics we recommend measuring: lead time, change to fail percentage and MTTR. These metrics work closely with deployment frequency, and can will help you further understand the root cause of low deployment frequency. We we will cover the interrelationship of these metrics  in future posts.</p>
 
 
       </main>
