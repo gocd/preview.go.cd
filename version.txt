@@ -1,9 +1,9 @@
-Last updated: 2018-11-29 15:34:52 -0800
+Last updated: 2018-11-29 16:04:49 -0800
 
 Latest commit:
-    commit 53ec612a348564c3fc40cef82b6d829b8d3edd2b
+    commit b62553b134217c35847952b30041f9f88efadc25
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Thu Nov 29 15:31:28 2018 -0800
+    Date:   Thu Nov 29 16:01:21 2018 -0800
     
-        Fixed some styling issue for CD metrics part 2
+        Update 2018-11-30-deployment-frequency.html.markdown.erb
     
