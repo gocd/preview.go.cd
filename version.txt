@@ -1,9 +1,9 @@
-Last updated: 2018-11-30 14:34:39 -0800
+Last updated: 2018-11-30 14:44:51 -0800
 
 Latest commit:
-    commit 6c8d158cad055cafa7f71c68697ed2525dcdbf0f
+    commit 4d637d4796728f4d6a3305cd71fdd63e72d03d58
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Fri Nov 30 14:29:49 2018 -0800
+    Date:   Fri Nov 30 14:40:21 2018 -0800
     
-        incorporated Duck's feedback
+        updated deployment-frequency-concept.jpg
     
