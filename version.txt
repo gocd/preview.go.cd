@@ -1,9 +1,9 @@
-Last updated: 2018-11-30 14:19:23 -0800
+Last updated: 2018-11-30 14:34:39 -0800
 
 Latest commit:
-    commit 2dee1a24ecf5ddd1b812d756a22423f7e7b0df0f
+    commit 6c8d158cad055cafa7f71c68697ed2525dcdbf0f
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Fri Nov 30 14:15:01 2018 -0800
+    Date:   Fri Nov 30 14:29:49 2018 -0800
     
-        updated images for cd-metrics blog part 2
+        incorporated Duck's feedback
     
