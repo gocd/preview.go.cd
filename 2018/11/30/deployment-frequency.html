@@ -112,7 +112,7 @@
 
 <p>To understand what is happening here, we start with finding out whether your deployment frequency is concerning. In our example, it’s easy to look this metric up in GoCD using <a href="https://www.gocd.org/analytics.html">GoCD enterprise analytics plugin</a>: go to GoCD’s VSM view, select the part of the CD pipeline you care about, and see the deployment frequency (known as throughput in GoCD). We can see that the throughput is only 9%, which means out of the opportunities to deploy only 9% are reaching production. This number is too low.</p>
 
-<p><img src="../../../assets/images/blog/cd-metrics/throughput-gocd-34310d39.png" alt="deployment frequency in GoCD" /></p>
+<p><img src="../../../assets/images/blog/cd-metrics/throughput-gocd-3b8ad603.png" alt="deployment frequency in GoCD" /></p>
 
 <p>These can also be tracked manually in a spreadsheet or other tool. If you note down the status each time <i>BuildAndUnitTests</i> ran, as well as the <i>production</i> pipeline ran, , you’ll see more failures on the way to the <i>production</i> part of the CD pipelines. In the table below, you can see when you track and plot the run times, in the same time period of five days, <i>BuildAndUnitTests</i> ran much more times than <i>Production</i>. Again, you see the deployment frequency is very low.</p>
 
