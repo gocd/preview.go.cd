@@ -1,9 +1,9 @@
-Last updated: 2018-11-30 14:48:02 -0800
+Last updated: 2018-12-03 11:15:45 -0800
 
 Latest commit:
-    commit dd367d4d225d9dc847f64846b3ec628e1e2bc71d
+    commit ccd01a19e7aadda5054b5562ae6212c3ca919971
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Fri Nov 30 14:43:12 2018 -0800
+    Date:   Mon Dec 3 11:05:16 2018 -0800
     
-        Update 2018-11-30-deployment-frequency.html.markdown.erb
+        remove draft tag
     
