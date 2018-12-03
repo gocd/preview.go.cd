@@ -1,9 +1,9 @@
-Last updated: 2018-12-03 13:10:14 -0800
+Last updated: 2018-12-03 13:13:29 -0800
 
 Latest commit:
-    commit 55d6657c95ecd1d1d2f7f912fe4ad92398b0a0fa
+    commit 0e9656075014539bfa55cf63aa6f7180a85bc16d
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Mon Dec 3 13:06:30 2018 -0800
+    Date:   Mon Dec 3 13:07:37 2018 -0800
     
-        linked to part 1
+        updated links to previous posts
     
