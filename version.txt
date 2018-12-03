@@ -1,9 +1,9 @@
-Last updated: 2018-12-03 11:15:45 -0800
+Last updated: 2018-12-03 13:10:14 -0800
 
 Latest commit:
-    commit ccd01a19e7aadda5054b5562ae6212c3ca919971
+    commit 55d6657c95ecd1d1d2f7f912fe4ad92398b0a0fa
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Mon Dec 3 11:05:16 2018 -0800
+    Date:   Mon Dec 3 13:06:30 2018 -0800
     
-        remove draft tag
+        linked to part 1
     
