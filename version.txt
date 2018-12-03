@@ -1,9 +1,9 @@
-Last updated: 2018-12-03 13:16:33 -0800
+Last updated: 2018-12-03 13:25:07 -0800
 
 Latest commit:
-    commit 77f7b617d10fe1c00478e38a5c6e18fd99388607
+    commit 218d7aed56d22c28169d4c324fda06a8d7d199e4
     Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Mon Dec 3 13:08:55 2018 -0800
+    Date:   Mon Dec 3 13:21:20 2018 -0800
     
-        Link to the part 2
+        Update 2018-10-30-measure-continuous-delivery-process.html.markdown.erb
     
