@@ -1,9 +1,11 @@
-Last updated: 2018-12-11 22:01:37 -0800
+Last updated: 2018-12-16 22:47:20 -0800
 
 Latest commit:
-    commit 45ab3a7d95ae2d9edcabf2bbbc645ca4de31e380
-    Author: Aravind SV <auto.github@arvindsv.com>
-    Date:   Wed Dec 12 00:38:39 2018 -0500
+    commit 2f87d04296c8161eed30d941ee95af55f7035ac4
+    Author: Ganesh S Patil <ganeshp8996@gmail.com>
+    Date:   Mon Dec 17 11:59:31 2018 +0530
     
-        Show demo AMIs from multiple regions (#847)
+        Change windows installer package message (#849)
+        
+        * Show message of GoCD not being shipped with windows 32 bit jre packages
     
