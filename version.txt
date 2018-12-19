@@ -1,11 +1,9 @@
-Last updated: 2018-12-16 22:47:20 -0800
+Last updated: 2018-12-19 03:29:01 -0800
 
 Latest commit:
-    commit 2f87d04296c8161eed30d941ee95af55f7035ac4
-    Author: Ganesh S Patil <ganeshp8996@gmail.com>
-    Date:   Mon Dec 17 11:59:31 2018 +0530
+    commit b05e13c8836bc6737c9100bfdcfc3c69cdb33644
+    Author: Mahesh Panchaksharaiah <mahesh_panchaks@hotmail.com>
+    Date:   Wed Dec 19 16:54:53 2018 +0530
     
-        Change windows installer package message (#849)
-        
-        * Show message of GoCD not being shipped with windows 32 bit jre packages
+        Release notes for 18.12.0 (#851)
     
