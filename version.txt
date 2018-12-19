@@ -1,9 +1,12 @@
-Last updated: 2018-12-19 04:01:23 -0800
+Last updated: 2018-12-19 05:32:28 -0800
 
 Latest commit:
-    commit 1577c12724ec67cad76e525951b5d9339be715cf
-    Author: Bhupendra <bdpiparva@gmail.com>
-    Date:   Wed Dec 19 17:27:17 2018 +0530
+    commit 0968c41a19343d2090a5585a02e05e8f7feed2f5
+    Merge: 1577c12 e3fd71a
+    Author: Aravind SV <auto.github@arvindsv.com>
+    Date:   Wed Dec 19 08:13:47 2018 -0500
     
-        Updated release notes for 18.12.0 (#852)
+        Merge pull request #853 from maheshp/18.12.0_additional_notes
+        
+        Note about security issues
     
