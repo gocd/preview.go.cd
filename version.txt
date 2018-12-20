@@ -1,12 +1,9 @@
-Last updated: 2018-12-19 05:32:28 -0800
+Last updated: 2018-12-19 17:32:08 -0800
 
 Latest commit:
-    commit 0968c41a19343d2090a5585a02e05e8f7feed2f5
-    Merge: 1577c12 e3fd71a
-    Author: Aravind SV <auto.github@arvindsv.com>
-    Date:   Wed Dec 19 08:13:47 2018 -0500
+    commit 21df47c01f2b7727a697c852cbb04e49e6bc1d5f
+    Author: Varsha Varadarajan <varshavaradarajan@users.noreply.github.com>
+    Date:   Wed Dec 19 17:28:39 2018 -0800
     
-        Merge pull request #853 from maheshp/18.12.0_additional_notes
-        
-        Note about security issues
+        Remove additional padding on windows tab when there is no 32-bit and 64-bit info to show. (#854)
     
