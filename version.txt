@@ -1,9 +1,11 @@
-Last updated: 2018-12-19 17:32:08 -0800
+Last updated: 2018-12-19 18:06:52 -0800
 
 Latest commit:
-    commit 21df47c01f2b7727a697c852cbb04e49e6bc1d5f
-    Author: Varsha Varadarajan <varshavaradarajan@users.noreply.github.com>
-    Date:   Wed Dec 19 17:28:39 2018 -0800
+    commit 6eadc44b7246e97c37cdd60e061f3194cc3bbef4
+    Author: Bhupendra <bdpiparva@gmail.com>
+    Date:   Thu Dec 20 07:33:16 2018 +0530
     
-        Remove additional padding on windows tab when there is no 32-bit and 64-bit info to show. (#854)
+        Revert "Remove additional padding on windows tab when there is no 32-bit and 64-bit info to show. (#854)" (#855)
+        
+        This reverts commit 21df47c01f2b7727a697c852cbb04e49e6bc1d5f.
     
