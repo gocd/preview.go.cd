@@ -1,9 +1,9 @@
-Last updated: 2019-01-08 15:16:28 -0800
+Last updated: 2019-01-08 15:21:25 -0800
 
 Latest commit:
-    commit e446dc7614719b2f921565b06b4bb9954b57d1bc
+    commit f6c09e26738ad9d6cef23fb2fa2ff49e43591016
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Jan 8 15:12:16 2019 -0800
+    Date:   Tue Jan 8 15:14:23 2019 -0800
     
-        cd metrics part 2 draft
+        cd metrics p3 header
     
