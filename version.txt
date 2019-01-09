@@ -1,9 +1,10 @@
-Last updated: 2019-01-08 15:21:25 -0800
+Last updated: 2019-01-09 08:53:49 -0800
 
 Latest commit:
-    commit f6c09e26738ad9d6cef23fb2fa2ff49e43591016
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Jan 8 15:14:23 2019 -0800
+    commit a9e0d423a379ec24529e3d5a46aea43e154fe7a0
+    Merge: f6c09e2 bc889a2
+    Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+    Date:   Wed Jan 9 16:49:09 2019 +0000
     
-        cd metrics p3 header
+        Merge pull request #864 from gocd/dependabot/bundler/rake-12.3.2
     
