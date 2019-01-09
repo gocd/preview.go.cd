@@ -1,10 +1,10 @@
-Last updated: 2019-01-09 08:59:15 -0800
+Last updated: 2019-01-09 09:05:50 -0800
 
 Latest commit:
-    commit f5ebef314ba3c3df64c501bea8b547bfbe334a14
-    Merge: a9e0d42 956cba9
+    commit 2ad6ed4dd9675b00945598b081d09ba128a2488b
+    Merge: f5ebef3 fc09765
     Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
-    Date:   Wed Jan 9 16:51:09 2019 +0000
+    Date:   Wed Jan 9 17:02:23 2019 +0000
     
-        Merge pull request #865 from gocd/dependabot/bundler/mime-types-3.2.2
+        Merge pull request #866 from gocd/dependabot/bundler/ffi-1.10.0
     
