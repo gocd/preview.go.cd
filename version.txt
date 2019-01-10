@@ -1,12 +1,12 @@
-Last updated: 2019-01-09 21:26:29 -0800
+Last updated: 2019-01-09 21:29:46 -0800
 
 Latest commit:
-    commit 993c407b2b5ebe722fde76a2f55c43851ee4060f
-    Merge: 60751d4 822ab79
+    commit 20e9161067cc9bcd77a777c212187ba82fed485b
+    Merge: 530b4c7 72f0843
     Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Thu Jan 10 10:52:22 2019 +0530
+    Date:   Thu Jan 10 10:55:50 2019 +0530
     
-        Merge pull request #887 from gocd/dependabot/bundler/padrino-helpers-0.13.3.4
+        Merge pull request #886 from gocd/dependabot/bundler/fog-core-2.1.2
         
-        Bump padrino-helpers from 0.13.3.3 to 0.13.3.4
+        Bump fog-core from 1.43.0 to 2.1.2
     
