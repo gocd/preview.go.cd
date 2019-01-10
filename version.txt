@@ -1,11 +1,12 @@
-Last updated: 2019-01-09 20:58:50 -0800
+Last updated: 2019-01-09 21:26:29 -0800
 
 Latest commit:
-    commit 60751d47ebcd6c55c454b2711c1dc3ac949df85c
-    Author: Ketan Padegaonkar <KetanPadegaonkar@gmail.com>
-    Date:   Thu Jan 10 10:25:34 2019 +0530
+    commit 993c407b2b5ebe722fde76a2f55c43851ee4060f
+    Merge: 60751d4 822ab79
+    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
+    Date:   Thu Jan 10 10:52:22 2019 +0530
     
-        Revert "Revert "Revert "Bump middleman-gh-pages from 0.3.1 to 0.4.1"""
+        Merge pull request #887 from gocd/dependabot/bundler/padrino-helpers-0.13.3.4
         
-        This reverts commit b140213e5154ed8f3a099dd4ce5c19ed665a8443.
+        Bump padrino-helpers from 0.13.3.3 to 0.13.3.4
     
