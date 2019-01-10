@@ -1,12 +1,12 @@
-Last updated: 2019-01-09 21:29:46 -0800
+Last updated: 2019-01-09 21:35:13 -0800
 
 Latest commit:
-    commit 20e9161067cc9bcd77a777c212187ba82fed485b
-    Merge: 530b4c7 72f0843
+    commit 2829c57f0198d417b4c1fc8cbbce680671716b23
+    Merge: 20e9161 9a4339e
     Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Thu Jan 10 10:55:50 2019 +0530
+    Date:   Thu Jan 10 11:01:39 2019 +0530
     
-        Merge pull request #886 from gocd/dependabot/bundler/fog-core-2.1.2
+        Merge pull request #888 from gocd/dependabot/bundler/autoprefixer-rails-6.7.7.2
         
-        Bump fog-core from 1.43.0 to 2.1.2
+        Bump autoprefixer-rails from 6.6.0 to 6.7.7.2
     
