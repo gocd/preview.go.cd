@@ -1,9 +1,9 @@
-Last updated: 2019-01-14 13:33:56 -0800
+Last updated: 2019-01-14 14:32:37 -0800
 
 Latest commit:
-    commit 429cd1eaddd5015291ece10bddaeea8ac1aea71a
+    commit c355e19716cadc1695eb918a9f548f9ff91e4d4c
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Jan 14 13:28:05 2019 -0800
+    Date:   Mon Jan 14 14:27:43 2019 -0800
     
-        update content 2
+        edited images for lead time blog
     
