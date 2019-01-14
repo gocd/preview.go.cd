@@ -1,9 +1,9 @@
-Last updated: 2019-01-14 14:49:41 -0800
+Last updated: 2019-01-14 14:52:51 -0800
 
 Latest commit:
-    commit 5df1716dd052d406af254766c8f4eb1517a959e0
+    commit 05d508617c3b29d71cdbe7d693a98f35209e56ce
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Jan 14 14:42:56 2019 -0800
+    Date:   Mon Jan 14 14:47:08 2019 -0800
     
-        adding new image in to blog
+        added content break between images
     
