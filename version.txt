@@ -1,9 +1,9 @@
-Last updated: 2019-01-14 10:50:34 -0800
+Last updated: 2019-01-14 12:06:52 -0800
 
 Latest commit:
-    commit a4fe7bbba04feb2da0412557971284b34c1d26cf
+    commit fb16a2fc30aba123f0d490517c989b68f3699050
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Jan 14 10:46:08 2019 -0800
+    Date:   Mon Jan 14 12:03:06 2019 -0800
     
-        formatting fixes
+        deleted h1
     
