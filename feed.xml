@@ -5,16 +5,16 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed.xml" rel="self"/>
-  <updated>2019-01-09T00:00:00Z</updated>
+  <updated>2019-01-14T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
   <entry>
     <title>Continuous Delivery Metrics Part 3&amp;#58; How long does it take from committing code to production?</title>
-    <link rel="alternate" href="https://preview.gocd.org/2019/01/09/cd-metrics-deployment-lead-time.html"/>
-    <id>https://preview.gocd.org/2019/01/09/cd-metrics-deployment-lead-time.html</id>
-    <published>2019-01-09T00:00:00Z</published>
-    <updated>2019-01-09T00:00:00Z</updated>
+    <link rel="alternate" href="https://preview.gocd.org/2019/01/14/cd-metrics-deployment-lead-time.html"/>
+    <id>https://preview.gocd.org/2019/01/14/cd-metrics-deployment-lead-time.html</id>
+    <published>2019-01-14T00:00:00Z</published>
+    <updated>2019-01-14T00:00:00Z</updated>
     <author>
       <name>Aravind S.V and Suzie Prince</name>
     </author>
