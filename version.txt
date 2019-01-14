@@ -1,9 +1,9 @@
-Last updated: 2019-01-14 08:23:48 -0800
+Last updated: 2019-01-14 09:45:35 -0800
 
 Latest commit:
-    commit 67806630d3bf0b56ea5c252c5c96f44c0afae7a9
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Mon Jan 14 11:16:59 2019 -0500
+    commit 8670b5670806cc239d5dba49e19bacc024d64fba
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Mon Jan 14 09:40:05 2019 -0800
     
-        Fix wrong link in roadmap
+        lead time blog images
     
