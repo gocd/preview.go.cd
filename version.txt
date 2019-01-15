@@ -1,9 +1,9 @@
-Last updated: 2019-01-15 12:26:39 -0800
+Last updated: 2019-01-15 14:00:08 -0800
 
 Latest commit:
-    commit 343d130ae7e2f7795d4600a98fc9d66921f46472
-    Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Tue Jan 15 12:22:01 2019 -0800
+    commit c80fd22bf0f64387933cf78f6fe0dab3c7c08efe
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Tue Jan 15 13:54:46 2019 -0800
     
-        Updated GoCD screenshots for blog
+        seo changes
     
