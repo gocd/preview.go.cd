@@ -1,9 +1,9 @@
-Last updated: 2019-01-15 14:00:08 -0800
+Last updated: 2019-01-16 11:10:27 -0800
 
 Latest commit:
-    commit c80fd22bf0f64387933cf78f6fe0dab3c7c08efe
+    commit 87adb85471d33491bb086826ced0962e953f86cf
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Jan 15 13:54:46 2019 -0800
+    Date:   Wed Jan 16 11:06:23 2019 -0800
     
-        seo changes
+        added download link to cta
     
