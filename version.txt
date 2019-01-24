@@ -1,9 +1,13 @@
-Last updated: 2019-01-22 14:16:06 -0800
+Last updated: 2019-01-24 06:09:58 -0800
 
 Latest commit:
-    commit 7c08ebf8c4689132e2b7e2958335c2a89805c7ab
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Jan 22 14:12:51 2019 -0800
+    commit 171885b86babd0a64ed6ff3bb2a26bfda71d74a6
+    Author: adityas <adityas@thoughtworks.com>
+    Date:   Thu Jan 24 19:34:45 2019 +0530
     
-        updating cd101 pdf to recent version
+        Bump up release 19.1.0 (#903)
+        
+        *  Initial Draft of 19.1.0 release notes
+        
+        * Adding next release file
     
