@@ -1,13 +1,12 @@
-Last updated: 2019-01-24 06:09:58 -0800
+Last updated: 2019-01-25 04:27:54 -0800
 
 Latest commit:
-    commit 171885b86babd0a64ed6ff3bb2a26bfda71d74a6
+    commit 4ba5d33f6d184828829a28fcbcfaee9f3448da16
+    Merge: 171885b 5cdff74
     Author: adityas <adityas@thoughtworks.com>
-    Date:   Thu Jan 24 19:34:45 2019 +0530
+    Date:   Fri Jan 25 17:53:58 2019 +0530
     
-        Bump up release 19.1.0 (#903)
+        Merge pull request #904 from adityasood/bump-up-release-19.1.0
         
-        *  Initial Draft of 19.1.0 release notes
-        
-        * Adding next release file
+        merging this to allow the release notes to be available on preview
     

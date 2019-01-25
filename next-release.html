@@ -96,7 +96,7 @@
 </ul>
 
 <figure class="shrink-figure-100">
-    <img src="assets/images/releases/19.1.0/config-spa-error-3c12e3b4.png" alt="Pipeline Export Feature" />
+    <img src="assets/images/releases/19.1.0/config-spa-error-3c12e3b4.png" alt="Config SPA Error" />
 </figure>
 <p><br /></p>
 
@@ -104,53 +104,51 @@
   <li><code><a href="https://github.com/gocd/gocd/commit/6c889299b130b13a86eebb652b10cba52ffde438">6c88929</a></code> - Performance improvement to loading multiple Config Repos on server restart. (<a href="https://github.com/gocd/gocd/issues/5663">#5663</a>)</li>
 </ul>
 
-<h4> GoCD Drain State (Maintenance mode) </h4>
+<h4> GoCD Drain Mode (Maintenance mode) </h4>
 
 <p>Drain mode is a maintenance mode which can be utilized by the GoCD system administrator to safely restart or upgrade the GoCD server without having any running jobs reschedule when the server is back up. Initiating drain mode will cause various sub-systems of GoCD to stop working making sure server is not performing any operation.</p>
 
 <figure class="shrink-figure-100">
-    <img src="assets/images/releases/19.1.0/drain-mode-a4d3552d.gif" alt="Pipeline Export Feature" />
+    <img src="assets/images/releases/19.1.0/drain-mode-a4d3552d.gif" alt="Drain Mode Feature" />
 </figure>
 <p><br /></p>
 
 <p>To know more about about GoCD Drain Mode click <a href="https://docs.gocd.org/19.1.0/advanced_usage/drain_mode.html">here</a>.</p>
 
-<h4>UI/UX Improvements</h4>
-
-<ul>
-  <li>The Users Summary page is now renamed to Users Management and has been updated with a new UI. System Administrators can now filter users using User Roles, state and privileges.</li>
-</ul>
+<h4>New Users Management Page (beta) </h4>
 
 <figure class="shrink-figure-100">
-    <img src="assets/images/releases/19.1.0/user-filter-5d94bd80.png" alt="Pipeline Export Feature" />
+    <img src="assets/images/releases/19.1.0/users_management-6344f05c.png" alt="New Users Management UI" />
 </figure>
 <p><br /></p>
 
 <ul>
-  <li>Admins can now search for users on the Users Management page.</li>
+  <li>This release of GoCD ships with a 'preview' version of the new users management page.</li>
 </ul>
 
-<figure class="shrink-figure-100">
-    <img src="assets/images/releases/19.1.0/user-search-95cc9583.png" alt="Pipeline Export Feature" />
-</figure>
-<p><br /></p>
+<p>This feature can be turned on by executing:</p>
+
+<pre><code>curl https://your-go-server/go/api/admin/feature_toggles/users_page_using_rails' \
+  -d toggle_value=off \
+  -H 'Confirm:true' \
+  -u username:password
+</code></pre>
+
+<p>The new and improved UI will help admins</p>
 
 <ul>
-  <li>Delegating GoCD System Administrator Privileges to a user is now made simple and can be controlled by the System Admin toggle for each user.</li>
+  <li>Search for users from the users management page</li>
+  <li>Filter users based on their roles, privileges and state.</li>
+  <li>Improved UX for adding and removing GoCD System Administrators.</li>
 </ul>
-
-<figure class="shrink-figure-100">
-    <img src="assets/images/releases/19.1.0/admin-toggle-9bf83819.png" alt="Pipeline Export Feature" />
-</figure>
-<p><br /></p>
 
 <h4>API Improvements</h4>
 
 <ul>
-  <li>Introduce <a href="https://api.gocd.org/19.1.0/#get-stage-instance">V1 of Stage Instance API</a>.</li>
-  <li>Introduce <a href="https://api.gocd.org/19.1.0/#system-admins">V2 of System Admins API</a>.</li>
-  <li>Introduce <a href="https://api.gocd.org/19.1.0/#roles">V2 of Roles API</a>.</li>
-  <li>Introduce <a href="https://api.gocd.org/19.1.0/#users">V3 of Users API</a>.</li>
+  <li><a href="https://github.com/gocd/gocd/pull/5619">#5619</a> - Introduce v1 of <a href="https://api.gocd.org/current/#get-stage-instance">Stage Instance</a>.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/5665">#5665</a> - Introduced v2 of  <a href="https://api.gocd.org/current/#roles">Roles</a>.</li>
+  <li><a href="https://github.com/gocd/gocd/pull/5661">#5661</a> - Introduce v2 of <a href="https://api.gocd.org/current/#system-admins">System Admins</a>.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/5558">#5558</a> - Introduced v3 of  <a href="https://api.gocd.org/current/#users">Users</a>.</li>
 </ul>
 
 <h4>Plugin API improvements</h4>
@@ -166,6 +164,7 @@
   <li><code><a href="https://github.com/gocd/gocd/commit/51919ab43ad8a5bf14147e092b1917e3acb34afb">51919ab</a></code> - Set extra properties for the agent, from server. (<a href="https://github.com/gocd/gocd/issues/5666">#5666</a>)</li>
   <li><code><a href="https://github.com/gocd/gocd/commit/143054f55270911d2a87433d5ac3a2e3dbad765e">143054f</a></code> - Plugin Info request processor versioning. (<a href="https://github.com/gocd/gocd/issues/5654">#5654</a>)</li>
   <li><code><a href="https://github.com/gocd/gocd/commit/792ae6134c0e1e0572835b1888d32ac66b08cdfd">792ae61</a></code> - Show cancelled by on the dashboard on hovering over a stage. (<a href="https://github.com/gocd/gocd/issues/5683">#5683</a>)</li>
+  <li><code><a href="https://github.com/gocd/gocd/commit/a06b4970c582d2379b30c35a2ecc3a347d5a66d3">a06b497</a></code> - Improved performance of Envrionments API. (<a href="https://github.com/gocd/gocd/issues/5698">#5698</a>)</li>
 </ul>
 
 <h4>Bug fixes</h4>
@@ -193,18 +192,19 @@
   <li>The Users API v2 has been deprecated. This version of the API will be removed in a release scheduled for April 2019. Version 3 of the API is available, and users are encouraged to use it.</li>
   <li>The System Admins API v1 has been deprecated. This version of the API will be removed in a release scheduled for April 2019. Version 2 of the API is available, and users are encouraged to use it.</li>
   <li>The Roles API v1 has been deprecated. This version of the API will be removed in a release scheduled for April 2019. Version 2 of the API is available, and users are encouraged to use it.</li>
+  <li>The Ubuntu 14.04 based docker image for gocd agent has been deprecated and will not be built after April 2019 release of GoCD. This will be done as Ubuntu 14.04 will reach end-of-life in April 2018.</li>
 </ul>
 
 <h4>Breaking Changes</h4>
 
 <ul>
-  <li><code><a href="https://github.com/gocd/gocd/commit/f12cbf3f9e9f53c2fdd921cb3dfcce87a4217c3c">f12cbf3</a></code> - Remove the pipeline config spa.</li>
-  <li><code><a href="https://github.com/gocd/gocd/commit/74e4e3c8a26b2b52141de4cc71f438f305100d52">74e4e3c</a></code> - Remove support for DES. (<a href="https://github.com/gocd/gocd/issues/5646">#5646</a>)</li>
+  <li><code><a href="https://github.com/gocd/gocd/commit/f12cbf3f9e9f53c2fdd921cb3dfcce87a4217c3c">f12cbf3</a></code> - Remove the pipeline quick edit spa.</li>
+  <li><code><a href="https://github.com/gocd/gocd/commit/74e4e3c8a26b2b52141de4cc71f438f305100d52">74e4e3c</a></code> - Support for DES was deprecated as part of <a href="https://www.gocd.org/releases/#18-7-0">18.7.0 release</a> in favor of AES.The support for DES is removed as part of this release. Users who have defined encrypted values in their configuration repositories should update them to use AES encryption. (<a href="https://github.com/gocd/gocd/issues/5646">#5646</a>)</li>
 </ul>
 
 <h4>Contributors</h4>
 
-<p>Aditya Sood, Akshay Dewan, Ankit Srivastava, Aravind SV, Armin G Jazi, Bhupendrakumar Piprava, Chandrakanth Nagaraj, Ganesh S Patil, Huimin Li, Isabelle Carter, Jen Marley, Jyoti Singh, Ketan Padegaonkar, Kiera Radman, Kritika Singh, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Marques Lee, Naveen Bhaskar, Pranav Bansod, Rahul Pargaonkar, Rajiesh N, Sana Jahan, Steven Streisguth, Tomasz Setkowski, Varsha Varadarajan, Vishal Devgire, Vrushali Waykole</p>
+<p>Aditya Sood, Akshay Dewan, Ankit Srivastava, Aravind SV, Bhupendrakumar Piprava, Chandrakanth Nagaraj, Eric Cheung, Ganesh S Patil, Huimin Li, Isabelle Carter, Jen Marley, Jyoti Singh, Ketan Padegaonkar, Kiera Radman, Kritika Singh, Louda Peña, Lubaina R, Mahesh Panchaksharaiah, Mansi Shah, Marques Lee, Naveen Bhaskar, Prateek Baheti, Rahul Pargaonkar, Rajiesh N, Sanjana Bayya, Sheroy Marker, Steven Streisguth, Tomasz Setkowski, Varsha Varadarajan, Vishal Devgire, Vrushali Waykole</p>
 
 <h4>Note</h4>
 
