@@ -1,12 +1,12 @@
-Last updated: 2019-01-28 03:25:31 -0800
+Last updated: 2019-01-28 04:31:37 -0800
 
 Latest commit:
-    commit 4e95df371437756e262b8273343156143cdaeb00
-    Merge: 4ba5d33 1d00375
+    commit 0bf4e3d86ae040488eebae459001529fbe720233
+    Merge: 4e95df3 ea821a5
     Author: adityas <adityas@thoughtworks.com>
-    Date:   Mon Jan 28 14:04:20 2019 +0530
+    Date:   Mon Jan 28 17:46:19 2019 +0530
     
-        Merge pull request #906 from adityasood/bump-up-release-19.1.0
+        Merge pull request #907 from adityasood/bump-up-release-19.1.0
         
-        Merging for release notes to be available on preview
+         Removed User Management Announcement and replaced Drain Mode -> Maintenance Mode
     

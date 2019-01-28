@@ -80,16 +80,16 @@
       <h3 class="tab-marker tab-accordion_heading d_active" rel="tab-next"> (next)</h3>
       <div id="tab-next" class="tab_content" style="display: block;">
         <div class="content">
-          <h4> GoCD Drain Mode (Maintenance mode) </h4>
+          <h4> GoCD Maintenance mode </h4>
 
-<p>Drain mode is a maintenance mode which can be utilized by the GoCD system administrator to safely restart or upgrade the GoCD server without having any running jobs reschedule when the server is back up. Initiating drain mode will cause various sub-systems of GoCD to stop working making sure server is not performing any operation.</p>
+<p>GoCD maintenance mode can be utilized by the GoCD system administrator to safely restart or upgrade the GoCD server without having any running jobs reschedule when the server is back up. Initiating maintenance mode will cause various sub-systems of GoCD to stop working making sure server is not performing any operation.</p>
 
 <figure class="shrink-figure-100">
     <img src="../assets/images/releases/19.1.0/drain-mode-a4d3552d.gif" alt="Drain Mode Feature" />
 </figure>
 <p><br /></p>
 
-<p>To know more about about GoCD Drain Mode click <a href="https://docs.gocd.org/19.1.0/advanced_usage/drain_mode.html">here</a>.</p>
+<p>To know more about about GoCD Maintenance Mode click <a href="https://docs.gocd.org/19.1.0/advanced_usage/drain_mode.html">here</a>.</p>
 
 <h4>Improved Pipeline as Code experience.</h4>
 
@@ -113,31 +113,6 @@
 
 <ul>
   <li><code><a href="https://github.com/gocd/gocd/commit/6c889299b130b13a86eebb652b10cba52ffde438">6c88929</a></code> - Performance improvement to loading multiple Config Repos on server restart. (<a href="https://github.com/gocd/gocd/issues/5663">#5663</a>)</li>
-</ul>
-
-<h4>New Users Management Page (beta) </h4>
-
-<figure class="shrink-figure-100">
-    <img src="../assets/images/releases/19.1.0/users_management-6344f05c.png" alt="New Users Management UI" />
-</figure>
-<p><br /></p>
-
-<p>This release of GoCD ships with a 'preview' version of the new users management page.</p>
-
-<p>This feature can be turned on by executing:</p>
-
-<pre><code>curl 'https://your-go-server/go/api/admin/feature_toggles/users_page_using_rails' \
-  -d toggle_value=off \
-  -H 'Confirm:true' \
-  -u username:password
-</code></pre>
-
-<p>The new and improved UI will help admins</p>
-
-<ul>
-  <li>Search for users from the users management page</li>
-  <li>Filter users based on their roles, privileges and state.</li>
-  <li>Improved UX for adding and removing GoCD System Administrators.</li>
 </ul>
 
 <h4>API Improvements</h4>
