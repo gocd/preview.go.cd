@@ -1,12 +1,9 @@
-Last updated: 2019-01-28 04:31:37 -0800
+Last updated: 2019-01-28 13:10:35 -0800
 
 Latest commit:
-    commit 0bf4e3d86ae040488eebae459001529fbe720233
-    Merge: 4e95df3 ea821a5
-    Author: adityas <adityas@thoughtworks.com>
-    Date:   Mon Jan 28 17:46:19 2019 +0530
+    commit f4da15456517b7e971cb492efe9d47088e6214e4
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Mon Jan 28 13:05:49 2019 -0800
     
-        Merge pull request #907 from adityasood/bump-up-release-19.1.0
-        
-         Removed User Management Announcement and replaced Drain Mode -> Maintenance Mode
+        Update _utilities.scss
     
