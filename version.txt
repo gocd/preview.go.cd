@@ -1,12 +1,12 @@
-Last updated: 2019-01-29 01:44:54 -0800
+Last updated: 2019-01-29 02:55:22 -0800
 
 Latest commit:
-    commit 6ec51ff06892116d834e6d42e802a21649da9d18
+    commit 2cf6af21cbea7c5ce9c96c7432bdc78d8ae3b29b
+    Merge: 6ec51ff 7781f03
     Author: adityas <adityas@thoughtworks.com>
-    Date:   Tue Jan 29 15:10:48 2019 +0530
+    Date:   Tue Jan 29 16:20:28 2019 +0530
     
-        update gif for maintenance mode (#910)
+        Merge pull request #911 from adityasood/bump-up-release-19.1.0
         
-        *  Updated maintenance mode gif, added 19.1.0 release note file
-        * updated gif for maintenance mode
+         added deprecation notice for Alpine 3.6 GoCD agent docker image
     
