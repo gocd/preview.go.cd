@@ -1,12 +1,11 @@
-Last updated: 2019-02-06 23:56:23 -0800
+Last updated: 2019-02-07 14:38:20 -0800
 
 Latest commit:
-    commit 02ae10c10d55727e882bd2433d1d7c6ef02e4aec
-    Merge: 9b8c42d fbdd6cf
-    Author: NaveenBhaskar <naveenbhaskar@users.noreply.github.com>
-    Date:   Wed Feb 6 14:42:05 2019 +0530
+    commit 2e71cad0e61aeff268b92dc67ed8f789b67a49a8
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Thu Feb 7 14:34:13 2019 -0800
     
-        Merge pull request #905 from chandrakanth17/analytics-trail
+        Update 2019-01-14-cd-metrics-deployment-lead-time.html.markdown.erb
         
-        Analytics trail
+        bug fix with direct link
     
