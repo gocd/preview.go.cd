@@ -1,11 +1,15 @@
-Last updated: 2019-02-07 15:21:58 -0800
+Last updated: 2019-02-08 02:15:50 -0800
 
 Latest commit:
-    commit 42e24a1aeb42c787642dbe9e82750f80a797f2d2
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Thu Feb 7 15:17:47 2019 -0800
+    commit 8088747f63617e0980e3797f3212d0114cd1e902
+    Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
+    Date:   Fri Feb 8 15:38:02 2019 +0530
     
-        Update 2019-01-14-cd-metrics-deployment-lead-time.html.markdown.erb
+        Bump parallel from 1.12.1 to 1.13.0 (#899)
         
-        bug fix
+        Bumps [parallel](https://github.com/grosser/parallel) from 1.12.1 to 1.13.0.
+        - [Release notes](https://github.com/grosser/parallel/releases)
+        - [Commits](https://github.com/grosser/parallel/compare/v1.12.1...v1.13.0)
+        
+        Signed-off-by: dependabot[bot] <support@dependabot.com>
     
