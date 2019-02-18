@@ -1,15 +1,12 @@
-Last updated: 2019-02-08 02:15:50 -0800
+Last updated: 2019-02-18 10:42:24 -0800
 
 Latest commit:
-    commit 8088747f63617e0980e3797f3212d0114cd1e902
-    Author: dependabot[bot] <dependabot[bot]@users.noreply.github.com>
-    Date:   Fri Feb 8 15:38:02 2019 +0530
+    commit 4d0aadee07da05798aa006cbeba368dae6d34c75
+    Merge: 8088747 6acdf43
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Mon Feb 18 10:38:03 2019 -0800
     
-        Bump parallel from 1.12.1 to 1.13.0 (#899)
+        Merge pull request #919 from chandrakanth17/analytics-trial_bug-fix
         
-        Bumps [parallel](https://github.com/grosser/parallel) from 1.12.1 to 1.13.0.
-        - [Release notes](https://github.com/grosser/parallel/releases)
-        - [Commits](https://github.com/grosser/parallel/compare/v1.12.1...v1.13.0)
-        
-        Signed-off-by: dependabot[bot] <support@dependabot.com>
+        made cornered-banner partial and added two styling one for blog-post …
     
