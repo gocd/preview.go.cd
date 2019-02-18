@@ -1,12 +1,11 @@
-Last updated: 2019-02-18 10:42:24 -0800
+Last updated: 2019-02-18 11:15:54 -0800
 
 Latest commit:
-    commit 4d0aadee07da05798aa006cbeba368dae6d34c75
-    Merge: 8088747 6acdf43
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Mon Feb 18 10:38:03 2019 -0800
+    commit b76682e09dc59f1607c281458c3cc86941981b7a
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Mon Feb 18 10:57:22 2019 -0800
     
-        Merge pull request #919 from chandrakanth17/analytics-trial_bug-fix
+        Delete index.html.erb
         
-        made cornered-banner partial and added two styling one for blog-post …
+        This was a test page is is being removed.
     
