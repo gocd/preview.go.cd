@@ -1,11 +1,11 @@
-Last updated: 2019-02-18 11:15:54 -0800
+Last updated: 2019-02-18 11:28:56 -0800
 
 Latest commit:
-    commit b76682e09dc59f1607c281458c3cc86941981b7a
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Mon Feb 18 10:57:22 2019 -0800
+    commit d758c868ef651b13ea041966bb5eb55c13e23f31
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Mon Feb 18 11:24:14 2019 -0800
     
-        Delete index.html.erb
+        Update _cornered-banner.html.erb
         
-        This was a test page is is being removed.
+        Capitalized the CTA text
     
