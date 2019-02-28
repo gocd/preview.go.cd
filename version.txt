@@ -1,9 +1,9 @@
-Last updated: 2019-02-25 13:57:32 -0800
+Last updated: 2019-02-27 20:43:03 -0800
 
 Latest commit:
-    commit 775ba0b17795c2ba07b6b0e9649acdd5a6709232
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Feb 25 13:52:06 2019 -0800
+    commit 60d3f1774b1c096e28e89166dbdc2dbb0ac69f99
+    Author: Bhupendra <bdpiparva@gmail.com>
+    Date:   Thu Feb 28 10:09:17 2019 +0530
     
-        updated event banner to ebook
+        Added deprecation note for fedora-28 based agent image. (#927)
     
