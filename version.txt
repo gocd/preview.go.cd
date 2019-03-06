@@ -1,21 +1,15 @@
-Last updated: 2019-03-06 03:05:44 -0800
+Last updated: 2019-03-06 03:26:41 -0800
 
 Latest commit:
-    commit c4cb36b9dbff255055582c9956987bb75ec34ec8
-    Author: Kritika <41165891+kritika-singh3@users.noreply.github.com>
-    Date:   Wed Mar 6 16:29:46 2019 +0530
+    commit 30b06865d1f9d7e300c0e82fa2750df1aa6be309
+    Author: Bhupendra <bdpiparva@gmail.com>
+    Date:   Wed Mar 6 16:47:40 2019 +0530
     
-        Release notes 19.2.0 (#928)
+        More fixes (#930)
         
-        * Release notes for 19.2.0
+        * Removed unused class
         
-        * Added relevant snapshots
+        * Copyied 19.2.0 release to next release.
         
-        * Better descriptions
-        
-        * Added config repo preflight endpoint to release notes + minor formatting fixes
-        
-        * Added admin access token information
-        
-        * Minor fixes.
+        * Ran optipng to reduce the image size
     
