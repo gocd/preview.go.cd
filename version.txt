@@ -1,9 +1,21 @@
-Last updated: 2019-02-27 20:43:03 -0800
+Last updated: 2019-03-06 03:05:44 -0800
 
 Latest commit:
-    commit 60d3f1774b1c096e28e89166dbdc2dbb0ac69f99
-    Author: Bhupendra <bdpiparva@gmail.com>
-    Date:   Thu Feb 28 10:09:17 2019 +0530
+    commit c4cb36b9dbff255055582c9956987bb75ec34ec8
+    Author: Kritika <41165891+kritika-singh3@users.noreply.github.com>
+    Date:   Wed Mar 6 16:29:46 2019 +0530
     
-        Added deprecation note for fedora-28 based agent image. (#927)
+        Release notes 19.2.0 (#928)
+        
+        * Release notes for 19.2.0
+        
+        * Added relevant snapshots
+        
+        * Better descriptions
+        
+        * Added config repo preflight endpoint to release notes + minor formatting fixes
+        
+        * Added admin access token information
+        
+        * Minor fixes.
     
