@@ -1,13 +1,9 @@
-Last updated: 2019-03-06 20:25:29 -0800
+Last updated: 2019-03-12 13:33:54 -0700
 
 Latest commit:
-    commit da8b85d9335cea7736540d2e54d5a6b3a788c19f
-    Author: Bhupendra <bdpiparva@gmail.com>
-    Date:   Thu Mar 7 09:51:33 2019 +0530
+    commit 31827938a5f0589d742b35461d2f831071bdbfe2
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Tue Mar 12 13:29:52 2019 -0700
     
-        Added note about Oauth plugins (#932)
-        
-        * Added note about oauth plugins
-        
-        * Updated ldap authorization plugin url to version 3.0.0 instead of using current
+        added kw
     
