@@ -1,9 +1,12 @@
-Last updated: 2019-03-12 13:41:41 -0700
+Last updated: 2019-03-14 13:32:51 -0700
 
 Latest commit:
-    commit b31881450dc181c2376c2e9dae623cd591ba9acb
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Mar 12 13:33:47 2019 -0700
+    commit 73248c8ce52d6e4c4bb92e21feaa3e155ec1a797
+    Merge: b318814 9985683
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Thu Mar 14 13:28:53 2019 -0700
     
-        added kw
+        Merge pull request #923 from chandrakanth17/video-feature
+        
+        Added video element to analytics page- WIP
     
