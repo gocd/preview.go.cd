@@ -1,12 +1,11 @@
-Last updated: 2019-03-14 13:32:51 -0700
+Last updated: 2019-03-18 12:50:33 -0700
 
 Latest commit:
-    commit 73248c8ce52d6e4c4bb92e21feaa3e155ec1a797
-    Merge: b318814 9985683
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Thu Mar 14 13:28:53 2019 -0700
+    commit 7fd3d5caaf699b98fd7cc87f3a4453e46d76c7b3
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Mon Mar 18 12:44:01 2019 -0700
     
-        Merge pull request #923 from chandrakanth17/video-feature
+        Update index.html.erb
         
-        Added video element to analytics page- WIP
+        Link fix via CK
     
