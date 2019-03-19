@@ -94,13 +94,13 @@
 
 <p><a href="https://www.openldap.org/">OpenLDAP</a> is an open-source implementation of the LDAP protocol.</p>
 
-<h2 id="prerequisites">Prerequisites</h2>
+<h2 id="prerequisites"><strong>Prerequisites</strong></h2>
 
-<p>*Ubuntu
-*Latest GoCD server
+<p>*Ubuntu<br />
+*Latest GoCD server<br />
 *Knowledge of LDAP (https://ldap.com/basic-ldap-concepts/)</p>
 
-<h2 id="step-1--installing-and-configuring-the-openldap-server">Step 1 — Installing and Configuring the OpenLDAP server</h2>
+<h2 id="step-1--installing-and-configuring-the-openldap-server"><strong>Step 1 — Installing and Configuring the OpenLDAP server</strong></h2>
 
 <p>Our first step is to install the OpenLDAP server and some associated utilities. The packages we need are all available in Ubuntu's default repositories.</p>
 
@@ -133,8 +133,9 @@ sudo ufw allow ldap
 ldapwhoami -H ldap:// -x
 </code></p>
 
-<p><strong>Output</strong>
-<code>
+<p><strong>Output</strong></p>
+
+<p><code>
 anonymous
 </code></p>
 
@@ -281,8 +282,7 @@ ldappasswd -x -D cn=admin,dc=gocd,dc=org -W -S "uid=john,ou=People,dc=gocd,dc=or
         </authConfig>
       </authConfigs>
     </security>
-<pre><code>```
-</code></pre>
+<p>```</p>
 
 <p>More info on GoCD LDAP configuration can be found here - <a href="https://github.com/gocd/gocd-ldap-authentication-plugin">https://github.com/gocd/gocd-ldap-authentication-plugin</a></p>
 

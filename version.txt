@@ -1,9 +1,9 @@
-Last updated: 2019-03-19 13:23:34 -0700
+Last updated: 2019-03-19 13:47:37 -0700
 
 Latest commit:
-    commit 4e6f103f7a84e870bc17dea32c5fccbbca14cd0e
+    commit 6463bd30f7d50a269f1e486b5e35d0d55810d98e
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Mar 19 13:20:13 2019 -0700
+    Date:   Tue Mar 19 13:43:03 2019 -0700
     
-        added ldap blog
+        fixing bullets
     
