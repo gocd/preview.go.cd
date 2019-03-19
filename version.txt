@@ -1,12 +1,9 @@
-Last updated: 2019-03-19 14:19:01 -0700
+Last updated: 2019-03-19 14:41:04 -0700
 
 Latest commit:
-    commit f8efdf0f91e64315e47bdff2fcf00ec308c06825
-    Merge: 6463bd3 b6d90c3
-    Author: Ankit <ankitsri11@users.noreply.github.com>
-    Date:   Tue Mar 19 14:15:24 2019 -0700
+    commit 9a775bedddb8f9504fca3b16773ad2af4b3d117f
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Tue Mar 19 14:36:27 2019 -0700
     
-        Merge pull request #939 from ankitsri11/open-ldap
-        
-        update to open-ldap post
+        updated seo and formatting
     

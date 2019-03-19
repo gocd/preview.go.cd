@@ -18,7 +18,7 @@
     <author>
       <name>Ankit Srivistava</name>
     </author>
-    <content type="html">This is the third post in the series - Actionable Continuous Delivery Metrics. Here we'll analyze lead time, the duration of time it takes to deployment</content>
+    <content type="html">Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD</content>
   </entry>
   <entry>
     <title>Continuous Delivery Metrics Part 3&amp;#58; How long does it take to get from committing code to production?</title>

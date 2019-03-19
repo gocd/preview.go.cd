@@ -4,16 +4,16 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-    <meta content="This is the second post in the series - Actionable Continuous Delivery Metrics. Here we’ll dive deep into the first metric: deployment frequency." name="description" />
-    <meta content="cd metrics, continuous delivery metrics, measure devops, lead time, failure rate, deployment frequency, throughput" name="keywords" />
+    <meta content="Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD" name="description" />
+    <meta content="ldap, openldap, user authentication, ci cd, authenticate users, active directory" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="How often do you deploy to production? | GoCD Blog" />
-    <meta name="twitter:description" content="This is the second post in the series - Actionable Continuous Delivery Metrics. Here we’ll dive deep into the first metric: deployment frequency." />
+    <meta name="twitter:title" content="OpenLDAP for User Authentication in GoCD | GoCD Blog" />
+    <meta name="twitter:description" content="Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD" />
     <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-hacks/open-ldap-gocd-04a9f314.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2019/03/19/user-authorization-ldap.html" />
 
-    <title>How often do you deploy to production? | GoCD Blog</title>
+    <title>OpenLDAP for User Authentication in GoCD | GoCD Blog</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../assets/stylesheets/site-586f4aa6.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-c302485f.js"></script>
@@ -131,7 +131,7 @@ sudo apt-get install slapd ldap-utils
 <pre><code class="language-shell">ldapwhoami -H ldap:// -x
 </code></pre>
 
-<p><strong>Output</strong></p>
+<p>Output:</p>
 
 <pre><code class="language-shell">anonymous
 </code></pre>
@@ -145,9 +145,9 @@ sudo apt-get install slapd ldap-utils
 
 <p>Next we'll add a user to the OpenLDAP server and see if we are able to connect.</p>
 
-<h2 id="step-2--add-user-to-ldap-server"><strong>Step 2 — Add user to ldap server</strong></h2>
+<h2 id="step-2--add-user-to-ldap-server"><strong>Step 2 — Add user to LDAP server</strong></h2>
 
-<p>Create an add.ldif file and add below content for user details.</p>
+<p>Create an add.ldif file and add below content for user details:</p>
 
 <pre><code class="language-shell">dn: ou=People,dc=gocd,dc=org
 objectClass: organizationalUnit
@@ -168,12 +168,12 @@ displayName: John Doe
 userPassword: badger
 </code></pre>
 
-<p>Execute below command to add user to ldap.</p>
+<p>Execute below command to add user to LDAP:</p>
 
 <pre><code class="language-shell">ldapadd -x -D cn=admin,dc=gocd,dc=org -W -f add.ldif
 </code></pre>
 
-<p><strong>Output</strong></p>
+<p>Output:</p>
 
 <pre><code class="language-shell">ldapadd -x -D cn=admin,dc=gocd,dc=org -W -f add.ldif
 Enter LDAP Password:
@@ -184,12 +184,12 @@ adding new entry  "ou=Groups,dc=gocd,dc=org"
 adding new entry  "uid=john,ou=People,dc=gocd,dc=org"
 </code></pre>
 
-<p>Check if the user is successfully added.</p>
+<p>Check if the user is successfully added:</p>
 
 <pre><code class="language-shell">ldapsearch -x -LLL -b dc=gocd,dc=org 'uid=john' cn gidNumber
 </code></pre>
 
-<p><strong>Output</strong></p>
+<p>Output:</p>
 
 <pre><code class="language-shell">ldapsearch -x -LLL -b dc=gocd,dc=org 'uid=john' cn gidNumber
 dn:  uid=john,ou=People,dc=gocd,dc=org
