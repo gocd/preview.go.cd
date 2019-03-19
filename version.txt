@@ -1,9 +1,9 @@
-Last updated: 2019-03-19 12:55:55 -0700
+Last updated: 2019-03-19 13:04:07 -0700
 
 Latest commit:
-    commit 1ed356c23463f13a5da2274e7be09f7d7694cc4b
+    commit 3b1fb8d6017e27117a8a4d41bffddf0c1195c1e2
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Mar 19 12:50:14 2019 -0700
+    Date:   Tue Mar 19 12:59:55 2019 -0700
     
-        ldap blog header
+        ldap blog content images
     
