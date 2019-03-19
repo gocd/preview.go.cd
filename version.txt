@@ -1,11 +1,9 @@
-Last updated: 2019-03-18 12:50:33 -0700
+Last updated: 2019-03-19 12:55:55 -0700
 
 Latest commit:
-    commit 7fd3d5caaf699b98fd7cc87f3a4453e46d76c7b3
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Mon Mar 18 12:44:01 2019 -0700
+    commit 1ed356c23463f13a5da2274e7be09f7d7694cc4b
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Tue Mar 19 12:50:14 2019 -0700
     
-        Update index.html.erb
-        
-        Link fix via CK
+        ldap blog header
     
