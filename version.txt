@@ -1,9 +1,9 @@
-Last updated: 2019-03-19 14:41:04 -0700
+Last updated: 2019-03-21 09:58:24 -0700
 
 Latest commit:
-    commit 9a775bedddb8f9504fca3b16773ad2af4b3d117f
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Mar 19 14:36:27 2019 -0700
+    commit 12da5499e2770ca11dec4183a60ef66f04c245a6
+    Author: Huimin Li <hmli@thoughtworks.com>
+    Date:   Wed Mar 20 11:13:08 2019 -0700
     
-        updated seo and formatting
+        Updated tags, remove draft
     
