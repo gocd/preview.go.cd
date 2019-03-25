@@ -1,9 +1,9 @@
-Last updated: 2019-03-21 09:58:24 -0700
+Last updated: 2019-03-25 02:13:01 -0700
 
 Latest commit:
-    commit 12da5499e2770ca11dec4183a60ef66f04c245a6
-    Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Wed Mar 20 11:13:08 2019 -0700
+    commit a37f29525d96e8d5000ddfe2d552148ace975f99
+    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
+    Date:   Mon Mar 25 14:36:41 2019 +0530
     
-        Updated tags, remove draft
+        Update plugin URL
     
