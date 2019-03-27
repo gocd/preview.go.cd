@@ -1,9 +1,12 @@
-Last updated: 2019-03-25 02:13:01 -0700
+Last updated: 2019-03-27 10:55:27 -0700
 
 Latest commit:
-    commit a37f29525d96e8d5000ddfe2d552148ace975f99
-    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Mon Mar 25 14:36:41 2019 +0530
+    commit af99d3d83f4a7209b8ff0dfc2b3d0a5ccd89b0c7
+    Merge: a37f295 bce97ca
+    Author: Aravind SV <auto.github@arvindsv.com>
+    Date:   Wed Mar 27 13:49:39 2019 -0400
     
-        Update plugin URL
+        Merge pull request #945 from varshavaradarajan/update-officially-maintained-by
+        
+        Add supported flag to docker registry artifact plugin.
     
