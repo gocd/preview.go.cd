@@ -1,12 +1,12 @@
-Last updated: 2019-03-27 15:43:44 -0700
+Last updated: 2019-03-28 11:38:45 -0700
 
 Latest commit:
-    commit 6f51cfd3dbcb34859fe23a8443226b86139985c1
-    Merge: af99d3d 5834ab8
-    Author: Kiera Radman <kradman@thoughtworks.com>
-    Date:   Wed Mar 27 15:36:49 2019 -0700
+    commit 2ef4de7cd9178b989556cf7d05d5536ac7ce75e8
+    Merge: 6f51cfd a4aa7f1
+    Author: Aravind SV <auto.github@arvindsv.com>
+    Date:   Thu Mar 28 14:33:29 2019 -0400
     
-        Merge pull request #946 from kierarad/redirect-notice
+        Merge pull request #948 from varshavaradarajan/update-ea-link
         
-        Added notice to eula and general terms pages if they include '?redirected=true'
+        Update plugins link on elastic agents page.
     
