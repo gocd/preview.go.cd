@@ -1,15 +1,9 @@
-Last updated: 2019-03-31 23:58:18 -0700
+Last updated: 2019-04-01 13:57:42 -0700
 
 Latest commit:
-    commit 9469f5030a0c124654c9a0b2d357b0a09e89c42e
-    Author: dependabot[bot] <support@dependabot.com>
-    Date:   Mon Apr 1 06:36:30 2019 +0000
+    commit 5c350a3e7775851b61cccee10e7fc1c92f7d15d3
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Mon Apr 1 13:53:18 2019 -0700
     
-        Bump parallel from 1.13.0 to 1.17.0
-        
-        Bumps [parallel](https://github.com/grosser/parallel) from 1.13.0 to 1.17.0.
-        - [Release notes](https://github.com/grosser/parallel/releases)
-        - [Commits](https://github.com/grosser/parallel/compare/v1.13.0...v1.17.0)
-        
-        Signed-off-by: dependabot[bot] <support@dependabot.com>
+        add new trial corner banner partial
     
