@@ -1,12 +1,15 @@
-Last updated: 2019-03-28 11:38:45 -0700
+Last updated: 2019-03-31 23:58:18 -0700
 
 Latest commit:
-    commit 2ef4de7cd9178b989556cf7d05d5536ac7ce75e8
-    Merge: 6f51cfd a4aa7f1
-    Author: Aravind SV <auto.github@arvindsv.com>
-    Date:   Thu Mar 28 14:33:29 2019 -0400
+    commit 9469f5030a0c124654c9a0b2d357b0a09e89c42e
+    Author: dependabot[bot] <support@dependabot.com>
+    Date:   Mon Apr 1 06:36:30 2019 +0000
     
-        Merge pull request #948 from varshavaradarajan/update-ea-link
+        Bump parallel from 1.13.0 to 1.17.0
         
-        Update plugins link on elastic agents page.
+        Bumps [parallel](https://github.com/grosser/parallel) from 1.13.0 to 1.17.0.
+        - [Release notes](https://github.com/grosser/parallel/releases)
+        - [Commits](https://github.com/grosser/parallel/compare/v1.13.0...v1.17.0)
+        
+        Signed-off-by: dependabot[bot] <support@dependabot.com>
     
