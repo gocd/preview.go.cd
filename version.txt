@@ -1,9 +1,12 @@
-Last updated: 2019-04-01 13:57:42 -0700
+Last updated: 2019-04-08 07:30:46 -0700
 
 Latest commit:
-    commit 5c350a3e7775851b61cccee10e7fc1c92f7d15d3
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Apr 1 13:53:18 2019 -0700
+    commit 793cc30971e89221dc888e1d0cb5eee2f530aeb0
+    Merge: 5c350a3 478c491
+    Author: Aravind SV <auto.github@arvindsv.com>
+    Date:   Mon Apr 8 10:27:16 2019 -0400
     
-        add new trial corner banner partial
+        Merge pull request #953 from andregmoeller/Fixes-link-to-Docker-Pipeline-Plugin
+        
+        Fixes a broken link to Docker-Pipeline-Plugin
     
