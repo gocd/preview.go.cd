@@ -1,12 +1,9 @@
-Last updated: 2019-04-10 11:59:50 -0700
+Last updated: 2019-04-10 12:59:44 -0700
 
 Latest commit:
-    commit 396ce1ccc08d8f6f0044df7223dd185e4ddcaed9
-    Merge: 793cc30 f438090
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Wed Apr 10 11:55:17 2019 -0700
+    commit b2654126fb86264f37f77a42a845d53a3f639ce8
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Wed Apr 10 12:55:52 2019 -0700
     
-        Merge pull request #937 from chandrakanth17/analytics-feeback
-        
-        Analytics feedback
+        Added images to Analytics Feedback page, changed order of images in prize section
     
