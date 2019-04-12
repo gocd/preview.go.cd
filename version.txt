@@ -1,9 +1,12 @@
-Last updated: 2019-04-12 12:09:13 -0700
+Last updated: 2019-04-12 13:06:10 -0700
 
 Latest commit:
-    commit e14246e51ca5cfadc67c93135c2db190f4a6daca
-    Author: Huimin Li <hmli@thoughtworks.com>
-    Date:   Fri Apr 12 12:05:26 2019 -0700
+    commit 3d524e94f534e2ae69d98fa2e0e9b17fde5b43ca
+    Merge: e14246e f44ad37
+    Author: Isabelle Carter <isabellenataliecarter@gmail.com>
+    Date:   Fri Apr 12 13:02:48 2019 -0700
     
-        Update addons.html.erb
+        Merge pull request #954 from ibnc/feedback_banner
+        
+        Remove location check for feedback banner
     
