@@ -1,9 +1,9 @@
-Last updated: 2019-04-12 08:01:28 -0700
+Last updated: 2019-04-12 11:04:36 -0700
 
 Latest commit:
-    commit dd8a7aa2d8b223a7b3b5941b228144aa6187b4af
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Fri Apr 12 10:57:26 2019 -0400
+    commit a4f0008771ee87def8ad20c1d4ef209b46fb6c2d
+    Author: Huimin Li <hmli@thoughtworks.com>
+    Date:   Fri Apr 12 11:00:57 2019 -0700
     
-        Update roadmap and style
+        Added Azure plugin into add-ons page
     
