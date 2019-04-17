@@ -98,6 +98,7 @@
   <li><a href="https://github.com/gocd/gocd/pull/6036">#6036</a> - Improvements to the user management page.</li>
   <li><a href="https://github.com/gocd/gocd/issues/6042">#6042</a> - Allow reordering of pipelines from config repositories.. This adds an optional <code>display_order_weight</code> property for pipelines defined in config repositories, which allow you to order pipelines.</li>
   <li>macOS installers will no longer ship as osx <code>.app</code> files. The installers now ship as a zip file, with a shell script. We believe this provides much better flexibility and allows users to run the GoCD agent and server in a location of their choice.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/2123">#2123</a> - Git shallow clone will also apply to submodules.</li>
 </ul>
 
 <h4>Bug fixes</h4>
@@ -110,6 +111,7 @@
   <li><a href="https://github.com/gocd/gocd/issues/5962">#5962</a> - GoCD shows HTTP Basic Auth dialog when after user is logged out.</li>
   <li><a href="https://github.com/gocd/gocd/pull/6011">#6011</a> - Fix errors with parsing git log when coloring is turned on using <code>.gitconfig</code>.</li>
   <li><a href="https://github.com/gocd/gocd/pull/5967">#5967</a> - Environments api should accept both <code>encrypted_value</code> and <code>value</code>.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/3635">#3635</a> - GoCD can update git submodules if a custom name is provided for one.</li>
 </ul>
 
 <h4>New Deprecations</h4>
@@ -142,6 +144,7 @@
   <li>The Ubuntu 14.04 based docker image for GoCD Agent has been removed. Ubuntu 14.04 has reached end-of-life in April 2019. Please use an image based on a newer version of the Ubuntu.</li>
   <li>The elastic agent plugin extension version 3 has been removed. Plugin developers should use version 4 of the elastic agent plugin api to allow adding support for job completion request. Users should upgrade their plugins to the latest version to see these new features.</li>
   <li>GoCD will now require minimum git version 1.9. This has been done to improve support for cloning git submodules.</li>
+  <li>For Pipelines using git materials, ignored files will also be cleaned from the working directory. The command has been changed to <code>git clean -dffx</code> instead of <code>git clean -dff</code>.</li>
 </ul>
 
 <h4>Contributors</h4>

@@ -1,9 +1,9 @@
-Last updated: 2019-04-17 03:57:24 -0700
+Last updated: 2019-04-17 05:36:29 -0700
 
 Latest commit:
-    commit 9faecb0d0dc56684234420f0cecec77e29d6b4b7
-    Author: Kritika <kritika.singh1994@gmail.com>
-    Date:   Wed Apr 17 16:15:42 2019 +0530
+    commit b1846ed34e5191bda521729d4e16eb98c6fa5cc5
+    Author: Akshay Dewan <akshayde@thoughtworks.com>
+    Date:   Wed Apr 17 17:01:31 2019 +0530
     
-        Fixed typo
+        Add Git related release notes
     
