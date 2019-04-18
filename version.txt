@@ -1,9 +1,9 @@
-Last updated: 2019-04-17 05:36:29 -0700
+Last updated: 2019-04-17 22:02:55 -0700
 
 Latest commit:
-    commit b1846ed34e5191bda521729d4e16eb98c6fa5cc5
-    Author: Akshay Dewan <akshayde@thoughtworks.com>
-    Date:   Wed Apr 17 17:01:31 2019 +0530
+    commit 74ddb29c362d0c53533cdd083bdcb5eba67fd4d4
+    Author: Ketan Padegaonkar <KetanPadegaonkar@gmail.com>
+    Date:   Thu Apr 18 10:26:35 2019 +0530
     
-        Add Git related release notes
+        Fixup blurbs about stage instance and history api.
     

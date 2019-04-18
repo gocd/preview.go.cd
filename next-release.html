@@ -89,6 +89,7 @@
   <li><a href="https://github.com/gocd/gocd/issues/6007">#6007</a> - Introduced version 5 of <a href="https://api.gocd.org/current/#plugin-info">Plugin Info</a> API.</li>
   <li><a href="https://github.com/gocd/gocd/issues/5983">#5983</a> - Introduced version 2 of <a href="https://api.gocd.org/current/#elastic-agent-profiles">Elastic Agent Profiles</a> API.</li>
   <li><a href="https://github.com/gocd/gocd/issues/5938">#5938</a> - Introduced version 1 of <a href="https://api.gocd.org/current/#cluster-profiles">Cluster Profiles</a> API.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/5620">#5620</a> - Introduced version 1 of <a href="https://api.gocd.org/current/#get-stage-history">Stage History</a> API.</li>
 </ul>
 
 <h4>Other Improvements</h4>
@@ -127,7 +128,7 @@
   <li>The notification plugin extension version 3 has been deprecated. This version will be removed in a release scheduled for Mar 2019. Plugin developers should use version 4 of the notification plugin api.</li>
   <li>The analytics plugin extension version 1 has been deprecated. This version will be removed in a release scheduled for Mar 2019. Plugin developers should use version 2 of the analytics plugin api.</li>
   <li>The Get Server Info processor version 1 has been deprecated. This version will be removed in a release scheduled for April 2019. Plugin developers should use version 2 of the Get Server Info processor.</li>
-  <li>Unversioned Get Stage Instance API has been deprecated in favor of Get Stage Instance API v1. This version will be removed in a release scheduled for April 2019.</li>
+  <li>Unversioned get stage history API has been deprecated in favor of get stage history API v1. This version will be removed in a release scheduled for July 2019.</li>
   <li>The Dashboard API version 2 has been deprecated. This version will be removed in a release scheduled for June 2019.<a href="https://api.gocd.org/19.3.0/#dashboard">Version 3</a> of the API is available, and users are encouraged to use it.</li>
   <li>The Plugin Info API version 4 has been deprecated. This version will be removed in a release scheduled for July 2019.<a href="https://api.gocd.org/19.3.0/#plugin-info">Version 5</a> of the API is available, and users are encouraged to use it.</li>
   <li>The Alpine 3.6 based docker image for GoCD Agent has been deprecated and will not be built after May 2019 release of GoCD. This will be done as Alpine 3.6 will reach end-of-life in May 2019.</li>
@@ -141,6 +142,7 @@
   <li>The System Admins API version 1 has been removed. <a href="https://api.gocd.org/19.1.0/#system-admins">Version 2</a> of the API is available, and users are encouraged to use it.</li>
   <li>The Roles API version 1 has been removed. <a href="https://api.gocd.org/19.1.0/#roles">Version 2</a> of the API is available, and users are encouraged to use it.</li>
   <li>The Users API version 2 has been removed. <a href="https://api.gocd.org/19.1.0/#users">Version 3</a> of the API is available, and users are encouraged to use it.</li>
+  <li>Unversioned Get Stage Instance API has been removed in favor of Get Stage Instance API v1.</li>
   <li>The Ubuntu 14.04 based docker image for GoCD Agent has been removed. Ubuntu 14.04 has reached end-of-life in April 2019. Please use an image based on a newer version of the Ubuntu.</li>
   <li>The elastic agent plugin extension version 3 has been removed. Plugin developers should use version 4 of the elastic agent plugin api to allow adding support for job completion request. Users should upgrade their plugins to the latest version to see these new features.</li>
   <li>GoCD will now require minimum git version 1.9. This has been done to improve support for cloning git submodules.</li>
