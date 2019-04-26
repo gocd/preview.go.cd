@@ -1,16 +1,13 @@
-Last updated: 2019-04-22 18:22:30 -0700
+Last updated: 2019-04-25 21:48:07 -0700
 
 Latest commit:
-    commit ddba2efa1dc76f1f737c1477d08b767b1dc88f33
-    Author: dependabot[bot] <support@dependabot.com>
-    Date:   Mon Apr 22 18:24:10 2019 +0000
+    commit 99d34655b85ee7460d7aaa66be85ddb0cf26baff
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Fri Apr 26 10:12:10 2019 +0530
     
-        [Security] Bump nokogiri from 1.10.1 to 1.10.3
+        Updated release notes for 19.3.0. (#967)
         
-        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.10.1 to 1.10.3. **This update includes security fixes.**
-        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
-        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.10.1...v1.10.3)
+        * Updated release notes for 19.3.0.
         
-        Signed-off-by: dependabot[bot] <support@dependabot.com>
+        * Optimised the image size and resolution
     
