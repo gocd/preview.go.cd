@@ -1,13 +1,13 @@
-Last updated: 2019-04-25 21:48:07 -0700
+Last updated: 2019-04-25 22:47:21 -0700
 
 Latest commit:
-    commit 99d34655b85ee7460d7aaa66be85ddb0cf26baff
-    Author: Kritika <kritika.singh@thoughtworks.com>
-    Date:   Fri Apr 26 10:12:10 2019 +0530
+    commit 5f603163cd85c966e1a9a4af726081bae2b51388
+    Author: Bhupendra <bdpiparva@gmail.com>
+    Date:   Fri Apr 26 11:10:22 2019 +0530
     
-        Updated release notes for 19.3.0. (#967)
+        Move content from next release to 19.3.0 (#968)
         
-        * Updated release notes for 19.3.0.
+        * Move content from next release to 19.3.0
         
-        * Optimised the image size and resolution
+        * Improved release notes and also copied it to next-release
     
