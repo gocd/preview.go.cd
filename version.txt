@@ -1,9 +1,12 @@
-Last updated: 2019-04-29 01:02:33 -0700
+Last updated: 2019-05-02 03:39:21 -0700
 
 Latest commit:
-    commit 3c05257616957df1ca6495dafc28d8f67b741158
-    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Mon Apr 29 13:19:50 2019 +0530
+    commit dfcb79f6e8a8f07341818e154e995ae800b1dbc7
+    Merge: 67bec42 add2da3
+    Author: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
+    Date:   Thu May 2 15:58:53 2019 +0530
     
-        Update _release.md.erb
+        Merge pull request #971 from maheshp/19.3.0_release_note_changes
+        
+        Minor tweaks to the release notes
     
