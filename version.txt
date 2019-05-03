@@ -1,12 +1,11 @@
-Last updated: 2019-05-02 16:47:39 -0700
+Last updated: 2019-05-03 12:45:57 -0700
 
 Latest commit:
-    commit a31da6806613d236cab38f1e5d77c234bea21268
-    Merge: dfcb79f 66a9554
-    Author: marques-work <marques.lee@thoughtworks.com>
-    Date:   Thu May 2 16:38:53 2019 -0700
+    commit 75ddf70f99311d2f58d6f0c81462a603956522fc
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Fri May 3 12:10:53 2019 -0700
     
-        Merge pull request #956 from ibnc/test-drive
+        Text changes on Analytics Feedback page
         
-        Updates relating to the new Test drive flow
+        Some minor spacing also adjusted in the style sheet.
     
