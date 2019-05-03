@@ -424,6 +424,9 @@
     <loc>https://preview.gocd.org/videos/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/test-drive-gocd-docker/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/download/</loc>
   </url>
   <url>
@@ -473,9 +476,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/blog/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.org/test-drive/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/releases/</loc>
