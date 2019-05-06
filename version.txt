@@ -1,12 +1,9 @@
-Last updated: 2019-05-03 13:02:53 -0700
+Last updated: 2019-05-06 15:50:43 -0700
 
 Latest commit:
-    commit 4e79d6ff0ca9f8f956e5b417b1df50bbfe081250
-    Merge: 75ddf70 296e952
-    Author: Isabelle Carter <isabellenataliecarter@gmail.com>
-    Date:   Fri May 3 12:53:55 2019 -0700
+    commit 8428dab59dad2ddc196218c3e7b07904b82a544a
+    Author: Marques Lee <marques.lee@thoughtworks.com>
+    Date:   Mon May 6 15:40:54 2019 -0700
     
-        Merge pull request #972 from ibnc/test-drive-rename
-        
-        Make new test drive page avail at test-drive-gocd
+        Update test drive installer base url
     
