@@ -1,9 +1,9 @@
-Last updated: 2019-05-09 14:27:30 -0700
+Last updated: 2019-05-09 14:52:14 -0700
 
 Latest commit:
-    commit 7ef153d3ce7fcc5de3e45ca902950c56f961e67e
+    commit 5eb95eb4621a3d602bb807dd49136e2bf024f30c
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Thu May 9 14:18:41 2019 -0700
+    Date:   Thu May 9 14:42:47 2019 -0700
     
-        adding naji's blog post
+        formatting changes
     

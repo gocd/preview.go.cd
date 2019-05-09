@@ -5,15 +5,15 @@
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
     <meta content="Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD" name="description" />
-    <meta content="ldap, openldap, user authentication, ci cd, authenticate users, active directory" name="keywords" />
+    <meta content="configuring gocd, gke, helm, kubernetes, ci/cd" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="OpenLDAP for User Authentication in GoCD | GoCD Blog" />
+    <meta name="twitter:title" content="Installing and Configuring GoCD on GKE using Helm | GoCD Blog" />
     <meta name="twitter:description" content="Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD" />
     <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-hacks/open-ldap-gocd-04a9f314.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2019/05/14/installing-configuring-gocd-gke-using-helm.html" />
 
-    <title>OpenLDAP for User Authentication in GoCD | GoCD Blog</title>
+    <title>Installing and Configuring GoCD on GKE using Helm | GoCD Blog</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../assets/stylesheets/site-3c0eea62.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-30827340.js"></script>
@@ -75,11 +75,10 @@
 
 
   <header class="blog-post-header">
-    <h1>Use OpenLDAP for User Authentication in <span class="go">Go</span>CD</h1>
+    <h1>Installing and Configuring <span class="go">Go</span>CD on GKE using Helm</h1>
     <h4>Mohamed Najiullah</h4>
     <p class='tags'>
-<a href="../../../tags/cd-hacks.html" class="tag">        CD Hacks
-</a>     </p>
+     </p>
   </header>
 
       <main id="main" role="main" class="blog-post-main-container">
@@ -88,59 +87,51 @@
 
 <p>While exploring how to do it, we had to spend some time to find out all the information we needed just to install and configure GoCD without the migration. So I decided to write this post hoping someone like me would find it helpful.</p>
 
-<h2 id="creating-a-cluster">Creating a Cluster</h2>
+<h2 id="creating-a-cluster"><strong>Creating a Cluster</strong></h2>
 
 <p>You can create the cluster using multiple options. You can use</p>
 
-<p>*<a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster">google-cloud-sdk</a>
-*GKE UI interface
-*<a href="https://www.terraform.io/docs/providers/google/index.html">terraform</a></p>
+<p>-<a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster">google-cloud-sdk</a>
+-GKE UI interface
+-<a href="https://www.terraform.io/docs/providers/google/index.html">terraform</a></p>
 
 <p>You can specify the zone, GKE master version, the machine type and number of nodes among other things as per your requirements. Remember to allocate enough vCPUs and RAM to run the GoCD server as well as the agents.</p>
 
-<h2 id="deploy-gocd">Deploy GoCD</h2>
+<h2 id="deploy-gocd"><strong>Deploy GoCD</strong></h2>
 <p>GoCD provides a <a href="https://github.com/helm/charts/tree/master/stable/gocd">helm</a> chart to deploy GoCD easily in a cluster. You can also find a basic <a href="https://docs.gocd.org/current/gocd_on_kubernetes/gocd_helm_chart/helm_install.html">tutorial</a> here which I’m repeating for better continuity.</p>
 
-<p>1.First you have to set the correct context so that we are able to deploy GoCD in the correct cluster.</p>
+<p>1) First you have to set the correct context so that we are able to deploy GoCD in the correct cluster.</p>
 
 <pre><code>gcloud container clusters get-credentials &lt;CLUSTER-NAME&gt; —- zone &lt;ZONE-NAME&gt; —- project &lt;PROJECT-NAME&gt;
 </code></pre>
 
-<ol>
-  <li>Once the correct context is set, <a href="https://helm.sh/">helm</a> needs to be installed. If you don’t have it in your machine, install it using one of the many options that helm offers. Then helm needs to be installed on the cluster. This can be done as</li>
-</ol>
+<p>2) Once the correct context is set, <a href="https://helm.sh/">helm</a> needs to be installed. If you don’t have it in your machine, install it using one of the many options that helm offers. Then helm needs to be installed on the cluster. This can be done as</p>
 
 <pre><code>helm init
 </code></pre>
 
 <p>This will install <em>Tiller</em> which is the server side component of Helm on your cluster.</p>
 
-<ol>
-  <li>Next we need to create a cluster role binding with the kube-system service account.</li>
-</ol>
+<p>3) Next we need to create a cluster role binding with the kube-system service account.</p>
 
 <pre><code>kubectl create clusterrolebinding clusterRoleBinding \
 --clusterrole=cluster-admin \
 --serviceaccount=kube-system:default
 </code></pre>
 
-<ol>
-  <li>Now we add the repository where the GoCD chart is available as follows.</li>
-</ol>
+<p>4) Now we add the repository where the GoCD chart is available as follows.</p>
 
 <pre><code>helm repo add stable https://kubernetes-charts.storage.googleapis.com
 </code></pre>
 
-<ol>
-  <li>Now, all we have to do is just install the chart as</li>
-</ol>
+<p>5) Now, all we have to do is just install the chart as</p>
 
 <pre><code>helm install stable/gocd —- name gocd —- namespace gocd
 </code></pre>
 
 <p>This will install GoCD on your server along with an ingress to allow access to the Go server over the internet.</p>
 
-<h2 id="gocd-public-ip-address">GoCD Public IP Address</h2>
+<h2 id="gocd-public-ip-address"><strong>GoCD Public IP Address</strong></h2>
 
 <p>You can use the following command to get the IP address of the Go server</p>
 
@@ -154,7 +145,7 @@
 <pre><code>helm install —- name gocd-app —- namespace gocd -f values.yaml stable/gocd
 </code></pre>
 
-<h2 id="configuring-password-file-based-authentication">Configuring Password File based Authentication</h2>
+<h2 id="configuring-password-file-based-authentication"><strong>Configuring Password File based Authentication</strong></h2>
 
 <p>For our usecase we needed to add password based authentication in GoCD. Password based authentication is available in GoCD as a built-in plugin called Password File Authentication Plugin. The plugin uses a password file to authenticate whose location can be configured.</p>
 
@@ -208,7 +199,7 @@
 
 <p>You can change the <em>$gocd_public_ip</em> with your GoCD dashboard public IP. You can get this IP from the GoCD Public IP Address section above.</p>
 
-<h2 id="configuring-access-to-github-for-gocd-server">Configuring Access to GitHub for GoCD Server</h2>
+<h2 id="configuring-access-to-github-for-gocd-server"><strong>Configuring Access to GitHub for GoCD Server</strong></h2>
 
 <p>Since we had all of our code hosted in GitHub, we also needed the GoCD server to have access to our GitHub repositories. One of the most used ways to give access to GitHub is SSH. The <em>values.yaml</em> file allows us to specify a secret that will contain the necessary SSH key files. For more information on generating SSH keys, you can refer <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh">here</a>. For GoCD, the three files i.e <em>id_rsa, id_rsa.pub</em> and <a href="https://docs.gocd.org/current/faq/docker_container_ssh_keys.html">known_hosts</a> have to be copied to the <em>/etc/go/.ssh</em> folder. This is because GoCD operates with a username called <em>go</em>.</p>
 
@@ -232,7 +223,7 @@ kubectl create secret generic gocd-server-ssh \
     secretName: gocd-server-ssh
 </code></pre>
 
-<h2 id="configuring-access-to-github-for-gocd-agent">Configuring Access to GitHub for GoCD Agent</h2>
+<h2 id="configuring-access-to-github-for-gocd-agent"><strong>Configuring Access to GitHub for GoCD Agent</strong></h2>
 
 <p>Just because the GoCD Server has access doesn’t mean that it’s corresponding GoCD agents will also have access. Access for agents has to be configured separately. This is similar to configuring for the server. You can specify the secret name in the <em>agent.security.ssh</em> section as follows</p>
 
@@ -273,7 +264,7 @@ kubectl create secret generic gocd-server-ssh \
             <li>
               <span class="post-date">May 14</span>
               <span class="post-author">Mohamed Najiullah</span>
-              <a href="installing-configuring-gocd-gke-using-helm/">Use OpenLDAP for User Authentication in GoCD</a>
+              <a href="installing-configuring-gocd-gke-using-helm/">Installing and Configuring GoCD on GKE using Helm</a>
             </li>
             <li>
               <span class="post-date">Mar 19</span>

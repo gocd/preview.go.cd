@@ -10,7 +10,7 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Use OpenLDAP for User Authentication in GoCD</title>
+    <title>Installing and Configuring GoCD on GKE using Helm</title>
     <link rel="alternate" href="https://preview.gocd.org/2019/05/14/installing-configuring-gocd-gke-using-helm.html"/>
     <id>https://preview.gocd.org/2019/05/14/installing-configuring-gocd-gke-using-helm.html</id>
     <published>2019-05-14T00:00:00Z</published>
