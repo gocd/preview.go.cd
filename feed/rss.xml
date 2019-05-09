@@ -5,10 +5,21 @@
   <id>https://preview.gocd.org/blog</id>
   <link href="https://preview.gocd.org/blog"/>
   <link href="https://preview.gocd.org/feed/rss.xml" rel="self"/>
-  <updated>2019-03-19T00:00:00Z</updated>
+  <updated>2019-05-14T00:00:00Z</updated>
   <author>
     <name>GoCD Team</name>
   </author>
+  <entry>
+    <title>Use OpenLDAP for User Authentication in GoCD</title>
+    <link rel="alternate" href="https://preview.gocd.org/2019/05/14/installing-configuring-gocd-gke-using-helm.html"/>
+    <id>https://preview.gocd.org/2019/05/14/installing-configuring-gocd-gke-using-helm.html</id>
+    <published>2019-05-14T00:00:00Z</published>
+    <updated>2019-05-14T00:00:00Z</updated>
+    <author>
+      <name>Mohamed Najiullah</name>
+    </author>
+    <content type="html">Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD</content>
+  </entry>
   <entry>
     <title>Use OpenLDAP for User Authentication in GoCD</title>
     <link rel="alternate" href="https://preview.gocd.org/2019/03/19/user-authorization-ldap.html"/>
@@ -107,16 +118,5 @@
       <name>GoCD Team</name>
     </author>
     <content type="html">GoCD started collecting and analyzing usage data in 18.7. This post explains the data collected and how to turn it off.</content>
-  </entry>
-  <entry>
-    <title>How to Work with Materials in GoCD</title>
-    <link rel="alternate" href="https://preview.gocd.org/2018/07/17/gocd-materials-blacklisting-whitelisting.html"/>
-    <id>https://preview.gocd.org/2018/07/17/gocd-materials-blacklisting-whitelisting.html</id>
-    <published>2018-07-17T00:00:00Z</published>
-    <updated>2018-07-17T00:00:00Z</updated>
-    <author>
-      <name>Ankit Srivastava</name>
-    </author>
-    <content type="html">Learn more about how to use materials in GoCD, including understanding more about blacklisting and whitelisting</content>
   </entry>
 </feed>

@@ -1,9 +1,9 @@
-Last updated: 2019-05-06 15:50:43 -0700
+Last updated: 2019-05-09 14:27:30 -0700
 
 Latest commit:
-    commit 8428dab59dad2ddc196218c3e7b07904b82a544a
-    Author: Marques Lee <marques.lee@thoughtworks.com>
-    Date:   Mon May 6 15:40:54 2019 -0700
+    commit 7ef153d3ce7fcc5de3e45ca902950c56f961e67e
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Thu May 9 14:18:41 2019 -0700
     
-        Update test drive installer base url
+        adding naji's blog post
     
