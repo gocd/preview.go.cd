@@ -18,7 +18,7 @@
     <author>
       <name>Mohamed Najiullah</name>
     </author>
-    <content type="html">Understand more about how to use OpenLDAP and authenticate and scale your users in GoCD</content>
+    <content type="html">Installing and Configuring GoCD on GKE using Helm</content>
   </entry>
   <entry>
     <title>Use OpenLDAP for User Authentication in GoCD</title>
