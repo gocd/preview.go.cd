@@ -1,12 +1,9 @@
-Last updated: 2019-05-13 10:39:33 -0700
+Last updated: 2019-05-14 11:57:38 -0700
 
 Latest commit:
-    commit eab596b3b73659dfa426a8e6a49c9e578b493ce2
-    Merge: 5eb95eb 9fd5c13
-    Author: marques-work <marques.lee@thoughtworks.com>
-    Date:   Mon May 13 10:28:28 2019 -0700
+    commit 2e5c4daa2264eb80fe33c37ac306ca485a4d2d2d
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Tue May 14 11:52:14 2019 -0700
     
-        Merge pull request #974 from gocd/steven-trialxp-landing-page-updates
-        
-        Update Test Drive scss
+        gke blog header
     
