@@ -91,9 +91,11 @@
 
 <p>You can create the cluster using multiple options. You can use</p>
 
-<p>-<a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster">google-cloud-sdk</a>
--GKE UI interface
--<a href="https://www.terraform.io/docs/providers/google/index.html">terraform</a></p>
+<ul>
+  <li><a href="https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster">google-cloud-sdk</a></li>
+  <li>GKE UI interface</li>
+  <li><a href="https://www.terraform.io/docs/providers/google/index.html">terraform</a></li>
+</ul>
 
 <p>You can specify the zone, GKE master version, the machine type and number of nodes among other things as per your requirements. Remember to allocate enough vCPUs and RAM to run the GoCD server as well as the agents.</p>
 
@@ -102,7 +104,8 @@
 
 <p>1) First you have to set the correct context so that we are able to deploy GoCD in the correct cluster.</p>
 
-<pre><code>gcloud container clusters get-credentials &lt;CLUSTER-NAME&gt; —- zone &lt;ZONE-NAME&gt; —- project &lt;PROJECT-NAME&gt;
+<pre><code>gcloud container clusters get-credentials &lt;CLUSTER-NAME&gt; —- zone
+ &lt;ZONE-NAME&gt; —- project &lt;PROJECT-NAME&gt;
 </code></pre>
 
 <p>2) Once the correct context is set, <a href="https://helm.sh/">helm</a> needs to be installed. If you don’t have it in your machine, install it using one of the many options that helm offers. Then helm needs to be installed on the cluster. This can be done as</p>
@@ -135,7 +138,8 @@
 
 <p>You can use the following command to get the IP address of the Go server</p>
 
-<pre><code>kubectl get ingress --namespace gocd gocd-server -o jsonpath="{.status.loadBalancer.ingress[0].ip}"
+<pre><code>kubectl get ingress --namespace gocd gocd-server -o jsonpath=
+"{.status.loadBalancer.ingress[0].ip}"
 </code></pre>
 
 <p>If you go to the server you’ll be able to see the GoCD dashboard with a <em>hello-world</em> pipeline executed just to verify if everything works.</p>
