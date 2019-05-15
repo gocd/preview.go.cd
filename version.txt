@@ -1,12 +1,9 @@
-Last updated: 2019-05-14 15:53:24 -0700
+Last updated: 2019-05-15 11:08:18 -0700
 
 Latest commit:
-    commit 25c08adefcb89579a01aafc904d35451896bfce3
-    Merge: e2385fc e8bfaef
-    Author: Ankit <ankitsri11@users.noreply.github.com>
-    Date:   Tue May 14 15:46:30 2019 -0700
+    commit 7c46f9f2dc83b46a1b1c617d7795fccc17d49747
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Wed May 15 11:01:54 2019 -0700
     
-        Merge pull request #976 from ankitsri11/master
-        
-        formatting update
+        changed excerpt and footer credit
     
