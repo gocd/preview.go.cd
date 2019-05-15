@@ -1,9 +1,9 @@
-Last updated: 2019-05-15 11:08:18 -0700
+Last updated: 2019-05-15 11:38:22 -0700
 
 Latest commit:
-    commit 7c46f9f2dc83b46a1b1c617d7795fccc17d49747
+    commit c085c8a688f52c1b44a41b8c66f69bb2c14faf31
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Wed May 15 11:01:54 2019 -0700
+    Date:   Wed May 15 11:32:40 2019 -0700
     
-        changed excerpt and footer credit
+        remove draft tag
     
