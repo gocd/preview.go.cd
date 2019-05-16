@@ -1,12 +1,12 @@
-Last updated: 2019-05-16 11:14:06 -0700
+Last updated: 2019-05-16 11:23:21 -0700
 
 Latest commit:
-    commit 37b6c31e29565d40b579348a8bdce98c361b6b8b
-    Merge: 9bf91e1 9d80780
+    commit 66b10b20eeabe2b4b2ae3e694056e551842a8506
+    Merge: 37b6c31 1000eb3
     Author: Steven <steve.streisguth@gmail.com>
-    Date:   Thu May 16 11:07:20 2019 -0700
+    Date:   Thu May 16 11:08:42 2019 -0700
     
-        Merge pull request #965 from chandrakanth17/elastic_agents
+        Merge pull request #978 from gocd/revert-965-elastic_agents
         
-        Elastic agents page update
+        Revert "Elastic agents"
     
