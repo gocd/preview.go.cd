@@ -1,9 +1,12 @@
-Last updated: 2019-05-15 16:39:55 -0700
+Last updated: 2019-05-16 11:14:06 -0700
 
 Latest commit:
-    commit 9bf91e12c4f8dd01eca33adf31279a6ec71fc983
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Wed May 15 16:33:38 2019 -0700
+    commit 37b6c31e29565d40b579348a8bdce98c361b6b8b
+    Merge: 9bf91e1 9d80780
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Thu May 16 11:07:20 2019 -0700
     
-        fixed URL
+        Merge pull request #965 from chandrakanth17/elastic_agents
+        
+        Elastic agents page update
     
