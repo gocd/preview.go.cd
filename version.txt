@@ -1,12 +1,12 @@
-Last updated: 2019-05-16 11:23:21 -0700
+Last updated: 2019-05-20 14:41:08 -0700
 
 Latest commit:
-    commit 66b10b20eeabe2b4b2ae3e694056e551842a8506
-    Merge: 37b6c31 1000eb3
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Thu May 16 11:08:42 2019 -0700
+    commit c01fe21159c6259e84c37f69e630845bf0edbce5
+    Merge: 66b10b2 7abe690
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Mon May 20 17:35:40 2019 -0400
     
-        Merge pull request #978 from gocd/revert-965-elastic_agents
+        Merge pull request #979 from arvindsv/blog-post-java-license
         
-        Revert "Elastic agents"
+        Blog post about Java license changes
     
