@@ -1,9 +1,9 @@
-Last updated: 2019-05-21 11:24:07 -0700
+Last updated: 2019-05-21 11:28:25 -0700
 
 Latest commit:
-    commit 47c6c1d1b4aa3810089b0932bc09289898454afb
+    commit 4ceb8f10d9a5ef162de0a92c7780fa4c79f3b734
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue May 21 11:18:58 2019 -0700
+    Date:   Tue May 21 11:20:42 2019 -0700
     
-        header for java post
+        updated header removed draft tag
     
