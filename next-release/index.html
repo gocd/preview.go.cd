@@ -80,58 +80,15 @@
       <h3 class="tab-marker tab-accordion_heading d_active" rel="tab-next"> (next)</h3>
       <div id="tab-next" class="tab_content" style="display: block;">
         <div class="content">
-          <h4>Improved configurations for Git and Mercurial material credentials</h4>
-
-<p>Introduced <code>username</code> and <code>password</code> (or <code>encryptedPassword</code>) attributes on Git and Mercurial materials. Users can now use these fields to setup credentials in a secure manner, instead of putting credentials in the URL. The YAML, JSON and Groovy config repo <a href="https://www.gocd.org/plugins/#config-repo">plugins</a> have been updated to allow these additional fields on material definitions.
-Users can also utilize the newly introduced <code>branch</code> attribute on Mercurial materials to specify the branch instead of specifying in the URL.</p>
-
-<p><strong>NOTE:</strong>
-* Users are advised to move their credentials from the URLs into these attributes. Secured attributes like <code>password</code> and <code>encrypted_password</code> are stored as encrypted value in the configuration.</p>
-
-<p><strong>WARNING:</strong>
-* Changing the material configuration will be treated as a new material by GoCD and can trigger dependent pipelines.</p>
-
-<h4>Introduced support for Java 12</h4>
-
-<p>Starting this release, GoCD has now added support for Java 12. All the docker images and installers for Windows and OSX are bundled with the supported Java versions.</p>
-
-<p>See this <a href="https://www.gocd.org/2019/05/21/official-stance-on-java/">blog</a> for more information.</p>
+          <h4>some feature</h4>
 
 <h4>API Improvements</h4>
 
-<ul>
-  <li><a href="https://github.com/gocd/gocd/issues/6218">#6218</a> - Introduced version 7 of <a href="https://api.gocd.org/19.4.0/#pipeline-config">pipeline config</a> API.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6220">#6220</a> - Introduced version 2 of <a href="https://api.gocd.org/19.4.0/#config-repo">config repo</a> API.</li>
-</ul>
-
 <h4>Other Improvements</h4>
-
-<ul>
-  <li>Starting this release, Fedora 30 based docker images for GoCD Agent are <a href="https://hub.docker.com/r/gocd/gocd-agent-fedora-30">available</a>.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6131">#6131</a> - Show the affected pipelines in Server Health Messages when material update fails.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6245">#6245</a> - Remove redundant pluginId attribute from agentProfile tag.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/5923">#5923</a> - Improve logging for Access Token API requests.</li>
-</ul>
 
 <h4>Bug fixes</h4>
 
-<ul>
-  <li><a href="https://github.com/gocd/gocd/issues/6216">#6216</a> - Fix encryption API to honour "go.encryption.api.max.requests" system property.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6030">#6030</a> - Modification check failed for material for pipelines that polling is disabled and or are paused.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6143">#6143</a> - Config Save successfully completes without updating the changes.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6304">#6304</a> - Allow editing pipelines, agents and env vars for environment with special characters in name.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6228">#6228</a> - Personal access tokens taking too long to generate.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6030">#6030</a> - Server health message noise for disabled or paused pipelines with failed modification checks</li>
-  <li>A security fix regarding GoCD cruise-config.xml save has been identified and fixed in the current release. Users are advised to update their GoCD servers to the latest version.</li>
-</ul>
-
 <h4>New Deprecations</h4>
-
-<ul>
-  <li>The Pipeline config API version 6 has been deprecated. This version will be removed in a release scheduled for Aug 2019. <a href="https://api.gocd.org/19.4.0/#pipeline-config">Version 7</a> of the API is available, and users are encouraged to use it.</li>
-  <li>The Config repo API version 1 has been deprecated. This version will be removed in a release scheduled for Aug 2019. <a href="https://api.gocd.org/19.4.0/#config-repo">Version 2</a> of the API is available, and users are encouraged to use it.</li>
-  <li>Support for Java 8 has been deprecated. The support for the same will be removed in a release scheduled for November 2018.</li>
-</ul>
 
 <h4>Deprecations</h4>
 
@@ -142,15 +99,15 @@ Users can also utilize the newly introduced <code>branch</code> attribute on Mer
   <li>Unversioned get stage history API has been deprecated in favor of get stage history API v1. This version will be removed in a release scheduled for July 2019.</li>
   <li>The Dashboard API version 2 has been deprecated. This version will be removed in a release scheduled for June 2019. <a href="https://api.gocd.org/19.3.0/#dashboard">Version 3</a> of the API is available, and users are encouraged to use it.</li>
   <li>The Plugin Info API version 4 has been deprecated. This version will be removed in a release scheduled for July 2019. <a href="https://api.gocd.org/19.3.0/#plugin-info">Version 5</a> of the API is available, and users are encouraged to use it.</li>
-  <li>The Alpine 3.6 based docker image for GoCD Agent has been deprecated and will not be built after May 2019 release of GoCD. This will be done as Alpine 3.6 will reach end-of-life in May 2019.</li>
-  <li>The Fedora 28 based docker image for GoCD Agent has been deprecated and will not be built after June 2019 release of GoCD. This will be done as Fedora 28 will reach end-of-life in June 2019.</li>
+  <li>The Pipeline config API version 6 has been deprecated. This version will be removed in a release scheduled for Aug 2019. <a href="https://api.gocd.org/19.4.0/#pipeline-config">Version 7</a> of the API is available, and users are encouraged to use it.</li>
+  <li>The Config repo API version 1 has been deprecated. This version will be removed in a release scheduled for Aug 2019. <a href="https://api.gocd.org/19.4.0/#config-repo">Version 2</a> of the API is available, and users are encouraged to use it.</li>
+  <li>Support for Java 8 has been deprecated. The support for the same will be removed in a release scheduled for November 2018.</li>
 </ul>
 
 <h4>Breaking Changes</h4>
 
 <ul>
-  <li>TFS workspace location on GoCD agents has been changed to be a server workspace, rather than a local workspace. See: <a href="https://github.com/gocd/gocd/issues/5427">#5427</a> - for more information. This can affect users who use TFS materials.</li>
-  <li>The Alpine 3.6 based docker image for GoCD Agent has been removed. Alpine 3.6 has reached end-of-life in May 2019. Please use an image based on a newer version of the Alpine.</li>
+  <li>The Fedora 28 based docker image for GoCD Agent has been removed. Fedora 28 has reached end-of-life in June 2019. Please use an image based on a newer version of the Fedora.</li>
 </ul>
 
 <h4>Contributors</h4>

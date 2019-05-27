@@ -1,11 +1,11 @@
-Last updated: 2019-05-27 02:02:18 -0700
+Last updated: 2019-05-27 02:37:40 -0700
 
 Latest commit:
-    commit 362064ca6802339155e4fa8415d1ea7400d8b99c
-    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
-    Date:   Mon May 27 14:26:09 2019 +0530
+    commit c42f334645cef83d8ee64a0141232de62f09ac19
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Mon May 27 14:59:06 2019 +0530
     
-        Update release notes for 19.4 (#970)
+        Release notes for GoCD version 19.4.0 (#985)
         
-        * Update release notes for 19.4
+        * Release notes for GoCD version 19.4.0
     
