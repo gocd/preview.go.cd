@@ -134,32 +134,32 @@
       <h3 class="tab-marker tab-accordion_heading d_active" rel="tab-19-5-0">19.5.0 (latest)</h3>
       <div id="tab-19-5-0" class="tab_content" style="display: block;">
         <div class="content">
-          <h4>Replacing X509 with simpler HTTP authentication for Agent-Server Communication - Beta feature</h4>
+          <h4>Replacing X.509 with simpler HTTP authentication for Agent-Server Communication - Beta feature</h4>
 
-<p>This is beta feature, agent-server commnication can be toggled to use token based auth instead of self-signed X509 certificates from server.
+<p>This is beta feature, agent-server commnication can be toggled to use token based auth instead of self-signed X.509 certificates from server.
 To enable token based auth, set the environment variable <code>GO_USE_TOKEN_AUTH</code> on the agent.</p>
 
 <p>An agent would now be expected to send the following headers:</p>
 
 <p><code>
-X-Agent-GUID: some-guid
+X-Agent-GUID: some-guid <br />
 Authorization: token
 </code></p>
 
 <h4>Other Improvements</h4>
 
 <ul>
-  <li><a href="https://github.com/gocd/gocd/pull/6131">#6131</a> - Introduce ConsoleLogRequestProcessor.</li>
+  <li><a href="https://github.com/gocd/gocd/pull/6299">#6299</a> - Introduced <a href="https://plugin-api.gocd.org/current/elastic-agents/#log-messages-to-job-console">Console log request processor</a> for the plugins.</li>
 </ul>
 
 <h4>Bug fixes</h4>
 
 <ul>
-  <li><a href="https://github.com/gocd/gocd/issues/6295">#6295</a> - Improve errors UI in Config Repo.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/6295">#6295</a> - Improved errors UI in Config Repo.</li>
   <li><a href="https://github.com/gocd/gocd/issues/5667">#5667</a> - Do not validate plugin properties while deleting a plugin profile entity.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6278">#6278</a> - GET plugin API returns weak ETag validator.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6337">#6337</a> - Docker dind image doesnt have dockerd running.</li>
-  <li><a href="https://github.com/gocd/gocd/issues/6325">#6325</a> - Warning thrown in server logs when a user visits job console of jobs either not assigned or not started writing to console.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/6278">#6278</a> - All rails APIs return strong Etag.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/6337">#6337</a> - Start Docker deamon process for dind image</li>
+  <li><a href="https://github.com/gocd/gocd/issues/6325">#6325</a> - Supress warnings thrown in server logs when a user visits job console of jobs either not assigned or not started writing to console.</li>
 </ul>
 
 <h4>Deprecations</h4>
