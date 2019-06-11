@@ -1,12 +1,12 @@
-Last updated: 2019-06-11 01:48:23 -0700
+Last updated: 2019-06-11 02:10:38 -0700
 
 Latest commit:
-    commit 4ad11dc9045dccdaa87f053e1974a248b22d246e
-    Merge: e69a555 198f21d
+    commit 40cd7d22fe4bd426fe71851e0ed94ec999851095
+    Merge: 4ad11dc a0835c0
     Author: Rajiesh <rajiesh.narayanan@gmail.com>
-    Date:   Tue Jun 11 14:11:33 2019 +0530
+    Date:   Tue Jun 11 14:33:06 2019 +0530
     
-        Merge pull request #993 from gocd/19.5.0
+        Merge pull request #994 from gocd/19.5.0
         
-        Few typo fixes
+        Modify the sentence explaining benefits of the beta feature
     

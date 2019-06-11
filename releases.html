@@ -139,12 +139,8 @@
 <p>This is beta feature, agent-server commnication can be toggled to use token based auth instead of self-signed X.509 certificates from server.
 To enable token based auth, set the environment variable <code>GO_USE_TOKEN_AUTH</code> on the agent.</p>
 
-<p>An agent would now be expected to send the following headers:</p>
-
-<p><code>
-X-Agent-GUID: some-guid <br />
-Authorization: token
-</code></p>
+<p>With token based auth enabled, agents can use load balancer or reverse proxy DNS names
+and not GoCD server DNS/IP, also not required to expose 8154 port on server machine</p>
 
 <h4>Other Improvements</h4>
 
