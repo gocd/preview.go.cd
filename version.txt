@@ -1,12 +1,9 @@
-Last updated: 2019-06-18 12:17:32 -0700
+Last updated: 2019-06-18 14:06:40 -0700
 
 Latest commit:
-    commit 84d94b399996cc0dc154622740646247c8729438
-    Merge: fe0d583 6e671d1
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Tue Jun 18 12:08:43 2019 -0700
+    commit 9fda8eee87c1b0c3016589a9fd58ade7d2bf6bf5
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Tue Jun 18 13:57:57 2019 -0700
     
-        Merge pull request #980 from chandrakanth17/elastic_agents
-        
-        Elastic agents page update
+        Build fix attempt, fix links
     
