@@ -1,11 +1,12 @@
-Last updated: 2019-06-11 08:57:04 -0700
+Last updated: 2019-06-18 12:17:32 -0700
 
 Latest commit:
-    commit fe0d583011045442bd2c4cd3b49a23c348ac3d1d
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Jun 11 11:35:24 2019 -0400
+    commit 84d94b399996cc0dc154622740646247c8729438
+    Merge: fe0d583 6e671d1
+    Author: Steven <steve.streisguth@gmail.com>
+    Date:   Tue Jun 18 12:08:43 2019 -0700
     
-        Update release notes: Clarify token-based auth
+        Merge pull request #980 from chandrakanth17/elastic_agents
         
-        Also reword other small areas.
+        Elastic agents page update
     
