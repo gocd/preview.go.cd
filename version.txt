@@ -1,9 +1,12 @@
-Last updated: 2019-06-19 22:13:16 -0700
+Last updated: 2019-06-20 07:29:01 -0700
 
 Latest commit:
-    commit 9fda8eee87c1b0c3016589a9fd58ade7d2bf6bf5
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Tue Jun 18 13:57:57 2019 -0700
+    commit 5a8dc7440c1b24e46cf74a0a7b42885e34dedfaa
+    Merge: 9fda8ee 93c0114
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Thu Jun 20 09:15:50 2019 -0400
     
-        Build fix attempt, fix links
+        Merge pull request #997 from arvindsv/soft-remove-amis
+        
+        Soft remove AMIs
     
