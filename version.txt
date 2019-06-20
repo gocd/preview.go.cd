@@ -1,12 +1,9 @@
-Last updated: 2019-06-20 07:29:01 -0700
+Last updated: 2019-06-20 08:22:00 -0700
 
 Latest commit:
-    commit 5a8dc7440c1b24e46cf74a0a7b42885e34dedfaa
-    Merge: 9fda8ee 93c0114
+    commit 5ef91f7fdc41449bffe7724ad98a30026763464b
     Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Jun 20 09:15:50 2019 -0400
+    Date:   Thu Jun 20 11:15:24 2019 -0400
     
-        Merge pull request #997 from arvindsv/soft-remove-amis
-        
-        Soft remove AMIs
+        Fix typos is YAML head matter
     
