@@ -1,13 +1,16 @@
-Last updated: 2019-06-20 22:55:31 -0700
+Last updated: 2019-06-27 09:11:16 -0700
 
 Latest commit:
-    commit b309aef125bfcd25f1b1d11a471722e827f772f0
-    Author: Ganesh S Patil <ganeshp8996@gmail.com>
-    Date:   Fri Jun 21 11:08:04 2019 +0530
+    commit 43c8169989b5145201f0867971f3074d3bc27731
+    Author: dependabot[bot] <support@dependabot.com>
+    Date:   Thu Apr 18 06:20:02 2019 +0000
     
-        Running GoCD containers as non root, blog post (#996)
+        Bump activesupport from 5.0.7.1 to 5.0.7.2
         
-        * Running GoCD containers as non root, blog post
-        * Fix some typos and formatting
-        * Update 2019-06-25-GoCD-non-root-containers.html.markdown.erb
+        Bumps [activesupport](https://github.com/rails/rails) from 5.0.7.1 to 5.0.7.2.
+        - [Release notes](https://github.com/rails/rails/releases)
+        - [Changelog](https://github.com/rails/rails/blob/v5.2.3/activesupport/CHANGELOG.md)
+        - [Commits](https://github.com/rails/rails/compare/v5.0.7.1...v5.0.7.2)
+        
+        Signed-off-by: dependabot[bot] <support@dependabot.com>
     
