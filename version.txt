@@ -1,15 +1,16 @@
-Last updated: 2019-06-27 09:18:06 -0700
+Last updated: 2019-06-27 22:33:24 -0700
 
 Latest commit:
-    commit d76f20826a2c3b185be9363eeba0ae880aa78eb2
-    Author: dependabot[bot] <support@dependabot.com>
-    Date:   Mon May 20 06:50:11 2019 +0000
+    commit 21853a9f329ed91b4e389896356312c35a33983e
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Thu Jun 27 16:12:16 2019 +0000
     
-        Bump yell from 2.0.7 to 2.2.0
+        Bump middleman-autoprefixer from 2.7.1 to 2.10.1
         
-        Bumps [yell](https://github.com/rudionrails/yell) from 2.0.7 to 2.2.0.
-        - [Release notes](https://github.com/rudionrails/yell/releases)
-        - [Commits](https://github.com/rudionrails/yell/compare/v2.0.7...v2.2.0)
+        Bumps [middleman-autoprefixer](https://github.com/middleman/middleman-autoprefixer) from 2.7.1 to 2.10.1.
+        - [Release notes](https://github.com/middleman/middleman-autoprefixer/releases)
+        - [Changelog](https://github.com/middleman/middleman-autoprefixer/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/middleman/middleman-autoprefixer/compare/v2.7.1...v2.10.1)
         
         Signed-off-by: dependabot[bot] <support@dependabot.com>
     
