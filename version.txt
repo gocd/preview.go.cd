@@ -1,9 +1,9 @@
-Last updated: 2019-07-03 02:35:36 -0700
+Last updated: 2019-07-03 15:28:57 -0700
 
 Latest commit:
-    commit 31be5940e3ab65b87e1267b83b3c050d475072bb
-    Author: Ganesh S Patil <ganeshp8996@gmail.com>
-    Date:   Wed Jul 3 14:51:43 2019 +0530
+    commit 4bbbd23cd4c9022a11a75ce7608f932d3d6e1090
+    Author: Steven Streisguth <steve.streisguth@gmail.com>
+    Date:   Wed Jul 3 15:18:52 2019 -0700
     
-        Fix build due to duplicate id in non root container blog post (#1009)
+        Text change on homepage banner, update text on Test Drive page, fine-tune position of cornered banner on blog posts
     
