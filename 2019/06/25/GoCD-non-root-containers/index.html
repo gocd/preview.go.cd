@@ -138,7 +138,7 @@ RUN mkdir /.ssh
 RUN mkdir /home/go/.ssh
 </code></pre>
 
-<p>Alternatively, if an application requires creating root directories, it can be achieved by <a href="#multiple-user-instructions">switching users in the Dockerfile</a> and executing the root directory creation instruction.</p>
+<p>Alternatively, if an application requires creating root directories, it can be achieved by <a href="#multiple-user-instructions-head">switching users in the Dockerfile</a> and executing the root directory creation instruction.</p>
 
 <h3 id="u2-installing-packagesu"><u>2. Installing packages:</u></h3>
 
@@ -147,7 +147,7 @@ RUN mkdir /home/go/.ssh
 RUN apk --update add jq
 </code></pre>
 
-<p>Root privileges are usually required for installing software because of the need to write to system directories. Packages can be installed by <a href="#multiple-user-instructions">switching users in the Dockerfile</a>.</p>
+<p>Root privileges are usually required for installing software because of the need to write to system directories. Packages can be installed by <a href="#multiple-user-instructions-head">switching users in the Dockerfile</a>.</p>
 
 <h3 id="u3-go-group-migrationu"><u>3. go group migration:</u></h3>
 
@@ -177,7 +177,7 @@ RUN chown go:root /home/go/creds
 
 <p>Any pre-configuration instructions requiring root privileges should be included in a Dockerfile.</p>
 
-<p><a name="multiple-user-instructions"></a></p>
+<p><a name="multiple-user-instructions-head"></a></p>
 
 <h2 id="multiple-user-instructions">Multiple USER instructions</h2>
 

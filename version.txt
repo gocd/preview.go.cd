@@ -1,16 +1,9 @@
-Last updated: 2019-07-03 01:14:17 -0700
+Last updated: 2019-07-03 02:35:36 -0700
 
 Latest commit:
-    commit 8e0d0eab0ded8ded9d086db49d2fb8cc3c2eee5d
-    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Jun 28 05:34:03 2019 +0000
+    commit 31be5940e3ab65b87e1267b83b3c050d475072bb
+    Author: Ganesh S Patil <ganeshp8996@gmail.com>
+    Date:   Wed Jul 3 14:51:43 2019 +0530
     
-        Bump unf_ext from 0.0.7.5 to 0.0.7.6
-        
-        Bumps [unf_ext](https://github.com/knu/ruby-unf_ext) from 0.0.7.5 to 0.0.7.6.
-        - [Release notes](https://github.com/knu/ruby-unf_ext/releases)
-        - [Changelog](https://github.com/knu/ruby-unf_ext/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/knu/ruby-unf_ext/compare/v0.0.7.5...v0.0.7.6)
-        
-        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+        Fix build due to duplicate id in non root container blog post (#1009)
     
