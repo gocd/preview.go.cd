@@ -1,16 +1,16 @@
-Last updated: 2019-06-27 22:47:38 -0700
+Last updated: 2019-07-03 01:14:17 -0700
 
 Latest commit:
-    commit 2a0bca4c51036df50db45f1cbe61aa6c3f2cd2f6
+    commit 8e0d0eab0ded8ded9d086db49d2fb8cc3c2eee5d
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Jun 28 05:24:10 2019 +0000
+    Date:   Fri Jun 28 05:34:03 2019 +0000
     
-        Bump middleman from 4.3.2 to 4.3.4
+        Bump unf_ext from 0.0.7.5 to 0.0.7.6
         
-        Bumps [middleman](https://github.com/middleman/middleman) from 4.3.2 to 4.3.4.
-        - [Release notes](https://github.com/middleman/middleman/releases)
-        - [Changelog](https://github.com/middleman/middleman/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/middleman/middleman/compare/v4.3.2...v4.3.4)
+        Bumps [unf_ext](https://github.com/knu/ruby-unf_ext) from 0.0.7.5 to 0.0.7.6.
+        - [Release notes](https://github.com/knu/ruby-unf_ext/releases)
+        - [Changelog](https://github.com/knu/ruby-unf_ext/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/knu/ruby-unf_ext/compare/v0.0.7.5...v0.0.7.6)
         
-        Signed-off-by: dependabot[bot] <support@dependabot.com>
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
