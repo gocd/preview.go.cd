@@ -1,9 +1,9 @@
-Last updated: 2019-07-03 15:28:57 -0700
+Last updated: 2019-07-04 23:55:34 -0700
 
 Latest commit:
-    commit 4bbbd23cd4c9022a11a75ce7608f932d3d6e1090
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Wed Jul 3 15:18:52 2019 -0700
+    commit 9eb62574aaae6f44f9427df9692350f6a0cf39c2
+    Author: GaneshSPatil <ganeshpl@thoughtworks.com>
+    Date:   Tue Jun 25 15:47:17 2019 +0530
     
-        Text change on homepage banner, update text on Test Drive page, fine-tune position of cornered banner on blog posts
+        Non root GoCD container blog post, add shared volume permissions section
     
