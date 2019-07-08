@@ -1,9 +1,16 @@
-Last updated: 2019-07-04 23:55:34 -0700
+Last updated: 2019-07-08 00:57:11 -0700
 
 Latest commit:
-    commit 9eb62574aaae6f44f9427df9692350f6a0cf39c2
-    Author: GaneshSPatil <ganeshpl@thoughtworks.com>
-    Date:   Tue Jun 25 15:47:17 2019 +0530
+    commit 0ecbb96f828c306a2f3d749ea1445396bb45721f
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Mon Jul 8 05:30:13 2019 +0000
     
-        Non root GoCD container blog post, add shared volume permissions section
+        Bump autoprefixer-rails from 9.6.0 to 9.6.1
+        
+        Bumps [autoprefixer-rails](https://github.com/ai/autoprefixer-rails) from 9.6.0 to 9.6.1.
+        - [Release notes](https://github.com/ai/autoprefixer-rails/releases)
+        - [Changelog](https://github.com/ai/autoprefixer-rails/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/ai/autoprefixer-rails/compare/9.6.0...9.6.1)
+        
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
