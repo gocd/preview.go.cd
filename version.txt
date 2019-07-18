@@ -1,15 +1,9 @@
-Last updated: 2019-07-17 22:37:24 -0700
+Last updated: 2019-07-18 01:52:46 -0700
 
 Latest commit:
-    commit 3b9e1322e05b48bc05d9779a1388d0993f82ce19
-    Author: Kritika <kritika.singh@thoughtworks.com>
-    Date:   Thu Jul 18 10:40:54 2019 +0530
+    commit 7d30327ae5d98389122a746acac3ab6eaa4bdf28
+    Author: adityas <adityas@thoughtworks.com>
+    Date:   Thu Jul 18 14:12:00 2019 +0530
     
-        Updated release notes for api updates and documented secret config (#989)
-        
-        * Updated release notes for api updates and documented sceret config
-        
-        * Updated version to 19.6.0
-        
-        * updating the docs link
+         Updated installer changes and fix typos (#1020)
     
