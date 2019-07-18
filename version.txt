@@ -1,12 +1,15 @@
-Last updated: 2019-07-12 12:12:07 -0700
+Last updated: 2019-07-17 22:37:24 -0700
 
 Latest commit:
-    commit 4808f1a95cb3f39fbe0222040183de1d80e12e44
-    Merge: 9350362 d4d450b
-    Author: Steven <steve.streisguth@gmail.com>
-    Date:   Fri Jul 12 12:06:59 2019 -0700
+    commit 3b9e1322e05b48bc05d9779a1388d0993f82ce19
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Thu Jul 18 10:40:54 2019 +0530
     
-        Merge pull request #1010 from veerababukona/refactoring
+        Updated release notes for api updates and documented secret config (#989)
         
-        Moved GDPR banner to bottom of browser window
+        * Updated release notes for api updates and documented sceret config
+        
+        * Updated version to 19.6.0
+        
+        * updating the docs link
     

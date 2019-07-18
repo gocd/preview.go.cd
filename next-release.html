@@ -85,7 +85,17 @@
       <h3 class="tab-marker tab-accordion_heading d_active" rel="tab-next"> (next)</h3>
       <div id="tab-next" class="tab_content" style="display: block;">
         <div class="content">
-          <h4>some feature</h4>
+          <h4>Secrets Management</h4>
+
+<p>We have enhanced support for managing secrets in GoCD. GoCD now provides an ability to refer to secrets defined in an external Secret Manager. With this, apart from referring to secrets, users can manage permissions for these secrets and rotate them without any changes to GoCD configuration.</p>
+
+<p>Support for Secrets Management is provided using plugins. We have introduced a new secrets extension using which plugin authors can write a plugin to support a Secret Manager of their choice. We have built a File based Secret Management plugin which is bundled along with GoCD.</p>
+
+<p>Please refer to the <a href="https://docs.gocd.org/19.6.0/configuration/secrets_management.html">Secret Management Docs</a> for more info.</p>
+
+<figure class="shrink-figure-100">
+    <img src="assets/images/releases/19.6.0/secret-config-spa-cda210eb.gif" alt="Secret Management SPA" />
+</figure>
 
 <h4>Versions of Java this release of GoCD works with</h4>
 
@@ -98,11 +108,20 @@
 
 <h4>API Improvements</h4>
 
+<ul>
+  <li><a href="https://github.com/gocd/gocd/issues/6061">#6061</a> - Introduced version 1 of <a href="https://api.gocd.org/19.6.0/#secret-configs">Secret Config</a> API.</li>
+  <li><a href="https://github.com/gocd/gocd/issues/6231">#6231</a> - Introduced version 6 of <a href="https://api.gocd.org/19.6.0/#plugin-info">Plugin Info</a> API.</li>
+</ul>
+
 <h4>Other Improvements</h4>
 
 <h4>Bug fixes</h4>
 
 <h4>New Deprecations</h4>
+
+<ul>
+  <li>The Plugin Info API version 5 has been deprecated. This version will be removed in a release scheduled for Sept 2019. <a href="https://api.gocd.org/19.6.0/#plugin-info">Version 6</a> of the API is available, and users are encouraged to use it.</li>
+</ul>
 
 <h4>Deprecations</h4>
 
