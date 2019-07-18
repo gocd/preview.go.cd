@@ -1,9 +1,9 @@
-Last updated: 2019-07-18 02:05:54 -0700
+Last updated: 2019-07-18 02:30:28 -0700
 
 Latest commit:
-    commit 5cf540ec0097a40e7285d22531dd23c4841594ad
-    Author: Kritika <kritika.singh@thoughtworks.com>
-    Date:   Thu Jul 18 14:30:32 2019 +0530
+    commit 2a094fce878e28b2fa7da52972edcf9b81dfc770
+    Author: Bhupendra <bdpiparva@gmail.com>
+    Date:   Thu Jul 18 14:53:58 2019 +0530
     
-        fixed whitespace in link syntax
+        Adding security section for the bug reported by Heinrich (#1021)
     
