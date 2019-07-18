@@ -1,9 +1,9 @@
-Last updated: 2019-07-18 01:52:46 -0700
+Last updated: 2019-07-18 02:05:54 -0700
 
 Latest commit:
-    commit 7d30327ae5d98389122a746acac3ab6eaa4bdf28
-    Author: adityas <adityas@thoughtworks.com>
-    Date:   Thu Jul 18 14:12:00 2019 +0530
+    commit 5cf540ec0097a40e7285d22531dd23c4841594ad
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Thu Jul 18 14:30:32 2019 +0530
     
-         Updated installer changes and fix typos (#1020)
+        fixed whitespace in link syntax
     
