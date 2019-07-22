@@ -1,11 +1,9 @@
-Last updated: 2019-07-21 22:56:34 -0700
+Last updated: 2019-07-21 23:21:20 -0700
 
 Latest commit:
-    commit e8ea1eb22c3edff25ee129a04c3ea713c99be47c
-    Author: Ganesh S Patil <ganeshpl@thoughtworks.com>
-    Date:   Mon Jul 22 11:20:26 2019 +0530
+    commit 24402cc0ea76d90daec08f85556b8bb2a054ab6d
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Mon Jul 22 11:43:48 2019 +0530
     
-        Update _release.md.erb
-        
-        Fix typo, remove redundant 'and'
+        Added release notes for GoCD version 19.6.0
     
