@@ -1,9 +1,11 @@
-Last updated: 2019-07-18 02:30:28 -0700
+Last updated: 2019-07-21 22:56:34 -0700
 
 Latest commit:
-    commit 2a094fce878e28b2fa7da52972edcf9b81dfc770
-    Author: Bhupendra <bdpiparva@gmail.com>
-    Date:   Thu Jul 18 14:53:58 2019 +0530
+    commit e8ea1eb22c3edff25ee129a04c3ea713c99be47c
+    Author: Ganesh S Patil <ganeshpl@thoughtworks.com>
+    Date:   Mon Jul 22 11:20:26 2019 +0530
     
-        Adding security section for the bug reported by Heinrich (#1021)
+        Update _release.md.erb
+        
+        Fix typo, remove redundant 'and'
     
