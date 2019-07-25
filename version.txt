@@ -1,9 +1,9 @@
-Last updated: 2019-07-25 05:12:37 -0700
+Last updated: 2019-07-25 07:42:59 -0700
 
 Latest commit:
-    commit fd86b094e5381aa08d63f1f3754a087e03438950
+    commit 47f3bad0d228fab2cab314157f47f465ace964a4
     Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Jul 25 08:03:00 2019 -0400
+    Date:   Thu Jul 25 08:13:58 2019 -0400
     
-        Add warning about 19.6.0 installers
+        Modify warning about 19.6.0 installers
     
