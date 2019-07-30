@@ -1,9 +1,12 @@
-Last updated: 2019-07-25 07:42:59 -0700
+Last updated: 2019-07-30 07:20:13 -0700
 
 Latest commit:
-    commit 47f3bad0d228fab2cab314157f47f465ace964a4
+    commit fba871e5b69dbafd6e08a92320ae388437d3bf7d
+    Merge: 47f3bad f59a5db
     Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Jul 25 08:13:58 2019 -0400
+    Date:   Tue Jul 30 10:11:47 2019 -0400
     
-        Modify warning about 19.6.0 installers
+        Merge pull request #1028 from arvindsv/vendor-aos-js-and-css
+        
+        Vendor aos js and css
     
