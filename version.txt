@@ -1,12 +1,11 @@
-Last updated: 2019-07-30 07:20:13 -0700
+Last updated: 2019-07-31 21:23:53 -0700
 
 Latest commit:
-    commit fba871e5b69dbafd6e08a92320ae388437d3bf7d
-    Merge: 47f3bad f59a5db
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Jul 30 10:11:47 2019 -0400
+    commit 7ba304ff4ef56d477125f6617887d5c7069faa57
+    Author: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
+    Date:   Thu Aug 1 09:47:39 2019 +0530
     
-        Merge pull request #1028 from arvindsv/vendor-aos-js-and-css
+        Release notes for 19.7.0, added warning about installer issue on 19.6… (#1029)
         
-        Vendor aos js and css
+        * Release notes for 19.7.0
     
