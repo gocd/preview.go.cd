@@ -1,9 +1,9 @@
-Last updated: 2019-07-31 21:52:48 -0700
+Last updated: 2019-08-05 01:11:52 -0700
 
 Latest commit:
-    commit 49a80bc515b55e02d9448f7ed29abd524ea157db
-    Author: Ganesh S Patil <ganeshpl@thoughtworks.com>
-    Date:   Thu Aug 1 10:16:00 2019 +0530
+    commit 1250adcea1e9b5f1b4a5f5aeef61fb8e0dc6f886
+    Author: Louda Peña <lbaca@thoughtworks.com>
+    Date:   Mon Aug 5 13:34:19 2019 +0530
     
-        Update _release-19-7-0.md.erb
+        p2 naji's blog - needs more formatting and images
     
