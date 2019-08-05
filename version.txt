@@ -1,9 +1,9 @@
-Last updated: 2019-08-05 01:11:52 -0700
+Last updated: 2019-08-05 01:18:01 -0700
 
 Latest commit:
-    commit 1250adcea1e9b5f1b4a5f5aeef61fb8e0dc6f886
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Aug 5 13:34:19 2019 +0530
+    commit 3ebeed2868d2d297936de4ffcba55b0cd351bac0
+    Author: Ketan Padegaonkar <ketanpadegaonkar@gmail.com>
+    Date:   Mon Aug 5 13:41:49 2019 +0530
     
-        p2 naji's blog - needs more formatting and images
+        Update 2019-08-05-configure-container-registry-gcr-artifact-store-gocd.html.markdown.erb
     
