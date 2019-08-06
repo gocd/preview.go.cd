@@ -4,16 +4,16 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-    <meta content="Running Dockerized GoCD Containers as Non Root" name="description" />
-    <meta content="GoCD, docker, containers, security, root, non-root" name="keywords" />
+    <meta content="Configuring Google Container Registry (GCR) as an Artifact Store in GoCD" name="description" />
+    <meta content="gcr, google container registry, artifact store, continuous delivery, ci cd, docker" name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="Running Dockerized GoCD Containers as Non Root" />
-    <meta name="twitter:description" content="Running Dockerized GoCD Containers as Non Root" />
+    <meta name="twitter:title" content="Configuring Google Container Registry (GCR) as an Artifact Store in GoCD" />
+    <meta name="twitter:description" content="Configuring Google Container Registry (GCR) as an Artifact Store in GoCD" />
     <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/security-devops-minimizing-risk/security-devops-hero-3e9a0f07.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2019/08/05/configure-container-registry-gcr-artifact-store-gocd.html" />
 
-    <title>Running Dockerized GoCD Containers as Non Root</title>
+    <title>Configuring Google Container Registry (GCR) as an Artifact Store in GoCD</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../assets/stylesheets/site-217bb825.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-74c4efb8.js"></script>
@@ -68,7 +68,7 @@
 
     <div class="post-banner">
         <figure>
-    <img src="../../../assets/images/blog/security-devops-minimizing-risk/security-devops-hero-3e9a0f07.jpg" alt="Running Dockerized GoCD Containers as Non Root"/>
+    <img src="../../../assets/images/blog/cd-hacks/google-container-registry-artifact-store-034f7207.jpg" alt="Configuring Google Container Registry as an Artifact Store in GoCD"/>
   </figure>
 
     </div>
@@ -89,13 +89,13 @@
 
 <p>GoCD allows configuration of artifact stores such as Dockerhub, Amazon's ECR, Google's GCR to store and pull docker image artifacts. Depending on your version you can get two types of configuration windows. Let me show the latest configuration window of the artifact store`</p>
 
-<p>INSERT IMAGE HERE</p>
+<p><img src="../../../assets/images/blog/cd-hacks/gocd-create-artifact-store-f8aef3b8.png" alt="Configuring Google Container Registry as an Artifact Store in GoCD" /></p>
 
 <p>There are two options based on the Registry Type. The first one is Amazon ECR. There are corresponding options for ECR Registry ID, AWS Region, AWS Access Key Id and AWS Secret Access Key.The second one says ‘Others' and lists Dockerhub, GCR and private. For Dockerhub there are fields for username and password along with Docker Registry URL.</p>
 
 <p>The older plugin version does not have a separate option for Amazon ECR. It just has the same fields for all stores</p>
 
-<p>INSERT IMAGE HERE</p>
+<p><img src="../../../assets/images/blog/cd-hacks/gocd-create-artifact-store-2-089da79f.png" alt="Configuring Google Container Registry as an Artifact Store in GoCD" /></p>
 
 <p>Trying to configure GCR in both the versions seems a bit confusing as GCR best practices state the use of a service account for CI/CD pipelines.</p>
 
@@ -104,15 +104,15 @@
 <p><code>json
 {
   "type": "service_account",
-  "project_id": "&lt;project-id&gt;”,
+  "project_id": "&lt;project-id&gt;",
   "private_key_id": "&lt;private-key-id&gt;",
-  "private_key": "&lt;private-key&gt;”,
+  "private_key": "&lt;private-key&gt;",
   "client_email": "&lt;client-email&gt;,
   "client_id": "&lt;client-id&gt;",
   "auth_uri": "&lt;auth-uri&gt;",
   "token_uri": "&lt;token-uri&gt;",
   "auth_provider_x509_cert_url": "&lt;auth-provider-x509-cert-url&gt;",
-  "client_x509_cert_url": "&lt;client-x509-cert-url&gt;”
+  "client_x509_cert_url": "&lt;client-x509-cert-url&gt;"
 }
 </code></p>
 
