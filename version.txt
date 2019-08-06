@@ -1,9 +1,9 @@
-Last updated: 2019-08-05 03:02:55 -0700
+Last updated: 2019-08-05 22:03:49 -0700
 
 Latest commit:
-    commit 9a7dd60405e782e261ddd0d4ea5f4b0cf2bc731a
+    commit 9835fb6240ee0b0c83ff9a5cbcb8031bf439ea1a
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Aug 5 15:22:40 2019 +0530
+    Date:   Tue Aug 6 10:26:38 2019 +0530
     
-        blog images for p2
+        blog post header
     
