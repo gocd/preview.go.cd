@@ -1,9 +1,9 @@
-Last updated: 2019-08-06 00:27:44 -0700
+Last updated: 2019-08-06 01:15:24 -0700
 
 Latest commit:
-    commit e9f004065cfa84722c3bd799c7595e2e8b6a0a1e
+    commit 64069f7a8aa43a75efd24d630b8749cceb6d9e76
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Aug 6 12:51:26 2019 +0530
+    Date:   Tue Aug 6 13:38:16 2019 +0530
     
-        fixed image
+        fixing codeblocks
     
