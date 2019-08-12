@@ -1,9 +1,16 @@
-Last updated: 2019-08-08 22:03:07 -0700
+Last updated: 2019-08-11 21:05:55 -0700
 
 Latest commit:
-    commit 2268cd135f68d96ab765542138afc08b46aa4794
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Fri Aug 9 10:25:59 2019 +0530
+    commit 106515172ad738fa2b0c71214ca6b511f3394313
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Sun Aug 11 21:41:01 2019 +0000
     
-        added missing link
+        [Security] Bump nokogiri from 1.10.3 to 1.10.4
+        
+        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.10.3 to 1.10.4. **This update includes a security fix.**
+        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.10.3...v1.10.4)
+        
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
