@@ -1,16 +1,12 @@
-Last updated: 2019-08-11 21:05:55 -0700
+Last updated: 2019-08-11 23:12:49 -0700
 
 Latest commit:
-    commit 106515172ad738fa2b0c71214ca6b511f3394313
-    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Sun Aug 11 21:41:01 2019 +0000
+    commit 6338fb1c7ca4033cb3c1c54d2559f862b0ab2a01
+    Merge: 1065151 dac9061
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Mon Aug 12 11:36:22 2019 +0530
     
-        [Security] Bump nokogiri from 1.10.3 to 1.10.4
+        Merge pull request #1037 from arvindsv/hard-remove-amis
         
-        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.10.3 to 1.10.4. **This update includes a security fix.**
-        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
-        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.10.3...v1.10.4)
-        
-        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+        #997 - Hard remove AMIs
     
