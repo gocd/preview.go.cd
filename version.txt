@@ -1,9 +1,9 @@
-Last updated: 2019-08-13 07:12:09 -0700
+Last updated: 2019-08-13 07:25:02 -0700
 
 Latest commit:
-    commit a3a32ba3f785ede8e59d39ec19fb4cfe91bfb8db
+    commit 087ca31965267b6db2754b023edc9d92954dfe9d
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Aug 13 15:05:25 2019 +0100
+    Date:   Tue Aug 13 15:17:39 2019 +0100
     
-        fixed broken link enerprise -> enterprise
+        fixed 404 url to docs
     
