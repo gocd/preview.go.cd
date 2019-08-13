@@ -1,9 +1,9 @@
-Last updated: 2019-08-13 07:25:02 -0700
+Last updated: 2019-08-13 07:44:47 -0700
 
 Latest commit:
-    commit 087ca31965267b6db2754b023edc9d92954dfe9d
+    commit ddf7c9d4571c979b3f8162abdc14601476b3f741
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Aug 13 15:17:39 2019 +0100
+    Date:   Tue Aug 13 15:37:57 2019 +0100
     
-        fixed 404 url to docs
+        updated broken url
     
