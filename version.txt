@@ -1,12 +1,12 @@
-Last updated: 2019-09-03 07:19:02 -0700
+Last updated: 2019-09-03 08:00:47 -0700
 
 Latest commit:
-    commit beeb0dd44179ed6bb08fe00496564ca8554e4878
-    Merge: d5fe8e0 28dbe3e
+    commit bd76fa2a816aa6ddda36c4efdabd16b7921d03f1
+    Merge: beeb0dd a7c722d
     Author: adityas <adityas@thoughtworks.com>
-    Date:   Tue Sep 3 18:32:38 2019 +0530
+    Date:   Tue Sep 3 20:23:04 2019 +0530
     
-        Merge pull request #1049 from adityasood/provide-docker-run-commands
+        Merge pull request #1050 from adityasood/provide-docker-run-commands
         
-         replace docker pull command with docker run command
+         add more info at text for docker images
     
