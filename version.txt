@@ -1,15 +1,12 @@
-Last updated: 2019-08-26 08:51:18 -0700
+Last updated: 2019-09-03 07:19:02 -0700
 
 Latest commit:
-    commit d5fe8e003ec9c3fb5dbec5ac7625da5b2d504b1c
-    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Thu Jul 18 15:44:39 2019 +0000
+    commit beeb0dd44179ed6bb08fe00496564ca8554e4878
+    Merge: d5fe8e0 28dbe3e
+    Author: adityas <adityas@thoughtworks.com>
+    Date:   Tue Sep 3 18:32:38 2019 +0530
     
-        Bump html-proofer from 3.11.0 to 3.11.1
+        Merge pull request #1049 from adityasood/provide-docker-run-commands
         
-        Bumps [html-proofer](https://github.com/gjtorikian/html-proofer) from 3.11.0 to 3.11.1.
-        - [Release notes](https://github.com/gjtorikian/html-proofer/releases)
-        - [Commits](https://github.com/gjtorikian/html-proofer/compare/v3.11.0...v3.11.1)
-        
-        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+         replace docker pull command with docker run command
     
