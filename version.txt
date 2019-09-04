@@ -1,12 +1,12 @@
-Last updated: 2019-09-03 08:00:47 -0700
+Last updated: 2019-09-03 22:30:29 -0700
 
 Latest commit:
-    commit bd76fa2a816aa6ddda36c4efdabd16b7921d03f1
-    Merge: beeb0dd a7c722d
+    commit 70e5c7e673239978cc4d7193bef1e70a7ed717ce
+    Merge: bd76fa2 4525d19
     Author: adityas <adityas@thoughtworks.com>
-    Date:   Tue Sep 3 20:23:04 2019 +0530
+    Date:   Wed Sep 4 10:52:47 2019 +0530
     
-        Merge pull request #1050 from adityasood/provide-docker-run-commands
+        Merge pull request #1053 from adityasood/provide-docker-run-commands
         
-         add more info at text for docker images
+         alter docker-list css to arrange text in one line
     
