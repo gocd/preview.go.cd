@@ -1,16 +1,11 @@
-Last updated: 2019-09-06 02:31:31 -0700
+Last updated: 2019-09-06 05:10:49 -0700
 
 Latest commit:
-    commit 0f8debc74af32845634d159338ead6fe05999358
-    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Mon Sep 2 05:34:07 2019 +0000
+    commit c63ce9c809fdb664a62c078af6be18f33330dd2b
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Fri Sep 6 17:28:11 2019 +0530
     
-        Bump addressable from 2.6.0 to 2.7.0
+        Release notes for 19.8.0 (#1042)
         
-        Bumps [addressable](https://github.com/sporkmonger/addressable) from 2.6.0 to 2.7.0.
-        - [Release notes](https://github.com/sporkmonger/addressable/releases)
-        - [Changelog](https://github.com/sporkmonger/addressable/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/sporkmonger/addressable/compare/addressable-2.6.0...addressable-2.7.0)
-        
-        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+        Updated the changelog for 19.8.0
     
