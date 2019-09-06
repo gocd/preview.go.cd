@@ -1,12 +1,16 @@
-Last updated: 2019-09-03 22:30:29 -0700
+Last updated: 2019-09-06 02:31:31 -0700
 
 Latest commit:
-    commit 70e5c7e673239978cc4d7193bef1e70a7ed717ce
-    Merge: bd76fa2 4525d19
-    Author: adityas <adityas@thoughtworks.com>
-    Date:   Wed Sep 4 10:52:47 2019 +0530
+    commit 0f8debc74af32845634d159338ead6fe05999358
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Mon Sep 2 05:34:07 2019 +0000
     
-        Merge pull request #1053 from adityasood/provide-docker-run-commands
+        Bump addressable from 2.6.0 to 2.7.0
         
-         alter docker-list css to arrange text in one line
+        Bumps [addressable](https://github.com/sporkmonger/addressable) from 2.6.0 to 2.7.0.
+        - [Release notes](https://github.com/sporkmonger/addressable/releases)
+        - [Changelog](https://github.com/sporkmonger/addressable/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/sporkmonger/addressable/compare/addressable-2.6.0...addressable-2.7.0)
+        
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
