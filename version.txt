@@ -1,11 +1,12 @@
-Last updated: 2019-09-06 05:10:49 -0700
+Last updated: 2019-09-06 05:15:39 -0700
 
 Latest commit:
-    commit c63ce9c809fdb664a62c078af6be18f33330dd2b
-    Author: Kritika <kritika.singh@thoughtworks.com>
-    Date:   Fri Sep 6 17:28:11 2019 +0530
+    commit 1932444c456d8f640045faceb9a841d533043678
+    Merge: c63ce9c 2564d0b
+    Author: adityas <adityas@thoughtworks.com>
+    Date:   Fri Sep 6 17:36:22 2019 +0530
     
-        Release notes for 19.8.0 (#1042)
+        Merge pull request #1054 from adityasood/add-windows-intaller-warning
         
-        Updated the changelog for 19.8.0
+         add warnings for fresh install using windows installers
     
