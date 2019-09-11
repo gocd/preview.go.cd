@@ -1,9 +1,9 @@
-Last updated: 2019-09-11 16:48:50 -0700
+Last updated: 2019-09-11 16:53:13 -0700
 
 Latest commit:
-    commit 4ef17e1ee52a0c942d92e10e5644e10e151c41fa
+    commit ebf1a501c5c9f7cedd927ac14b015aea9d8cfb0c
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Wed Sep 11 16:43:08 2019 -0700
+    Date:   Wed Sep 11 16:46:36 2019 -0700
     
-        add blogpost image
+        updated some text and seo
     

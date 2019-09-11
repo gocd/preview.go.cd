@@ -10,7 +10,7 @@
     <name>GoCD Team</name>
   </author>
   <entry>
-    <title>Configuring GoCD Agents in GoCD in Kubernetes</title>
+    <title>Configuring GoCD Agents in Kubernetes</title>
     <link rel="alternate" href="https://preview.gocd.org/2019/09/17/configure-gocd-agents-kubernetes-static-elastic.html"/>
     <id>https://preview.gocd.org/2019/09/17/configure-gocd-agents-kubernetes-static-elastic.html</id>
     <published>2019-09-17T00:00:00Z</published>

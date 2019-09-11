@@ -4,16 +4,16 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
-    <meta content="Configuring Google Container Registry (GCR) as an Artifact Store in GoCD" name="description" />
-    <meta content="gcr, google container registry, artifact store, continuous delivery, ci cd, docker" name="keywords" />
+    <meta content="Configuring GoCD Agents in Kubernetes" name="description" />
+    <meta content="agents, workers, gocd, kubernetes, k8s, continuous delivery, ci cd, " name="keywords" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goforcd" />
-    <meta name="twitter:title" content="Configuring Google Container Registry (GCR) as an Artifact Store in GoCD" />
-    <meta name="twitter:description" content="Configuring Google Container Registry (GCR) as an Artifact Store in GoCD" />
-    <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-hacks/google-container-registry-artifact-store-034f7207.jpg" />
+    <meta name="twitter:title" content="Configuring GoCD Agents in Kubernetes" />
+    <meta name="twitter:description" content="Configuring GoCD Agents in Kubernetes" />
+    <meta name="twitter:image" content="https://preview.gocd.org/assets/images/blog/cd-hacks/configure-gocd-kubernetes-54b43f25.jpg" />
     <link rel="canonical" href="https://preview.gocd.org/2019/09/17/configure-gocd-agents-kubernetes-static-elastic.html" />
 
-    <title>Configuring Google Container Registry (GCR) as an Artifact Store in GoCD</title>
+    <title>Configuring GoCD Agents in Kubernetes</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
     <link href="../../../assets/stylesheets/site-5607c390.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-8dd4da1c.js"></script>
@@ -68,14 +68,14 @@
 
     <div class="post-banner">
         <figure>
-    <img src="../../../assets/images/blog/cd-hacks/google-container-registry-artifact-store-034f7207.jpg" alt="Configuring Google Container Registry as an Artifact Store in GoCD"/>
+    <img src="../../../assets/images/blog/cd-hacks/configure-gocd-kubernetes-54b43f25.jpg" alt="Configuring Google Container Registry as an Artifact Store in GoCD"/>
   </figure>
 
     </div>
 
 
   <header class="blog-post-header">
-    <h1>Configuring <span class="go">Go</span>CD Agents in <span class="go">Go</span>CD in Kubernetes</h1>
+    <h1>Configuring <span class="go">Go</span>CD Agents in Kubernetes</h1>
     <h4>Mohamed Najiullah</h4>
     <p class='tags'>
      </p>
@@ -90,13 +90,13 @@
 <p>While carrying out our spike on our CI/CD infrastructure from a VM based design to a Kubernetes based one, we also had to configure GoCD Agents. According to the official documentation,</p>
 
 <blockquote>
-  <p>GoCD Agents are the workers in the GoCD ecosystem. All tasks configured in the system run on GoCD Agents.</p>
+  <p><em>GoCD Agents are the workers in the GoCD ecosystem. All tasks configured in the system run on GoCD Agents.</em></p>
 </blockquote>
 
 <p>The latest version of GoCD offers two types of GoCD agents, Static and Elastic.</p>
 
 <h2 id="static-agents">Static Agents</h2>
-<p>In our old system, we have a predefined number of Go Agents. These agents are VMs that we had created, provisioned and connected to the Go Server using Infrastructure as Code tools like Puppet. The agents needed a number of tools and packages to do the things we needed them to do. All these tools and packages had to be provisioned into all the agents individually once we had created them.</p>
+<p>In our old system, we have a predefined number of GoCD Agents. These agents are VMs that we had created, provisioned and connected to the Go Server using Infrastructure as Code tools like Puppet. The agents needed a number of tools and packages to do the things we needed them to do. All these tools and packages had to be provisioned into all the agents individually once we had created them.</p>
 
 <p>But for a GoCD setup on Kubernetes, it becomes much simpler to maintain agents as every agent is simply a pod. The GoCD Helm chart allows us to configure always running agents using the values in the values.yaml file I’ve mentioned in my previous post.</p>
 
@@ -214,9 +214,10 @@ spec:
 
 <p>If you want the pod to have SSH access to a Git service, you can create a secret with the SSH files and then mount it like shown in the pod spec above. Doing this should give your elastic agents access to your Git repositories.</p>
 
-<p><em>This article was originally posted on <a href="https://mohamednajiullah.tech/configuring-go-agents-in-gocd-in-kubernetes-static-and-elastic-agents-c5dbf5f6a01d">Mohamed Najiullah blog</a></em></p>
-
 <p>So there you go. I hope you find it useful. If you have any questions, please feel free to comment and I’ll answer from whatever I’ve learnt so far.</p>
+
+<p><em>This article was originally posted on <a href="https://mohamednajiullah.tech/configuring-go-agents-in-gocd-in-kubernetes-static-and-elastic-agents-c5dbf5f6a01d">Mohamed Najiullah's blog</a></em></p>
+
 
       </main>
     </div>
@@ -241,7 +242,7 @@ spec:
             <li>
               <span class="post-date">Sep 17</span>
               <span class="post-author">Mohamed Najiullah</span>
-              <a href="configure-gocd-agents-kubernetes-static-elastic/">Configuring GoCD Agents in GoCD in Kubernetes</a>
+              <a href="configure-gocd-agents-kubernetes-static-elastic/">Configuring GoCD Agents in Kubernetes</a>
             </li>
             <li>
               <span class="post-date">Aug  5</span>
