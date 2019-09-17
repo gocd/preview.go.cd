@@ -1,9 +1,9 @@
-Last updated: 2019-09-16 11:33:05 -0700
+Last updated: 2019-09-17 08:03:10 -0700
 
 Latest commit:
-    commit 95696e4ee10199caff57e8447f18747ebb84efbc
+    commit e0337b882fe2a0e346ec878233e74d7f416c87bd
     Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Mon Sep 16 11:22:34 2019 -0700
+    Date:   Tue Sep 17 07:57:39 2019 -0700
     
-        updated attribution link for Naji
+        removed draft tag
     
