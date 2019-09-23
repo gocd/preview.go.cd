@@ -1,9 +1,9 @@
-Last updated: 2019-09-17 08:03:10 -0700
+Last updated: 2019-09-23 04:03:06 -0700
 
 Latest commit:
-    commit e0337b882fe2a0e346ec878233e74d7f416c87bd
-    Author: Louda Peña <lbaca@thoughtworks.com>
-    Date:   Tue Sep 17 07:57:39 2019 -0700
+    commit 0cbefbc45ef7593121d9dba60b2f179aa2a8b6d6
+    Author: Volodymyr Mykhailyk <712680+volodymyr-mykhailyk@users.noreply.github.com>
+    Date:   Mon Sep 23 13:56:33 2019 +0300
     
-        removed draft tag
+        Add HTTP Notifications plugin to the list (#1062)
     
