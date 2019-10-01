@@ -1,12 +1,12 @@
-Last updated: 2019-09-26 13:49:46 -0700
+Last updated: 2019-10-01 04:58:14 -0700
 
 Latest commit:
-    commit ed08dd3fbe71099fc891aaba7392f26276694ff7
-    Merge: 5c02232 2b4bbca
-    Author: marques-work <marques.lee@thoughtworks.com>
-    Date:   Thu Sep 26 13:40:58 2019 -0700
+    commit be7f4983d3eb5a27feb03f6046d0b2c3ed27d590
+    Merge: ed08dd3 a0d8ec7
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Tue Oct 1 07:51:55 2019 -0400
     
-        Merge pull request #1064 from marques-work/master
+        Merge pull request #1068 from varshavaradarajan/releases-versions-tab
         
-        Fix Test Drive download to be compatible with legacy browsers, namely IE.
+        release notes: make the release versions section scrollable
     
