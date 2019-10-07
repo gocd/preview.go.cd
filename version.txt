@@ -1,12 +1,12 @@
-Last updated: 2019-10-01 04:58:14 -0700
+Last updated: 2019-10-07 11:21:07 -0700
 
 Latest commit:
-    commit be7f4983d3eb5a27feb03f6046d0b2c3ed27d590
-    Merge: ed08dd3 a0d8ec7
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Oct 1 07:51:55 2019 -0400
+    commit 725cf038102987521fa416c3e647d32181dc6c9c
+    Merge: be7f498 9d3b7ff
+    Author: marques-work <marques.lee@thoughtworks.com>
+    Date:   Mon Oct 7 11:01:24 2019 -0700
     
-        Merge pull request #1068 from varshavaradarajan/releases-versions-tab
+        Merge pull request #1067 from marques-work/master
         
-        release notes: make the release versions section scrollable
+        Add CLI one-liners to download/install/run test drive
     
