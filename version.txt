@@ -1,12 +1,9 @@
-Last updated: 2019-10-07 11:21:07 -0700
+Last updated: 2019-10-07 15:49:18 -0700
 
 Latest commit:
-    commit 725cf038102987521fa416c3e647d32181dc6c9c
-    Merge: be7f498 9d3b7ff
-    Author: marques-work <marques.lee@thoughtworks.com>
-    Date:   Mon Oct 7 11:01:24 2019 -0700
+    commit f1a0907d4aa10a1c76634720799c6728c1e5766f
+    Author: Marques Lee <marques.lee@thoughtworks.com>
+    Date:   Mon Oct 7 15:39:33 2019 -0700
     
-        Merge pull request #1067 from marques-work/master
-        
-        Add CLI one-liners to download/install/run test drive
+        Use older dotnet unzip method for powershell one-liner to support server 2012 and windows 8.1
     
