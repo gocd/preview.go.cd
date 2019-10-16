@@ -1,16 +1,16 @@
-Last updated: 2019-10-16 09:40:38 -0700
+Last updated: 2019-10-16 09:44:59 -0700
 
 Latest commit:
-    commit dcc74996f7b5502adfa04fc9b5186ff3452e546a
+    commit 58ac134164c04aa9a986961409bb943ddbe889b0
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Thu Oct 10 06:09:04 2019 +0000
+    Date:   Mon Aug 26 15:36:17 2019 +0000
     
-        Bump mime-types-data from 3.2019.0331 to 3.2019.1009
+        Bump redcarpet from 3.4.0 to 3.5.0
         
-        Bumps [mime-types-data](https://github.com/mime-types/mime-types-data) from 3.2019.0331 to 3.2019.1009.
-        - [Release notes](https://github.com/mime-types/mime-types-data/releases)
-        - [Changelog](https://github.com/mime-types/mime-types-data/blob/master/History.md)
-        - [Commits](https://github.com/mime-types/mime-types-data/compare/v3.2019.0331...v3.2019.1009)
+        Bumps [redcarpet](https://github.com/vmg/redcarpet) from 3.4.0 to 3.5.0.
+        - [Release notes](https://github.com/vmg/redcarpet/releases)
+        - [Changelog](https://github.com/vmg/redcarpet/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/vmg/redcarpet/compare/v3.4.0...v3.5.0)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
