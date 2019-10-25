@@ -1,16 +1,9 @@
-Last updated: 2019-10-16 09:44:59 -0700
+Last updated: 2019-10-25 01:22:58 -0700
 
 Latest commit:
-    commit 58ac134164c04aa9a986961409bb943ddbe889b0
-    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Mon Aug 26 15:36:17 2019 +0000
+    commit 6e842794813e0e75d7e98ddf0556d91cda98908b
+    Author: Rajiesh <rajiesh.narayanan@gmail.com>
+    Date:   Fri Oct 25 13:46:30 2019 +0530
     
-        Bump redcarpet from 3.4.0 to 3.5.0
-        
-        Bumps [redcarpet](https://github.com/vmg/redcarpet) from 3.4.0 to 3.5.0.
-        - [Release notes](https://github.com/vmg/redcarpet/releases)
-        - [Changelog](https://github.com/vmg/redcarpet/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/vmg/redcarpet/compare/v3.4.0...v3.5.0)
-        
-        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+        Release notes for 19.10.0 (#1079)
     
