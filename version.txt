@@ -1,9 +1,12 @@
-Last updated: 2019-10-25 01:22:58 -0700
+Last updated: 2019-10-31 01:18:30 -0700
 
 Latest commit:
-    commit 6e842794813e0e75d7e98ddf0556d91cda98908b
-    Author: Rajiesh <rajiesh.narayanan@gmail.com>
-    Date:   Fri Oct 25 13:46:30 2019 +0530
+    commit 64d3aa4733e802d2b43190a586e8811de43dc142
+    Merge: 6e84279 0c636f6
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Thu Oct 31 13:41:34 2019 +0530
     
-        Release notes for 19.10.0 (#1079)
+        Merge pull request #1081 from veerababukona/new_refactoring
+        
+        Refactoring: Getting Started and Test drive Gocd Pages
     
