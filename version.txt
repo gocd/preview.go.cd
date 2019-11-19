@@ -1,9 +1,16 @@
-Last updated: 2019-11-11 11:49:18 -0800
+Last updated: 2019-11-18 23:48:07 -0800
 
 Latest commit:
-    commit 4d5909d1e859815fe6d6d885679f50688f6641cb
-    Author: Steven Streisguth <steve.streisguth@gmail.com>
-    Date:   Mon Nov 11 11:43:38 2019 -0800
+    commit 831413638baa0954ea14e72d97ce8355293f79f0
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Wed Oct 16 16:35:37 2019 +0000
     
-        Update to footer, replace twitter link with support contact info
+        Bump mime-types from 3.2.2 to 3.3
+        
+        Bumps [mime-types](https://github.com/mime-types/ruby-mime-types) from 3.2.2 to 3.3.
+        - [Release notes](https://github.com/mime-types/ruby-mime-types/releases)
+        - [Changelog](https://github.com/mime-types/ruby-mime-types/blob/master/History.md)
+        - [Commits](https://github.com/mime-types/ruby-mime-types/compare/v3.2.2...v3.3)
+        
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
