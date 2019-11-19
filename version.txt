@@ -1,16 +1,16 @@
-Last updated: 2019-11-18 23:48:07 -0800
+Last updated: 2019-11-18 23:58:04 -0800
 
 Latest commit:
-    commit 831413638baa0954ea14e72d97ce8355293f79f0
+    commit 3a152973a7fccad39071b5a99195858489500f2a
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Wed Oct 16 16:35:37 2019 +0000
+    Date:   Wed Nov 13 05:23:27 2019 +0000
     
-        Bump mime-types from 3.2.2 to 3.3
+        Bump rouge from 3.6.0 to 3.13.0
         
-        Bumps [mime-types](https://github.com/mime-types/ruby-mime-types) from 3.2.2 to 3.3.
-        - [Release notes](https://github.com/mime-types/ruby-mime-types/releases)
-        - [Changelog](https://github.com/mime-types/ruby-mime-types/blob/master/History.md)
-        - [Commits](https://github.com/mime-types/ruby-mime-types/compare/v3.2.2...v3.3)
+        Bumps [rouge](https://github.com/rouge-ruby/rouge) from 3.6.0 to 3.13.0.
+        - [Release notes](https://github.com/rouge-ruby/rouge/releases)
+        - [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/rouge-ruby/rouge/compare/v3.6.0...v3.13.0)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
