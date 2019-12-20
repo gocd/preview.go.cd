@@ -1,12 +1,23 @@
-Last updated: 2019-12-06 14:27:55 -0800
+Last updated: 2019-12-19 21:24:43 -0800
 
 Latest commit:
-    commit a866a49eaf8b70ba666232eb9912a9b14d05e889
-    Merge: d176f28 9989e2b
-    Author: Isabelle Carter <isabellenataliecarter@gmail.com>
-    Date:   Fri Dec 6 14:22:02 2019 -0800
+    commit 77feea8ad875024d10526cda44e00da9ec162fe3
+    Author: Ganesh S Patil <ganeshpl@thoughtworks.com>
+    Date:   Fri Dec 20 10:47:05 2019 +0530
     
-        Merge pull request #1098 from ibnc/page_removals
+        Add 19.12.0 release notes (#1103)
         
-        Removing vestigial pages
+        * Add 19.12.0 release notes
+        
+        * Plural apostrophe
+        
+        * Move Send Test Email button to bug fix instead of improvements
+        
+        * Mention config repo policies
+        
+        * Mention webhook pr
+        
+        * Minor rewording
+        
+        Co-authored-by: akshaydewan <akshayde@thoughtworks.com>
     
