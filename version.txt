@@ -1,23 +1,11 @@
-Last updated: 2019-12-19 21:24:43 -0800
+Last updated: 2019-12-20 05:00:40 -0800
 
 Latest commit:
-    commit 77feea8ad875024d10526cda44e00da9ec162fe3
-    Author: Ganesh S Patil <ganeshpl@thoughtworks.com>
-    Date:   Fri Dec 20 10:47:05 2019 +0530
+    commit 8b13e01402f89c6b6ef2be1b27b615382035a1d0
+    Author: GaneshSPatil <ganeshpl@thoughtworks.com>
+    Date:   Fri Dec 20 18:23:12 2019 +0530
     
-        Add 19.12.0 release notes (#1103)
+        Revert "Add 19.12.0 release notes (#1103)"
         
-        * Add 19.12.0 release notes
-        
-        * Plural apostrophe
-        
-        * Move Send Test Email button to bug fix instead of improvements
-        
-        * Mention config repo policies
-        
-        * Mention webhook pr
-        
-        * Minor rewording
-        
-        Co-authored-by: akshaydewan <akshayde@thoughtworks.com>
+        This reverts commit 77feea8ad875024d10526cda44e00da9ec162fe3.
     
