@@ -1,11 +1,9 @@
-Last updated: 2019-12-20 05:00:40 -0800
+Last updated: 2019-12-20 05:16:38 -0800
 
 Latest commit:
-    commit 8b13e01402f89c6b6ef2be1b27b615382035a1d0
+    commit 72c38cecc9db9797b4ef40dd7cbbece0088bc776
     Author: GaneshSPatil <ganeshpl@thoughtworks.com>
-    Date:   Fri Dec 20 18:23:12 2019 +0530
+    Date:   Fri Dec 20 18:33:58 2019 +0530
     
-        Revert "Add 19.12.0 release notes (#1103)"
-        
-        This reverts commit 77feea8ad875024d10526cda44e00da9ec162fe3.
+        Mention environment variable from environment issue on 19.11.0 release notes
     
