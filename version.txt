@@ -1,16 +1,16 @@
-Last updated: 2019-12-24 02:21:46 -0800
+Last updated: 2019-12-24 02:35:31 -0800
 
 Latest commit:
-    commit e1f15fa84d4a5fe566816411fe703755a547b35b
+    commit 62814f432ab211ff2118fb104137929e59a511b2
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Tue Dec 24 10:05:14 2019 +0000
+    Date:   Thu Dec 19 05:20:50 2019 +0000
     
-        Bump bootstrap-sass from 3.3.7 to 3.4.1
+        [Security] Bump excon from 0.66.0 to 0.71.1
         
-        Bumps [bootstrap-sass](https://github.com/twbs/bootstrap-sass) from 3.3.7 to 3.4.1.
-        - [Release notes](https://github.com/twbs/bootstrap-sass/releases)
-        - [Changelog](https://github.com/twbs/bootstrap-sass/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/twbs/bootstrap-sass/compare/v3.3.7...v3.4.1)
+        Bumps [excon](https://github.com/excon/excon) from 0.66.0 to 0.71.1. **This update includes security fixes.**
+        - [Release notes](https://github.com/excon/excon/releases)
+        - [Changelog](https://github.com/excon/excon/blob/master/changelog.txt)
+        - [Commits](https://github.com/excon/excon/compare/v0.66.0...v0.71.1)
         
-        Signed-off-by: dependabot[bot] <support@dependabot.com>
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
