@@ -1,16 +1,15 @@
-Last updated: 2019-12-24 03:00:42 -0800
+Last updated: 2019-12-24 03:14:14 -0800
 
 Latest commit:
-    commit 24393f5c8024bc939cbf8db3ea03068e3aaa70cf
+    commit 1c515967fc5149e3762bc7c34f3be2d94810dc55
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Tue Dec 24 10:16:43 2019 +0000
+    Date:   Tue Dec 24 11:01:51 2019 +0000
     
-        Bump rake from 12.3.3 to 13.0.1
+        Bump middleman-gh-pages from 0.3.1 to 0.4.1
         
-        Bumps [rake](https://github.com/ruby/rake) from 12.3.3 to 13.0.1.
-        - [Release notes](https://github.com/ruby/rake/releases)
-        - [Changelog](https://github.com/ruby/rake/blob/master/History.rdoc)
-        - [Commits](https://github.com/ruby/rake/compare/v12.3.3...v13.0.1)
+        Bumps [middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages) from 0.3.1 to 0.4.1.
+        - [Release notes](https://github.com/edgecase/middleman-gh-pages/releases)
+        - [Commits](https://github.com/edgecase/middleman-gh-pages/compare/v0.3.1...v0.4.1)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
