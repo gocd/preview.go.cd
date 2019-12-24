@@ -1,15 +1,16 @@
-Last updated: 2019-12-24 03:14:14 -0800
+Last updated: 2019-12-24 03:23:42 -0800
 
 Latest commit:
-    commit 1c515967fc5149e3762bc7c34f3be2d94810dc55
+    commit f6fac52d3494d8e0e9a066ea1a6f4cb591711fdb
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Tue Dec 24 11:01:51 2019 +0000
+    Date:   Tue Dec 24 10:16:46 2019 +0000
     
-        Bump middleman-gh-pages from 0.3.1 to 0.4.1
+        Bump sassc from 2.0.1 to 2.2.1
         
-        Bumps [middleman-gh-pages](https://github.com/edgecase/middleman-gh-pages) from 0.3.1 to 0.4.1.
-        - [Release notes](https://github.com/edgecase/middleman-gh-pages/releases)
-        - [Commits](https://github.com/edgecase/middleman-gh-pages/compare/v0.3.1...v0.4.1)
+        Bumps [sassc](https://github.com/sass/sassc-ruby) from 2.0.1 to 2.2.1.
+        - [Release notes](https://github.com/sass/sassc-ruby/releases)
+        - [Changelog](https://github.com/sass/sassc-ruby/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/sass/sassc-ruby/compare/v2.0.1...v2.2.1)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
