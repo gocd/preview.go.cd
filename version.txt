@@ -1,9 +1,16 @@
-Last updated: 2019-12-23 02:23:51 -0800
+Last updated: 2019-12-24 02:03:37 -0800
 
 Latest commit:
-    commit 1ab7d9c91a7811d84103ffad19244062ad3353ab
-    Author: GaneshSPatil <ganeshpl@thoughtworks.com>
-    Date:   Mon Dec 23 15:39:41 2019 +0530
+    commit fdf7fa739d191a5733bd3732438c3d4159597fd7
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Wed Dec 18 19:34:19 2019 +0000
     
-        Update 19.11.0 release notes to reword as per 19.12.0 release.
+        [Security] Bump rack from 2.0.7 to 2.0.8
+        
+        Bumps [rack](https://github.com/rack/rack) from 2.0.7 to 2.0.8. **This update includes a security fix.**
+        - [Release notes](https://github.com/rack/rack/releases)
+        - [Changelog](https://github.com/rack/rack/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/rack/rack/compare/2.0.7...2.0.8)
+        
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
