@@ -1,16 +1,16 @@
-Last updated: 2019-12-24 02:51:50 -0800
+Last updated: 2019-12-24 03:00:42 -0800
 
 Latest commit:
-    commit 06009d7257a9183c4e902839bdd86eb082313369
+    commit 24393f5c8024bc939cbf8db3ea03068e3aaa70cf
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Wed Nov 20 05:23:42 2019 +0000
+    Date:   Tue Dec 24 10:16:43 2019 +0000
     
-        Bump minitest from 5.11.3 to 5.13.0
+        Bump rake from 12.3.3 to 13.0.1
         
-        Bumps [minitest](https://github.com/seattlerb/minitest) from 5.11.3 to 5.13.0.
-        - [Release notes](https://github.com/seattlerb/minitest/releases)
-        - [Changelog](https://github.com/seattlerb/minitest/blob/master/History.rdoc)
-        - [Commits](https://github.com/seattlerb/minitest/compare/v5.11.3...v5.13.0)
+        Bumps [rake](https://github.com/ruby/rake) from 12.3.3 to 13.0.1.
+        - [Release notes](https://github.com/ruby/rake/releases)
+        - [Changelog](https://github.com/ruby/rake/blob/master/History.rdoc)
+        - [Commits](https://github.com/ruby/rake/compare/v12.3.3...v13.0.1)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
