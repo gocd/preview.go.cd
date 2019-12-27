@@ -1,16 +1,16 @@
-Last updated: 2019-12-27 02:19:07 -0800
+Last updated: 2019-12-27 02:26:25 -0800
 
 Latest commit:
-    commit 99e34a84a8638edd72ffc07360448269080aeef6
+    commit 16bfafaf227079c09471ef61e0c22e40546d2ee9
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Wed Dec 25 05:20:46 2019 +0000
+    Date:   Wed Dec 25 05:23:44 2019 +0000
     
-        Bump tzinfo from 1.2.5 to 1.2.6
+        Bump multi_json from 1.13.1 to 1.14.1
         
-        Bumps [tzinfo](https://github.com/tzinfo/tzinfo) from 1.2.5 to 1.2.6.
-        - [Release notes](https://github.com/tzinfo/tzinfo/releases)
-        - [Changelog](https://github.com/tzinfo/tzinfo/blob/master/CHANGES.md)
-        - [Commits](https://github.com/tzinfo/tzinfo/compare/v1.2.5...v1.2.6)
+        Bumps [multi_json](https://github.com/intridea/multi_json) from 1.13.1 to 1.14.1.
+        - [Release notes](https://github.com/intridea/multi_json/releases)
+        - [Changelog](https://github.com/intridea/multi_json/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/intridea/multi_json/compare/v1.13.1...v1.14.1)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
