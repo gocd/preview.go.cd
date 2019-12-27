@@ -1,16 +1,16 @@
-Last updated: 2019-12-24 03:23:42 -0800
+Last updated: 2019-12-27 01:56:47 -0800
 
 Latest commit:
-    commit f6fac52d3494d8e0e9a066ea1a6f4cb591711fdb
+    commit b5f39f9ac07206a2a4d1249de3a2a4b026289d0c
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Tue Dec 24 10:16:46 2019 +0000
+    Date:   Wed Dec 25 05:20:20 2019 +0000
     
-        Bump sassc from 2.0.1 to 2.2.1
+        Bump memoist from 0.16.0 to 0.16.2
         
-        Bumps [sassc](https://github.com/sass/sassc-ruby) from 2.0.1 to 2.2.1.
-        - [Release notes](https://github.com/sass/sassc-ruby/releases)
-        - [Changelog](https://github.com/sass/sassc-ruby/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/sass/sassc-ruby/compare/v2.0.1...v2.2.1)
+        Bumps [memoist](https://github.com/matthewrudy/memoist) from 0.16.0 to 0.16.2.
+        - [Release notes](https://github.com/matthewrudy/memoist/releases)
+        - [Changelog](https://github.com/matthewrudy/memoist/blob/master/CHANGELOG.md)
+        - [Commits](https://github.com/matthewrudy/memoist/compare/v0.16.0...v0.16.2)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
