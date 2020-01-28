@@ -1,9 +1,12 @@
-Last updated: 2020-01-24 04:10:11 -0800
+Last updated: 2020-01-28 09:17:15 -0800
 
 Latest commit:
-    commit ca957a59f01f66e514ad535ef2421d66e0b4b5b4
-    Author: v-sky <vadym@v-sky.me>
-    Date:   Thu Jan 23 17:13:49 2020 +0100
+    commit 57a728697548e4e2464eb18df2354b1059a663ee
+    Merge: ca957a5 1fe4430
+    Author: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
+    Date:   Tue Jan 28 09:09:27 2020 -0800
     
-        add AWS EC2 elastic plugin
+        Merge pull request #1127 from maheshp/list_aws_secrets_plugin
+        
+        List AWS Secrets Manager plugin
     
