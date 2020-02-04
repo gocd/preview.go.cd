@@ -1,9 +1,11 @@
-Last updated: 2020-01-30 01:11:48 -0800
+Last updated: 2020-02-03 20:44:49 -0800
 
 Latest commit:
-    commit cc721cc0b83802a4e9f26d8fb32ca9304cc4870b
-    Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Thu Jan 30 14:34:31 2020 +0530
+    commit 4d4fb7d0cb8787c0c5698ef021058c882a2b908a
+    Author: Zhou Caiqin <caiqinzhou@gmail.com>
+    Date:   Tue Feb 4 12:38:46 2020 +0800
     
-        Removing contributors from previous release
+        Fix try.sh error (#1129)
+        
+        Missing a space at line 33
     
