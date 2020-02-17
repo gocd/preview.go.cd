@@ -1,11 +1,9 @@
-Last updated: 2020-02-03 20:44:49 -0800
+Last updated: 2020-02-16 20:41:41 -0800
 
 Latest commit:
-    commit 4d4fb7d0cb8787c0c5698ef021058c882a2b908a
-    Author: Zhou Caiqin <caiqinzhou@gmail.com>
-    Date:   Tue Feb 4 12:38:46 2020 +0800
+    commit 04f907385e06512c55e79a3de7f1c72b1ca69389
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Mon Feb 17 10:03:57 2020 +0530
     
-        Fix try.sh error (#1129)
-        
-        Missing a space at line 33
+        Update java version required on the downloads page
     
