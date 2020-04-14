@@ -1,9 +1,9 @@
-Last updated: 2020-03-25 22:28:10 -0700
+Last updated: 2020-04-14 09:06:28 -0700
 
 Latest commit:
-    commit 1586cf8c1fedd68dbbf04a4644194504c4f512d3
-    Author: GaneshSPatil <ganeshpl@thoughtworks.com>
-    Date:   Thu Mar 26 10:50:45 2020 +0530
+    commit 28eefb1464c6e49c2df47b2dc23b8034e348830f
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Tue Apr 14 16:58:57 2020 +0100
     
-        List GoCD Kubernetes Secrets Plugin on plugins page
+        Formatting changes to k8s + terraform blog post
     
