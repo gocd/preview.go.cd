@@ -1,9 +1,9 @@
-Last updated: 2020-04-14 09:06:28 -0700
+Last updated: 2020-04-14 09:24:29 -0700
 
 Latest commit:
-    commit 28eefb1464c6e49c2df47b2dc23b8034e348830f
+    commit 5fec34b9d60e72d53b821bea5a797400a354f482
     Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Apr 14 16:58:57 2020 +0100
+    Date:   Tue Apr 14 17:15:35 2020 +0100
     
-        Formatting changes to k8s + terraform blog post
+        Small formatting fix
     
