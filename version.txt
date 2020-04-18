@@ -1,9 +1,12 @@
-Last updated: 2020-04-14 09:24:29 -0700
+Last updated: 2020-04-18 00:10:38 -0700
 
 Latest commit:
-    commit 5fec34b9d60e72d53b821bea5a797400a354f482
+    commit 46b480f91516596179fe3cbfaf68505ee782420b
+    Merge: 5fec34b ba2654e
     Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Apr 14 17:15:35 2020 +0100
+    Date:   Sat Apr 18 08:03:13 2020 +0100
     
-        Small formatting fix
+        Merge pull request #1141 from arvindsv/link-to-unsupported-releases
+        
+        Add link to unsupported releases
     
