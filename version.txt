@@ -1,12 +1,12 @@
-Last updated: 2020-04-20 23:41:48 -0700
+Last updated: 2020-04-22 02:33:21 -0700
 
 Latest commit:
-    commit ebde79c91398ab54e3f4af039f73365f4e04e29f
-    Merge: 46b480f eec41b1
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Apr 21 07:34:54 2020 +0100
+    commit c856870b767ce66219e282ff6dc4c2d69927dff4
+    Merge: ebde79c e8e526d
+    Author: Ganesh S Patil <ganeshpl@thoughtworks.com>
+    Date:   Wed Apr 22 14:56:24 2020 +0530
     
-        Merge pull request #1144 from arvindsv/remove-contact-support-link
+        Merge pull request #1142 from maheshp/release-notes-20-3-0
         
-        Remove "Contact Support" link
+        20.3.0 release notes
     
