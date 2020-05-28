@@ -1,9 +1,9 @@
-Last updated: 2020-04-30 02:00:18 -0700
+Last updated: 2020-05-28 00:48:26 -0700
 
 Latest commit:
-    commit d4d926ae24d9a1225810e5720f1325995eadea69
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Apr 30 09:52:31 2020 +0100
+    commit 0405feef3eabd498b174d531c588e994acb9aa77
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Thu May 28 13:10:51 2020 +0530
     
-        Redirect enterprise/index.html => /index.html
+        remove bundled with section from gemfile.lock
     
