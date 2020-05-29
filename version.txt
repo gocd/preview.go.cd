@@ -1,9 +1,15 @@
-Last updated: 2020-05-28 00:48:26 -0700
+Last updated: 2020-05-28 20:47:08 -0700
 
 Latest commit:
-    commit 0405feef3eabd498b174d531c588e994acb9aa77
-    Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Thu May 28 13:10:51 2020 +0530
+    commit 88d1996bed9e5645b8c4416996d9aea3637b7e6a
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Fri May 29 09:09:13 2020 +0530
     
-        remove bundled with section from gemfile.lock
+        Add release notes for 20.4.0 (#1147)
+        
+        * Add release notes for 20.4.0
+        
+        * Small improvements to text
+        
+        Co-authored-by: Aravind SV <mail@arvindsv.com>
     
