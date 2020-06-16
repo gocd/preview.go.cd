@@ -1,9 +1,12 @@
-Last updated: 2020-06-01 02:50:31 -0700
+Last updated: 2020-06-16 03:24:41 -0700
 
 Latest commit:
-    commit a0429a3c7b97d407f93a030c38a18c489579bbec
-    Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Mon Jun 1 13:15:57 2020 +0530
+    commit 321de0cae02d3a8ffe93ccfb4d1e07214685cc89
+    Merge: a0429a3c7 63d161c92
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Tue Jun 16 11:16:27 2020 +0100
     
-        Add newly open-sourced plugins
+        Merge pull request #1152 from varshavaradarajan/helm-3-instruction
+        
+        Update helm commands for k8s instructions
     
