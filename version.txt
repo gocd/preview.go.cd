@@ -1,12 +1,12 @@
-Last updated: 2020-06-16 03:24:41 -0700
+Last updated: 2020-06-22 20:36:33 -0700
 
 Latest commit:
-    commit 321de0cae02d3a8ffe93ccfb4d1e07214685cc89
-    Merge: a0429a3c7 63d161c92
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Jun 16 11:16:27 2020 +0100
+    commit c19336770a5d34907e62feca19f7a8201f9265b2
+    Merge: 321de0cae 056666443
+    Author: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
+    Date:   Mon Jun 22 20:27:13 2020 -0700
     
-        Merge pull request #1152 from varshavaradarajan/helm-3-instruction
+        Merge pull request #1154 from maheshp/release_20.5.0
         
-        Update helm commands for k8s instructions
+        20.5.0 release notes
     
