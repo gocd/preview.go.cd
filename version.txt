@@ -1,12 +1,9 @@
-Last updated: 2020-06-24 08:37:24 -0700
+Last updated: 2020-06-28 20:48:11 -0700
 
 Latest commit:
-    commit 76b8e508408173d29e59f871c88baf6a1bb216c8
-    Merge: c19336770 7deb2879f
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Wed Jun 24 16:30:09 2020 +0100
+    commit 91f2532178676aaaf8ff465be70b0acde71b692f
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Mon Jun 29 09:08:16 2020 +0530
     
-        Merge pull request #1156 from arvindsv/clarify-release-notes
-        
-        Clarify a part of the release notes
+        Fixing html link checker for assets styleguide.
     
