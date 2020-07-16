@@ -1,9 +1,12 @@
-Last updated: 2020-07-07 03:38:51 -0700
+Last updated: 2020-07-16 02:38:38 -0700
 
 Latest commit:
-    commit b49c9b120cca77d007586f95bb21c782a3fa3e1d
-    Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Thu May 28 13:05:59 2020 +0530
+    commit 87609894c8d4c0fa8ac0c274fec1172281a1b8cd
+    Merge: b49c9b120 5879113c1
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Thu Jul 16 10:28:55 2020 +0100
     
-        Show an experimental docker images section which points to `gocdexperimental/{image_name}`
+        Merge pull request #1158 from arvindsv/update-plugin-description
+        
+        Update plugin page description
     
