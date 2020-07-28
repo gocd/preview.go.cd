@@ -1,12 +1,22 @@
-Last updated: 2020-07-16 02:38:38 -0700
+Last updated: 2020-07-27 21:25:23 -0700
 
 Latest commit:
-    commit 87609894c8d4c0fa8ac0c274fec1172281a1b8cd
-    Merge: b49c9b120 5879113c1
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Jul 16 10:28:55 2020 +0100
+    commit f71573ff2113d2142bfe0b519a4999d22da109b3
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Tue Jul 28 09:46:25 2020 +0530
     
-        Merge pull request #1158 from arvindsv/update-plugin-description
+        Add 20.6.0 release notes (#1159)
         
-        Update plugin page description
+        * Add 20.6.0 release notes
+        
+        * More changes to the release notes
+        
+        * Adding an image for pipeline as code wizard
+        
+        * Fix comments
+        
+        * Add more items to the bug-fixes and improvements section
+        
+        Co-authored-by: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
+        Co-authored-by: GaneshSPatil <ganeshpl@thoughtworks.com>
     
