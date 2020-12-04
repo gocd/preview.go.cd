@@ -1,12 +1,9 @@
-Last updated: 2020-12-02 20:52:39 -0800
+Last updated: 2020-12-03 20:55:12 -0800
 
 Latest commit:
-    commit 68d2dc1d5a17dbd09988945c1778995cb46ecfe2
-    Merge: 00348d051 c8ef4513d
-    Author: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
-    Date:   Thu Dec 3 10:14:43 2020 +0530
+    commit fa70fc75b094da05cbae5ebc3ffef14e85c8eab0
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Fri Dec 4 10:17:37 2020 +0530
     
-        Merge pull request #1206 from Tectu/master
-        
-        Add CMake Task plugin
+        don't check for localhost, github or linkedin links
     
