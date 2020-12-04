@@ -1,9 +1,9 @@
-Last updated: 2020-12-03 20:55:12 -0800
+Last updated: 2020-12-03 23:26:48 -0800
 
 Latest commit:
-    commit fa70fc75b094da05cbae5ebc3ffef14e85c8eab0
+    commit faa9c8c381659d19f44e444c5bf551c775ad999c
     Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Fri Dec 4 10:17:37 2020 +0530
+    Date:   Fri Dec 4 12:49:17 2020 +0530
     
-        don't check for localhost, github or linkedin links
+        ignore checking the mp4 asset link - unable to provide a correct relative path
     
