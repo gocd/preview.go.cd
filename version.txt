@@ -1,9 +1,9 @@
-Last updated: 2020-12-07 06:25:33 +0000
+Last updated: 2020-12-07 08:07:55 +0000
 
 Latest commit:
-    commit 49fad92eca269fb5e485eac6c49cb759006e2356
+    commit a24c5dab1e1a32e2f8fb72d80d29bc331c26605d
     Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Mon Dec 7 11:51:43 2020 +0530
+    Date:   Mon Dec 7 13:34:07 2020 +0530
     
-        Set the correct user config
+        Suppress the warning message
     
