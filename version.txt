@@ -1,9 +1,10 @@
-Last updated: 2020-12-06 21:33:08 -0800
+Last updated: 2020-12-07 06:17:22 +0000
 
 Latest commit:
-    commit b18b97f4d17cc4b8fb9ded5d3cc4ec6d4271f971
+    commit d3091d90632ccc05ea335af72402be14fcb4c8ff
     Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Mon Dec 7 10:55:17 2020 +0530
+    Date:   Mon Dec 7 11:02:35 2020 +0530
     
-        Add step to check the build failure
+        Update github actions
+         - add workflow to build and deploy to preview
     
