@@ -1,9 +1,11 @@
-Last updated: 2020-12-03 23:26:48 -0800
+Last updated: 2020-12-06 21:11:45 -0800
 
 Latest commit:
-    commit faa9c8c381659d19f44e444c5bf551c775ad999c
+    commit f9cf5e12e1a8c980238a31d426769e72eb4c256a
     Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Fri Dec 4 12:49:17 2020 +0530
+    Date:   Thu Dec 3 12:27:16 2020 +0530
     
-        ignore checking the mp4 asset link - unable to provide a correct relative path
+        Add pr workflow via github actions
+        
+        don't check for external links. Rate limiting and other factors kick in
     
