@@ -1,10 +1,9 @@
-Last updated: 2020-12-07 06:17:22 +0000
+Last updated: 2020-12-07 06:25:33 +0000
 
 Latest commit:
-    commit d3091d90632ccc05ea335af72402be14fcb4c8ff
+    commit 49fad92eca269fb5e485eac6c49cb759006e2356
     Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Mon Dec 7 11:02:35 2020 +0530
+    Date:   Mon Dec 7 11:51:43 2020 +0530
     
-        Update github actions
-         - add workflow to build and deploy to preview
+        Set the correct user config
     
