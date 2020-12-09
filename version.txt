@@ -1,12 +1,9 @@
-Last updated: 2020-12-08 07:10:29 +0000
+Last updated: 2020-12-09 04:39:55 +0000
 
 Latest commit:
-    commit 34125a3e0d41328147b2aee23194054236efadbf
-    Merge: 6fc5c2878 4ec459ce2
-    Author: Mahesh Panchaksharaiah <maheshp@thoughtworks.com>
-    Date:   Tue Dec 8 12:37:00 2020 +0530
+    commit 8b66ca1046cf3f4450babe7bf5b20fcc7c2a168e
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Wed Dec 9 10:06:30 2020 +0530
     
-        Merge pull request #1211 from kritika-singh3/add-analytics-plugin
-        
-        Add analytics plugin on the plugin pages
+        Adding s3 credentials for preview step
     
