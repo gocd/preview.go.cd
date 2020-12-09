@@ -1,9 +1,9 @@
-Last updated: 2020-12-09 04:39:55 +0000
+Last updated: 2020-12-09 04:59:47 +0000
 
 Latest commit:
-    commit 8b66ca1046cf3f4450babe7bf5b20fcc7c2a168e
+    commit 2b3ca09fdfba74a5f61bed67bb933f3e6d2a2bd2
     Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Wed Dec 9 10:06:30 2020 +0530
+    Date:   Wed Dec 9 10:21:31 2020 +0530
     
-        Adding s3 credentials for preview step
+        Use build task
     
