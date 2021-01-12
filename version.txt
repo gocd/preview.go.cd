@@ -1,13 +1,9 @@
-Last updated: 2021-01-12 04:45:55 +0000
+Last updated: 2021-01-12 04:47:48 +0000
 
 Latest commit:
-    commit 1885b72dff70eb7789bd55c6a9d4dcd70038e81b
-    Author: Kritika <kritika.singh@thoughtworks.com>
-    Date:   Tue Jan 12 10:13:01 2021 +0530
+    commit 7c6f6786cc0dc8a3d01371455106f2bc8ff64dd0
+    Author: Kritika Singh <kritika.singh1994@gmail.com>
+    Date:   Tue Jan 12 10:14:49 2021 +0530
     
-        Add release notes fr 21.1.0 (#1222)
-        
-        * Add release notes fr 21.1.0
-        * Update release notes
-        * Add note abt security fix
+        Update the github user to the one which have access to it
     
