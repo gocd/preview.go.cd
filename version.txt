@@ -1,9 +1,9 @@
-Last updated: 2021-01-12 04:47:48 +0000
+Last updated: 2021-02-24 05:45:51 +0000
 
 Latest commit:
-    commit 7c6f6786cc0dc8a3d01371455106f2bc8ff64dd0
-    Author: Kritika Singh <kritika.singh1994@gmail.com>
-    Date:   Tue Jan 12 10:14:49 2021 +0530
+    commit 0408544bfffa76a96a7357161dde29d1c09912f2
+    Author: Kritika <kritika.singh@thoughtworks.com>
+    Date:   Wed Feb 24 11:06:23 2021 +0530
     
-        Update the github user to the one which have access to it
+        Debug: check if email nd user are set for git config
     
