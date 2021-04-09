@@ -1,9 +1,16 @@
-Last updated: 2021-04-08 21:01:46 +0000
+Last updated: 2021-04-09 07:53:00 +0000
 
 Latest commit:
-    commit 4cb5c8d31650b4e3db75fce7374cecb7d84a7aaa
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Thu Apr 8 21:49:26 2021 +0100
+    commit 2af15fa6a52592804eb2e50dfb5a440a64ce4279
+    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+    Date:   Fri Apr 9 07:31:16 2021 +0000
     
-        Update Java version required
+        Bump nokogiri from 1.11.2 to 1.11.3
+        
+        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.2 to 1.11.3.
+        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
+        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.2...v1.11.3)
+        
+        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
