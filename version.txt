@@ -1,16 +1,16 @@
-Last updated: 2021-04-30 07:05:41 +0000
+Last updated: 2021-04-30 07:10:34 +0000
 
 Latest commit:
-    commit a6671394c5fa688f570bbebc3f85b8f89aedcb52
+    commit 2be618804934d6f5541ac890a969ebc4a9c85b01
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Apr 30 06:49:09 2021 +0000
+    Date:   Fri Apr 30 06:54:30 2021 +0000
     
-        Bump mini_portile2 from 2.5.0 to 2.5.1
+        Bump mime-types from 3.3 to 3.3.1
         
-        Bumps [mini_portile2](https://github.com/flavorjones/mini_portile) from 2.5.0 to 2.5.1.
-        - [Release notes](https://github.com/flavorjones/mini_portile/releases)
-        - [Changelog](https://github.com/flavorjones/mini_portile/blob/main/CHANGELOG.md)
-        - [Commits](https://github.com/flavorjones/mini_portile/compare/v2.5.0...v2.5.1)
+        Bumps [mime-types](https://github.com/mime-types/ruby-mime-types) from 3.3 to 3.3.1.
+        - [Release notes](https://github.com/mime-types/ruby-mime-types/releases)
+        - [Changelog](https://github.com/mime-types/ruby-mime-types/blob/master/History.md)
+        - [Commits](https://github.com/mime-types/ruby-mime-types/compare/v3.3...v3.3.1)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
