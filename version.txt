@@ -1,16 +1,16 @@
-Last updated: 2021-04-09 07:53:00 +0000
+Last updated: 2021-04-30 06:59:29 +0000
 
 Latest commit:
-    commit 2af15fa6a52592804eb2e50dfb5a440a64ce4279
+    commit 80010d89be6c0ac68113f77552959624c937fc69
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Apr 9 07:31:16 2021 +0000
+    Date:   Fri Apr 30 06:39:08 2021 +0000
     
-        Bump nokogiri from 1.11.2 to 1.11.3
+        Bump fog-core from 2.2.3 to 2.2.4
         
-        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.2 to 1.11.3.
-        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
-        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
-        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.2...v1.11.3)
+        Bumps [fog-core](https://github.com/fog/fog-core) from 2.2.3 to 2.2.4.
+        - [Release notes](https://github.com/fog/fog-core/releases)
+        - [Changelog](https://github.com/fog/fog-core/blob/master/changelog.md)
+        - [Commits](https://github.com/fog/fog-core/compare/v2.2.3...v2.2.4)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
