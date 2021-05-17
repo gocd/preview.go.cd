@@ -1,16 +1,16 @@
-Last updated: 2021-04-30 07:10:34 +0000
+Last updated: 2021-05-17 22:03:39 +0000
 
 Latest commit:
-    commit 2be618804934d6f5541ac890a969ebc4a9c85b01
+    commit 325b5569eb1cdb8c4b5bfaf1fa6faaf924f4cb2d
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Apr 30 06:54:30 2021 +0000
+    Date:   Mon May 17 21:44:43 2021 +0000
     
-        Bump mime-types from 3.3 to 3.3.1
+        [Security] Bump nokogiri from 1.11.3 to 1.11.4
         
-        Bumps [mime-types](https://github.com/mime-types/ruby-mime-types) from 3.3 to 3.3.1.
-        - [Release notes](https://github.com/mime-types/ruby-mime-types/releases)
-        - [Changelog](https://github.com/mime-types/ruby-mime-types/blob/master/History.md)
-        - [Commits](https://github.com/mime-types/ruby-mime-types/compare/v3.3...v3.3.1)
+        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.3 to 1.11.4. **This update includes a security fix.**
+        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
+        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.3...v1.11.4)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
