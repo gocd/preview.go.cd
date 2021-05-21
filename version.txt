@@ -1,16 +1,16 @@
-Last updated: 2021-05-17 22:18:11 +0000
+Last updated: 2021-05-21 06:52:44 +0000
 
 Latest commit:
-    commit 5e36a87ab7c8b6b9919135cdc3d3e271a88c6d0f
+    commit af61d714f28cd0d5b4a09948872662558cd77d14
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Mon May 17 21:54:26 2021 +0000
+    Date:   Fri May 21 06:30:30 2021 +0000
     
-        Bump nokogumbo from 2.0.4 to 2.0.5
+        Bump nokogiri from 1.11.4 to 1.11.5
         
-        Bumps [nokogumbo](https://github.com/rubys/nokogumbo) from 2.0.4 to 2.0.5.
-        - [Release notes](https://github.com/rubys/nokogumbo/releases)
-        - [Changelog](https://github.com/rubys/nokogumbo/blob/master/CHANGELOG.md)
-        - [Commits](https://github.com/rubys/nokogumbo/compare/v2.0.4...v2.0.5)
+        Bumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.4 to 1.11.5.
+        - [Release notes](https://github.com/sparklemotion/nokogiri/releases)
+        - [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)
+        - [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.4...v1.11.5)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
