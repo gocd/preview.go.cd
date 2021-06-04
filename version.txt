@@ -1,16 +1,16 @@
-Last updated: 2021-06-04 06:45:57 +0000
+Last updated: 2021-06-04 06:56:09 +0000
 
 Latest commit:
-    commit 8a7fb27b24313c0c56eaf24792e5f761d1b7bbed
+    commit 06fd460afcb37f426a2b29496cf15068f4f92acc
     Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Jun 4 06:24:54 2021 +0000
+    Date:   Fri Jun 4 06:35:14 2021 +0000
     
-        Bump mini_portile2 from 2.5.1 to 2.5.3
+        Bump minitest from 5.14.2 to 5.14.4
         
-        Bumps [mini_portile2](https://github.com/flavorjones/mini_portile) from 2.5.1 to 2.5.3.
-        - [Release notes](https://github.com/flavorjones/mini_portile/releases)
-        - [Changelog](https://github.com/flavorjones/mini_portile/blob/main/CHANGELOG.md)
-        - [Commits](https://github.com/flavorjones/mini_portile/compare/v2.5.1...v2.5.3)
+        Bumps [minitest](https://github.com/seattlerb/minitest) from 5.14.2 to 5.14.4.
+        - [Release notes](https://github.com/seattlerb/minitest/releases)
+        - [Changelog](https://github.com/seattlerb/minitest/blob/master/History.rdoc)
+        - [Commits](https://github.com/seattlerb/minitest/compare/v5.14.2...v5.14.4)
         
         Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
     
