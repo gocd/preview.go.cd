@@ -1,16 +1,12 @@
-Last updated: 2021-06-11 06:50:36 +0000
+Last updated: 2021-07-27 11:06:05 +0000
 
 Latest commit:
-    commit bd39b704aa5f00d04e9f3bd210d3656521d5e139
-    Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
-    Date:   Fri Jun 11 06:31:09 2021 +0000
+    commit ba158b483b2ce52cfa2ad94fbd0f42a2223e9080
+    Merge: bd39b704a ae85991c0
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Tue Jul 27 11:54:34 2021 +0100
     
-        Bump dotenv from 2.7.5 to 2.7.6
+        Merge pull request #1289 from kaiehrhardt/fix-groovy-plugin-urls
         
-        Bumps [dotenv](https://github.com/bkeepers/dotenv) from 2.7.5 to 2.7.6.
-        - [Release notes](https://github.com/bkeepers/dotenv/releases)
-        - [Changelog](https://github.com/bkeepers/dotenv/blob/master/Changelog.md)
-        - [Commits](https://github.com/bkeepers/dotenv/compare/v2.7.5...v2.7.6)
-        
-        Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+        plugins: update config repo groovy plugin urls
     
