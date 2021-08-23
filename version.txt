@@ -1,12 +1,9 @@
-Last updated: 2021-07-27 11:06:05 +0000
+Last updated: 2021-08-23 04:49:37 +0000
 
 Latest commit:
-    commit ba158b483b2ce52cfa2ad94fbd0f42a2223e9080
-    Merge: bd39b704a ae85991c0
+    commit c0ba3c76fca9ca5ffd3b72e28533220722a06b4a
     Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Jul 27 11:54:34 2021 +0100
+    Date:   Mon Aug 23 10:05:34 2021 +0530
     
-        Merge pull request #1289 from kaiehrhardt/fix-groovy-plugin-urls
-        
-        plugins: update config repo groovy plugin urls
+        Update plugin author URL
     
