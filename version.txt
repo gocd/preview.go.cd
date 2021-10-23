@@ -1,9 +1,12 @@
-Last updated: 2021-08-23 04:49:37 +0000
+Last updated: 2021-10-23 15:07:28 +0000
 
 Latest commit:
-    commit c0ba3c76fca9ca5ffd3b72e28533220722a06b4a
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Mon Aug 23 10:05:34 2021 +0530
+    commit 2231df85d7b5264b41712bab2451b613d9df16e7
+    Merge: c0ba3c76f da3893d4d
+    Author: Chad Wilson <chadw@thoughtworks.com>
+    Date:   Sat Oct 23 22:54:26 2021 +0800
     
-        Update plugin author URL
+        Merge pull request #1284 from gocd/dependabot/bundler/addressable-2.8.0
+        
+        [Security] Bump addressable from 2.7.0 to 2.8.0
     
