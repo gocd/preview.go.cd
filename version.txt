@@ -1,12 +1,12 @@
-Last updated: 2021-10-23 15:07:28 +0000
+Last updated: 2021-10-23 15:17:57 +0000
 
 Latest commit:
-    commit 2231df85d7b5264b41712bab2451b613d9df16e7
-    Merge: c0ba3c76f da3893d4d
+    commit ca715834ad5453be48c8412bdf73b5c091bb5a4e
+    Merge: db8cd6c96 40e97055d
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Oct 23 22:54:26 2021 +0800
+    Date:   Sat Oct 23 23:04:52 2021 +0800
     
-        Merge pull request #1284 from gocd/dependabot/bundler/addressable-2.8.0
+        Merge pull request #1282 from gocd/dependabot/bundler/html-proofer-3.19.2
         
-        [Security] Bump addressable from 2.7.0 to 2.8.0
+        Bump html-proofer from 3.17.4 to 3.19.2
     
