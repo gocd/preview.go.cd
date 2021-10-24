@@ -1,12 +1,12 @@
-Last updated: 2021-10-24 10:42:09 +0000
+Last updated: 2021-10-24 10:46:36 +0000
 
 Latest commit:
-    commit 64027c77f8202c02428da4387038f5a549be1945
-    Merge: c516d719c bfa1598d1
+    commit 85373c9fcf1801e5aeeca8888ca928af8f0418de
+    Merge: 1ad00d6cc 8d55cad93
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 24 18:29:54 2021 +0800
+    Date:   Sun Oct 24 18:34:41 2021 +0800
     
-        Merge pull request #1256 from gocd/dependabot/bundler/middleman-livereload-3.4.7
+        Merge pull request #1300 from gocd/dependabot/bundler/excon-0.87.0
         
-        Bump middleman-livereload from 3.4.6 to 3.4.7
+        Bump excon from 0.81.0 to 0.87.0
     
