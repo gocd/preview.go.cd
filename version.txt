@@ -1,12 +1,12 @@
-Last updated: 2021-10-24 10:33:29 +0000
+Last updated: 2021-10-24 10:37:50 +0000
 
 Latest commit:
-    commit 4fa5f32951ad759745ce9f1417142ef8c109c1a4
-    Merge: 0a6b17d81 949278ec1
+    commit c516d719c956ee165c19d71014db6a481ea5244e
+    Merge: 4fa5f3295 db4940c3c
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 24 18:18:05 2021 +0800
+    Date:   Sun Oct 24 18:24:18 2021 +0800
     
-        Merge pull request #1173 from gocd/dependabot/bundler/multi_json-1.15.0
+        Merge pull request #1228 from gocd/dependabot/bundler/ruby-progressbar-1.11.0
         
-        Bump multi_json from 1.14.1 to 1.15.0
+        Bump ruby-progressbar from 1.10.1 to 1.11.0
     
