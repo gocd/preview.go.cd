@@ -1,12 +1,12 @@
-Last updated: 2021-10-24 10:37:50 +0000
+Last updated: 2021-10-24 10:42:09 +0000
 
 Latest commit:
-    commit c516d719c956ee165c19d71014db6a481ea5244e
-    Merge: 4fa5f3295 db4940c3c
+    commit 64027c77f8202c02428da4387038f5a549be1945
+    Merge: c516d719c bfa1598d1
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 24 18:24:18 2021 +0800
+    Date:   Sun Oct 24 18:29:54 2021 +0800
     
-        Merge pull request #1228 from gocd/dependabot/bundler/ruby-progressbar-1.11.0
+        Merge pull request #1256 from gocd/dependabot/bundler/middleman-livereload-3.4.7
         
-        Bump ruby-progressbar from 1.10.1 to 1.11.0
+        Bump middleman-livereload from 3.4.6 to 3.4.7
     
