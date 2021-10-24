@@ -1,12 +1,12 @@
-Last updated: 2021-10-23 15:23:20 +0000
+Last updated: 2021-10-24 09:14:47 +0000
 
 Latest commit:
-    commit 9c1337c332995dc10a3e537441ddceffbc13be55
-    Merge: a4e79f0e2 5da8df3a4
+    commit 9026aa869b8ba00492282e8d6ec00820cf36d101
+    Merge: 9c1337c33 b8e1dfed5
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Oct 23 23:06:50 2021 +0800
+    Date:   Sun Oct 24 17:02:04 2021 +0800
     
-        Merge pull request #1268 from gocd/dependabot/bundler/rb-fsevent-0.11.0
+        Merge pull request #1293 from gocd/dependabot/bundler/mime-types-data-3.2021.0901
         
-        Bump rb-fsevent from 0.10.3 to 0.11.0
+        Bump mime-types-data from 3.2021.0225 to 3.2021.0901
     
