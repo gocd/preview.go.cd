@@ -1,12 +1,12 @@
-Last updated: 2021-10-24 09:14:47 +0000
+Last updated: 2021-10-24 09:43:39 +0000
 
 Latest commit:
-    commit 9026aa869b8ba00492282e8d6ec00820cf36d101
-    Merge: 9c1337c33 b8e1dfed5
+    commit c4347cd8c7c5426438b8a39cf57f8199e16776a6
+    Merge: 280e506a5 229c25438
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 24 17:02:04 2021 +0800
+    Date:   Sun Oct 24 17:30:33 2021 +0800
     
-        Merge pull request #1293 from gocd/dependabot/bundler/mime-types-data-3.2021.0901
+        Merge pull request #1291 from gocd/dependabot/bundler/nokogiri-1.12.5
         
-        Bump mime-types-data from 3.2021.0225 to 3.2021.0901
+        Bump nokogiri from 1.11.5 to 1.12.5
     
