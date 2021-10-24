@@ -1,12 +1,12 @@
-Last updated: 2021-10-24 10:26:50 +0000
+Last updated: 2021-10-24 10:33:29 +0000
 
 Latest commit:
-    commit 0a6b17d811e9a1c407b403a5beb323f3876ad216
-    Merge: c4347cd8c 9e4b76ff2
+    commit 4fa5f32951ad759745ce9f1417142ef8c109c1a4
+    Merge: 0a6b17d81 949278ec1
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 24 18:15:35 2021 +0800
+    Date:   Sun Oct 24 18:18:05 2021 +0800
     
-        Merge pull request #1182 from gocd/dependabot/bundler/middleman-4.3.11
+        Merge pull request #1173 from gocd/dependabot/bundler/multi_json-1.15.0
         
-        Bump middleman from 4.3.5 to 4.4.0
+        Bump multi_json from 1.14.1 to 1.15.0
     
