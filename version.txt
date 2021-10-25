@@ -1,12 +1,12 @@
-Last updated: 2021-10-24 14:10:43 +0000
+Last updated: 2021-10-25 02:41:32 +0000
 
 Latest commit:
-    commit aef6bf8d314ba9dd4972a19280c6b5684c8b2b8f
-    Merge: fe19c63af c5c1cba86
+    commit 582574dfc05c1c1b2572408632c4ac3158cfcefe
+    Merge: aef6bf8d3 db922ceb2
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 24 21:57:28 2021 +0800
+    Date:   Mon Oct 25 10:26:57 2021 +0800
     
-        Merge pull request #1292 from gocd/dependabot/bundler/fog-aws-3.12.0
+        Merge pull request #1310 from gocd/remove-unnecessary-docker-port-exposure-suggestion
         
-        Bump fog-aws from 3.5.2 to 3.12.0
+        Remove suggestion to expose port 8154 when running Docker images
     
