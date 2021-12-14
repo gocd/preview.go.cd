@@ -1,9 +1,9 @@
-Last updated: 2021-11-01 08:27:03 +0000
+Last updated: 2021-12-14 11:58:23 +0000
 
 Latest commit:
-    commit 1b84816457b9eedc0b4c84f0d58f56bc3176dc58
-    Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Mon Nov 1 16:14:09 2021 +0800
+    commit 74d34ab420dccbd4ec269571b652bb4a25d1174f
+    Author: Aravind SV <mail@arvindsv.com>
+    Date:   Tue Dec 14 11:46:15 2021 +0000
     
-        Add GH actions into dependabot config
+        Fix internal link
     
