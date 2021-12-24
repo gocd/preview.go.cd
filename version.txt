@@ -1,9 +1,12 @@
-Last updated: 2021-12-14 11:58:23 +0000
+Last updated: 2021-12-24 14:14:40 +0000
 
 Latest commit:
-    commit 74d34ab420dccbd4ec269571b652bb4a25d1174f
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Tue Dec 14 11:46:15 2021 +0000
+    commit 15cb85580c98d1166efec9cb6b4df74c32798bb7
+    Merge: 93dcb6ad4 afbd7ad30
+    Author: Chad Wilson <chadw@thoughtworks.com>
+    Date:   Fri Dec 24 22:02:33 2021 +0800
     
-        Fix internal link
+        Merge pull request #1317 from gocd/dependabot/bundler/excon-0.89.0
+        
+        Bump excon from 0.87.0 to 0.89.0
     
