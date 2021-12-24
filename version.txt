@@ -1,12 +1,12 @@
-Last updated: 2021-12-24 14:18:12 +0000
+Last updated: 2021-12-24 14:19:51 +0000
 
 Latest commit:
-    commit a8a0970bcac11a7ccad87783b78075b29c45855d
-    Merge: d371d428f 507d53cd6
+    commit d371d428f9c8e339d60f1ca7cae2d57021355901
+    Merge: 8e739f416 802746886
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Dec 24 22:05:18 2021 +0800
+    Date:   Fri Dec 24 22:04:59 2021 +0800
     
-        Merge pull request #1318 from gocd/dependabot/bundler/activesupport-6.1.4.4
+        Merge pull request #1313 from gocd/dependabot/bundler/http_parser.rb-0.8.0
         
-        Bump activesupport from 6.1.4.1 to 6.1.4.4
+        Bump http_parser.rb from 0.6.0 to 0.8.0
     
