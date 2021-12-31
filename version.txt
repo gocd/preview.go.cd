@@ -1,11 +1,12 @@
-Last updated: 2021-12-28 15:15:16 +0000
+Last updated: 2021-12-31 12:45:34 +0000
 
 Latest commit:
-    commit 5a36e089430078aefa9b1470baac2c11766e3477
+    commit 521260dfd60bd08775b67195206537579f45d932
+    Merge: 8590a5669 db6c9ac3a
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Tue Dec 28 23:02:33 2021 +0800
+    Date:   Fri Dec 31 20:32:32 2021 +0800
     
-        Avoid locking specific Ruby patch version
+        Merge pull request #1325 from gocd/dependabot/bundler/backports-3.23.0
         
-        Seems unnecessary for building static website; and better to automatically get security patches.
+        Bump backports from 3.21.0 to 3.23.0
     
