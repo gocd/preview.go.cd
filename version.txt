@@ -1,12 +1,12 @@
-Last updated: 2022-01-28 13:08:39 +0000
+Last updated: 2022-02-04 20:52:48 +0000
 
 Latest commit:
-    commit dd725258e3bb897f035d8a91441891239f598840
-    Merge: 8256747ab c64958130
+    commit c8debe3b04c00f9c26cfbfd415f022ce7fef802a
+    Merge: dd725258e c3c525947
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jan 28 20:54:27 2022 +0800
+    Date:   Fri Feb 4 20:39:57 2022 +0000
     
-        Merge pull request #1336 from gocd/dependabot/bundler/zeitwerk-2.5.4
+        Merge pull request #1337 from gocd/dependabot/bundler/rouge-3.28.0
         
-        Bump zeitwerk from 2.5.3 to 2.5.4
+        Bump rouge from 3.27.0 to 3.28.0
     
