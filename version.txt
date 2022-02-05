@@ -1,12 +1,12 @@
-Last updated: 2022-02-04 20:52:48 +0000
+Last updated: 2022-02-05 06:18:39 +0000
 
 Latest commit:
-    commit c8debe3b04c00f9c26cfbfd415f022ce7fef802a
-    Merge: dd725258e c3c525947
+    commit ed577313ad9189e4ac004a95435a74c73d59a034
+    Merge: c8debe3b0 0ea264a5e
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Feb 4 20:39:57 2022 +0000
+    Date:   Fri Feb 4 20:40:13 2022 +0000
     
-        Merge pull request #1337 from gocd/dependabot/bundler/rouge-3.28.0
+        Merge pull request #1338 from gocd/dependabot/bundler/excon-0.91.0
         
-        Bump rouge from 3.27.0 to 3.28.0
+        Bump excon from 0.90.0 to 0.91.0
     
