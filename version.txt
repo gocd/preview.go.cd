@@ -1,12 +1,12 @@
-Last updated: 2022-02-05 06:18:39 +0000
+Last updated: 2022-02-11 13:31:54 +0000
 
 Latest commit:
-    commit ed577313ad9189e4ac004a95435a74c73d59a034
-    Merge: c8debe3b0 0ea264a5e
+    commit 7df4ea101ce22892ea421639994162f5be8be730
+    Merge: ed577313a 42ebba55d
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Feb 4 20:40:13 2022 +0000
+    Date:   Fri Feb 11 13:17:46 2022 +0000
     
-        Merge pull request #1338 from gocd/dependabot/bundler/excon-0.91.0
+        Merge pull request #1339 from gocd/dependabot/bundler/rb-fsevent-0.11.1
         
-        Bump excon from 0.90.0 to 0.91.0
+        Bump rb-fsevent from 0.11.0 to 0.11.1
     
