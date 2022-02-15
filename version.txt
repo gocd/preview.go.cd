@@ -1,12 +1,11 @@
-Last updated: 2022-02-11 13:31:54 +0000
+Last updated: 2022-02-15 16:20:54 +0000
 
 Latest commit:
-    commit 7df4ea101ce22892ea421639994162f5be8be730
-    Merge: ed577313a 42ebba55d
+    commit 8b7574b60f84101e905c7f9051eccbf31254ff29
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Feb 11 13:17:46 2022 +0000
+    Date:   Wed Feb 16 00:06:53 2022 +0800
     
-        Merge pull request #1339 from gocd/dependabot/bundler/rb-fsevent-0.11.1
+        Use specific patch version of middleman-blog
         
-        Bump rb-fsevent from 0.11.0 to 0.11.1
+        A breaking change seems to have been introduced at some point, so locking this version for now.
     
