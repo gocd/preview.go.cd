@@ -1,11 +1,11 @@
-Last updated: 2022-02-15 16:20:54 +0000
+Last updated: 2022-02-20 12:59:00 +0000
 
 Latest commit:
-    commit 8b7574b60f84101e905c7f9051eccbf31254ff29
+    commit c34f5c10c98c3a91bd4ab56c50fee7bcd0a6c752
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Wed Feb 16 00:06:53 2022 +0800
+    Date:   Sun Feb 20 20:45:30 2022 +0800
     
-        Use specific patch version of middleman-blog
+        Remove unnecessary GoCD pipeline definition
         
-        A breaking change seems to have been introduced at some point, so locking this version for now.
+        GH Actions is used to do this now. Can always get it back if necessary.
     
