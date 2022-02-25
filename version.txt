@@ -1,11 +1,23 @@
-Last updated: 2022-02-20 12:59:00 +0000
+Last updated: 2022-02-25 12:54:56 +0000
 
 Latest commit:
-    commit c34f5c10c98c3a91bd4ab56c50fee7bcd0a6c752
-    Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Feb 20 20:45:30 2022 +0800
+    commit 3baea8f65e0155c149dcf418d48b1bc43afbe227
+    Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+    Date:   Fri Feb 25 12:02:12 2022 +0000
     
-        Remove unnecessary GoCD pipeline definition
+        Bump mini_portile2 from 2.7.1 to 2.8.0
         
-        GH Actions is used to do this now. Can always get it back if necessary.
+        Bumps [mini_portile2](https://github.com/flavorjones/mini_portile) from 2.7.1 to 2.8.0.
+        - [Release notes](https://github.com/flavorjones/mini_portile/releases)
+        - [Changelog](https://github.com/flavorjones/mini_portile/blob/main/CHANGELOG.md)
+        - [Commits](https://github.com/flavorjones/mini_portile/compare/v2.7.1...v2.8.0)
+        
+        ---
+        updated-dependencies:
+        - dependency-name: mini_portile2
+          dependency-type: indirect
+          update-type: version-update:semver-minor
+        ...
+        
+        Signed-off-by: dependabot[bot] <support@github.com>
     
