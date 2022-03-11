@@ -1,12 +1,12 @@
-Last updated: 2022-03-04 13:07:31 +0000
+Last updated: 2022-03-11 15:30:13 +0000
 
 Latest commit:
-    commit cc90dcd87d11c54259edede0f005c99aad1522fb
-    Merge: 3baea8f65 533d1c3b8
+    commit a4abd9c7a7d843ec578f6d385c15a595a82259f0
+    Merge: cc90dcd87 ad283aff1
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 4 12:53:55 2022 +0000
+    Date:   Fri Mar 11 15:17:21 2022 +0000
     
-        Merge pull request #1343 from gocd/dependabot/github_actions/actions/checkout-3
+        Merge pull request #1344 from gocd/dependabot/bundler/fog-core-2.3.0
         
-        Bump actions/checkout from 2 to 3
+        Bump fog-core from 2.2.4 to 2.3.0
     
