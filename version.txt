@@ -1,12 +1,12 @@
-Last updated: 2022-03-11 15:30:13 +0000
+Last updated: 2022-03-12 06:09:59 +0000
 
 Latest commit:
-    commit a4abd9c7a7d843ec578f6d385c15a595a82259f0
-    Merge: cc90dcd87 ad283aff1
+    commit a2864d3bc4233b9b2181202999f67e148288ab7f
+    Merge: a4abd9c7a c8f220b44
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 11 15:17:21 2022 +0000
+    Date:   Fri Mar 11 15:17:36 2022 +0000
     
-        Merge pull request #1344 from gocd/dependabot/bundler/fog-core-2.3.0
+        Merge pull request #1346 from gocd/dependabot/bundler/activesupport-6.1.5
         
-        Bump fog-core from 2.2.4 to 2.3.0
+        Bump activesupport from 6.1.4.6 to 6.1.5
     
