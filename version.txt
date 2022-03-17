@@ -1,12 +1,9 @@
-Last updated: 2022-03-12 06:09:59 +0000
+Last updated: 2022-03-17 13:42:42 +0000
 
 Latest commit:
-    commit a2864d3bc4233b9b2181202999f67e148288ab7f
-    Merge: a4abd9c7a c8f220b44
+    commit c966f5ffa706a9c0e292b1ad66d76e4805a8e47b
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 11 15:17:36 2022 +0000
+    Date:   Thu Mar 17 21:30:20 2022 +0800
     
-        Merge pull request #1346 from gocd/dependabot/bundler/activesupport-6.1.5
-        
-        Bump activesupport from 6.1.4.6 to 6.1.5
+        Bump Ruby from 2.7.2 to 2.7.5
     
