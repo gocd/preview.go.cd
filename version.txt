@@ -1,9 +1,12 @@
-Last updated: 2022-03-17 13:42:42 +0000
+Last updated: 2022-03-18 14:54:47 +0000
 
 Latest commit:
-    commit c966f5ffa706a9c0e292b1ad66d76e4805a8e47b
+    commit fe0bee3588584d25a295d0e5a8e2693d9cf356c9
+    Merge: c966f5ffa c9b448733
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Thu Mar 17 21:30:20 2022 +0800
+    Date:   Fri Mar 18 14:42:30 2022 +0000
     
-        Bump Ruby from 2.7.2 to 2.7.5
+        Merge pull request #1348 from gocd/dependabot/bundler/excon-0.92.0
+        
+        Bump excon from 0.91.0 to 0.92.0
     
