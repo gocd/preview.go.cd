@@ -1,12 +1,12 @@
-Last updated: 2022-03-25 12:28:18 +0000
+Last updated: 2022-04-01 20:35:15 +0000
 
 Latest commit:
-    commit bc4fd88b514b12ddcc757e721b4863f5eb91eae4
-    Merge: 2ac3114a8 a70688e45
+    commit 6d91d6adc3a840be79cf53acf1f13238e0b4c650
+    Merge: bc4fd88b5 4fa5f41f7
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 25 12:15:15 2022 +0000
+    Date:   Sat Apr 2 09:23:04 2022 +1300
     
-        Merge pull request #1349 from gocd/dependabot/bundler/unf_ext-0.0.8.1
+        Merge pull request #1358 from gocd/dependabot/bundler/parallel-1.22.1
         
-        Bump unf_ext from 0.0.8 to 0.0.8.1
+        Bump parallel from 1.22.0 to 1.22.1
     
