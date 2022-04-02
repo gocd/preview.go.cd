@@ -1,12 +1,12 @@
-Last updated: 2022-04-01 20:35:15 +0000
+Last updated: 2022-04-02 06:00:02 +0000
 
 Latest commit:
-    commit 6d91d6adc3a840be79cf53acf1f13238e0b4c650
-    Merge: bc4fd88b5 4fa5f41f7
+    commit d97a414f7bcab37803b498e5571d75f8cbd2cfa6
+    Merge: 6d91d6adc 74971012d
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Apr 2 09:23:04 2022 +1300
+    Date:   Sat Apr 2 09:23:15 2022 +1300
     
-        Merge pull request #1358 from gocd/dependabot/bundler/parallel-1.22.1
+        Merge pull request #1359 from gocd/dependabot/bundler/excon-0.92.2
         
-        Bump parallel from 1.22.0 to 1.22.1
+        Bump excon from 0.92.1 to 0.92.2
     
