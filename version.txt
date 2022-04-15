@@ -1,12 +1,12 @@
-Last updated: 2022-04-12 10:22:42 +0000
+Last updated: 2022-04-15 20:48:33 +0000
 
 Latest commit:
-    commit ffd2807989573e1e459bc6842278fb7c58d20390
-    Merge: d97a414f7 e3a788294
+    commit 8e38bae381e7787020ab93b2a0ee88312744ea2d
+    Merge: ffd280798 5332ac873
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Tue Apr 12 18:08:00 2022 +0800
+    Date:   Sat Apr 16 04:35:32 2022 +0800
     
-        Merge pull request #1360 from gocd/dependabot/bundler/nokogiri-1.13.4
+        Merge pull request #1361 from gocd/dependabot/bundler/public_suffix-4.0.7
         
-        Bump nokogiri from 1.13.3 to 1.13.4
+        Bump public_suffix from 4.0.6 to 4.0.7
     
