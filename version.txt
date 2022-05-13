@@ -1,12 +1,12 @@
-Last updated: 2022-05-13 13:49:57 +0000
+Last updated: 2022-05-13 13:52:01 +0000
 
 Latest commit:
-    commit 380dbff3d54b767fa98437f6f51f5e3699d9292f
-    Merge: 2dcdddb93 bce6aafdf
+    commit 70b67cc2c13d492223cb8a747d509b04ece5eb09
+    Merge: 380dbff3d 4e37d6fa9
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 13 21:37:55 2022 +0800
+    Date:   Fri May 13 21:38:09 2022 +0800
     
-        Merge pull request #1367 from gocd/dependabot/bundler/activesupport-6.1.6
+        Merge pull request #1368 from gocd/dependabot/bundler/nokogiri-1.13.6
         
-        Bump activesupport from 6.1.5.1 to 6.1.6
+        Bump nokogiri from 1.13.5 to 1.13.6
     
