@@ -1,12 +1,12 @@
-Last updated: 2022-05-13 13:52:01 +0000
+Last updated: 2022-05-13 14:48:06 +0000
 
 Latest commit:
-    commit 70b67cc2c13d492223cb8a747d509b04ece5eb09
-    Merge: 380dbff3d 4e37d6fa9
+    commit 857ca20dd3244b821ebad9de24306fa62a89820a
+    Merge: 70b67cc2c e81c832e9
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 13 21:38:09 2022 +0800
+    Date:   Fri May 13 21:40:38 2022 +0800
     
-        Merge pull request #1368 from gocd/dependabot/bundler/nokogiri-1.13.6
+        Merge pull request #1369 from gocd/dependabot/bundler/fog-aws-3.14.0
         
-        Bump nokogiri from 1.13.5 to 1.13.6
+        Bump fog-aws from 3.13.0 to 3.14.0
     
