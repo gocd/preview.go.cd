@@ -1,12 +1,12 @@
-Last updated: 2022-05-20 13:39:22 +0000
+Last updated: 2022-05-27 15:08:44 +0000
 
 Latest commit:
-    commit 3d34cc940ee0b258252324e9997c85e10ff268ca
-    Merge: 857ca20dd 69d6cbbb0
+    commit 7aa3d221cce3707882d452e2332756cce04f79c6
+    Merge: 3d34cc940 0ffc15f03
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 20 21:26:58 2022 +0800
+    Date:   Fri May 27 22:55:29 2022 +0800
     
-        Merge pull request #1370 from gocd/dependabot/bundler/html-proofer-3.19.4
+        Merge pull request #1371 from gocd/dependabot/bundler/unf_ext-0.0.8.2
         
-        Bump html-proofer from 3.19.3 to 3.19.4
+        Bump unf_ext from 0.0.8.1 to 0.0.8.2
     
