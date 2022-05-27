@@ -1,12 +1,12 @@
-Last updated: 2022-05-27 15:08:44 +0000
+Last updated: 2022-05-27 17:22:19 +0000
 
 Latest commit:
-    commit 7aa3d221cce3707882d452e2332756cce04f79c6
-    Merge: 3d34cc940 0ffc15f03
+    commit cc82dd96795c7e52ea5218dfdb702f0e65b3660e
+    Merge: 7aa3d221c 3529942f7
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 27 22:55:29 2022 +0800
+    Date:   Sat May 28 01:09:32 2022 +0800
     
-        Merge pull request #1371 from gocd/dependabot/bundler/unf_ext-0.0.8.2
+        Merge pull request #1372 from gocd/dependabot/bundler/rack-2.2.3.1
         
-        Bump unf_ext from 0.0.8.1 to 0.0.8.2
+        Bump rack from 2.2.3 to 2.2.3.1
     
