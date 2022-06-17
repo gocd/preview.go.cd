@@ -1,12 +1,12 @@
-Last updated: 2022-06-03 13:03:00 +0000
+Last updated: 2022-06-17 12:32:14 +0000
 
 Latest commit:
-    commit 9a1f12613d2cd6915bd64658e2fe75fe03e0d0c5
-    Merge: cc82dd967 1fbe21720
+    commit 4178325c26d387fa76c9b267703a664e18ea7208
+    Merge: 9a1f12613 6fe9ddb07
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 3 20:50:46 2022 +0800
+    Date:   Fri Jun 17 20:16:42 2022 +0800
     
-        Merge pull request #1373 from gocd/dependabot/bundler/rouge-3.29.0
+        Merge pull request #1375 from gocd/dependabot/bundler/minitest-5.16.0
         
-        Bump rouge from 3.28.0 to 3.29.0
+        Bump minitest from 5.15.0 to 5.16.0
     
