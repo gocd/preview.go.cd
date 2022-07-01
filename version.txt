@@ -1,12 +1,12 @@
-Last updated: 2022-06-27 11:54:54 +0000
+Last updated: 2022-07-01 15:39:23 +0000
 
 Latest commit:
-    commit abb428e5eba828c233ce904cbe56112a4004959f
-    Merge: 375999633 729aac945
-    Author: Aravind SV <mail@arvindsv.com>
-    Date:   Mon Jun 27 12:41:59 2022 +0100
+    commit 4d57100411b8e4f383181194212182d036252725
+    Merge: abb428e5e 8a5d81ebe
+    Author: Chad Wilson <chadw@thoughtworks.com>
+    Date:   Fri Jul 1 23:27:25 2022 +0800
     
-        Merge pull request #1377 from arvindsv/remove-support-email-address
+        Merge pull request #1379 from gocd/dependabot/bundler/rack-2.2.4
         
-        Remove support email address
+        Bump rack from 2.2.3.1 to 2.2.4
     
