@@ -15,7 +15,7 @@
 
     <title>Continuous Deployment Strategies | GoCD Blog</title>
     <link href="../../../../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../../../../assets/stylesheets/site-62835b63.css" rel="stylesheet" />
+    <link href="../../../../assets/stylesheets/site-bf7c2bcb.css" rel="stylesheet" />
     <script src="../../../../assets/javascripts/all-dcb74fc3.js" data-manual="true"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../../feed.xml" />
@@ -81,7 +81,7 @@
 
 <h2 id="snowflake-servers">Snowflake servers</h2>
 
-<p>While <a href="http://martinfowler.com/bliki/SnowflakeServer.html">this approach</a> may work great for small webapps, it quickly falls apart when you're managing anything but a couple of servers.</p>
+<p>While <a href="https://martinfowler.com/bliki/SnowflakeServer.html">this approach</a> may work great for small webapps, it quickly falls apart when you're managing anything but a couple of servers.</p>
 
 <p>It is generally difficult to set up a new server if your existing server has problems. If you're looking to scale by adding more servers, it's difficult to keep each server's software, configuration and services in sync. You may not be in a position to replicate a production (or production-like) environment for testing.</p>
 
@@ -89,13 +89,13 @@
 
 <h2 id="phoenix-servers">Phoenix servers</h2>
 
-<p>Some of these issues <a href="http://martinfowler.com/bliki/PhoenixServer.html">can be addressed</a> by using a bit of configuration management tools like <a href="https://www.chef.io/">chef</a>, <a href="https://puppetlabs.com/">puppet</a>, or <a href="http://www.ansible.com/home">ansible</a> among a few others.</p>
+<p>Some of these issues <a href="https://martinfowler.com/bliki/PhoenixServer.html">can be addressed</a> by using a bit of configuration management tools like <a href="https://www.chef.io/">chef</a>, <a href="https://puppetlabs.com/">puppet</a>, or <a href="https://www.ansible.com/home">ansible</a> among a few others.</p>
 
 <p>These tools help avoid configuration drift, the sort of one-off changes that go unnoticed and undocumented.</p>
 
-<p>An important point to note is that these tools only apply the configuration that they are asked to. If you applied any additional configuration outside of what these tools are aware of, or if you forgot to un-apply or remove some configuration, you'd be out of luck. This what <a href="https://github.com/ranjib">Ranjib Dey</a> calls the <a href="http://server.dzone.com/articles/infrastructure-tooling-anti">Accumulator Anti-Pattern</a>.</p>
+<p>An important point to note is that these tools only apply the configuration that they are asked to. If you applied any additional configuration outside of what these tools are aware of, or if you forgot to un-apply or remove some configuration, you'd be out of luck. This what <a href="https://github.com/ranjib">Ranjib Dey</a> calls the <a href="https://server.dzone.com/articles/infrastructure-tooling-anti">Accumulator Anti-Pattern</a>.</p>
 
-<p>A much better alternative is to tear down servers periodically and apply configuration changes every once in a while. This helps avoid and catch any configuration drift outside of configuration management tools. Eventually one can move to deploying new servers on every configuration change. This strategy is known as an <a href="http://martinfowler.com/bliki/ImmutableServer.html">Immutable Server</a>.</p>
+<p>A much better alternative is to tear down servers periodically and apply configuration changes every once in a while. This helps avoid and catch any configuration drift outside of configuration management tools. Eventually one can move to deploying new servers on every configuration change. This strategy is known as an <a href="https://martinfowler.com/bliki/ImmutableServer.html">Immutable Server</a>.</p>
 
 <h2 id="how-does-this-apply-to-continuous-deployment">How does this apply to Continuous Deployment?</h2>
 
@@ -273,7 +273,7 @@
         <div class="col-md-4">
           <p>
             GoCD is an open-source project, sponsored by <a target="_blank" href="https://www.thoughtworks.com" analytics-label="link_footer_thoughtworks">ThoughtWorks Inc.</a>
-            under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
+            under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
           </p>
         </div>
       </div>

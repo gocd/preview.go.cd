@@ -15,7 +15,7 @@
 
     <title>Releases - Version notes | GoCD</title>
     <link href="../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../assets/stylesheets/site-62835b63.css" rel="stylesheet" />
+    <link href="../assets/stylesheets/site-bf7c2bcb.css" rel="stylesheet" />
     <script src="../assets/javascripts/all-dcb74fc3.js" data-manual="true"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../feed.xml" />
@@ -4409,7 +4409,7 @@ Thanks <a href="https://hackerone.com/4cad">4cad</a> for reporting these issues.
   <li>
     <p>Stopped support for git versions older than 1.9.</p>
 
-    <p>As of release 16.12, git versions older than 1.9 were deprecated. Users are recommended to upgrade git on the GoCD server and agents (if git is used as a material). We are aware that the linux distributions have an older version of git installed by default. Please refer to <a href="https://www.softwarecollections.org/en/scls/rhscl/git19/">this</a> and/or <a href="http://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04/571633#571633">this</a> to upgrade git.</p>
+    <p>As of release 16.12, git versions older than 1.9 were deprecated. Users are recommended to upgrade git on the GoCD server and agents (if git is used as a material). We are aware that the linux distributions have an older version of git installed by default. Please refer to <a href="https://www.softwarecollections.org/en/scls/rhscl/git19/">this</a> and/or <a href="https://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04/571633#571633">this</a> to upgrade git.</p>
   </li>
 </ul>
 
@@ -4529,7 +4529,7 @@ Thanks <a href="https://hackerone.com/4cad">4cad</a> for reporting these issues.
 <p>The following features have been deprecated, along with the timeframe when they will be removed.</p>
 
 <ul>
-  <li>As of release 16.12, git versions older than 1.9 are deprecated. Support for git versions older than 1.9 will be stopped in 17.2 (scheduled to be released in February 2017). Users are recommended to upgrade git on the GoCD server and agents (if git is used as a material). We are aware that the linux distributions have an older version of git installed by default. Please refer to <a href="https://www.softwarecollections.org/en/scls/rhscl/git19/">this</a> and/or <a href="http://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04/571633#571633">this</a> to upgrade git.</li>
+  <li>As of release 16.12, git versions older than 1.9 are deprecated. Support for git versions older than 1.9 will be stopped in 17.2 (scheduled to be released in February 2017). Users are recommended to upgrade git on the GoCD server and agents (if git is used as a material). We are aware that the linux distributions have an older version of git installed by default. Please refer to <a href="https://www.softwarecollections.org/en/scls/rhscl/git19/">this</a> and/or <a href="https://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04/571633#571633">this</a> to upgrade git.</li>
   <li>As of release 16.12, version 1 of the <a href="https://api.gocd.org/current/#get-all-plugin-info">Plugin Info API</a> is deprecated. This version of the API will be removed in 17.2 release (scheduled to be released in Feb 2017). Version 2 of the API is available, and users are encouraged to use it.</li>
   <li>As of release 17.1, version 2 of the <a href="https://api.gocd.org/current/#template-config">Templates API</a> is deprecated. This version of the API will be removed in 17.4 release (scheduled to be released in April 2017). Version 3 of the API is available, and users are encouraged to use it.</li>
   <li>As of release 16.12, version 2 of the <a href="https://api.gocd.org/current/#pipeline-config">Pipeline Config API</a> is deprecated. This version of the API will be removed in 17.2 release (scheduled to be released in Feb 2017). Version 3 of this API is backward compatible, and users are encouraged to use it.</li>
@@ -4686,7 +4686,7 @@ If you have feedback or issues with the new agents page please log them at <a hr
 <p>The following features have been deprecated, along with the timeframe when they will be removed.</p>
 
 <ul>
-  <li>We shall be stopping support for git versions older than 1.9 in three months time (Feb 2017). Users are recommended to upgrade git on the GoCD server and agents (if git is used as a material). We are aware that the linux distributions have an older version of git installed by default. Please refer to <a href="https://www.softwarecollections.org/en/scls/rhscl/git19/">this</a> and/or <a href="http://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04/571633#571633">this</a> to upgrade git.</li>
+  <li>We shall be stopping support for git versions older than 1.9 in three months time (Feb 2017). Users are recommended to upgrade git on the GoCD server and agents (if git is used as a material). We are aware that the linux distributions have an older version of git installed by default. Please refer to <a href="https://www.softwarecollections.org/en/scls/rhscl/git19/">this</a> and/or <a href="https://askubuntu.com/questions/571549/git-1-7-9-5-upgrade-to-current-release-of-git-2-x-on-ubuntu-12-04/571633#571633">this</a> to upgrade git.</li>
   <li>The GoCD api support page <code>http://your-server:8153/go/api/support</code> supports JSON and plain-text outputs. JSON has been the default since release 16.6. We will be removing the plain-text output in release 17.1 (scheduled to be released in Jan 2017). It is much simpler to consume the JSON output than the plain-text output.</li>
   <li>As of release 16.12, the <a href="https://en.wikipedia.org/wiki/OpenSocial">OpenSocial gadgets</a> have been deprecated. This feature will be removed in 17.1 (scheduled to be released in Jan 2017). This has been done for a few of reasons —
 (a) there's not enough evidence of many users using this feature in a way that'll impact their usage of GoCD
@@ -5109,7 +5109,7 @@ and Materials</p></li>
 The new extension point allows the gocd server (with the help of plugins) to spin up and shut down agents on demand.
 This extension point allows plugin developers to write plugins that allow GoCD to hook into and leverage various technologies
 like <a href="https://www.docker.com/">Docker</a>, <a href="https://aws.amazon.com/">AWS</a>,
-<a href="https://cloud.google.com/compute/">GCE</a>, <a href="http://kubernetes.io/">Kubernetes</a>.
+<a href="https://cloud.google.com/compute/">GCE</a>, <a href="https://kubernetes.io/">Kubernetes</a>.
 </p>
 
 <p>
@@ -5834,12 +5834,12 @@ GoCD will continue to support Java 7 till release 17.1 scheduled for January 201
 </p>
 <p>
   We have now migrated the
-  <a href="http://api.gocd.org/#agents">Agents API</a>,
-  <a href="http://api.gocd.org/#users">Users API</a>,
-  <a href="http://api.gocd.org/#backups">Backups API</a> to use JSON hypermedia API (using JSON+HAL).
+  <a href="https://api.gocd.org/current/#agents">Agents API</a>,
+  <a href="https://api.gocd.org/current/#users">Users API</a>,
+  <a href="https://api.gocd.org/current/#backups">Backups API</a> to use JSON hypermedia API (using JSON+HAL).
 </p>
 <p> Going forward, we would like to announce an ongoing effort to improve and migrate existing APIs to use something that is more modern, easy to discover, learn and build API clients for. </p>
-<p>Learn more about the new API on our new <a href="http://api.gocd.org">api documentation</a> site.</p>
+<p>Learn more about the new API on our new <a href="https://api.gocd.org/current">api documentation</a> site.</p>
 <h4>Other notable features</h4>
 <ul>
   <li> <a href="https://github.com/gocd/gocd/issues/194">#194</a> - Allow secure variables (environment) on environments, stages and jobs. </li>
@@ -6147,7 +6147,7 @@ jQuery(document).ready(function($) {
         <div class="col-md-4">
           <p>
             GoCD is an open-source project, sponsored by <a target="_blank" href="https://www.thoughtworks.com" analytics-label="link_footer_thoughtworks">ThoughtWorks Inc.</a>
-            under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
+            under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
           </p>
         </div>
       </div>

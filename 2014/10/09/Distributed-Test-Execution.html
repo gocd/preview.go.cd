@@ -15,7 +15,7 @@
 
     <title>Distributed Test Execution with TLB | GoCD Blog</title>
     <link href="../../../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../../../assets/stylesheets/site-62835b63.css" rel="stylesheet" />
+    <link href="../../../assets/stylesheets/site-bf7c2bcb.css" rel="stylesheet" />
     <script src="../../../assets/javascripts/all-dcb74fc3.js" data-manual="true"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../feed.xml" />
@@ -80,7 +80,7 @@
 
 <h3 id="test-load-balancer-tlb">Test Load Balancer (TLB)</h3>
 
-<p><a href="http://test-load-balancer.github.io">TLB</a> is an open-source library which provides the ability to break up a test suite into pieces and run a part. It guarantees 'Mutual Exclusion' &amp; 'Collective Exhaustion' properties that are essential to reliably running tests in distributed fashion.</p>
+<p><a href="https://test-load-balancer.github.io">TLB</a> is an open-source library which provides the ability to break up a test suite into pieces and run a part. It guarantees 'Mutual Exclusion' &amp; 'Collective Exhaustion' properties that are essential to reliably running tests in distributed fashion.</p>
 
 <p>TLB's strength lies in intelligent test distribution which is based on time, i.e. the tests will be distributed based on time they take to execute, making the jobs close to equal runs which leads to better resource utilization. It falls back on count based splitting if test times are not available. It also runs tests in 'Failed First' order, so if a test has failed in previous run it will be run before other tests which means faster feedback.</p>
 
@@ -97,19 +97,19 @@ $ chmod +x server.sh
 $ ./server.sh start
 </code></pre>
 
-<p>This should start server at <code>http://host-ip-address:7019</code></p>
+<p>This should start server at <code>https://host-ip-address:7019</code></p>
 
 <p><em>Resources:</em></p>
 
 <ul>
-  <li><a href="http://test-load-balancer.github.io/doc-0_3_2/getting_started_with_tlb.html">Getting Started</a></li>
-  <li><a href="http://test-load-balancer.github.io/doc-0_3_2/concepts.html">Concepts</a></li>
-  <li><a href="http://test-load-balancer.github.io/doc-0_3_2/configuration.html">Configuration</a></li>
+  <li><a href="https://test-load-balancer.github.io/doc-0_3_2/getting_started_with_tlb.html">Getting Started</a></li>
+  <li><a href="https://test-load-balancer.github.io/doc-0_3_2/concepts.html">Concepts</a></li>
+  <li><a href="https://test-load-balancer.github.io/doc-0_3_2/configuration.html">Configuration</a></li>
 </ul>
 
 <h3 id="gocd">GoCD</h3>
 
-<p><a href="http://www.gocd.org/">GoCD</a> is an open-source CI/CD tool. Its well known for its powerful modelling, tracing &amp; visualization capabilities.</p>
+<p><a href="https://www.gocd.org/">GoCD</a> is an open-source CI/CD tool. Its well known for its powerful modelling, tracing &amp; visualization capabilities.</p>
 
 <p>While TLB is doing all the distribution, GoCD does what it does best - orchestrate the parallel execution.</p>
 
@@ -150,7 +150,7 @@ $ ./server.sh start
       &lt;job name="test-split" runInstanceCount="3"&gt;
         &lt;environmentvariables&gt;
           &lt;variable name="TLB_BASE_URL"&gt;
-            &lt;value&gt;http://localhost:7019&lt;/value&gt;
+            &lt;value&gt;https://localhost:7019&lt;/value&gt;
           &lt;/variable&gt;
           &lt;variable name="TLB_TMP_DIR"&gt;
             &lt;value&gt;/tmp&lt;/value&gt;
@@ -376,7 +376,7 @@ $ ./server.sh start
         <div class="col-md-4">
           <p>
             GoCD is an open-source project, sponsored by <a target="_blank" href="https://www.thoughtworks.com" analytics-label="link_footer_thoughtworks">ThoughtWorks Inc.</a>
-            under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
+            under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
           </p>
         </div>
       </div>

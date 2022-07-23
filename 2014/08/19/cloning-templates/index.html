@@ -15,7 +15,7 @@
 
     <title>Cloning Templates | GoCD Blog</title>
     <link href="../../../../assets/images/favicon.ico" rel="shortcut icon" />
-    <link href="../../../../assets/stylesheets/site-62835b63.css" rel="stylesheet" />
+    <link href="../../../../assets/stylesheets/site-bf7c2bcb.css" rel="stylesheet" />
     <script src="../../../../assets/javascripts/all-dcb74fc3.js" data-manual="true"></script>
     
     <link rel="alternate" type="application/atom+xml" title="GoCD blog feed" href="../../../../feed.xml" />
@@ -68,7 +68,7 @@
       <main id="main" role="main" class="blog-post-main-container">
       <p>When using GO for Continuous Delivery with multiple teams where you have various security groups, you usually end up with multiple template types. Depending on your application ecosystem you might have different deployment methods depending on the application type, that have some overlapping. At the moment we don't have the ability to have Stage templates, so you need a completely new template when you have differences.</p>
 
-<p>We have decided to have one deployment template separate per application / security group (Pipeline group) so we distribute maintenance, but also reduce the risk of breaking Pipelines of other teams when we change a base template. Having different templates also allows us to allocate <a href="http://www.gocd.org/2014/02/24/go-template-permissions.html">Template Admins</a> specific for the application / team / security group that now can manage most of the needs of a team without requiring GoCD System Admin rights.</p>
+<p>We have decided to have one deployment template separate per application / security group (Pipeline group) so we distribute maintenance, but also reduce the risk of breaking Pipelines of other teams when we change a base template. Having different templates also allows us to allocate <a href="https://www.gocd.org/2014/02/24/go-template-permissions.html">Template Admins</a> specific for the application / team / security group that now can manage most of the needs of a team without requiring GoCD System Admin rights.</p>
 
 <p>As you don't want team to get Admin access across multiple applications but you still want them to have something to start with (a base template), we have created two Basic templates that cover basic needs for an application deployment that we "Clone" for each team. After cloning we assign an Admin from their team so they can start modifying it according to their own flavour. Cloning templates is not available in GO at the moment, so we had to find a way around it. 
 One <a href="https://github.com/oanastoia">contributor</a> created a script that interacts with GO's own <a href="https://docs.gocd.org/current/api/configuration_api.html">Configuration API</a> to allow template cloning.</p>
@@ -276,7 +276,7 @@ I will not go into detail on how to achieve this, but you can read more on how t
         <div class="col-md-4">
           <p>
             GoCD is an open-source project, sponsored by <a target="_blank" href="https://www.thoughtworks.com" analytics-label="link_footer_thoughtworks">ThoughtWorks Inc.</a>
-            under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
+            under the <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" title="Apache 2.0 License">Apache License, Version 2.0</a>
           </p>
         </div>
       </div>
