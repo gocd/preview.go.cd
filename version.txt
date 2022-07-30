@@ -1,11 +1,12 @@
-Last updated: 2022-07-30 06:11:35 +0000
+Last updated: 2022-07-30 11:06:23 +0000
 
 Latest commit:
-    commit 18022354460e0bbd544d384825bd7b4db7272e20
+    commit 790c576df136532b8f0efd8efed8c5e6f6b26e93
+    Merge: 180223544 cc9a553f4
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jul 30 13:58:07 2022 +0800
+    Date:   Sat Jul 30 18:52:48 2022 +0800
     
-        ThoughtWorks -> Thoughtworks
+        Merge pull request #1390 from gocd/clean-unused-pages
         
-        (Excluding licenses and older posts/blogs)
+        Clean unused pages
     

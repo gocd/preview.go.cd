@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://preview.gocd.org/events/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.org/styleguide/</loc>
   </url>
   <url>
@@ -433,9 +430,6 @@
     <loc>https://preview.gocd.org/analytics/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/partners/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.org/help/</loc>
   </url>
   <url>
@@ -452,9 +446,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/download/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.org/enterprise-campaign/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/roadmap/</loc>
@@ -484,9 +475,6 @@
     <loc>https://preview.gocd.org/glossary/</loc>
   </url>
   <url>
-    <loc>https://preview.gocd.org/continuous-delivery/</loc>
-  </url>
-  <url>
     <loc>https://preview.gocd.org/contribute/</loc>
   </url>
   <url>
@@ -500,12 +488,6 @@
   </url>
   <url>
     <loc>https://preview.gocd.org/community/resources/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.org/community/events/</loc>
-  </url>
-  <url>
-    <loc>https://preview.gocd.org/community/partners/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/community/plugins/</loc>
@@ -580,7 +562,16 @@
     <loc>https://preview.gocd.org/chef/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/events/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/partners/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/enterprise/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/enterprise-campaign/</loc>
   </url>
   <url>
     <loc>https://preview.gocd.org/tags/modeling-deployment-pipelines/</loc>
