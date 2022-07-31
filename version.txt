@@ -1,12 +1,11 @@
-Last updated: 2022-07-30 11:06:23 +0000
+Last updated: 2022-07-31 06:54:47 +0000
 
 Latest commit:
-    commit 790c576df136532b8f0efd8efed8c5e6f6b26e93
-    Merge: 180223544 cc9a553f4
+    commit b9a1be75dbefce74895538fe9585906bbe2eec30
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jul 30 18:52:48 2022 +0800
+    Date:   Sun Jul 31 14:43:29 2022 +0800
     
-        Merge pull request #1390 from gocd/clean-unused-pages
+        Remove the `/index.html` suffix
         
-        Clean unused pages
+        This isn't working for some reason which I cannot replicate locally. Middleman barfs with no displayed error.
     

@@ -562,6 +562,12 @@
     <loc>https://preview.gocd.org/chef/</loc>
   </url>
   <url>
+    <loc>https://preview.gocd.org/community/events/</loc>
+  </url>
+  <url>
+    <loc>https://preview.gocd.org/community/partners/</loc>
+  </url>
+  <url>
     <loc>https://preview.gocd.org/events/</loc>
   </url>
   <url>
