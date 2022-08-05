@@ -1,11 +1,12 @@
-Last updated: 2022-07-31 06:54:47 +0000
+Last updated: 2022-08-05 12:45:56 +0000
 
 Latest commit:
-    commit b9a1be75dbefce74895538fe9585906bbe2eec30
+    commit f703280ac486c871cb9bffc5f4ed6822738713e6
+    Merge: d74ea7b89 4348c71ee
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Jul 31 14:43:29 2022 +0800
+    Date:   Fri Aug 5 20:34:21 2022 +0800
     
-        Remove the `/index.html` suffix
+        Merge pull request #1392 from gocd/dependabot/bundler/html-proofer-4.3.2
         
-        This isn't working for some reason which I cannot replicate locally. Middleman barfs with no displayed error.
+        Bump html-proofer from 4.3.0 to 4.3.2
     
