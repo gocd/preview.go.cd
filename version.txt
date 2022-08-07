@@ -1,12 +1,11 @@
-Last updated: 2022-08-05 12:45:56 +0000
+Last updated: 2022-08-07 10:46:20 +0000
 
 Latest commit:
-    commit f703280ac486c871cb9bffc5f4ed6822738713e6
-    Merge: d74ea7b89 4348c71ee
+    commit cb532726f9adfc75aba2309d3948ad24fadec318
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Aug 5 20:34:21 2022 +0800
+    Date:   Sun Aug 7 18:33:41 2022 +0800
     
-        Merge pull request #1392 from gocd/dependabot/bundler/html-proofer-4.3.2
+        Remove code related to the contributor map
         
-        Bump html-proofer from 4.3.0 to 4.3.2
+        This doesn't seem to be working anyway, nor is it updated, so removing it to simplify.
     
