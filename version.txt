@@ -1,11 +1,12 @@
-Last updated: 2022-08-07 10:46:20 +0000
+Last updated: 2022-08-09 10:11:31 +0000
 
 Latest commit:
-    commit cb532726f9adfc75aba2309d3948ad24fadec318
+    commit 9ffa0bfa46ab47dbaf1d65567235f1ab5ae815f6
+    Merge: cb532726f 3f7b38e42
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Aug 7 18:33:41 2022 +0800
+    Date:   Tue Aug 9 17:58:47 2022 +0800
     
-        Remove code related to the contributor map
+        Merge pull request #1393 from gocd/remove-thirdparty-stuff
         
-        This doesn't seem to be working anyway, nor is it updated, so removing it to simplify.
+        Remove thirdparty/analytics stuff
     
