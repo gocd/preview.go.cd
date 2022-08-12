@@ -1,12 +1,12 @@
-Last updated: 2022-08-09 10:11:31 +0000
+Last updated: 2022-08-12 17:09:44 +0000
 
 Latest commit:
-    commit 9ffa0bfa46ab47dbaf1d65567235f1ab5ae815f6
-    Merge: cb532726f 3f7b38e42
+    commit 69994e27eba023e9011f42e44ecdd50d863008fe
+    Merge: 9ffa0bfa4 4f8f78773
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Tue Aug 9 17:58:47 2022 +0800
+    Date:   Sat Aug 13 00:58:09 2022 +0800
     
-        Merge pull request #1393 from gocd/remove-thirdparty-stuff
+        Merge pull request #1394 from gocd/22.2.0
         
-        Remove thirdparty/analytics stuff
+        Prepare release notes for 22.2.0
     
