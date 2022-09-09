@@ -1,12 +1,12 @@
-Last updated: 2022-08-19 13:20:40 +0000
+Last updated: 2022-09-09 13:04:16 +0000
 
 Latest commit:
-    commit 440824150534181b7ba5a19c4bfc1012e2bfc565
-    Merge: 9d81c854b a311328fb
+    commit f6eddecbc3d0f74773da70b0f3e054ca3907abc1
+    Merge: 3cb22decd 37b43c26a
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Aug 19 21:06:43 2022 +0800
+    Date:   Fri Sep 9 20:52:49 2022 +0800
     
-        Merge pull request #1396 from gocd/dependabot/bundler/public_suffix-5.0.0
+        Merge pull request #1400 from gocd/dependabot/bundler/rb-fsevent-0.11.2
         
-        Bump public_suffix from 4.0.7 to 5.0.0
+        Bump rb-fsevent from 0.11.1 to 0.11.2
     
