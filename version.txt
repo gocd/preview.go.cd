@@ -1,12 +1,12 @@
-Last updated: 2022-09-09 13:04:16 +0000
+Last updated: 2022-09-09 13:05:25 +0000
 
 Latest commit:
-    commit f6eddecbc3d0f74773da70b0f3e054ca3907abc1
-    Merge: 3cb22decd 37b43c26a
+    commit 3cb22decdbed520d6a6951b26c9f235e33f70090
+    Merge: 440824150 d988e97c5
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Sep 9 20:52:49 2022 +0800
+    Date:   Fri Sep 9 20:52:37 2022 +0800
     
-        Merge pull request #1400 from gocd/dependabot/bundler/rb-fsevent-0.11.2
+        Merge pull request #1401 from gocd/dependabot/bundler/rouge-4.0.0
         
-        Bump rb-fsevent from 0.11.1 to 0.11.2
+        Bump rouge from 3.30.0 to 4.0.0
     
