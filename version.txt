@@ -1,12 +1,12 @@
-Last updated: 2022-09-16 12:38:41 +0000
+Last updated: 2022-09-23 12:20:05 +0000
 
 Latest commit:
-    commit 6ea19d8963dc843122325139a9e4483279f420d2
-    Merge: f6eddecbc fa8873754
+    commit 8818e98bdf78363281fbb88c598b945a178aaaed
+    Merge: 180e21099 cf196103d
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Sep 16 20:23:51 2022 +0800
+    Date:   Fri Sep 23 20:06:57 2022 +0800
     
-        Merge pull request #1402 from gocd/dependabot/bundler/fog-aws-3.15.0
+        Merge pull request #1405 from gocd/dependabot/bundler/excon-0.92.5
         
-        Bump fog-aws from 3.14.0 to 3.15.0
+        Bump excon from 0.92.4 to 0.92.5
     
