@@ -1,13 +1,12 @@
-Last updated: 2022-10-05 13:59:49 +0000
+Last updated: 2022-10-05 14:22:46 +0000
 
 Latest commit:
-    commit c40ad301eb8221725c3b9430df746f5d6a2f3106
+    commit 06f10d5fff16c902d72f7441cdff7efb866c4e8e
+    Merge: c40ad301e 3c13cd5ba
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Wed Oct 5 21:44:05 2022 +0800
+    Date:   Wed Oct 5 22:08:51 2022 +0800
     
-        Revert "Force test-drive to run under Rosetta/x64 on Apple Silicon"
+        Merge pull request #1409 from arvindsv/remove-extensions-docs-references
         
-        This reverts commit fd7b04be915fad5c1ffaee3ddff2019d37c557fe. Was deemed to be unnecessary. If the user doesn't have Rosetta 2 installed, the same error will be yielded in either case.
-        
-        Would be better to replace this with proper arm builds of the test-drive/trial launcher
+        Remove references to extensions-docs
     
