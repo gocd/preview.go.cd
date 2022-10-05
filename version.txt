@@ -1,11 +1,13 @@
-Last updated: 2022-10-04 10:54:01 +0000
+Last updated: 2022-10-05 13:59:49 +0000
 
 Latest commit:
-    commit fd7b04be915fad5c1ffaee3ddff2019d37c557fe
+    commit c40ad301eb8221725c3b9430df746f5d6a2f3106
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Tue Oct 4 18:41:35 2022 +0800
+    Date:   Wed Oct 5 21:44:05 2022 +0800
     
-        Force test-drive to run under Rosetta/x64 on Apple Silicon
+        Revert "Force test-drive to run under Rosetta/x64 on Apple Silicon"
         
-        Currently we do not produce arm64/aarch64 test-drive or GoCD installers for MacOS.
+        This reverts commit fd7b04be915fad5c1ffaee3ddff2019d37c557fe. Was deemed to be unnecessary. If the user doesn't have Rosetta 2 installed, the same error will be yielded in either case.
+        
+        Would be better to replace this with proper arm builds of the test-drive/trial launcher
     
