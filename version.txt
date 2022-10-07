@@ -1,11 +1,12 @@
-Last updated: 2022-10-06 15:51:04 +0000
+Last updated: 2022-10-07 13:52:50 +0000
 
 Latest commit:
-    commit 123cb260c3ce2f5c547141f66584e18186bbe223
+    commit a03d8ec371bbd21bdee93bf1bd4248c49dd34dbf
+    Merge: 123cb260c 7fd3e6607
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Thu Oct 6 23:37:15 2022 +0800
+    Date:   Fri Oct 7 21:38:47 2022 +0800
     
-        Change old 20.5.0 release notes to point to current docs for DB migration
+        Merge pull request #1410 from gocd/dependabot/bundler/zeitwerk-2.6.1
         
-        This is required so we can maintain these sustainably and keep them updated over time for higher versions than 20.5.0.
+        Bump zeitwerk from 2.6.0 to 2.6.1
     
