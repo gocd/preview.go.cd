@@ -1,12 +1,11 @@
-Last updated: 2022-10-07 13:52:50 +0000
+Last updated: 2022-10-09 15:19:27 +0000
 
 Latest commit:
-    commit a03d8ec371bbd21bdee93bf1bd4248c49dd34dbf
-    Merge: 123cb260c 7fd3e6607
+    commit 7695300fc82ba75ceae8f10758dc8626f151c2b9
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Oct 7 21:38:47 2022 +0800
+    Date:   Sun Oct 9 23:07:08 2022 +0800
     
-        Merge pull request #1410 from gocd/dependabot/bundler/zeitwerk-2.6.1
+        Remove "temporarily" wording
         
-        Bump zeitwerk from 2.6.0 to 2.6.1
+        This ended up being a bit misleading. We are unlikely to add it back, given the lack of interest.
     
