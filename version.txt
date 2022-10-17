@@ -1,11 +1,12 @@
-Last updated: 2022-10-16 17:47:39 +0000
+Last updated: 2022-10-17 02:52:56 +0000
 
 Latest commit:
-    commit cfce699c837bf02451dda0f9d6905fe6dde7b722
+    commit bd14c0aaf1747aebf54f05c1eca3ec1cf11664b2
+    Merge: cfce699c8 055285c4a
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Mon Oct 17 00:46:53 2022 +0800
+    Date:   Mon Oct 17 10:39:15 2022 +0800
     
-        Add ability to download a single additional architecture
+        Merge pull request #1415 from gocd/dependabot/bundler/html-proofer-4.4.3
         
-        Unfortunately still relying on some hard-coding of available archs right now due to the way the code is written :-(
+        Bump html-proofer from 4.4.1 to 4.4.3
     
