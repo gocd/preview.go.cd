@@ -1,12 +1,12 @@
-Last updated: 2022-10-21 05:04:28 +0000
+Last updated: 2022-10-21 13:10:45 +0000
 
 Latest commit:
-    commit 3ac2d53b589c24b524963a3de2ad12a16e573c67
-    Merge: bd14c0aaf 6589d1458
+    commit c1d1b79708ac64c47878a1d75339322bd5b678e0
+    Merge: 3ac2d53b5 f7220568a
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Oct 21 12:50:27 2022 +0800
+    Date:   Fri Oct 21 21:00:26 2022 +0800
     
-        Merge pull request #1417 from gocd/dependabot/bundler/nokogiri-1.13.9
+        Merge pull request #1418 from gocd/dependabot/bundler/excon-0.93.1
         
-        Bump nokogiri from 1.13.8 to 1.13.9
+        Bump excon from 0.93.0 to 0.93.1
     
