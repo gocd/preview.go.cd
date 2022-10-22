@@ -1,12 +1,9 @@
-Last updated: 2022-10-21 13:10:45 +0000
+Last updated: 2022-10-22 09:50:02 +0000
 
 Latest commit:
-    commit c1d1b79708ac64c47878a1d75339322bd5b678e0
-    Merge: 3ac2d53b5 f7220568a
+    commit a822996f8e8c1ae4dd78064989c5a6272f477f70
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Oct 21 21:00:26 2022 +0800
+    Date:   Sat Oct 22 17:38:45 2022 +0800
     
-        Merge pull request #1418 from gocd/dependabot/bundler/excon-0.93.1
-        
-        Bump excon from 0.93.0 to 0.93.1
+        Add test-drive support for osx-aarch64
     
