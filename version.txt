@@ -1,9 +1,11 @@
-Last updated: 2022-10-22 09:50:02 +0000
+Last updated: 2022-10-22 10:15:49 +0000
 
 Latest commit:
-    commit a822996f8e8c1ae4dd78064989c5a6272f477f70
+    commit a5038221821aa69647b6e0eda89ef208dd135d2c
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Oct 22 17:38:45 2022 +0800
+    Date:   Sat Oct 22 18:01:58 2022 +0800
     
-        Add test-drive support for osx-aarch64
+        Retcon ThoughtWorks -> Thoughtworks
+        
+        This has been done for older articles at places like martinfowler.com so seems reasonable to do here.
     
