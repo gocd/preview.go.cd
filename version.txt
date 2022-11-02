@@ -1,9 +1,9 @@
-Last updated: 2022-10-29 16:13:03 +0000
+Last updated: 2022-11-02 15:11:34 +0000
 
 Latest commit:
-    commit 0f7e1643ba1336c62d4681afc8cfc27c26746ad3
+    commit af424fed7060ed92cba67c45be945b83a5144b36
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Oct 29 23:36:38 2022 +0800
+    Date:   Wed Nov 2 22:55:21 2022 +0800
     
-        Update dead/redirecting URL
+        Remove direct download link
     
