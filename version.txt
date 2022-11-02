@@ -1,9 +1,9 @@
-Last updated: 2022-11-02 15:11:34 +0000
+Last updated: 2022-11-02 15:36:46 +0000
 
 Latest commit:
-    commit af424fed7060ed92cba67c45be945b83a5144b36
+    commit af51a345de1caf1e904f39d1c5c1b271ce12652d
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Wed Nov 2 22:55:21 2022 +0800
+    Date:   Wed Nov 2 22:37:46 2022 +0800
     
-        Remove direct download link
+        Tweak gitignore for IDEA
     
