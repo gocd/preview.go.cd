@@ -1,11 +1,12 @@
-Last updated: 2022-11-07 15:04:04 +0000
+Last updated: 2022-11-11 16:20:08 +0000
 
 Latest commit:
-    commit 49e8c0682a57d39800448cd077bd089e1f9b0e9c
+    commit c13aa2f97eb863450ee38cb0c3e404a870f9c8a1
+    Merge: c368faecc 13e2be49e
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Mon Nov 7 22:50:55 2022 +0800
+    Date:   Sat Nov 12 00:08:22 2022 +0800
     
-        Remove plugin which no longer exists
+        Merge pull request #1423 from gocd/dependabot/bundler/excon-0.94.0
         
-        May have been removed by its author
+        Bump excon from 0.93.1 to 0.94.0
     
