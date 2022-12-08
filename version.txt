@@ -1,12 +1,9 @@
-Last updated: 2022-11-11 16:20:08 +0000
+Last updated: 2022-12-08 10:56:53 +0000
 
 Latest commit:
-    commit c13aa2f97eb863450ee38cb0c3e404a870f9c8a1
-    Merge: c368faecc 13e2be49e
+    commit b69dfd0b68dbea9c5fdc5b8da8424d5b4e03f961
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Nov 12 00:08:22 2022 +0800
+    Date:   Thu Dec 8 22:44:06 2022 +1200
     
-        Merge pull request #1423 from gocd/dependabot/bundler/excon-0.94.0
-        
-        Bump excon from 0.93.1 to 0.94.0
+        Bump transitive dependencies
     
