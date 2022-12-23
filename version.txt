@@ -1,12 +1,12 @@
-Last updated: 2022-12-16 18:54:11 +0000
+Last updated: 2022-12-23 15:48:00 +0000
 
 Latest commit:
-    commit 44f6d158c4750bf9ac11b8144e8a35a5a10e3a93
-    Merge: b69dfd0b6 55dd253a3
+    commit 2f6718313e8ffd8c8119545158dda22adec86375
+    Merge: 44f6d158c fd4e09fbd
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Dec 17 00:09:57 2022 +1200
+    Date:   Fri Dec 23 23:22:15 2022 +0800
     
-        Merge pull request #1427 from gocd/dependabot/bundler/excon-0.95.0
+        Merge pull request #1429 from gocd/dependabot/bundler/racc-1.6.2
         
-        Bump excon from 0.94.0 to 0.95.0
+        Bump racc from 1.6.1 to 1.6.2
     
