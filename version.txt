@@ -1,12 +1,12 @@
-Last updated: 2022-12-30 12:19:07 +0000
+Last updated: 2022-12-31 10:17:44 +0000
 
 Latest commit:
-    commit 9b55b3b323e1ba475c4105791183e8e8220cde18
-    Merge: 2f6718313 1aea05ad3
+    commit cfd1c771ff006f6f24c840424593e3d799706b42
+    Merge: ff72cbf89 e985d0d5c
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Dec 30 20:07:18 2022 +0800
+    Date:   Fri Dec 30 20:07:50 2022 +0800
     
-        Merge pull request #1430 from gocd/dependabot/bundler/padrino-helpers-0.15.2
+        Merge pull request #1431 from gocd/dependabot/bundler/mini_portile2-2.8.1
         
-        Bump padrino-helpers from 0.15.1 to 0.15.2
+        Bump mini_portile2 from 2.8.0 to 2.8.1
     
