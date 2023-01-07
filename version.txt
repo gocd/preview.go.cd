@@ -1,12 +1,11 @@
-Last updated: 2023-01-06 16:21:57 +0000
+Last updated: 2023-01-07 09:58:21 +0000
 
 Latest commit:
-    commit b9d2d9c109feda055a2583384aed3c837c2b8378
-    Merge: 46d5c20f1 cbd8bae23
+    commit 41c20aaf141965f77711aadae0afd0d2440fec6e
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jan 6 23:24:05 2023 +0800
+    Date:   Sat Jan 7 17:45:08 2023 +0800
     
-        Merge pull request #1435 from gocd/dependabot/bundler/excon-0.96.0
+        Link to latest official release
         
-        Bump excon from 0.95.0 to 0.96.0
+        The main releases page includes experimental releases and makes it harder to find the latest official release, so better not to guide folks to the main page.
     
