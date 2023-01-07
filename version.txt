@@ -1,11 +1,9 @@
-Last updated: 2023-01-07 09:58:21 +0000
+Last updated: 2023-01-07 10:54:12 +0000
 
 Latest commit:
-    commit 41c20aaf141965f77711aadae0afd0d2440fec6e
+    commit cb3d54da36b8e8bc90fbb3477476f579ab56ff3f
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jan 7 17:45:08 2023 +0800
+    Date:   Sat Jan 7 18:12:43 2023 +0800
     
-        Link to latest official release
-        
-        The main releases page includes experimental releases and makes it harder to find the latest official release, so better not to guide folks to the main page.
+        Minor typo fix
     
