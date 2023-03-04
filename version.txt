@@ -1,12 +1,9 @@
-Last updated: 2023-03-03 14:44:08 +0000
+Last updated: 2023-03-04 17:11:48 +0000
 
 Latest commit:
-    commit 4b2d44fbc2762fb4a16205eb1d5a357179f2e2f6
-    Merge: 636fd6472 524029146
+    commit 7eb3ef81cfc29b72533f2e96256747e547a219b4
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 3 22:33:43 2023 +0800
+    Date:   Sun Mar 5 01:02:37 2023 +0800
     
-        Merge pull request #1461 from gocd/dependabot/bundler/padrino-support-0.15.3
-        
-        Bump padrino-support from 0.15.2 to 0.15.3
+        Add additional native platforms to improve speed
     
