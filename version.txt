@@ -1,12 +1,12 @@
-Last updated: 2023-03-10 15:04:31 +0000
+Last updated: 2023-03-11 02:59:54 +0000
 
 Latest commit:
-    commit 9231bc55940a3eca08bd7bf8ac393da3799aa712
-    Merge: 6f6075bcc 69535248b
+    commit 4b236a973836d104636fe6d8465f1642511edea3
+    Merge: 9231bc559 884010661
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 10 22:53:48 2023 +0800
+    Date:   Sat Mar 11 10:51:33 2023 +0800
     
-        Merge pull request #1468 from gocd/dependabot/bundler/backports-3.24.0
+        Merge pull request #1436 from gocd/23.1.0
         
-        Bump backports from 3.23.0 to 3.24.0
+        Release notes for 23.1.0
     
