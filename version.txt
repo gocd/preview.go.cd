@@ -1,12 +1,12 @@
-Last updated: 2023-03-16 01:34:40 +0000
+Last updated: 2023-03-16 02:04:09 +0000
 
 Latest commit:
-    commit 63a0d9329b431780199fb9e238cd8ce980f7c936
-    Merge: 85846f9af 33eaf1614
+    commit ff027d419a211152277f86664af46f7f87f71187
+    Merge: 63a0d9329 e8ea371a2
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Thu Mar 16 09:26:06 2023 +0800
+    Date:   Thu Mar 16 09:55:24 2023 +0800
     
-        Merge pull request #1469 from gocd/dependabot/bundler/activesupport-7.0.4.3
+        Merge pull request #1470 from gocd/dependabot/bundler/rack-2.2.6.4
         
-        Bump activesupport from 7.0.4.2 to 7.0.4.3
+        Bump rack from 2.2.6.3 to 2.2.6.4
     
