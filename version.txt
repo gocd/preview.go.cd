@@ -1,9 +1,12 @@
-Last updated: 2023-03-19 15:40:37 +0000
+Last updated: 2023-03-19 16:04:08 +0000
 
 Latest commit:
-    commit 953f3a43d38b598f246e480691f0e2c62f13ba5b
+    commit ac4954370e535e706e9be1dbc3d5c485e519a216
+    Merge: 953f3a43d 7e8a747ac
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Mar 19 23:31:52 2023 +0800
+    Date:   Sun Mar 19 23:57:57 2023 +0800
     
-        Remove dead link
+        Merge pull request #1471 from gocd/ruby-3
+        
+        Upgrade Ruby from 2.7 to 3.1
     
