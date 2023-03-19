@@ -1,9 +1,9 @@
-Last updated: 2023-03-19 15:37:26 +0000
+Last updated: 2023-03-19 15:40:37 +0000
 
 Latest commit:
-    commit 606b140cc4f8e476b92bf2c0640faec3a81c4f34
+    commit 953f3a43d38b598f246e480691f0e2c62f13ba5b
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Mar 19 23:28:33 2023 +0800
+    Date:   Sun Mar 19 23:31:52 2023 +0800
     
-        Remove draft post lingering around
+        Remove dead link
     
