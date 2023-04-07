@@ -1,9 +1,12 @@
-Last updated: 2023-03-31 10:38:06 +0000
+Last updated: 2023-04-07 14:16:00 +0000
 
 Latest commit:
-    commit e12416b0a30c44c0d1484fff62342a76fd289380
+    commit 45db0f0f49d14713f1ddd3a78268b6cdcb27e6e0
+    Merge: e12416b0a 408caaba0
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 31 18:31:38 2023 +0800
+    Date:   Fri Apr 7 22:09:38 2023 +0800
     
-        Bump Ruby to 3.1.4
+        Merge pull request #1474 from gocd/dependabot/bundler/addressable-2.8.3
+        
+        Bump addressable from 2.8.1 to 2.8.3
     
