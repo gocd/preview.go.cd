@@ -1,12 +1,12 @@
-Last updated: 2023-04-12 07:17:05 +0000
+Last updated: 2023-04-14 13:53:07 +0000
 
 Latest commit:
-    commit cca65c685473314d71606b27a46fb1bd44ef0071
-    Merge: 887679747 7db6d2a8d
+    commit 8c1c3d740b4ddd3d18a1c70ea38e5acd419065d9
+    Merge: cca65c685 d3108c5fd
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Wed Apr 12 15:11:36 2023 +0800
+    Date:   Fri Apr 14 21:47:13 2023 +0800
     
-        Merge pull request #1476 from gocd/dependabot/bundler/nokogiri-1.14.3
+        Merge pull request #1477 from gocd/dependabot/bundler/addressable-2.8.4
         
-        Bump nokogiri from 1.14.2 to 1.14.3
+        Bump addressable from 2.8.3 to 2.8.4
     
