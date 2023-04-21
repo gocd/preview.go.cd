@@ -1,12 +1,12 @@
-Last updated: 2023-04-14 14:11:03 +0000
+Last updated: 2023-04-21 13:58:46 +0000
 
 Latest commit:
-    commit 9a84f482d231508d199022f1248f70cd31c7c7c1
-    Merge: 25c67f614 4ad4ed841
+    commit 0c3b63efe5bfe8a786876d747f20cb336605c96d
+    Merge: 9a84f482d 6f14b3b1f
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Apr 14 22:05:48 2023 +0800
+    Date:   Fri Apr 21 21:53:07 2023 +0800
     
-        Merge pull request #1472 from gocd/dependabot/bundler/html-proofer-5.0.6
+        Merge pull request #1478 from gocd/dependabot/bundler/parallel-1.23.0
         
-        Bump html-proofer from 4.4.3 to 5.0.6
+        Bump parallel from 1.22.1 to 1.23.0
     
