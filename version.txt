@@ -1,12 +1,9 @@
-Last updated: 2023-05-05 15:02:07 +0000
+Last updated: 2023-05-07 07:36:58 +0000
 
 Latest commit:
-    commit acb05773d58cae6fc8cf6ae39279f706fd2bbe8f
-    Merge: e3f73e618 3568e5e65
+    commit b8bc30495ba5459165a4499ab73c17f86a6f9dd4
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 5 22:20:09 2023 +0800
+    Date:   Sun May 7 15:25:25 2023 +0800
     
-        Merge pull request #1483 from gocd/dependabot/bundler/io-event-1.2.0
-        
-        Bump io-event from 1.1.7 to 1.2.0
+        Remove old/dead docker-based test-drive
     
