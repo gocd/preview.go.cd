@@ -1,9 +1,12 @@
-Last updated: 2023-05-19 14:52:22 +0000
+Last updated: 2023-05-19 14:54:14 +0000
 
 Latest commit:
-    commit 0c0e8e95a62144c6159e50d6514385f4ff6f92c3
+    commit 4f552d1a80c7396788b87b04373b29879f30e150
+    Merge: 0c0e8e95a ba64a656f
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 19 22:45:27 2023 +0800
+    Date:   Fri May 19 22:48:48 2023 +0800
     
-        Fix twitter links to avoid redirects
+        Merge pull request #1487 from gocd/dependabot/bundler/temple-0.10.1
+        
+        Bump temple from 0.10.0 to 0.10.1
     
