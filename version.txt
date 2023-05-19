@@ -1,12 +1,9 @@
-Last updated: 2023-05-19 14:49:00 +0000
+Last updated: 2023-05-19 14:52:22 +0000
 
 Latest commit:
-    commit f0578c727bc9038475da357c5d281e88a2e2ea96
-    Merge: d4ff6f1e1 68549acaf
+    commit 0c0e8e95a62144c6159e50d6514385f4ff6f92c3
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 19 22:42:28 2023 +0800
+    Date:   Fri May 19 22:45:27 2023 +0800
     
-        Merge pull request #1486 from gocd/dependabot/bundler/fog-aws-3.19.0
-        
-        Bump fog-aws from 3.18.0 to 3.19.0
+        Fix twitter links to avoid redirects
     
