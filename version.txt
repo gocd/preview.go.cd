@@ -1,12 +1,12 @@
-Last updated: 2023-05-19 14:58:39 +0000
+Last updated: 2023-05-19 15:00:20 +0000
 
 Latest commit:
-    commit b09b77a997eb8035df09d58b1ff3dde0a014409d
-    Merge: 4f552d1a8 463c484b9
+    commit ad1047ce0ed8629e79002c4d524c43a2fb7bde87
+    Merge: b09b77a99 d095a8464
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 19 22:52:36 2023 +0800
+    Date:   Fri May 19 22:52:48 2023 +0800
     
-        Merge pull request #1488 from gocd/dependabot/bundler/async-2.5.1
+        Merge pull request #1490 from gocd/dependabot/bundler/io-event-1.2.2
         
-        Bump async from 2.5.0 to 2.5.1
+        Bump io-event from 1.2.0 to 1.2.2
     
