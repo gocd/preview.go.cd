@@ -1,12 +1,9 @@
-Last updated: 2023-05-26 14:15:55 +0000
+Last updated: 2023-05-26 14:28:08 +0000
 
 Latest commit:
-    commit cf70b7ace4e9975781df6bc41db5dd33e83cf988
-    Merge: 69694b85b dee2a92cb
+    commit 35654ce9c051e8a6e66ec8f6ab0101f41fa5c9dd
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 26 22:10:17 2023 +0800
+    Date:   Fri May 26 22:22:30 2023 +0800
     
-        Merge pull request #1492 from gocd/dependabot/bundler/fastimage-2.2.7
-        
-        Bump fastimage from 2.2.6 to 2.2.7
+        Fix bad github link
     
