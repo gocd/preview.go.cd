@@ -1,12 +1,12 @@
-Last updated: 2023-05-19 15:45:17 +0000
+Last updated: 2023-05-26 14:15:55 +0000
 
 Latest commit:
-    commit 69694b85bfb17580ccce656ee878d40927b026dd
-    Merge: ad1047ce0 3cf51ff15
+    commit cf70b7ace4e9975781df6bc41db5dd33e83cf988
+    Merge: 69694b85b dee2a92cb
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 19 22:53:06 2023 +0800
+    Date:   Fri May 26 22:10:17 2023 +0800
     
-        Merge pull request #1491 from gocd/dependabot/bundler/nokogiri-1.15.1
+        Merge pull request #1492 from gocd/dependabot/bundler/fastimage-2.2.7
         
-        Bump nokogiri from 1.15.0 to 1.15.1
+        Bump fastimage from 2.2.6 to 2.2.7
     
