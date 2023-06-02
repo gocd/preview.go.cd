@@ -1,9 +1,9 @@
-Last updated: 2023-05-26 14:28:08 +0000
+Last updated: 2023-06-02 15:16:05 +0000
 
 Latest commit:
-    commit 35654ce9c051e8a6e66ec8f6ab0101f41fa5c9dd
+    commit dc1d2321a3e7aff5e90fa3b7f0183fd119fabd2f
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 26 22:22:30 2023 +0800
+    Date:   Fri Jun 2 23:10:31 2023 +0800
     
-        Fix bad github link
+        Bump bundler and transitives to latest version
     
