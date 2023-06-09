@@ -1,9 +1,12 @@
-Last updated: 2023-06-02 15:16:05 +0000
+Last updated: 2023-06-09 13:54:34 +0000
 
 Latest commit:
-    commit dc1d2321a3e7aff5e90fa3b7f0183fd119fabd2f
+    commit a2f7d91bf030146d4af3d0b3040e8f61b64f4df4
+    Merge: dc1d2321a a66306842
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 2 23:10:31 2023 +0800
+    Date:   Fri Jun 9 21:47:59 2023 +0800
     
-        Bump bundler and transitives to latest version
+        Merge pull request #1496 from gocd/dependabot/bundler/async-2.6.1
+        
+        Bump async from 2.5.1 to 2.6.1
     
