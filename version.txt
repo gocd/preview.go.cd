@@ -1,12 +1,12 @@
-Last updated: 2023-06-16 16:00:53 +0000
+Last updated: 2023-06-17 04:18:04 +0000
 
 Latest commit:
-    commit 95e5b26ed21d9c20203d24b95a1a4ebf79545567
-    Merge: ae895c0ca 376c97120
+    commit 13ac9db22ba5c7d3049774cf3f46329894927d31
+    Merge: 95e5b26ed 1ff85287f
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 16 23:55:18 2023 +0800
+    Date:   Fri Jun 16 23:55:31 2023 +0800
     
-        Merge pull request #1500 from gocd/dependabot/bundler/async-2.6.2
+        Merge pull request #1501 from gocd/dependabot/bundler/racc-1.7.1
         
-        Bump async from 2.6.1 to 2.6.2
+        Bump racc from 1.7.0 to 1.7.1
     
