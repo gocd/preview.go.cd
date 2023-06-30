@@ -1,9 +1,12 @@
-Last updated: 2023-06-23 15:40:44 +0000
+Last updated: 2023-06-30 14:31:36 +0000
 
 Latest commit:
-    commit 6e698ab76bfd3b32faaec5751925dfbd613b7d43
+    commit 72c7607af637e111ce855329cea48dabb5bb0359
+    Merge: fb30be45b 07a7c9292
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 23 23:32:22 2023 +0800
+    Date:   Fri Jun 30 22:25:54 2023 +0800
     
-        Try and fix ignore expressions
+        Merge pull request #1503 from gocd/dependabot/bundler/activesupport-7.0.6
+        
+        Bump activesupport from 7.0.5 to 7.0.6
     
