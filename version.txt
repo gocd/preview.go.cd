@@ -1,12 +1,12 @@
-Last updated: 2023-07-28 15:28:08 +0000
+Last updated: 2023-07-28 15:32:11 +0000
 
 Latest commit:
-    commit 9fc7e76498f6b039f4c16559dfd1798d35d91584
-    Merge: 2b5ceebd7 a13c2b102
+    commit 9a32b20e1030d2862c7588c3e5384fef6553abb7
+    Merge: 95ef2b44b 4f71abbd8
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jul 28 23:18:22 2023 +0800
+    Date:   Fri Jul 28 23:18:51 2023 +0800
     
-        Merge pull request #1512 from gocd/dependabot/bundler/async-2.6.3
+        Merge pull request #1514 from gocd/dependabot/bundler/rexml-3.2.6
         
-        Bump async from 2.6.2 to 2.6.3
+        Bump rexml from 3.2.5 to 3.2.6
     
