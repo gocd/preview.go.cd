@@ -1,9 +1,12 @@
-Last updated: 2023-07-25 16:02:47 +0000
+Last updated: 2023-07-28 15:26:39 +0000
 
 Latest commit:
-    commit db66ab0037374914048980c4622e4d01b0901a2c
+    commit 597099ea3068b6c1a99f3c854fba2a44dc84121b
+    Merge: db66ab003 ddc9de6dd
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Mon Jul 24 19:55:45 2023 +0800
+    Date:   Fri Jul 28 23:17:51 2023 +0800
     
-        Clarify 23.3.0 release notes
+        Merge pull request #1510 from gocd/dependabot/bundler/io-event-1.2.3
+        
+        Bump io-event from 1.2.2 to 1.2.3
     
