@@ -1,12 +1,9 @@
-Last updated: 2023-07-28 15:32:11 +0000
+Last updated: 2023-07-29 03:59:48 +0000
 
 Latest commit:
-    commit 9a32b20e1030d2862c7588c3e5384fef6553abb7
-    Merge: 95ef2b44b 4f71abbd8
+    commit 8f1c961e5f41da42e2ffaf6034059d01dae49e44
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jul 28 23:18:51 2023 +0800
+    Date:   Sat Jul 29 11:53:39 2023 +0800
     
-        Merge pull request #1514 from gocd/dependabot/bundler/rexml-3.2.6
-        
-        Bump rexml from 3.2.5 to 3.2.6
+        Clarify wording of issues fixed in 23.3.0
     
