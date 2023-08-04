@@ -1,9 +1,12 @@
-Last updated: 2023-07-31 17:00:26 +0000
+Last updated: 2023-08-04 13:32:30 +0000
 
 Latest commit:
-    commit e716e8dddf4f2c34bfd5b77a4c441180abcbad1e
+    commit a76c854269090c0103c6a4eb834b7dd40019f517
+    Merge: b9f47a3c5 a35fe8c25
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Tue Aug 1 00:53:48 2023 +0800
+    Date:   Fri Aug 4 21:26:20 2023 +0800
     
-        Fix debian PR link in release notes
+        Merge pull request #1515 from gocd/dependabot/bundler/console-1.20.0
+        
+        Bump console from 1.18.0 to 1.20.0
     
