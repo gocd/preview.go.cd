@@ -1,12 +1,9 @@
-Last updated: 2023-09-08 13:57:22 +0000
+Last updated: 2023-09-15 15:49:36 +0000
 
 Latest commit:
-    commit a8c963c227414a0309ec1b32b5f4cedb2c37720f
-    Merge: 6a7a44d5e 145c5f1c9
+    commit 9d2964a932b4fdeef5bea7438dfd2ad79206bb36
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Sep 8 21:50:26 2023 +0800
+    Date:   Fri Sep 15 23:43:11 2023 +0800
     
-        Merge pull request #1534 from gocd/dependabot/bundler/autoprefixer-rails-10.4.15.0
-        
-        Bump autoprefixer-rails from 10.4.13.0 to 10.4.15.0
+        Remove broken brandfolder links
     
