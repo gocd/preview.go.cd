@@ -1,11 +1,11 @@
-Last updated: 2023-09-16 08:19:12 +0000
+Last updated: 2023-09-16 08:47:12 +0000
 
 Latest commit:
-    commit 95d196978d939bff1fc01c692a7887a439299716
+    commit 1492db3a5da1e8e39ad2fd54000246c830bfa0bf
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Sep 16 16:11:59 2023 +0800
+    Date:   Sat Sep 16 16:18:50 2023 +0800
     
-        Disable path_style S3 URLs for syncing
+        Use canonical env var for middleman_s3-sync
         
-        Experiment to resolve issues with signatures, but probably a good idea anyway.
+        https://github.com/fredjean/middleman-s3_sync#through-the-command-line
     
