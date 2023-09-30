@@ -1,9 +1,12 @@
-Last updated: 2023-09-21 15:26:13 +0000
+Last updated: 2023-09-30 17:59:11 +0000
 
 Latest commit:
-    commit e7dcc97a196848d5ddb89a1e7e1356b5e69a022e
+    commit 00e799f638c0a546fd9dba1bc820e840562ad60f
+    Merge: dfe0e6744 2713cec79
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Thu Sep 21 23:18:39 2023 +0800
+    Date:   Fri Sep 29 15:36:32 2023 +0800
     
-        Correct Reyes
+        Merge pull request #1543 from gocd/dependabot/bundler/zeitwerk-2.6.12
+        
+        Bump zeitwerk from 2.6.11 to 2.6.12
     
