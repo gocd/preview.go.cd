@@ -1,11 +1,9 @@
-Last updated: 2023-10-01 07:16:53 +0000
+Last updated: 2023-10-06 13:14:04 +0000
 
 Latest commit:
-    commit db9cbb0bab9df417379364dee8986bd79677fb4d
+    commit 5c26bb34b3de41de4ee0847233bd98fbd2e35eca
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun Oct 1 15:10:25 2023 +0800
+    Date:   Fri Oct 6 21:07:45 2023 +0800
     
-        Remove prototypeJS link
-        
-        Seems this site has some connectivity issues from automation.
+        Change ionos link to one that works
     
