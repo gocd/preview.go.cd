@@ -1,12 +1,12 @@
-Last updated: 2023-10-27 12:17:34 +0000
+Last updated: 2023-10-27 12:24:18 +0000
 
 Latest commit:
-    commit 09e18600ddbf01cd4def63bf983bbc92059880b3
-    Merge: 5c26bb34b aaf1beec8
+    commit d9adbe3a3b22031fb77113ec836558b3a7620343
+    Merge: 09e18600d 33ebc24e2
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Oct 27 20:11:12 2023 +0800
+    Date:   Fri Oct 27 20:11:37 2023 +0800
     
-        Merge pull request #1550 from gocd/dependabot/bundler/io-event-1.3.3
+        Merge pull request #1551 from gocd/dependabot/bundler/mini_portile2-2.8.5
         
-        Bump io-event from 1.3.2 to 1.3.3
+        Bump mini_portile2 from 2.8.4 to 2.8.5
     
