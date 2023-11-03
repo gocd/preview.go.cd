@@ -1,12 +1,12 @@
-Last updated: 2023-11-03 13:03:38 +0000
+Last updated: 2023-11-03 13:11:18 +0000
 
 Latest commit:
-    commit 80e2e2249d8b33963ae9641e850f27a45b4283a3
-    Merge: c8eb38031 ea1a45185
+    commit 2571bdae6a83c7f6d97d3d59f97b924b6b85d3bc
+    Merge: 80e2e2249 f4846d4cc
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Nov 3 20:58:24 2023 +0800
+    Date:   Fri Nov 3 21:05:25 2023 +0800
     
-        Merge pull request #1552 from gocd/dependabot/bundler/racc-1.7.2
+        Merge pull request #1553 from gocd/dependabot/bundler/rake-13.1.0
         
-        Bump racc from 1.7.1 to 1.7.2
+        Bump rake from 13.0.6 to 13.1.0
     
