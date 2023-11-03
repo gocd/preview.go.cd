@@ -1,12 +1,12 @@
-Last updated: 2023-11-02 03:24:38 +0000
+Last updated: 2023-11-03 13:03:38 +0000
 
 Latest commit:
-    commit c8eb380319fff3bb00f2e3ba03c54763748d1480
-    Merge: b3ca2b71e 0b0434c1e
+    commit 80e2e2249d8b33963ae9641e850f27a45b4283a3
+    Merge: c8eb38031 ea1a45185
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Thu Nov 2 11:15:45 2023 +0800
+    Date:   Fri Nov 3 20:58:24 2023 +0800
     
-        Merge pull request #1544 from gocd/release-23-4-0
+        Merge pull request #1552 from gocd/dependabot/bundler/racc-1.7.2
         
-        Add release notes for 23.4.0
+        Bump racc from 1.7.1 to 1.7.2
     
