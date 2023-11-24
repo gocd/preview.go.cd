@@ -1,9 +1,12 @@
-Last updated: 2023-11-24 07:41:10 +0000
+Last updated: 2023-11-24 07:46:08 +0000
 
 Latest commit:
-    commit 77ed4c475fc04473eb0772350ffa7f89cd31f514
+    commit 6495b24a43cefffa75b8e99880dc2deab13dbc27
+    Merge: 77ed4c475 464fd8c19
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Nov 24 15:36:36 2023 +0800
+    Date:   Fri Nov 24 15:41:47 2023 +0800
     
-        Ignore etsy URLs for checking
+        Merge pull request #1559 from gocd/dependabot/bundler/autoprefixer-rails-10.4.16.0
+        
+        Bump autoprefixer-rails from 10.4.15.0 to 10.4.16.0
     
