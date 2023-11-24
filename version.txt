@@ -1,12 +1,12 @@
-Last updated: 2023-11-24 07:46:08 +0000
+Last updated: 2023-11-24 08:05:14 +0000
 
 Latest commit:
-    commit 6495b24a43cefffa75b8e99880dc2deab13dbc27
-    Merge: 77ed4c475 464fd8c19
+    commit 734ecb96c255d1fe3a92c2de6f37f54041bed10a
+    Merge: 6495b24a4 58391d5da
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Nov 24 15:41:47 2023 +0800
+    Date:   Fri Nov 24 15:42:09 2023 +0800
     
-        Merge pull request #1559 from gocd/dependabot/bundler/autoprefixer-rails-10.4.16.0
+        Merge pull request #1558 from gocd/dependabot/bundler/nokogiri-1.15.5
         
-        Bump autoprefixer-rails from 10.4.15.0 to 10.4.16.0
+        Bump nokogiri from 1.15.4 to 1.15.5
     
