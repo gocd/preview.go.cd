@@ -1,9 +1,12 @@
-Last updated: 2023-12-22 12:46:57 +0000
+Last updated: 2023-12-29 13:05:33 +0000
 
 Latest commit:
-    commit 780f26a846afaafefe539f8606ebaf3ebfb2c857
+    commit 5ba1d1544b92eccc8551598137c252c4ed712dd0
+    Merge: 780f26a84 37d83fe77
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Dec 22 20:42:19 2023 +0800
+    Date:   Fri Dec 29 21:01:07 2023 +0800
     
-        Fix OpenMRS link
+        Merge pull request #1573 from gocd/dependabot/bundler/nokogiri-1.16.0
+        
+        Bump nokogiri from 1.15.5 to 1.16.0
     
