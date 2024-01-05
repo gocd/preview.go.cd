@@ -1,9 +1,12 @@
-Last updated: 2024-01-05 05:47:44 +0000
+Last updated: 2024-01-05 14:14:02 +0000
 
 Latest commit:
-    commit 139a5aece224aeda6df832fa9c44c5334ade5423
+    commit 2dfce5103022c831999eae1acb4692831a062475
+    Merge: 139a5aece 9a46c3f20
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jan 5 13:44:32 2024 +0800
+    Date:   Fri Jan 5 22:11:12 2024 +0800
     
-        Clarify and make consistent language around security fixes/dependency upgrades
+        Merge pull request #1578 from gocd/dependabot/bundler/sass-embedded-1.69.7
+        
+        Bump sass-embedded from 1.69.6 to 1.69.7
     
