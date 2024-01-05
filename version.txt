@@ -1,12 +1,12 @@
-Last updated: 2024-01-05 14:14:02 +0000
+Last updated: 2024-01-05 14:15:32 +0000
 
 Latest commit:
-    commit 2dfce5103022c831999eae1acb4692831a062475
-    Merge: 139a5aece 9a46c3f20
+    commit 921a80984a06a41d99c1981ad69a0aaa301937aa
+    Merge: 83eb641b0 a73762fd4
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jan 5 22:11:12 2024 +0800
+    Date:   Fri Jan 5 22:12:35 2024 +0800
     
-        Merge pull request #1578 from gocd/dependabot/bundler/sass-embedded-1.69.7
+        Merge pull request #1574 from gocd/dependabot/bundler/fog-core-2.4.0
         
-        Bump sass-embedded from 1.69.6 to 1.69.7
+        Bump fog-core from 2.3.0 to 2.4.0
     
