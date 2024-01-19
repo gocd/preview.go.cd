@@ -1,12 +1,12 @@
-Last updated: 2024-01-19 13:05:06 +0000
+Last updated: 2024-01-19 13:08:39 +0000
 
 Latest commit:
-    commit 8ff8b65a968e996aff7a77fe0836e23a4141abe7
-    Merge: 315c1b86f 4a9261f1e
+    commit a20603642421caa6a5d2b3a4ade93b90a6218eec
+    Merge: 0b95618bb 94d6710aa
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jan 19 21:02:04 2024 +0800
+    Date:   Fri Jan 19 21:02:50 2024 +0800
     
-        Merge pull request #1585 from gocd/dependabot/bundler/io-event-1.4.2
+        Merge pull request #1582 from gocd/dependabot/bundler/sassc-embedded-1.70.0
         
-        Bump io-event from 1.4.1 to 1.4.2
+        Bump sassc-embedded from 1.69.1 to 1.70.0
     
