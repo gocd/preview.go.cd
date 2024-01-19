@@ -1,12 +1,12 @@
-Last updated: 2024-01-12 12:23:49 +0000
+Last updated: 2024-01-19 13:05:06 +0000
 
 Latest commit:
-    commit ceec2376a981d64ffd72051ff2f51313105c5bfa
-    Merge: 8c7182c38 e7a3089c9
+    commit 8ff8b65a968e996aff7a77fe0836e23a4141abe7
+    Merge: 315c1b86f 4a9261f1e
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jan 12 20:16:50 2024 +0800
+    Date:   Fri Jan 19 21:02:04 2024 +0800
     
-        Merge pull request #1579 from gocd/dependabot/bundler/io-event-1.4.1
+        Merge pull request #1585 from gocd/dependabot/bundler/io-event-1.4.2
         
-        Bump io-event from 1.4.0 to 1.4.1
+        Bump io-event from 1.4.1 to 1.4.2
     
