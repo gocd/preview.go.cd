@@ -1,11 +1,12 @@
-Last updated: 2024-02-02 15:47:11 +0000
+Last updated: 2024-02-06 04:13:15 +0000
 
 Latest commit:
-    commit 74bb2452ba7ab00e9538027acbae1be8b7860257
+    commit 188d487a3c45ad1697b49acf7cb51188c27675fa
+    Merge: 74bb2452b 382749db3
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Feb 2 23:43:50 2024 +0800
+    Date:   Tue Feb 6 12:10:23 2024 +0800
     
-        Ignore checking openjdk links
+        Merge pull request #1588 from gocd/dependabot/bundler/nokogiri-1.16.2
         
-        They seem to be blocking automated connections.
+        Bump nokogiri from 1.16.0 to 1.16.2
     
