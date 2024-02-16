@@ -1,11 +1,11 @@
-Last updated: 2024-02-12 14:06:46 +0000
+Last updated: 2024-02-16 06:21:53 +0000
 
 Latest commit:
-    commit f2f4bcdffe2df11f92fbe89f1b5a4bc7a8ba432c
+    commit f57f252e23fb588950dc4cb2542aa400b6fda789
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Mon Feb 12 22:03:23 2024 +0800
+    Date:   Fri Feb 16 14:18:40 2024 +0800
     
-        Don't check Gartner URLs
+        Don't check askubuntu links as they are blocking them
         
-        They seem to block them now.
+        Similar to other stackexchange places
     
