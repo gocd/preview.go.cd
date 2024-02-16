@@ -1,11 +1,12 @@
-Last updated: 2024-02-16 06:21:53 +0000
+Last updated: 2024-02-16 06:41:47 +0000
 
 Latest commit:
-    commit f57f252e23fb588950dc4cb2542aa400b6fda789
+    commit ad302d340d7a867311cc7dcd90f31f5f42e820f4
+    Merge: f57f252e2 076b9f517
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Feb 16 14:18:40 2024 +0800
+    Date:   Fri Feb 16 14:38:29 2024 +0800
     
-        Don't check askubuntu links as they are blocking them
+        Merge pull request #1569 from gocd/ruby-33
         
-        Similar to other stackexchange places
+        Bump Ruby to 3.3
     
