@@ -1,12 +1,12 @@
-Last updated: 2024-02-23 12:25:10 +0000
+Last updated: 2024-02-23 12:30:50 +0000
 
 Latest commit:
-    commit 1d53479b60267a35b3427a2f8334e3010d17bbe8
-    Merge: 49e8757b5 8c895840e
+    commit 4b191a61815028bf7ac2764b24683af406d1d991
+    Merge: 1d53479b6 42ef802f8
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Feb 23 20:21:51 2024 +0800
+    Date:   Fri Feb 23 20:22:11 2024 +0800
     
-        Merge pull request #1598 from gocd/dependabot/bundler/io-event-1.4.4
+        Merge pull request #1597 from gocd/dependabot/bundler/sass-embedded-1.71.1
         
-        Bump io-event from 1.4.3 to 1.4.4
+        Bump sass-embedded from 1.71.0 to 1.71.1
     
