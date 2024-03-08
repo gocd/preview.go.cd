@@ -1,12 +1,12 @@
-Last updated: 2024-03-08 14:55:00 +0000
+Last updated: 2024-03-08 15:24:56 +0000
 
 Latest commit:
-    commit a3a5dd76b4f3e12bec2279ab0f6cba2eba50a796
-    Merge: 97abed1f6 6d885d066
+    commit 28bbeaa7883776184265f3dabfedfe0afb15b530
+    Merge: 58ffe10cd f049b7ced
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 8 22:51:44 2024 +0800
+    Date:   Fri Mar 8 23:21:44 2024 +0800
     
-        Merge pull request #1608 from gocd/dependabot/bundler/async-2.9.0
+        Merge pull request #1605 from gocd/dependabot/bundler/ttfunk-1.8.0
         
-        Bump async from 2.8.2 to 2.9.0
+        Bump ttfunk from 1.7.0 to 1.8.0
     
