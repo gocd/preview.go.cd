@@ -1,12 +1,12 @@
-Last updated: 2024-03-22 13:47:08 +0000
+Last updated: 2024-03-22 13:55:37 +0000
 
 Latest commit:
-    commit 1581ffbbffe49251f98b92effe75c8eb5d8b121e
-    Merge: 561274cfb a616f19ad
+    commit 3ddfe4909a209e750013be89f16df4d00e70d690
+    Merge: 1581ffbbf 9d8658c07
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 22 21:43:45 2024 +0800
+    Date:   Fri Mar 22 21:52:25 2024 +0800
     
-        Merge pull request #1620 from gocd/dependabot/bundler/fog-aws-3.22.0
+        Merge pull request #1619 from gocd/dependabot/bundler/rack-2.2.9
         
-        Bump fog-aws from 3.21.1 to 3.22.0
+        Bump rack from 2.2.8.1 to 2.2.9
     
