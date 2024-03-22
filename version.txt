@@ -1,12 +1,12 @@
-Last updated: 2024-03-22 13:55:37 +0000
+Last updated: 2024-03-22 14:07:47 +0000
 
 Latest commit:
-    commit 3ddfe4909a209e750013be89f16df4d00e70d690
-    Merge: 1581ffbbf 9d8658c07
+    commit f633dc4d3b666a851acf168ae12b94c7640320bc
+    Merge: 3ddfe4909 e3355d8db
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 22 21:52:25 2024 +0800
+    Date:   Fri Mar 22 21:52:35 2024 +0800
     
-        Merge pull request #1619 from gocd/dependabot/bundler/rack-2.2.9
+        Merge pull request #1617 from gocd/dependabot/bundler/console-1.23.6
         
-        Bump rack from 2.2.8.1 to 2.2.9
+        Bump console from 1.23.5 to 1.23.6
     
