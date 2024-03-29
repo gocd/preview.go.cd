@@ -1,12 +1,12 @@
-Last updated: 2024-03-29 14:21:13 +0000
+Last updated: 2024-03-29 14:23:50 +0000
 
 Latest commit:
-    commit 4bb7cb36cf760f51d9586f9b3fa6a8f4df1416ae
-    Merge: 2486a96e2 83418a0fc
+    commit a9be4a86bfd9a57c1791b20885f0079a08e74f65
+    Merge: acdd91164 ea90a5119
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Mar 29 22:18:07 2024 +0800
+    Date:   Fri Mar 29 22:20:46 2024 +0800
     
-        Merge pull request #1622 from gocd/dependabot/bundler/google-protobuf-4.26.1
+        Merge pull request #1621 from gocd/dependabot/bundler/async-2.10.1
         
-        Bump google-protobuf from 4.26.0 to 4.26.1
+        Bump async from 2.9.0 to 2.10.1
     
