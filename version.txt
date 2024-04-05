@@ -1,12 +1,12 @@
-Last updated: 2024-04-05 12:22:45 +0000
+Last updated: 2024-04-05 14:34:40 +0000
 
 Latest commit:
-    commit 291016d2cb64e08c1b11e582336e3a7959302bff
-    Merge: a9be4a86b 23854591f
+    commit 0eb306e83e1971d6890ab334d19f6120c933b009
+    Merge: 291016d2c 920e4e639
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Apr 5 20:19:02 2024 +0800
+    Date:   Fri Apr 5 22:31:13 2024 +0800
     
-        Merge pull request #1624 from gocd/dependabot/bundler/public_suffix-5.0.5
+        Merge pull request #1628 from gocd/dependabot/bundler/sassc-embedded-1.74.1
         
-        Bump public_suffix from 5.0.4 to 5.0.5
+        Bump sassc-embedded from 1.70.1 to 1.74.1
     
