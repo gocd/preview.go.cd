@@ -1,9 +1,12 @@
-Last updated: 2024-04-19 12:56:48 +0000
+Last updated: 2024-04-19 13:34:53 +0000
 
 Latest commit:
-    commit 8f5c2e8be95c94e1b1c9384eca3b5726a9c86d78
+    commit e9f7aa5399cc17a6cbdaf1338027e69609163dfc
+    Merge: 8f5c2e8be 1b8ebdbb8
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Apr 19 20:53:31 2024 +0800
+    Date:   Fri Apr 19 21:31:33 2024 +0800
     
-        Remove dead link
+        Merge pull request #1635 from gocd/dependabot/bundler/sassc-embedded-1.75.2
+        
+        Bump sassc-embedded from 1.75.0 to 1.75.2
     
