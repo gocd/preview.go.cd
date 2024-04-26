@@ -1,12 +1,12 @@
-Last updated: 2024-04-19 14:15:56 +0000
+Last updated: 2024-04-26 17:59:43 +0000
 
 Latest commit:
-    commit adaefb7b8c7ecafc20c45cf689db4a3b93be411f
-    Merge: e9f7aa539 29c708e1d
+    commit b3332b96ce5f4b886dd9e0ac4d6488c3dba72c55
+    Merge: adaefb7b8 b5f30de5c
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Apr 19 21:31:54 2024 +0800
+    Date:   Sat Apr 27 01:56:24 2024 +0800
     
-        Merge pull request #1634 from gocd/dependabot/bundler/mini_portile2-2.8.6
+        Merge pull request #1637 from gocd/dependabot/bundler/console-1.24.0
         
-        Bump mini_portile2 from 2.8.5 to 2.8.6
+        Bump console from 1.23.6 to 1.24.0
     
