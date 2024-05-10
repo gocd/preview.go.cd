@@ -1,12 +1,12 @@
-Last updated: 2024-05-03 12:35:16 +0000
+Last updated: 2024-05-10 13:58:27 +0000
 
 Latest commit:
-    commit fbdfd603046c7d762acccef1cfa6339c5185f0de
-    Merge: 952b236b8 a7a3e551a
+    commit b836870aadcef2521d286324b6d16ed298bac01b
+    Merge: fbdfd6030 8a3fa1d61
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 3 20:15:25 2024 +0800
+    Date:   Fri May 10 21:55:11 2024 +0800
     
-        Merge pull request #1639 from gocd/dependabot/bundler/sass-embedded-1.76.0
+        Merge pull request #1650 from gocd/dependabot/bundler/Ascii85-1.1.1
         
-        Bump sass-embedded from 1.75.0 to 1.76.0
+        Bump Ascii85 from 1.1.0 to 1.1.1
     
