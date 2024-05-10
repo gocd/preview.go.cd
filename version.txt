@@ -1,12 +1,12 @@
-Last updated: 2024-05-10 13:59:32 +0000
+Last updated: 2024-05-10 14:11:27 +0000
 
 Latest commit:
-    commit b37ea5fd0ecd66532bfde40ad1b4f106eff4cfa3
-    Merge: a5a4b4fd9 1127321ef
+    commit e87f07d4c1e186378cf9330549226b77766a730c
+    Merge: 54a1ee9be c2b903da0
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 10 21:56:18 2024 +0800
+    Date:   Fri May 10 21:56:59 2024 +0800
     
-        Merge pull request #1647 from gocd/dependabot/bundler/console-1.25.2
+        Merge pull request #1644 from gocd/dependabot/bundler/dotenv-3.1.2
         
-        Bump console from 1.25.1 to 1.25.2
+        Bump dotenv from 3.1.1 to 3.1.2
     
