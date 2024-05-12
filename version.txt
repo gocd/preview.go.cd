@@ -1,12 +1,9 @@
-Last updated: 2024-05-10 14:11:27 +0000
+Last updated: 2024-05-12 12:57:02 +0000
 
 Latest commit:
-    commit e87f07d4c1e186378cf9330549226b77766a730c
-    Merge: 54a1ee9be c2b903da0
+    commit cad32ebbd091032167af1e4dc4423270cf3c3fb6
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 10 21:56:59 2024 +0800
+    Date:   Sun May 12 20:53:46 2024 +0800
     
-        Merge pull request #1644 from gocd/dependabot/bundler/dotenv-3.1.2
-        
-        Bump dotenv from 3.1.1 to 3.1.2
+        Bump Ruby version
     
