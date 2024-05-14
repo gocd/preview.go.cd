@@ -1,9 +1,12 @@
-Last updated: 2024-05-12 13:57:11 +0000
+Last updated: 2024-05-14 00:34:45 +0000
 
 Latest commit:
-    commit 47f0daf66b12ff9826b77c2b3114d85c4e155028
+    commit 2e5a5bc63de597d4eee1d81115b20e91635b2897
+    Merge: 47f0daf66 0e95b3705
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sun May 12 21:53:52 2024 +0800
+    Date:   Tue May 14 08:31:21 2024 +0800
     
-        Fix typo
+        Merge pull request #1651 from gocd/dependabot/bundler/nokogiri-1.16.5
+        
+        Bump nokogiri from 1.16.4 to 1.16.5
     
