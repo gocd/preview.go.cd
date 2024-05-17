@@ -1,12 +1,12 @@
-Last updated: 2024-05-17 01:31:45 +0000
+Last updated: 2024-05-17 12:16:24 +0000
 
 Latest commit:
-    commit 2a8a77189b972a0297528d696059d608037f7f9f
-    Merge: 9006703c3 62c9ba2c2
+    commit 6ff0bf7b20588b483a79a457bc2fbcb529aba6ce
+    Merge: 2a8a77189 992f8aa11
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 17 09:28:03 2024 +0800
+    Date:   Fri May 17 20:13:02 2024 +0800
     
-        Merge pull request #1652 from gocd/dependabot/bundler/rexml-3.2.8
+        Merge pull request #1656 from gocd/dependabot/bundler/zeitwerk-2.6.14
         
-        Bump rexml from 3.2.6 to 3.2.8
+        Bump zeitwerk from 2.6.13 to 2.6.14
     
