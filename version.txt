@@ -1,9 +1,11 @@
-Last updated: 2024-06-07 15:42:47 +0000
+Last updated: 2024-06-07 15:48:48 +0000
 
 Latest commit:
-    commit d0a12a1465637e4438846e901b3d48a6fe92348c
+    commit d9b0682c389df9c5971a5c7bdb16ce96c38b9892
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 7 23:39:16 2024 +0800
+    Date:   Fri Jun 7 23:44:56 2024 +0800
     
-        Correct secrets for GH preview user
+        Remove unnecessary secret
+        
+        The www.gocd actions publish to a separate repo for previews, so the current repo's token is not required during preview.
     
