@@ -1,12 +1,9 @@
-Last updated: 2024-05-31 12:46:19 +0000
+Last updated: 2024-06-07 15:42:47 +0000
 
 Latest commit:
-    commit 8fe81a67434a4426ce8cd43676ee7793588688c3
-    Merge: 885dd6e14 e94016d10
+    commit d0a12a1465637e4438846e901b3d48a6fe92348c
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri May 31 20:42:56 2024 +0800
+    Date:   Fri Jun 7 23:39:16 2024 +0800
     
-        Merge pull request #1665 from gocd/dependabot/bundler/zeitwerk-2.6.15
-        
-        Bump zeitwerk from 2.6.14 to 2.6.15
+        Correct secrets for GH preview user
     
