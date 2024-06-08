@@ -1,11 +1,9 @@
-Last updated: 2024-06-07 15:48:48 +0000
+Last updated: 2024-06-08 14:48:37 +0000
 
 Latest commit:
-    commit d9b0682c389df9c5971a5c7bdb16ce96c38b9892
+    commit 56e39b7a7c539e1a33199be838b4dc82c62f4e48
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 7 23:44:56 2024 +0800
+    Date:   Sat Jun 8 22:45:05 2024 +0800
     
-        Remove unnecessary secret
-        
-        The www.gocd actions publish to a separate repo for previews, so the current repo's token is not required during preview.
+        Clarify Windows signing status
     
