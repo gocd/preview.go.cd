@@ -1,12 +1,12 @@
-Last updated: 2024-06-14 16:39:43 +0000
+Last updated: 2024-06-14 16:40:30 +0000
 
 Latest commit:
-    commit b8c808e00505d1e890a73fcfb958cf3e639d9f18
-    Merge: f3535d549 99c1d83e7
+    commit c661edf06344cfa3377109536449bedd98a28a0d
+    Merge: f59d25267 257e563b5
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jun 15 00:36:30 2024 +0800
+    Date:   Sat Jun 15 00:37:01 2024 +0800
     
-        Merge pull request #1677 from gocd/dependabot/bundler/parallel-1.25.1
+        Merge pull request #1680 from gocd/dependabot/bundler/nokogiri-1.16.6
         
-        Bump parallel from 1.24.0 to 1.25.1
+        Bump nokogiri from 1.16.5 to 1.16.6
     
