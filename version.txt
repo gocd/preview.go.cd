@@ -1,9 +1,12 @@
-Last updated: 2024-06-08 14:48:37 +0000
+Last updated: 2024-06-14 16:35:43 +0000
 
 Latest commit:
-    commit 56e39b7a7c539e1a33199be838b4dc82c62f4e48
+    commit f3535d5498eb87bf82881f1849f2231207fd430b
+    Merge: 56e39b7a7 22c5a3917
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jun 8 22:45:05 2024 +0800
+    Date:   Sat Jun 15 00:32:29 2024 +0800
     
-        Clarify Windows signing status
+        Merge pull request #1676 from gocd/dependabot/bundler/sass-embedded-1.77.5
+        
+        Bump sass-embedded from 1.77.4 to 1.77.5
     
