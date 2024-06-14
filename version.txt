@@ -1,12 +1,12 @@
-Last updated: 2024-06-14 16:35:43 +0000
+Last updated: 2024-06-14 16:39:43 +0000
 
 Latest commit:
-    commit f3535d5498eb87bf82881f1849f2231207fd430b
-    Merge: 56e39b7a7 22c5a3917
+    commit b8c808e00505d1e890a73fcfb958cf3e639d9f18
+    Merge: f3535d549 99c1d83e7
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jun 15 00:32:29 2024 +0800
+    Date:   Sat Jun 15 00:36:30 2024 +0800
     
-        Merge pull request #1676 from gocd/dependabot/bundler/sass-embedded-1.77.5
+        Merge pull request #1677 from gocd/dependabot/bundler/parallel-1.25.1
         
-        Bump sass-embedded from 1.77.4 to 1.77.5
+        Bump parallel from 1.24.0 to 1.25.1
     
