@@ -1,12 +1,12 @@
-Last updated: 2024-06-21 15:07:39 +0000
+Last updated: 2024-06-21 15:11:07 +0000
 
 Latest commit:
-    commit fdc41af35b2951a7706242526ae2eccce8cd3aa6
-    Merge: 8e42c9ab5 6845d11e4
+    commit 51b768c7b014341850f81e656f4504ef84160b03
+    Merge: fdc41af35 f96538270
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 21 23:04:26 2024 +0800
+    Date:   Fri Jun 21 23:07:59 2024 +0800
     
-        Merge pull request #1683 from gocd/dependabot/bundler/zeitwerk-2.6.16
+        Merge pull request #1682 from gocd/dependabot/bundler/fiber-storage-0.1.2
         
-        Bump zeitwerk from 2.6.15 to 2.6.16
+        Bump fiber-storage from 0.1.1 to 0.1.2
     
