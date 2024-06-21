@@ -1,12 +1,12 @@
-Last updated: 2024-06-14 16:43:43 +0000
+Last updated: 2024-06-21 15:06:45 +0000
 
 Latest commit:
-    commit ac8a45cc032e7bc08f8d02494cdac360159655eb
-    Merge: c661edf06 cc1b0fc80
+    commit 870e429df0fd049e4edf0f099f6ce9625cc41b0d
+    Merge: ac8a45cc0 1d879c0c5
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Jun 15 00:37:13 2024 +0800
+    Date:   Fri Jun 21 23:03:22 2024 +0800
     
-        Merge pull request #1681 from gocd/dependabot/bundler/concurrent-ruby-1.3.3
+        Merge pull request #1687 from gocd/dependabot/bundler/fog-aws-3.23.0
         
-        Bump concurrent-ruby from 1.3.1 to 1.3.3
+        Bump fog-aws from 3.22.0 to 3.23.0
     
