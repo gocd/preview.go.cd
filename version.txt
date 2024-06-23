@@ -1,12 +1,12 @@
-Last updated: 2024-06-21 15:11:07 +0000
+Last updated: 2024-06-23 12:55:57 +0000
 
 Latest commit:
-    commit 51b768c7b014341850f81e656f4504ef84160b03
-    Merge: fdc41af35 f96538270
+    commit 0d50c2c4b2d0b6fbee67a99a65d75f574d4b6832
+    Merge: 51b768c7b 282daf75e
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 21 23:07:59 2024 +0800
+    Date:   Sun Jun 23 14:24:27 2024 +0800
     
-        Merge pull request #1682 from gocd/dependabot/bundler/fiber-storage-0.1.2
+        Merge pull request #1688 from gocd/release-24-2-0
         
-        Bump fiber-storage from 0.1.1 to 0.1.2
+        Add 24.2.0 release notes
     
