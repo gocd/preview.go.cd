@@ -1,12 +1,12 @@
-Last updated: 2024-06-28 14:07:38 +0000
+Last updated: 2024-06-28 14:08:54 +0000
 
 Latest commit:
-    commit 4af69c3b5364cba15a82de6aa45695f4d0bbaa5c
-    Merge: b0ba0f6c4 fdd8d43c7
+    commit a8bcfc9b44fea0c15c70285bc563b9d39c9ff267
+    Merge: 6282415fc 0e972616a
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jun 28 22:04:23 2024 +0800
+    Date:   Fri Jun 28 22:05:46 2024 +0800
     
-        Merge pull request #1692 from gocd/dependabot/bundler/rexml-3.3.1
+        Merge pull request #1689 from gocd/dependabot/bundler/io-event-1.6.5
         
-        Bump rexml from 3.3.0 to 3.3.1
+        Bump io-event from 1.6.4 to 1.6.5
     
