@@ -1,9 +1,12 @@
-Last updated: 2024-06-24 04:24:14 +0000
+Last updated: 2024-06-28 14:07:38 +0000
 
 Latest commit:
-    commit b0ba0f6c4ae8e8196c25d653aa8c8d5b1d501dd6
+    commit 4af69c3b5364cba15a82de6aa45695f4d0bbaa5c
+    Merge: b0ba0f6c4 fdd8d43c7
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Mon Jun 24 12:21:07 2024 +0800
+    Date:   Fri Jun 28 22:04:23 2024 +0800
     
-        Fix CVE number for git vulnerability
+        Merge pull request #1692 from gocd/dependabot/bundler/rexml-3.3.1
+        
+        Bump rexml from 3.3.0 to 3.3.1
     
