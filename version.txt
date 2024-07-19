@@ -1,12 +1,12 @@
-Last updated: 2024-07-12 16:04:34 +0000
+Last updated: 2024-07-19 12:13:00 +0000
 
 Latest commit:
-    commit dc6b7a6444d29a624dbc9bf7af65f8fc4314937d
-    Merge: 46b0989dc fc66a5eb3
+    commit 95b035f0d321bc52d84ae41545faa7ca331d0576
+    Merge: af84878cf 2a162f379
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jul 12 23:59:50 2024 +0800
+    Date:   Fri Jul 19 20:09:25 2024 +0800
     
-        Merge pull request #1696 from gocd/dependabot/bundler/fog-aws-3.24.0
+        Merge pull request #1702 from gocd/dependabot/bundler/async-2.14.2
         
-        Bump fog-aws from 3.23.0 to 3.24.0
+        Bump async from 2.13.0 to 2.14.2
     
