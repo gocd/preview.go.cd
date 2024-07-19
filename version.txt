@@ -1,12 +1,12 @@
-Last updated: 2024-07-19 12:13:00 +0000
+Last updated: 2024-07-19 12:51:49 +0000
 
 Latest commit:
-    commit 95b035f0d321bc52d84ae41545faa7ca331d0576
-    Merge: af84878cf 2a162f379
+    commit ca811e2681a3ff13c1e01f837fc87c4fe81d99ce
+    Merge: fa1dae52e c9f2e2f34
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Jul 19 20:09:25 2024 +0800
+    Date:   Fri Jul 19 20:48:37 2024 +0800
     
-        Merge pull request #1702 from gocd/dependabot/bundler/async-2.14.2
+        Merge pull request #1704 from gocd/dependabot/bundler/sassc-embedded-1.77.8
         
-        Bump async from 2.13.0 to 2.14.2
+        Bump sassc-embedded from 1.77.7 to 1.77.8
     
