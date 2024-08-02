@@ -1,12 +1,12 @@
-Last updated: 2024-08-02 13:16:13 +0000
+Last updated: 2024-08-02 13:17:12 +0000
 
 Latest commit:
-    commit ad3f1908e2963b898797d0801af7001b0bb895ca
-    Merge: 71ceb505a ba7297f78
+    commit 42dff384f2d1247d8fd3936a835d9134e7448397
+    Merge: 1a2ca254a 89b539685
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Aug 2 21:13:01 2024 +0800
+    Date:   Fri Aug 2 21:13:44 2024 +0800
     
-        Merge pull request #1711 from gocd/dependabot/bundler/racc-1.8.1
+        Merge pull request #1709 from gocd/dependabot/bundler/rexml-3.3.4
         
-        Bump racc from 1.8.0 to 1.8.1
+        Bump rexml from 3.3.3 to 3.3.4
     
