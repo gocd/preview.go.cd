@@ -1,12 +1,12 @@
-Last updated: 2024-08-09 16:31:47 +0000
+Last updated: 2024-08-09 17:29:52 +0000
 
 Latest commit:
-    commit 0b243425cea6e7dea8443d6f98b0d3dc4e0e07e5
-    Merge: 09c13675a e78bac099
+    commit c4c2f75487b5fa3d48ff979c5266c37baf3387d3
+    Merge: 0b243425c de138c7ad
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Aug 10 00:28:23 2024 +0800
+    Date:   Sat Aug 10 00:28:51 2024 +0800
     
-        Merge pull request #1715 from gocd/dependabot/bundler/fog-core-2.5.0
+        Merge pull request #1714 from gocd/dependabot/bundler/fiber-storage-1.0.0
         
-        Bump fog-core from 2.4.0 to 2.5.0
+        Bump fiber-storage from 0.1.2 to 1.0.0
     
