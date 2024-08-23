@@ -1,12 +1,12 @@
-Last updated: 2024-08-23 13:23:46 +0000
+Last updated: 2024-08-23 13:24:57 +0000
 
 Latest commit:
-    commit 905e96b70d242a690ae75052b1f7bc4e12a5e8b4
-    Merge: 61e1aabd0 5359e4ec5
+    commit 98737dc33757cdd996b0c3123fc3949b05efb99c
+    Merge: d22fcbbb8 1d0cce63c
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Aug 23 21:20:34 2024 +0800
+    Date:   Fri Aug 23 21:21:32 2024 +0800
     
-        Merge pull request #1726 from gocd/dependabot/bundler/parallel-1.26.3
+        Merge pull request #1723 from gocd/dependabot/bundler/minitest-5.25.1
         
-        Bump parallel from 1.26.2 to 1.26.3
+        Bump minitest from 5.25.0 to 5.25.1
     
