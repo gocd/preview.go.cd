@@ -1,12 +1,12 @@
-Last updated: 2024-08-23 01:04:13 +0000
+Last updated: 2024-08-23 13:23:46 +0000
 
 Latest commit:
-    commit 61e1aabd0d2ece639ffbf2434d049808d88341b9
-    Merge: 8c3cdbcc6 6c471a04f
+    commit 905e96b70d242a690ae75052b1f7bc4e12a5e8b4
+    Merge: 61e1aabd0 5359e4ec5
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Aug 23 09:01:10 2024 +0800
+    Date:   Fri Aug 23 21:20:34 2024 +0800
     
-        Merge pull request #1722 from gocd/dependabot/bundler/rexml-3.3.6
+        Merge pull request #1726 from gocd/dependabot/bundler/parallel-1.26.3
         
-        Bump rexml from 3.3.5 to 3.3.6
+        Bump parallel from 1.26.2 to 1.26.3
     
