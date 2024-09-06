@@ -1,12 +1,12 @@
-Last updated: 2024-09-06 12:57:41 +0000
+Last updated: 2024-09-06 12:58:42 +0000
 
 Latest commit:
-    commit a563c8861a969aed319b06584a7d5c86ef21f459
-    Merge: 0df994f1a fb249acfe
+    commit 928aae3babacf5ef6b0c755c2c3225507fb9ded6
+    Merge: 13da6270c d7a1e84ab
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Sep 6 20:54:20 2024 +0800
+    Date:   Fri Sep 6 20:55:25 2024 +0800
     
-        Merge pull request #1735 from gocd/dependabot/bundler/sassc-embedded-1.78.0
+        Merge pull request #1730 from gocd/dependabot/bundler/mime-types-data-3.2024.0903
         
-        Bump sassc-embedded from 1.77.8 to 1.78.0
+        Bump mime-types-data from 3.2024.0820 to 3.2024.0903
     
