@@ -1,12 +1,12 @@
-Last updated: 2024-09-27 13:04:05 +0000
+Last updated: 2024-09-27 14:44:25 +0000
 
 Latest commit:
-    commit dbba26a22a72cf138fe900a70c323d3ab2bdc5ba
-    Merge: a2b983853 75dc46584
+    commit ac7e85a70f41e5bba6101ca442a3ee145a796b6e
+    Merge: dbba26a22 7f239988f
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Sep 27 21:00:55 2024 +0800
+    Date:   Fri Sep 27 21:01:08 2024 +0800
     
-        Merge pull request #1742 from gocd/dependabot/bundler/webrick-1.8.2
+        Merge pull request #1743 from gocd/dependabot/bundler/sassc-embedded-1.79.0
         
-        Bump webrick from 1.8.1 to 1.8.2
+        Bump sassc-embedded from 1.78.0 to 1.79.0
     
