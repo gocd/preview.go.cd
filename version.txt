@@ -1,12 +1,12 @@
-Last updated: 2024-10-18 18:33:48 +0000
+Last updated: 2024-10-18 18:40:22 +0000
 
 Latest commit:
-    commit b4222f556ad68d9bcb858c420428be5f591f12bc
-    Merge: a09f74c7e fca45135d
+    commit 21914cf1d0e73912fe6dbbdd3b0a68bda0da4655
+    Merge: 5fde73ce5 d0e2cf209
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Sat Oct 19 02:30:33 2024 +0800
+    Date:   Sat Oct 19 02:31:01 2024 +0800
     
-        Merge pull request #1757 from gocd/dependabot/bundler/sassc-embedded-1.80.1
+        Merge pull request #1754 from gocd/dependabot/bundler/sass-embedded-1.80.2
         
-        Bump sassc-embedded from 1.79.0 to 1.80.1
+        Bump sass-embedded from 1.79.4 to 1.80.2
     
