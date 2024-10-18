@@ -1,9 +1,12 @@
-Last updated: 2024-10-11 13:56:26 +0000
+Last updated: 2024-10-18 18:33:01 +0000
 
 Latest commit:
-    commit 85f5c898c1dbd469ce82ba300733e709fc9ea6ab
+    commit 20d1b94cf4cb9c7100a35f5a6adf6de8cdd58692
+    Merge: 85f5c898c 74dd31a3d
     Author: Chad Wilson <chadw@thoughtworks.com>
-    Date:   Fri Oct 11 21:53:11 2024 +0800
+    Date:   Sat Oct 19 02:29:46 2024 +0800
     
-        Remove dead link
+        Merge pull request #1760 from gocd/dependabot/bundler/rack-2.2.10
+        
+        Bump rack from 2.2.9 to 2.2.10
     
